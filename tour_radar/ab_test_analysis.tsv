@@ -1,0 +1,2431 @@
+date	version	location	device	browser	visits	bounce_rate	time_on_page	conversions
+2017-10-01	0	Australia	Desktop	Chrome	981	0.39	186	0
+2017-10-01	0	Australia	Desktop	Safari	176	0.51	172	2
+2017-10-01	0	Australia	Desktop	Other	241	0.43	127	1
+2017-10-01	0	Australia	Tablet	Chrome	220	0.47	159	2
+2017-10-01	0	Australia	Tablet	Safari	93	0.34	135	1
+2017-10-01	0	Australia	Tablet	Other	114	0.43	115	1
+2017-10-01	0	Australia	Mobile	Chrome	755	0.37	132	3
+2017-10-01	0	Australia	Mobile	Safari	293	0.36	193	1
+2017-10-01	0	Australia	Mobile	Other	236	0.38	186	1
+2017-10-01	0	Canada	Desktop	Chrome	177	0.44	200	0
+2017-10-01	0	Canada	Desktop	Safari	388	0.45	189	1
+2017-10-01	0	Canada	Desktop	Other	160	0.32	149	0
+2017-10-01	0	Canada	Tablet	Chrome	166	0.57	101	2
+2017-10-01	0	Canada	Tablet	Safari	81	0.43	170	0
+2017-10-01	0	Canada	Tablet	Other	46	0.45	173	0
+2017-10-01	0	Canada	Mobile	Chrome	430	0.57	133	3
+2017-10-01	0	Canada	Mobile	Safari	263	0.37	186	2
+2017-10-01	0	Canada	Mobile	Other	117	0.32	101	1
+2017-10-01	0	USA	Desktop	Chrome	407	0.32	166	4
+2017-10-01	0	USA	Desktop	Safari	537	0.53	191	4
+2017-10-01	0	USA	Desktop	Other	393	0.34	156	2
+2017-10-01	0	USA	Tablet	Chrome	222	0.32	197	1
+2017-10-01	0	USA	Tablet	Safari	237	0.34	110	3
+2017-10-01	0	USA	Tablet	Other	117	0.57	125	0
+2017-10-01	0	USA	Mobile	Chrome	548	0.33	104	3
+2017-10-01	0	USA	Mobile	Safari	274	0.54	154	4
+2017-10-01	0	USA	Mobile	Other	358	0.38	189	2
+2017-10-01	0	UK	Desktop	Chrome	577	0.35	191	3
+2017-10-01	0	UK	Desktop	Safari	539	0.42	145	3
+2017-10-01	0	UK	Desktop	Other	206	0.55	148	1
+2017-10-01	0	UK	Tablet	Chrome	173	0.55	161	1
+2017-10-01	0	UK	Tablet	Safari	55	0.34	197	0
+2017-10-01	0	UK	Tablet	Other	100	0.32	136	1
+2017-10-01	0	UK	Mobile	Chrome	766	0.57	148	2
+2017-10-01	0	UK	Mobile	Safari	400	0.47	167	8
+2017-10-01	0	UK	Mobile	Other	163	0.43	159	0
+2017-10-01	0	Rest of World	Desktop	Chrome	1004	0.46	165	10
+2017-10-01	0	Rest of World	Desktop	Safari	862	0.46	111	7
+2017-10-01	0	Rest of World	Desktop	Other	620	0.49	175	2
+2017-10-01	0	Rest of World	Tablet	Chrome	154	0.5	177	0
+2017-10-01	0	Rest of World	Tablet	Safari	206	0.39	161	2
+2017-10-01	0	Rest of World	Tablet	Other	106	0.33	107	0
+2017-10-01	0	Rest of World	Mobile	Chrome	824	0.33	177	4
+2017-10-01	0	Rest of World	Mobile	Safari	570	0.41	200	1
+2017-10-01	0	Rest of World	Mobile	Other	662	0.53	131	7
+2017-10-01	1	Australia	Desktop	Chrome	249	0.51	173	4
+2017-10-01	1	Australia	Desktop	Safari	265	0.42	144	5
+2017-10-01	1	Australia	Desktop	Other	183	0.49	144	2
+2017-10-01	1	Australia	Tablet	Chrome	152	0.49	106	2
+2017-10-01	1	Australia	Tablet	Safari	95	0.45	200	2
+2017-10-01	1	Australia	Tablet	Other	49	0.32	142	0
+2017-10-01	1	Australia	Mobile	Chrome	245	0.36	149	1
+2017-10-01	1	Australia	Mobile	Safari	140	0.34	124	1
+2017-10-01	1	Australia	Mobile	Other	257	0.55	155	0
+2017-10-01	1	Canada	Desktop	Chrome	169	0.34	175	2
+2017-10-01	1	Canada	Desktop	Safari	261	0.4	152	3
+2017-10-01	1	Canada	Desktop	Other	149	0.44	152	2
+2017-10-01	1	Canada	Tablet	Chrome	38	0.51	196	0
+2017-10-01	1	Canada	Tablet	Safari	50	0.36	133	0
+2017-10-01	1	Canada	Tablet	Other	25	0.54	127	0
+2017-10-01	1	Canada	Mobile	Chrome	97	0.46	168	2
+2017-10-01	1	Canada	Mobile	Safari	125	0.41	148	0
+2017-10-01	1	Canada	Mobile	Other	79	0.38	177	0
+2017-10-01	1	USA	Desktop	Chrome	589	0.42	180	4
+2017-10-01	1	USA	Desktop	Safari	380	0.52	144	1
+2017-10-01	1	USA	Desktop	Other	155	0.52	143	0
+2017-10-01	1	USA	Tablet	Chrome	73	0.42	107	1
+2017-10-01	1	USA	Tablet	Safari	49	0.37	190	1
+2017-10-01	1	USA	Tablet	Other	53	0.55	147	1
+2017-10-01	1	USA	Mobile	Chrome	415	0.39	102	1
+2017-10-01	1	USA	Mobile	Safari	171	0.55	199	4
+2017-10-01	1	USA	Mobile	Other	200	0.41	107	2
+2017-10-01	1	UK	Desktop	Chrome	371	0.43	103	3
+2017-10-01	1	UK	Desktop	Safari	331	0.35	195	1
+2017-10-01	1	UK	Desktop	Other	159	0.46	196	3
+2017-10-01	1	UK	Tablet	Chrome	86	0.38	166	1
+2017-10-01	1	UK	Tablet	Safari	54	0.5	191	0
+2017-10-01	1	UK	Tablet	Other	29	0.39	187	0
+2017-10-01	1	UK	Mobile	Chrome	71	0.44	132	2
+2017-10-01	1	UK	Mobile	Safari	179	0.33	138	4
+2017-10-01	1	UK	Mobile	Other	100	0.46	190	1
+2017-10-01	1	Rest of World	Desktop	Chrome	1061	0.39	166	10
+2017-10-01	1	Rest of World	Desktop	Safari	380	0.4	144	4
+2017-10-01	1	Rest of World	Desktop	Other	183	0.45	199	4
+2017-10-01	1	Rest of World	Tablet	Chrome	144	0.4	153	1
+2017-10-01	1	Rest of World	Tablet	Safari	161	0.56	149	0
+2017-10-01	1	Rest of World	Tablet	Other	118	0.35	194	1
+2017-10-01	1	Rest of World	Mobile	Chrome	593	0.47	176	5
+2017-10-01	1	Rest of World	Mobile	Safari	216	0.33	127	3
+2017-10-01	1	Rest of World	Mobile	Other	139	0.38	122	0
+2017-10-01	2	Australia	Desktop	Chrome	345	0.48	180	1
+2017-10-01	2	Australia	Desktop	Safari	304	0.41	171	1
+2017-10-01	2	Australia	Desktop	Other	206	0.55	168	1
+2017-10-01	2	Australia	Tablet	Chrome	121	0.5	148	1
+2017-10-01	2	Australia	Tablet	Safari	132	0.46	111	0
+2017-10-01	2	Australia	Tablet	Other	64	0.34	149	0
+2017-10-01	2	Australia	Mobile	Chrome	143	0.33	200	2
+2017-10-01	2	Australia	Mobile	Safari	106	0.39	188	0
+2017-10-01	2	Australia	Mobile	Other	75	0.55	159	1
+2017-10-01	2	Canada	Desktop	Chrome	218	0.38	115	1
+2017-10-01	2	Canada	Desktop	Safari	89	0.33	194	0
+2017-10-01	2	Canada	Desktop	Other	112	0.49	170	1
+2017-10-01	2	Canada	Tablet	Chrome	60	0.44	183	0
+2017-10-01	2	Canada	Tablet	Safari	27	0.5	179	1
+2017-10-01	2	Canada	Tablet	Other	35	0.44	130	0
+2017-10-01	2	Canada	Mobile	Chrome	103	0.36	137	1
+2017-10-01	2	Canada	Mobile	Safari	96	0.38	156	1
+2017-10-01	2	Canada	Mobile	Other	77	0.57	146	1
+2017-10-01	2	USA	Desktop	Chrome	272	0.53	166	2
+2017-10-01	2	USA	Desktop	Safari	110	0.4	151	3
+2017-10-01	2	USA	Desktop	Other	192	0.52	124	1
+2017-10-01	2	USA	Tablet	Chrome	116	0.43	170	1
+2017-10-01	2	USA	Tablet	Safari	102	0.47	182	1
+2017-10-01	2	USA	Tablet	Other	48	0.34	169	1
+2017-10-01	2	USA	Mobile	Chrome	498	0.48	171	2
+2017-10-01	2	USA	Mobile	Safari	184	0.57	159	2
+2017-10-01	2	USA	Mobile	Other	125	0.44	161	1
+2017-10-01	2	UK	Desktop	Chrome	482	0.44	199	5
+2017-10-01	2	UK	Desktop	Safari	113	0.37	144	1
+2017-10-01	2	UK	Desktop	Other	241	0.43	179	1
+2017-10-01	2	UK	Tablet	Chrome	131	0.54	137	0
+2017-10-01	2	UK	Tablet	Safari	50	0.44	117	0
+2017-10-01	2	UK	Tablet	Other	39	0.41	192	0
+2017-10-01	2	UK	Mobile	Chrome	147	0.44	181	2
+2017-10-01	2	UK	Mobile	Safari	97	0.36	159	1
+2017-10-01	2	UK	Mobile	Other	61	0.53	167	0
+2017-10-01	2	Rest of World	Desktop	Chrome	711	0.56	190	8
+2017-10-01	2	Rest of World	Desktop	Safari	401	0.48	190	0
+2017-10-01	2	Rest of World	Desktop	Other	208	0.43	144	2
+2017-10-01	2	Rest of World	Tablet	Chrome	253	0.51	167	2
+2017-10-01	2	Rest of World	Tablet	Safari	76	0.43	103	1
+2017-10-01	2	Rest of World	Tablet	Other	103	0.44	107	0
+2017-10-01	2	Rest of World	Mobile	Chrome	185	0.37	102	3
+2017-10-01	2	Rest of World	Mobile	Safari	260	0.51	164	3
+2017-10-01	2	Rest of World	Mobile	Other	239	0.32	141	1
+2017-10-02	0	Australia	Desktop	Chrome	1180	0.37	120	5
+2017-10-02	0	Australia	Desktop	Safari	1542	0.51	184	1
+2017-10-02	0	Australia	Desktop	Other	676	0.57	143	2
+2017-10-02	0	Australia	Tablet	Chrome	319	0.52	143	6
+2017-10-02	0	Australia	Tablet	Safari	501	0.35	164	7
+2017-10-02	0	Australia	Tablet	Other	142	0.4	181	1
+2017-10-02	0	Australia	Mobile	Chrome	1029	0.38	123	4
+2017-10-02	0	Australia	Mobile	Safari	826	0.35	106	6
+2017-10-02	0	Australia	Mobile	Other	476	0.49	200	6
+2017-10-02	0	Canada	Desktop	Chrome	636	0.47	187	1
+2017-10-02	0	Canada	Desktop	Safari	647	0.47	161	12
+2017-10-02	0	Canada	Desktop	Other	166	0.38	173	4
+2017-10-02	0	Canada	Tablet	Chrome	395	0.57	166	1
+2017-10-02	0	Canada	Tablet	Safari	172	0.5	191	1
+2017-10-02	0	Canada	Tablet	Other	54	0.4	177	1
+2017-10-02	0	Canada	Mobile	Chrome	346	0.37	138	5
+2017-10-02	0	Canada	Mobile	Safari	459	0.34	142	0
+2017-10-02	0	Canada	Mobile	Other	239	0.37	168	2
+2017-10-02	0	USA	Desktop	Chrome	1322	0.56	163	9
+2017-10-02	0	USA	Desktop	Safari	570	0.36	114	9
+2017-10-02	0	USA	Desktop	Other	993	0.34	124	1
+2017-10-02	0	USA	Tablet	Chrome	419	0.37	128	5
+2017-10-02	0	USA	Tablet	Safari	288	0.38	197	2
+2017-10-02	0	USA	Tablet	Other	335	0.33	200	5
+2017-10-02	0	USA	Mobile	Chrome	1128	0.43	110	6
+2017-10-02	0	USA	Mobile	Safari	1692	0.38	162	2
+2017-10-02	0	USA	Mobile	Other	521	0.48	179	4
+2017-10-02	0	UK	Desktop	Chrome	891	0.36	130	1
+2017-10-02	0	UK	Desktop	Safari	1248	0.56	195	6
+2017-10-02	0	UK	Desktop	Other	645	0.44	155	5
+2017-10-02	0	UK	Tablet	Chrome	570	0.49	116	0
+2017-10-02	0	UK	Tablet	Safari	205	0.55	144	1
+2017-10-02	0	UK	Tablet	Other	204	0.43	113	2
+2017-10-02	0	UK	Mobile	Chrome	560	0.54	121	1
+2017-10-02	0	UK	Mobile	Safari	394	0.4	176	2
+2017-10-02	0	UK	Mobile	Other	780	0.33	168	8
+2017-10-02	0	Rest of World	Desktop	Chrome	1172	0.48	157	36
+2017-10-02	0	Rest of World	Desktop	Safari	1545	0.33	136	3
+2017-10-02	0	Rest of World	Desktop	Other	946	0.57	198	17
+2017-10-02	0	Rest of World	Tablet	Chrome	542	0.39	124	2
+2017-10-02	0	Rest of World	Tablet	Safari	430	0.41	122	2
+2017-10-02	0	Rest of World	Tablet	Other	348	0.33	199	4
+2017-10-02	0	Rest of World	Mobile	Chrome	2554	0.42	165	0
+2017-10-02	0	Rest of World	Mobile	Safari	2293	0.47	121	8
+2017-10-02	0	Rest of World	Mobile	Other	748	0.54	158	4
+2017-10-02	1	Australia	Desktop	Chrome	606	0.42	103	5
+2017-10-02	1	Australia	Desktop	Safari	403	0.47	189	8
+2017-10-02	1	Australia	Desktop	Other	310	0.48	177	0
+2017-10-02	1	Australia	Tablet	Chrome	278	0.47	136	2
+2017-10-02	1	Australia	Tablet	Safari	128	0.43	113	2
+2017-10-02	1	Australia	Tablet	Other	49	0.4	152	2
+2017-10-02	1	Australia	Mobile	Chrome	368	0.49	171	7
+2017-10-02	1	Australia	Mobile	Safari	257	0.49	161	3
+2017-10-02	1	Australia	Mobile	Other	312	0.32	136	2
+2017-10-02	1	Canada	Desktop	Chrome	579	0.45	184	9
+2017-10-02	1	Canada	Desktop	Safari	195	0.4	114	1
+2017-10-02	1	Canada	Desktop	Other	230	0.32	126	1
+2017-10-02	1	Canada	Tablet	Chrome	145	0.5	100	3
+2017-10-02	1	Canada	Tablet	Safari	140	0.34	200	1
+2017-10-02	1	Canada	Tablet	Other	37	0.49	172	1
+2017-10-02	1	Canada	Mobile	Chrome	569	0.33	135	5
+2017-10-02	1	Canada	Mobile	Safari	314	0.45	191	6
+2017-10-02	1	Canada	Mobile	Other	115	0.46	167	1
+2017-10-02	1	USA	Desktop	Chrome	1132	0.4	160	17
+2017-10-02	1	USA	Desktop	Safari	214	0.51	134	4
+2017-10-02	1	USA	Desktop	Other	394	0.39	125	0
+2017-10-02	1	USA	Tablet	Chrome	363	0.54	156	0
+2017-10-02	1	USA	Tablet	Safari	99	0.44	198	0
+2017-10-02	1	USA	Tablet	Other	217	0.48	130	0
+2017-10-02	1	USA	Mobile	Chrome	343	0.49	199	2
+2017-10-02	1	USA	Mobile	Safari	375	0.33	162	3
+2017-10-02	1	USA	Mobile	Other	271	0.32	115	2
+2017-10-02	1	UK	Desktop	Chrome	585	0.5	114	1
+2017-10-02	1	UK	Desktop	Safari	400	0.44	109	6
+2017-10-02	1	UK	Desktop	Other	281	0.57	104	3
+2017-10-02	1	UK	Tablet	Chrome	135	0.56	193	1
+2017-10-02	1	UK	Tablet	Safari	166	0.52	177	0
+2017-10-02	1	UK	Tablet	Other	70	0.55	152	0
+2017-10-02	1	UK	Mobile	Chrome	451	0.55	131	4
+2017-10-02	1	UK	Mobile	Safari	351	0.5	115	6
+2017-10-02	1	UK	Mobile	Other	251	0.44	109	2
+2017-10-02	1	Rest of World	Desktop	Chrome	433	0.38	126	13
+2017-10-02	1	Rest of World	Desktop	Safari	731	0.42	191	11
+2017-10-02	1	Rest of World	Desktop	Other	585	0.55	140	1
+2017-10-02	1	Rest of World	Tablet	Chrome	298	0.43	143	2
+2017-10-02	1	Rest of World	Tablet	Safari	211	0.36	127	3
+2017-10-02	1	Rest of World	Tablet	Other	187	0.54	185	2
+2017-10-02	1	Rest of World	Mobile	Chrome	1087	0.47	131	6
+2017-10-02	1	Rest of World	Mobile	Safari	438	0.47	122	6
+2017-10-02	1	Rest of World	Mobile	Other	554	0.53	113	6
+2017-10-02	2	Australia	Desktop	Chrome	922	0.44	125	10
+2017-10-02	2	Australia	Desktop	Safari	501	0.47	144	7
+2017-10-02	2	Australia	Desktop	Other	343	0.57	153	2
+2017-10-02	2	Australia	Tablet	Chrome	156	0.48	175	4
+2017-10-02	2	Australia	Tablet	Safari	223	0.38	140	3
+2017-10-02	2	Australia	Tablet	Other	108	0.51	199	2
+2017-10-02	2	Australia	Mobile	Chrome	543	0.35	133	0
+2017-10-02	2	Australia	Mobile	Safari	470	0.39	133	5
+2017-10-02	2	Australia	Mobile	Other	197	0.38	157	4
+2017-10-02	2	Canada	Desktop	Chrome	346	0.38	174	2
+2017-10-02	2	Canada	Desktop	Safari	311	0.42	100	4
+2017-10-02	2	Canada	Desktop	Other	193	0.36	175	3
+2017-10-02	2	Canada	Tablet	Chrome	117	0.52	144	0
+2017-10-02	2	Canada	Tablet	Safari	104	0.38	180	1
+2017-10-02	2	Canada	Tablet	Other	104	0.35	118	1
+2017-10-02	2	Canada	Mobile	Chrome	369	0.38	188	3
+2017-10-02	2	Canada	Mobile	Safari	109	0.46	168	1
+2017-10-02	2	Canada	Mobile	Other	110	0.32	141	1
+2017-10-02	2	USA	Desktop	Chrome	1399	0.53	189	9
+2017-10-02	2	USA	Desktop	Safari	703	0.51	200	3
+2017-10-02	2	USA	Desktop	Other	306	0.48	142	6
+2017-10-02	2	USA	Tablet	Chrome	205	0.4	149	3
+2017-10-02	2	USA	Tablet	Safari	156	0.38	140	2
+2017-10-02	2	USA	Tablet	Other	78	0.52	167	1
+2017-10-02	2	USA	Mobile	Chrome	544	0.34	186	1
+2017-10-02	2	USA	Mobile	Safari	286	0.36	192	2
+2017-10-02	2	USA	Mobile	Other	231	0.33	111	0
+2017-10-02	2	UK	Desktop	Chrome	851	0.33	143	10
+2017-10-02	2	UK	Desktop	Safari	413	0.53	176	0
+2017-10-02	2	UK	Desktop	Other	206	0.38	186	4
+2017-10-02	2	UK	Tablet	Chrome	254	0.4	154	1
+2017-10-02	2	UK	Tablet	Safari	123	0.52	143	1
+2017-10-02	2	UK	Tablet	Other	98	0.43	173	1
+2017-10-02	2	UK	Mobile	Chrome	379	0.35	138	4
+2017-10-02	2	UK	Mobile	Safari	342	0.44	127	1
+2017-10-02	2	UK	Mobile	Other	161	0.37	101	3
+2017-10-02	2	Rest of World	Desktop	Chrome	1034	0.33	176	2
+2017-10-02	2	Rest of World	Desktop	Safari	512	0.57	157	1
+2017-10-02	2	Rest of World	Desktop	Other	512	0.41	193	3
+2017-10-02	2	Rest of World	Tablet	Chrome	244	0.4	111	0
+2017-10-02	2	Rest of World	Tablet	Safari	170	0.37	133	1
+2017-10-02	2	Rest of World	Tablet	Other	88	0.42	146	1
+2017-10-02	2	Rest of World	Mobile	Chrome	719	0.43	132	4
+2017-10-02	2	Rest of World	Mobile	Safari	235	0.37	141	3
+2017-10-02	2	Rest of World	Mobile	Other	219	0.48	108	0
+2017-10-03	0	Australia	Desktop	Chrome	1396	0.41	114	13
+2017-10-03	0	Australia	Desktop	Safari	853	0.39	132	1
+2017-10-03	0	Australia	Desktop	Other	919	0.44	170	4
+2017-10-03	0	Australia	Tablet	Chrome	485	0.49	184	5
+2017-10-03	0	Australia	Tablet	Safari	223	0.46	108	3
+2017-10-03	0	Australia	Tablet	Other	125	0.54	159	1
+2017-10-03	0	Australia	Mobile	Chrome	934	0.37	100	14
+2017-10-03	0	Australia	Mobile	Safari	486	0.47	196	3
+2017-10-03	0	Australia	Mobile	Other	195	0.43	154	2
+2017-10-03	0	Canada	Desktop	Chrome	660	0.49	198	12
+2017-10-03	0	Canada	Desktop	Safari	417	0.53	173	3
+2017-10-03	0	Canada	Desktop	Other	310	0.44	168	0
+2017-10-03	0	Canada	Tablet	Chrome	143	0.36	193	3
+2017-10-03	0	Canada	Tablet	Safari	86	0.55	148	0
+2017-10-03	0	Canada	Tablet	Other	100	0.35	144	0
+2017-10-03	0	Canada	Mobile	Chrome	283	0.44	164	4
+2017-10-03	0	Canada	Mobile	Safari	151	0.43	143	2
+2017-10-03	0	Canada	Mobile	Other	63	0.49	134	1
+2017-10-03	0	USA	Desktop	Chrome	814	0.55	133	2
+2017-10-03	0	USA	Desktop	Safari	757	0.53	147	0
+2017-10-03	0	USA	Desktop	Other	495	0.44	107	11
+2017-10-03	0	USA	Tablet	Chrome	289	0.34	115	0
+2017-10-03	0	USA	Tablet	Safari	291	0.5	131	0
+2017-10-03	0	USA	Tablet	Other	83	0.35	180	0
+2017-10-03	0	USA	Mobile	Chrome	1065	0.48	153	5
+2017-10-03	0	USA	Mobile	Safari	512	0.5	145	3
+2017-10-03	0	USA	Mobile	Other	336	0.49	191	2
+2017-10-03	0	UK	Desktop	Chrome	1315	0.54	160	7
+2017-10-03	0	UK	Desktop	Safari	357	0.35	173	5
+2017-10-03	0	UK	Desktop	Other	580	0.48	199	2
+2017-10-03	0	UK	Tablet	Chrome	316	0.38	100	2
+2017-10-03	0	UK	Tablet	Safari	154	0.39	131	1
+2017-10-03	0	UK	Tablet	Other	194	0.48	134	1
+2017-10-03	0	UK	Mobile	Chrome	689	0.4	107	3
+2017-10-03	0	UK	Mobile	Safari	350	0.38	116	0
+2017-10-03	0	UK	Mobile	Other	453	0.37	175	6
+2017-10-03	0	Rest of World	Desktop	Chrome	1275	0.36	113	0
+2017-10-03	0	Rest of World	Desktop	Safari	1256	0.5	102	12
+2017-10-03	0	Rest of World	Desktop	Other	457	0.47	128	0
+2017-10-03	0	Rest of World	Tablet	Chrome	299	0.47	115	3
+2017-10-03	0	Rest of World	Tablet	Safari	317	0.54	165	1
+2017-10-03	0	Rest of World	Tablet	Other	166	0.49	158	3
+2017-10-03	0	Rest of World	Mobile	Chrome	1127	0.45	129	6
+2017-10-03	0	Rest of World	Mobile	Safari	796	0.34	113	1
+2017-10-03	0	Rest of World	Mobile	Other	561	0.42	184	1
+2017-10-03	1	Australia	Desktop	Chrome	450	0.37	170	1
+2017-10-03	1	Australia	Desktop	Safari	551	0.42	118	1
+2017-10-03	1	Australia	Desktop	Other	245	0.38	172	1
+2017-10-03	1	Australia	Tablet	Chrome	84	0.56	160	2
+2017-10-03	1	Australia	Tablet	Safari	74	0.34	140	1
+2017-10-03	1	Australia	Tablet	Other	36	0.48	164	1
+2017-10-03	1	Australia	Mobile	Chrome	179	0.39	107	1
+2017-10-03	1	Australia	Mobile	Safari	154	0.35	143	2
+2017-10-03	1	Australia	Mobile	Other	373	0.32	120	2
+2017-10-03	1	Canada	Desktop	Chrome	291	0.47	186	3
+2017-10-03	1	Canada	Desktop	Safari	306	0.55	129	3
+2017-10-03	1	Canada	Desktop	Other	260	0.38	106	3
+2017-10-03	1	Canada	Tablet	Chrome	81	0.56	167	2
+2017-10-03	1	Canada	Tablet	Safari	82	0.46	160	1
+2017-10-03	1	Canada	Tablet	Other	36	0.37	166	0
+2017-10-03	1	Canada	Mobile	Chrome	75	0.39	162	0
+2017-10-03	1	Canada	Mobile	Safari	148	0.45	177	1
+2017-10-03	1	Canada	Mobile	Other	81	0.43	187	2
+2017-10-03	1	USA	Desktop	Chrome	529	0.52	139	4
+2017-10-03	1	USA	Desktop	Safari	568	0.56	196	1
+2017-10-03	1	USA	Desktop	Other	281	0.55	148	0
+2017-10-03	1	USA	Tablet	Chrome	163	0.57	108	1
+2017-10-03	1	USA	Tablet	Safari	205	0.32	136	1
+2017-10-03	1	USA	Tablet	Other	134	0.46	170	1
+2017-10-03	1	USA	Mobile	Chrome	405	0.51	154	8
+2017-10-03	1	USA	Mobile	Safari	275	0.38	172	7
+2017-10-03	1	USA	Mobile	Other	187	0.55	129	1
+2017-10-03	1	UK	Desktop	Chrome	194	0.57	162	6
+2017-10-03	1	UK	Desktop	Safari	129	0.43	169	2
+2017-10-03	1	UK	Desktop	Other	181	0.44	119	3
+2017-10-03	1	UK	Tablet	Chrome	194	0.44	162	1
+2017-10-03	1	UK	Tablet	Safari	95	0.34	152	1
+2017-10-03	1	UK	Tablet	Other	81	0.33	136	1
+2017-10-03	1	UK	Mobile	Chrome	214	0.48	196	1
+2017-10-03	1	UK	Mobile	Safari	171	0.41	185	3
+2017-10-03	1	UK	Mobile	Other	79	0.57	137	1
+2017-10-03	1	Rest of World	Desktop	Chrome	389	0.53	154	5
+2017-10-03	1	Rest of World	Desktop	Safari	756	0.39	198	6
+2017-10-03	1	Rest of World	Desktop	Other	202	0.56	136	5
+2017-10-03	1	Rest of World	Tablet	Chrome	233	0.56	121	5
+2017-10-03	1	Rest of World	Tablet	Safari	121	0.56	189	1
+2017-10-03	1	Rest of World	Tablet	Other	149	0.54	136	1
+2017-10-03	1	Rest of World	Mobile	Chrome	302	0.44	172	3
+2017-10-03	1	Rest of World	Mobile	Safari	360	0.56	191	1
+2017-10-03	1	Rest of World	Mobile	Other	314	0.42	162	5
+2017-10-03	2	Australia	Desktop	Chrome	422	0.37	176	0
+2017-10-03	2	Australia	Desktop	Safari	794	0.53	173	4
+2017-10-03	2	Australia	Desktop	Other	259	0.55	117	1
+2017-10-03	2	Australia	Tablet	Chrome	86	0.56	120	1
+2017-10-03	2	Australia	Tablet	Safari	127	0.47	126	1
+2017-10-03	2	Australia	Tablet	Other	89	0.38	191	1
+2017-10-03	2	Australia	Mobile	Chrome	310	0.46	152	5
+2017-10-03	2	Australia	Mobile	Safari	146	0.37	198	1
+2017-10-03	2	Australia	Mobile	Other	194	0.37	157	1
+2017-10-03	2	Canada	Desktop	Chrome	390	0.34	137	1
+2017-10-03	2	Canada	Desktop	Safari	292	0.47	161	2
+2017-10-03	2	Canada	Desktop	Other	184	0.35	159	2
+2017-10-03	2	Canada	Tablet	Chrome	37	0.5	173	0
+2017-10-03	2	Canada	Tablet	Safari	43	0.43	193	1
+2017-10-03	2	Canada	Tablet	Other	37	0.38	169	1
+2017-10-03	2	Canada	Mobile	Chrome	111	0.4	103	1
+2017-10-03	2	Canada	Mobile	Safari	168	0.32	182	2
+2017-10-03	2	Canada	Mobile	Other	61	0.57	161	0
+2017-10-03	2	USA	Desktop	Chrome	631	0.57	188	8
+2017-10-03	2	USA	Desktop	Safari	341	0.4	185	0
+2017-10-03	2	USA	Desktop	Other	369	0.48	180	7
+2017-10-03	2	USA	Tablet	Chrome	100	0.43	167	1
+2017-10-03	2	USA	Tablet	Safari	113	0.55	125	0
+2017-10-03	2	USA	Tablet	Other	57	0.42	139	0
+2017-10-03	2	USA	Mobile	Chrome	312	0.48	179	0
+2017-10-03	2	USA	Mobile	Safari	165	0.42	196	3
+2017-10-03	2	USA	Mobile	Other	148	0.36	139	1
+2017-10-03	2	UK	Desktop	Chrome	648	0.54	144	4
+2017-10-03	2	UK	Desktop	Safari	447	0.57	200	0
+2017-10-03	2	UK	Desktop	Other	365	0.41	156	1
+2017-10-03	2	UK	Tablet	Chrome	138	0.5	158	1
+2017-10-03	2	UK	Tablet	Safari	190	0.41	119	1
+2017-10-03	2	UK	Tablet	Other	44	0.34	109	0
+2017-10-03	2	UK	Mobile	Chrome	278	0.53	108	1
+2017-10-03	2	UK	Mobile	Safari	264	0.48	121	2
+2017-10-03	2	UK	Mobile	Other	84	0.35	182	1
+2017-10-03	2	Rest of World	Desktop	Chrome	556	0.51	172	4
+2017-10-03	2	Rest of World	Desktop	Safari	565	0.53	185	1
+2017-10-03	2	Rest of World	Desktop	Other	368	0.41	170	1
+2017-10-03	2	Rest of World	Tablet	Chrome	187	0.52	189	1
+2017-10-03	2	Rest of World	Tablet	Safari	231	0.57	185	3
+2017-10-03	2	Rest of World	Tablet	Other	91	0.33	156	0
+2017-10-03	2	Rest of World	Mobile	Chrome	532	0.56	106	7
+2017-10-03	2	Rest of World	Mobile	Safari	481	0.39	149	2
+2017-10-03	2	Rest of World	Mobile	Other	309	0.48	171	1
+2017-10-04	0	Australia	Desktop	Chrome	1716	0.47	104	15
+2017-10-04	0	Australia	Desktop	Safari	322	0.38	137	4
+2017-10-04	0	Australia	Desktop	Other	325	0.46	149	7
+2017-10-04	0	Australia	Tablet	Chrome	397	0.36	129	0
+2017-10-04	0	Australia	Tablet	Safari	210	0.57	157	1
+2017-10-04	0	Australia	Tablet	Other	116	0.53	119	0
+2017-10-04	0	Australia	Mobile	Chrome	255	0.5	143	5
+2017-10-04	0	Australia	Mobile	Safari	532	0.39	137	5
+2017-10-04	0	Australia	Mobile	Other	271	0.36	186	4
+2017-10-04	0	Canada	Desktop	Chrome	457	0.54	156	5
+2017-10-04	0	Canada	Desktop	Safari	419	0.35	165	1
+2017-10-04	0	Canada	Desktop	Other	396	0.41	177	2
+2017-10-04	0	Canada	Tablet	Chrome	117	0.52	108	0
+2017-10-04	0	Canada	Tablet	Safari	100	0.49	192	0
+2017-10-04	0	Canada	Tablet	Other	64	0.56	173	1
+2017-10-04	0	Canada	Mobile	Chrome	289	0.45	155	4
+2017-10-04	0	Canada	Mobile	Safari	442	0.55	131	0
+2017-10-04	0	Canada	Mobile	Other	138	0.41	106	0
+2017-10-04	0	USA	Desktop	Chrome	919	0.35	157	0
+2017-10-04	0	USA	Desktop	Safari	1005	0.54	119	8
+2017-10-04	0	USA	Desktop	Other	560	0.46	147	2
+2017-10-04	0	USA	Tablet	Chrome	407	0.46	194	0
+2017-10-04	0	USA	Tablet	Safari	280	0.49	169	1
+2017-10-04	0	USA	Tablet	Other	127	0.45	182	1
+2017-10-04	0	USA	Mobile	Chrome	602	0.39	107	2
+2017-10-04	0	USA	Mobile	Safari	346	0.52	111	2
+2017-10-04	0	USA	Mobile	Other	619	0.38	151	3
+2017-10-04	0	UK	Desktop	Chrome	1110	0.52	185	6
+2017-10-04	0	UK	Desktop	Safari	363	0.49	120	3
+2017-10-04	0	UK	Desktop	Other	300	0.55	169	3
+2017-10-04	0	UK	Tablet	Chrome	234	0.57	124	1
+2017-10-04	0	UK	Tablet	Safari	160	0.45	109	1
+2017-10-04	0	UK	Tablet	Other	61	0.52	130	0
+2017-10-04	0	UK	Mobile	Chrome	504	0.4	109	5
+2017-10-04	0	UK	Mobile	Safari	265	0.45	131	1
+2017-10-04	0	UK	Mobile	Other	204	0.41	134	0
+2017-10-04	0	Rest of World	Desktop	Chrome	1413	0.36	107	23
+2017-10-04	0	Rest of World	Desktop	Safari	1061	0.57	179	8
+2017-10-04	0	Rest of World	Desktop	Other	644	0.38	145	3
+2017-10-04	0	Rest of World	Tablet	Chrome	209	0.46	126	1
+2017-10-04	0	Rest of World	Tablet	Safari	271	0.45	146	0
+2017-10-04	0	Rest of World	Tablet	Other	141	0.55	157	1
+2017-10-04	0	Rest of World	Mobile	Chrome	1209	0.4	137	4
+2017-10-04	0	Rest of World	Mobile	Safari	581	0.35	193	2
+2017-10-04	0	Rest of World	Mobile	Other	494	0.38	141	1
+2017-10-04	1	Australia	Desktop	Chrome	509	0.5	134	4
+2017-10-04	1	Australia	Desktop	Safari	319	0.54	119	1
+2017-10-04	1	Australia	Desktop	Other	212	0.48	107	1
+2017-10-04	1	Australia	Tablet	Chrome	138	0.51	150	1
+2017-10-04	1	Australia	Tablet	Safari	137	0.45	177	1
+2017-10-04	1	Australia	Tablet	Other	39	0.53	131	0
+2017-10-04	1	Australia	Mobile	Chrome	372	0.43	106	2
+2017-10-04	1	Australia	Mobile	Safari	213	0.57	129	0
+2017-10-04	1	Australia	Mobile	Other	108	0.38	184	1
+2017-10-04	1	Canada	Desktop	Chrome	281	0.56	115	2
+2017-10-04	1	Canada	Desktop	Safari	76	0.43	164	0
+2017-10-04	1	Canada	Desktop	Other	74	0.55	139	1
+2017-10-04	1	Canada	Tablet	Chrome	162	0.56	142	0
+2017-10-04	1	Canada	Tablet	Safari	57	0.42	105	1
+2017-10-04	1	Canada	Tablet	Other	29	0.35	137	0
+2017-10-04	1	Canada	Mobile	Chrome	140	0.57	134	3
+2017-10-04	1	Canada	Mobile	Safari	110	0.54	179	1
+2017-10-04	1	Canada	Mobile	Other	56	0.46	141	2
+2017-10-04	1	USA	Desktop	Chrome	336	0.4	181	6
+2017-10-04	1	USA	Desktop	Safari	286	0.38	129	1
+2017-10-04	1	USA	Desktop	Other	256	0.4	125	0
+2017-10-04	1	USA	Tablet	Chrome	225	0.46	173	3
+2017-10-04	1	USA	Tablet	Safari	109	0.41	114	1
+2017-10-04	1	USA	Tablet	Other	80	0.53	171	0
+2017-10-04	1	USA	Mobile	Chrome	288	0.55	113	2
+2017-10-04	1	USA	Mobile	Safari	110	0.5	167	2
+2017-10-04	1	USA	Mobile	Other	188	0.46	152	2
+2017-10-04	1	UK	Desktop	Chrome	257	0.36	121	0
+2017-10-04	1	UK	Desktop	Safari	213	0.51	112	3
+2017-10-04	1	UK	Desktop	Other	247	0.4	160	3
+2017-10-04	1	UK	Tablet	Chrome	142	0.36	175	0
+2017-10-04	1	UK	Tablet	Safari	84	0.35	171	1
+2017-10-04	1	UK	Tablet	Other	71	0.5	154	1
+2017-10-04	1	UK	Mobile	Chrome	352	0.55	182	1
+2017-10-04	1	UK	Mobile	Safari	219	0.49	126	1
+2017-10-04	1	UK	Mobile	Other	125	0.44	117	1
+2017-10-04	1	Rest of World	Desktop	Chrome	282	0.56	198	6
+2017-10-04	1	Rest of World	Desktop	Safari	671	0.46	149	1
+2017-10-04	1	Rest of World	Desktop	Other	373	0.42	185	2
+2017-10-04	1	Rest of World	Tablet	Chrome	114	0.54	167	1
+2017-10-04	1	Rest of World	Tablet	Safari	170	0.57	172	3
+2017-10-04	1	Rest of World	Tablet	Other	106	0.34	157	0
+2017-10-04	1	Rest of World	Mobile	Chrome	533	0.46	180	10
+2017-10-04	1	Rest of World	Mobile	Safari	335	0.41	146	1
+2017-10-04	1	Rest of World	Mobile	Other	251	0.55	152	2
+2017-10-04	2	Australia	Desktop	Chrome	505	0.54	104	1
+2017-10-04	2	Australia	Desktop	Safari	248	0.32	148	3
+2017-10-04	2	Australia	Desktop	Other	203	0.36	162	0
+2017-10-04	2	Australia	Tablet	Chrome	227	0.48	124	0
+2017-10-04	2	Australia	Tablet	Safari	104	0.37	182	0
+2017-10-04	2	Australia	Tablet	Other	113	0.34	126	0
+2017-10-04	2	Australia	Mobile	Chrome	169	0.33	130	0
+2017-10-04	2	Australia	Mobile	Safari	172	0.39	189	2
+2017-10-04	2	Australia	Mobile	Other	174	0.43	121	1
+2017-10-04	2	Canada	Desktop	Chrome	319	0.41	109	4
+2017-10-04	2	Canada	Desktop	Safari	350	0.52	127	0
+2017-10-04	2	Canada	Desktop	Other	108	0.49	168	0
+2017-10-04	2	Canada	Tablet	Chrome	78	0.35	138	0
+2017-10-04	2	Canada	Tablet	Safari	46	0.36	149	1
+2017-10-04	2	Canada	Tablet	Other	15	0.47	106	0
+2017-10-04	2	Canada	Mobile	Chrome	124	0.38	130	0
+2017-10-04	2	Canada	Mobile	Safari	84	0.41	105	1
+2017-10-04	2	Canada	Mobile	Other	89	0.49	185	0
+2017-10-04	2	USA	Desktop	Chrome	534	0.49	119	10
+2017-10-04	2	USA	Desktop	Safari	322	0.33	135	1
+2017-10-04	2	USA	Desktop	Other	288	0.39	166	2
+2017-10-04	2	USA	Tablet	Chrome	154	0.57	199	1
+2017-10-04	2	USA	Tablet	Safari	86	0.32	195	1
+2017-10-04	2	USA	Tablet	Other	140	0.38	178	0
+2017-10-04	2	USA	Mobile	Chrome	570	0.52	140	3
+2017-10-04	2	USA	Mobile	Safari	354	0.55	144	2
+2017-10-04	2	USA	Mobile	Other	196	0.56	150	3
+2017-10-04	2	UK	Desktop	Chrome	276	0.38	177	4
+2017-10-04	2	UK	Desktop	Safari	251	0.35	194	3
+2017-10-04	2	UK	Desktop	Other	192	0.34	194	3
+2017-10-04	2	UK	Tablet	Chrome	87	0.36	136	0
+2017-10-04	2	UK	Tablet	Safari	90	0.44	182	0
+2017-10-04	2	UK	Tablet	Other	69	0.49	102	1
+2017-10-04	2	UK	Mobile	Chrome	190	0.53	121	3
+2017-10-04	2	UK	Mobile	Safari	153	0.33	197	0
+2017-10-04	2	UK	Mobile	Other	235	0.47	137	2
+2017-10-04	2	Rest of World	Desktop	Chrome	851	0.51	151	1
+2017-10-04	2	Rest of World	Desktop	Safari	367	0.44	123	2
+2017-10-04	2	Rest of World	Desktop	Other	230	0.5	125	1
+2017-10-04	2	Rest of World	Tablet	Chrome	133	0.51	138	3
+2017-10-04	2	Rest of World	Tablet	Safari	92	0.39	115	2
+2017-10-04	2	Rest of World	Tablet	Other	49	0.46	135	1
+2017-10-04	2	Rest of World	Mobile	Chrome	633	0.34	132	3
+2017-10-04	2	Rest of World	Mobile	Safari	286	0.35	145	1
+2017-10-04	2	Rest of World	Mobile	Other	348	0.38	101	2
+2017-10-05	0	Australia	Desktop	Chrome	997	0.49	177	2
+2017-10-05	0	Australia	Desktop	Safari	596	0.44	184	3
+2017-10-05	0	Australia	Desktop	Other	678	0.33	142	6
+2017-10-05	0	Australia	Tablet	Chrome	453	0.32	110	1
+2017-10-05	0	Australia	Tablet	Safari	239	0.56	176	1
+2017-10-05	0	Australia	Tablet	Other	175	0.35	112	0
+2017-10-05	0	Australia	Mobile	Chrome	417	0.52	148	5
+2017-10-05	0	Australia	Mobile	Safari	359	0.55	123	2
+2017-10-05	0	Australia	Mobile	Other	390	0.47	192	1
+2017-10-05	0	Canada	Desktop	Chrome	477	0.48	189	3
+2017-10-05	0	Canada	Desktop	Safari	212	0.46	198	0
+2017-10-05	0	Canada	Desktop	Other	305	0.41	177	1
+2017-10-05	0	Canada	Tablet	Chrome	77	0.34	153	1
+2017-10-05	0	Canada	Tablet	Safari	147	0.37	135	2
+2017-10-05	0	Canada	Tablet	Other	59	0.52	193	0
+2017-10-05	0	Canada	Mobile	Chrome	251	0.49	107	0
+2017-10-05	0	Canada	Mobile	Safari	223	0.36	147	3
+2017-10-05	0	Canada	Mobile	Other	245	0.56	150	0
+2017-10-05	0	USA	Desktop	Chrome	791	0.47	127	3
+2017-10-05	0	USA	Desktop	Safari	787	0.44	145	3
+2017-10-05	0	USA	Desktop	Other	420	0.37	195	0
+2017-10-05	0	USA	Tablet	Chrome	187	0.47	180	2
+2017-10-05	0	USA	Tablet	Safari	105	0.43	147	1
+2017-10-05	0	USA	Tablet	Other	95	0.35	118	1
+2017-10-05	0	USA	Mobile	Chrome	862	0.37	184	5
+2017-10-05	0	USA	Mobile	Safari	578	0.52	132	3
+2017-10-05	0	USA	Mobile	Other	335	0.34	177	3
+2017-10-05	0	UK	Desktop	Chrome	549	0.5	148	4
+2017-10-05	0	UK	Desktop	Safari	547	0.33	113	5
+2017-10-05	0	UK	Desktop	Other	229	0.41	198	0
+2017-10-05	0	UK	Tablet	Chrome	198	0.5	120	3
+2017-10-05	0	UK	Tablet	Safari	196	0.49	119	0
+2017-10-05	0	UK	Tablet	Other	114	0.39	182	0
+2017-10-05	0	UK	Mobile	Chrome	316	0.46	136	7
+2017-10-05	0	UK	Mobile	Safari	165	0.44	174	2
+2017-10-05	0	UK	Mobile	Other	135	0.54	163	3
+2017-10-05	0	Rest of World	Desktop	Chrome	1387	0.38	155	7
+2017-10-05	0	Rest of World	Desktop	Safari	663	0.42	148	6
+2017-10-05	0	Rest of World	Desktop	Other	859	0.34	117	1
+2017-10-05	0	Rest of World	Tablet	Chrome	349	0.37	111	3
+2017-10-05	0	Rest of World	Tablet	Safari	242	0.52	191	4
+2017-10-05	0	Rest of World	Tablet	Other	310	0.37	174	1
+2017-10-05	0	Rest of World	Mobile	Chrome	1030	0.41	102	5
+2017-10-05	0	Rest of World	Mobile	Safari	306	0.38	131	8
+2017-10-05	0	Rest of World	Mobile	Other	255	0.42	128	2
+2017-10-05	1	Australia	Desktop	Chrome	362	0.52	181	0
+2017-10-05	1	Australia	Desktop	Safari	189	0.53	139	1
+2017-10-05	1	Australia	Desktop	Other	232	0.34	194	0
+2017-10-05	1	Australia	Tablet	Chrome	67	0.44	129	1
+2017-10-05	1	Australia	Tablet	Safari	88	0.55	125	1
+2017-10-05	1	Australia	Tablet	Other	40	0.53	158	1
+2017-10-05	1	Australia	Mobile	Chrome	229	0.42	128	0
+2017-10-05	1	Australia	Mobile	Safari	203	0.57	143	0
+2017-10-05	1	Australia	Mobile	Other	174	0.4	168	1
+2017-10-05	1	Canada	Desktop	Chrome	229	0.38	189	1
+2017-10-05	1	Canada	Desktop	Safari	91	0.54	101	1
+2017-10-05	1	Canada	Desktop	Other	161	0.52	198	2
+2017-10-05	1	Canada	Tablet	Chrome	47	0.5	107	1
+2017-10-05	1	Canada	Tablet	Safari	60	0.37	106	2
+2017-10-05	1	Canada	Tablet	Other	36	0.57	125	0
+2017-10-05	1	Canada	Mobile	Chrome	103	0.56	125	3
+2017-10-05	1	Canada	Mobile	Safari	208	0.34	133	1
+2017-10-05	1	Canada	Mobile	Other	39	0.56	137	0
+2017-10-05	1	USA	Desktop	Chrome	439	0.44	179	3
+2017-10-05	1	USA	Desktop	Safari	329	0.43	184	6
+2017-10-05	1	USA	Desktop	Other	190	0.57	151	0
+2017-10-05	1	USA	Tablet	Chrome	157	0.5	161	1
+2017-10-05	1	USA	Tablet	Safari	53	0.36	104	1
+2017-10-05	1	USA	Tablet	Other	55	0.5	143	0
+2017-10-05	1	USA	Mobile	Chrome	313	0.56	110	5
+2017-10-05	1	USA	Mobile	Safari	130	0.48	125	0
+2017-10-05	1	USA	Mobile	Other	187	0.49	136	2
+2017-10-05	1	UK	Desktop	Chrome	554	0.37	155	8
+2017-10-05	1	UK	Desktop	Safari	242	0.56	128	0
+2017-10-05	1	UK	Desktop	Other	129	0.36	178	1
+2017-10-05	1	UK	Tablet	Chrome	176	0.51	147	0
+2017-10-05	1	UK	Tablet	Safari	91	0.43	177	0
+2017-10-05	1	UK	Tablet	Other	36	0.46	186	1
+2017-10-05	1	UK	Mobile	Chrome	221	0.43	151	3
+2017-10-05	1	UK	Mobile	Safari	185	0.34	102	2
+2017-10-05	1	UK	Mobile	Other	85	0.42	143	1
+2017-10-05	1	Rest of World	Desktop	Chrome	749	0.52	145	3
+2017-10-05	1	Rest of World	Desktop	Safari	463	0.46	145	4
+2017-10-05	1	Rest of World	Desktop	Other	575	0.33	126	3
+2017-10-05	1	Rest of World	Tablet	Chrome	200	0.49	103	2
+2017-10-05	1	Rest of World	Tablet	Safari	164	0.34	105	2
+2017-10-05	1	Rest of World	Tablet	Other	80	0.43	104	2
+2017-10-05	1	Rest of World	Mobile	Chrome	891	0.37	132	11
+2017-10-05	1	Rest of World	Mobile	Safari	321	0.49	161	3
+2017-10-05	1	Rest of World	Mobile	Other	160	0.33	124	2
+2017-10-05	2	Australia	Desktop	Chrome	432	0.52	189	4
+2017-10-05	2	Australia	Desktop	Safari	167	0.41	100	1
+2017-10-05	2	Australia	Desktop	Other	105	0.34	168	2
+2017-10-05	2	Australia	Tablet	Chrome	160	0.43	138	1
+2017-10-05	2	Australia	Tablet	Safari	83	0.45	154	2
+2017-10-05	2	Australia	Tablet	Other	117	0.4	133	0
+2017-10-05	2	Australia	Mobile	Chrome	367	0.33	152	0
+2017-10-05	2	Australia	Mobile	Safari	341	0.44	130	3
+2017-10-05	2	Australia	Mobile	Other	60	0.45	141	1
+2017-10-05	2	Canada	Desktop	Chrome	237	0.47	138	0
+2017-10-05	2	Canada	Desktop	Safari	143	0.45	155	0
+2017-10-05	2	Canada	Desktop	Other	161	0.36	109	2
+2017-10-05	2	Canada	Tablet	Chrome	116	0.51	152	1
+2017-10-05	2	Canada	Tablet	Safari	78	0.52	177	1
+2017-10-05	2	Canada	Tablet	Other	26	0.42	186	0
+2017-10-05	2	Canada	Mobile	Chrome	184	0.41	162	2
+2017-10-05	2	Canada	Mobile	Safari	88	0.54	128	0
+2017-10-05	2	Canada	Mobile	Other	107	0.5	168	1
+2017-10-05	2	USA	Desktop	Chrome	629	0.39	132	8
+2017-10-05	2	USA	Desktop	Safari	199	0.47	127	0
+2017-10-05	2	USA	Desktop	Other	310	0.41	194	1
+2017-10-05	2	USA	Tablet	Chrome	108	0.53	107	0
+2017-10-05	2	USA	Tablet	Safari	76	0.43	134	1
+2017-10-05	2	USA	Tablet	Other	85	0.44	156	1
+2017-10-05	2	USA	Mobile	Chrome	343	0.57	164	5
+2017-10-05	2	USA	Mobile	Safari	197	0.43	114	5
+2017-10-05	2	USA	Mobile	Other	194	0.51	189	2
+2017-10-05	2	UK	Desktop	Chrome	169	0.34	183	0
+2017-10-05	2	UK	Desktop	Safari	283	0.47	139	4
+2017-10-05	2	UK	Desktop	Other	236	0.33	165	2
+2017-10-05	2	UK	Tablet	Chrome	175	0.5	171	0
+2017-10-05	2	UK	Tablet	Safari	46	0.34	122	0
+2017-10-05	2	UK	Tablet	Other	74	0.51	189	1
+2017-10-05	2	UK	Mobile	Chrome	256	0.45	192	0
+2017-10-05	2	UK	Mobile	Safari	196	0.49	120	0
+2017-10-05	2	UK	Mobile	Other	203	0.35	107	2
+2017-10-05	2	Rest of World	Desktop	Chrome	612	0.51	187	1
+2017-10-05	2	Rest of World	Desktop	Safari	581	0.36	149	2
+2017-10-05	2	Rest of World	Desktop	Other	471	0.41	111	0
+2017-10-05	2	Rest of World	Tablet	Chrome	194	0.44	137	2
+2017-10-05	2	Rest of World	Tablet	Safari	95	0.37	126	0
+2017-10-05	2	Rest of World	Tablet	Other	56	0.39	190	0
+2017-10-05	2	Rest of World	Mobile	Chrome	485	0.55	184	3
+2017-10-05	2	Rest of World	Mobile	Safari	218	0.55	147	4
+2017-10-05	2	Rest of World	Mobile	Other	265	0.47	171	2
+2017-10-06	0	Australia	Desktop	Chrome	813	0.32	150	1
+2017-10-06	0	Australia	Desktop	Safari	337	0.49	157	3
+2017-10-06	0	Australia	Desktop	Other	513	0.36	193	0
+2017-10-06	0	Australia	Tablet	Chrome	122	0.51	185	1
+2017-10-06	0	Australia	Tablet	Safari	190	0.47	184	0
+2017-10-06	0	Australia	Tablet	Other	59	0.45	112	1
+2017-10-06	0	Australia	Mobile	Chrome	589	0.55	173	0
+2017-10-06	0	Australia	Mobile	Safari	348	0.38	183	2
+2017-10-06	0	Australia	Mobile	Other	306	0.41	155	0
+2017-10-06	0	Canada	Desktop	Chrome	477	0.44	111	5
+2017-10-06	0	Canada	Desktop	Safari	544	0.52	151	0
+2017-10-06	0	Canada	Desktop	Other	186	0.37	148	1
+2017-10-06	0	Canada	Tablet	Chrome	194	0.37	100	2
+2017-10-06	0	Canada	Tablet	Safari	58	0.49	137	0
+2017-10-06	0	Canada	Tablet	Other	57	0.41	190	0
+2017-10-06	0	Canada	Mobile	Chrome	159	0.37	159	1
+2017-10-06	0	Canada	Mobile	Safari	221	0.34	147	1
+2017-10-06	0	Canada	Mobile	Other	116	0.5	114	0
+2017-10-06	0	USA	Desktop	Chrome	910	0.46	120	4
+2017-10-06	0	USA	Desktop	Safari	465	0.48	186	0
+2017-10-06	0	USA	Desktop	Other	504	0.47	137	5
+2017-10-06	0	USA	Tablet	Chrome	201	0.5	126	1
+2017-10-06	0	USA	Tablet	Safari	143	0.48	165	1
+2017-10-06	0	USA	Tablet	Other	164	0.4	132	1
+2017-10-06	0	USA	Mobile	Chrome	910	0.5	155	3
+2017-10-06	0	USA	Mobile	Safari	229	0.49	191	6
+2017-10-06	0	USA	Mobile	Other	266	0.48	166	3
+2017-10-06	0	UK	Desktop	Chrome	485	0.36	182	1
+2017-10-06	0	UK	Desktop	Safari	484	0.35	145	1
+2017-10-06	0	UK	Desktop	Other	322	0.45	193	3
+2017-10-06	0	UK	Tablet	Chrome	261	0.43	192	0
+2017-10-06	0	UK	Tablet	Safari	94	0.42	182	0
+2017-10-06	0	UK	Tablet	Other	201	0.43	117	0
+2017-10-06	0	UK	Mobile	Chrome	321	0.48	196	1
+2017-10-06	0	UK	Mobile	Safari	387	0.43	149	3
+2017-10-06	0	UK	Mobile	Other	299	0.48	193	3
+2017-10-06	0	Rest of World	Desktop	Chrome	761	0.45	176	16
+2017-10-06	0	Rest of World	Desktop	Safari	571	0.36	186	4
+2017-10-06	0	Rest of World	Desktop	Other	665	0.37	196	3
+2017-10-06	0	Rest of World	Tablet	Chrome	209	0.34	104	0
+2017-10-06	0	Rest of World	Tablet	Safari	404	0.35	109	2
+2017-10-06	0	Rest of World	Tablet	Other	240	0.55	162	4
+2017-10-06	0	Rest of World	Mobile	Chrome	1135	0.54	157	10
+2017-10-06	0	Rest of World	Mobile	Safari	656	0.5	184	5
+2017-10-06	0	Rest of World	Mobile	Other	494	0.39	191	0
+2017-10-06	1	Australia	Desktop	Chrome	278	0.46	182	0
+2017-10-06	1	Australia	Desktop	Safari	405	0.55	193	1
+2017-10-06	1	Australia	Desktop	Other	251	0.54	102	2
+2017-10-06	1	Australia	Tablet	Chrome	77	0.54	150	0
+2017-10-06	1	Australia	Tablet	Safari	58	0.52	178	1
+2017-10-06	1	Australia	Tablet	Other	48	0.44	195	0
+2017-10-06	1	Australia	Mobile	Chrome	329	0.42	105	1
+2017-10-06	1	Australia	Mobile	Safari	180	0.47	131	5
+2017-10-06	1	Australia	Mobile	Other	116	0.4	162	0
+2017-10-06	1	Canada	Desktop	Chrome	162	0.53	191	1
+2017-10-06	1	Canada	Desktop	Safari	164	0.35	161	1
+2017-10-06	1	Canada	Desktop	Other	98	0.56	200	2
+2017-10-06	1	Canada	Tablet	Chrome	68	0.55	139	0
+2017-10-06	1	Canada	Tablet	Safari	60	0.55	116	1
+2017-10-06	1	Canada	Tablet	Other	30	0.39	102	1
+2017-10-06	1	Canada	Mobile	Chrome	119	0.55	164	0
+2017-10-06	1	Canada	Mobile	Safari	74	0.38	111	1
+2017-10-06	1	Canada	Mobile	Other	92	0.32	151	0
+2017-10-06	1	USA	Desktop	Chrome	434	0.5	138	6
+2017-10-06	1	USA	Desktop	Safari	272	0.41	141	2
+2017-10-06	1	USA	Desktop	Other	190	0.39	134	1
+2017-10-06	1	USA	Tablet	Chrome	121	0.53	152	2
+2017-10-06	1	USA	Tablet	Safari	83	0.55	170	3
+2017-10-06	1	USA	Tablet	Other	100	0.54	178	1
+2017-10-06	1	USA	Mobile	Chrome	228	0.48	194	1
+2017-10-06	1	USA	Mobile	Safari	214	0.44	194	1
+2017-10-06	1	USA	Mobile	Other	97	0.43	189	0
+2017-10-06	1	UK	Desktop	Chrome	235	0.4	138	6
+2017-10-06	1	UK	Desktop	Safari	261	0.45	108	6
+2017-10-06	1	UK	Desktop	Other	100	0.51	101	3
+2017-10-06	1	UK	Tablet	Chrome	105	0.56	106	1
+2017-10-06	1	UK	Tablet	Safari	89	0.33	173	1
+2017-10-06	1	UK	Tablet	Other	47	0.43	147	1
+2017-10-06	1	UK	Mobile	Chrome	241	0.53	133	3
+2017-10-06	1	UK	Mobile	Safari	151	0.42	158	4
+2017-10-06	1	UK	Mobile	Other	53	0.38	137	1
+2017-10-06	1	Rest of World	Desktop	Chrome	823	0.51	182	4
+2017-10-06	1	Rest of World	Desktop	Safari	645	0.4	189	3
+2017-10-06	1	Rest of World	Desktop	Other	357	0.56	191	3
+2017-10-06	1	Rest of World	Tablet	Chrome	106	0.32	137	0
+2017-10-06	1	Rest of World	Tablet	Safari	85	0.39	112	1
+2017-10-06	1	Rest of World	Tablet	Other	131	0.39	111	3
+2017-10-06	1	Rest of World	Mobile	Chrome	214	0.34	124	3
+2017-10-06	1	Rest of World	Mobile	Safari	267	0.45	157	1
+2017-10-06	1	Rest of World	Mobile	Other	163	0.46	158	1
+2017-10-06	2	Australia	Desktop	Chrome	427	0.38	134	5
+2017-10-06	2	Australia	Desktop	Safari	210	0.53	183	1
+2017-10-06	2	Australia	Desktop	Other	222	0.56	112	1
+2017-10-06	2	Australia	Tablet	Chrome	133	0.51	190	1
+2017-10-06	2	Australia	Tablet	Safari	112	0.41	113	0
+2017-10-06	2	Australia	Tablet	Other	51	0.36	126	0
+2017-10-06	2	Australia	Mobile	Chrome	124	0.51	101	1
+2017-10-06	2	Australia	Mobile	Safari	128	0.35	193	1
+2017-10-06	2	Australia	Mobile	Other	134	0.4	151	0
+2017-10-06	2	Canada	Desktop	Chrome	274	0.39	180	2
+2017-10-06	2	Canada	Desktop	Safari	74	0.32	143	0
+2017-10-06	2	Canada	Desktop	Other	87	0.35	103	0
+2017-10-06	2	Canada	Tablet	Chrome	65	0.45	154	0
+2017-10-06	2	Canada	Tablet	Safari	20	0.42	105	0
+2017-10-06	2	Canada	Tablet	Other	23	0.46	192	0
+2017-10-06	2	Canada	Mobile	Chrome	101	0.46	143	1
+2017-10-06	2	Canada	Mobile	Safari	68	0.46	115	1
+2017-10-06	2	Canada	Mobile	Other	93	0.36	122	0
+2017-10-06	2	USA	Desktop	Chrome	537	0.55	175	3
+2017-10-06	2	USA	Desktop	Safari	270	0.34	160	4
+2017-10-06	2	USA	Desktop	Other	203	0.56	146	0
+2017-10-06	2	USA	Tablet	Chrome	121	0.53	120	2
+2017-10-06	2	USA	Tablet	Safari	52	0.36	177	1
+2017-10-06	2	USA	Tablet	Other	45	0.53	175	0
+2017-10-06	2	USA	Mobile	Chrome	410	0.51	130	3
+2017-10-06	2	USA	Mobile	Safari	341	0.42	153	1
+2017-10-06	2	USA	Mobile	Other	158	0.4	114	1
+2017-10-06	2	UK	Desktop	Chrome	377	0.41	179	4
+2017-10-06	2	UK	Desktop	Safari	298	0.53	133	1
+2017-10-06	2	UK	Desktop	Other	340	0.37	181	1
+2017-10-06	2	UK	Tablet	Chrome	107	0.47	147	0
+2017-10-06	2	UK	Tablet	Safari	66	0.47	138	0
+2017-10-06	2	UK	Tablet	Other	60	0.41	104	0
+2017-10-06	2	UK	Mobile	Chrome	205	0.53	196	1
+2017-10-06	2	UK	Mobile	Safari	80	0.43	124	1
+2017-10-06	2	UK	Mobile	Other	125	0.52	196	2
+2017-10-06	2	Rest of World	Desktop	Chrome	373	0.42	197	3
+2017-10-06	2	Rest of World	Desktop	Safari	221	0.38	130	4
+2017-10-06	2	Rest of World	Desktop	Other	200	0.48	187	3
+2017-10-06	2	Rest of World	Tablet	Chrome	272	0.54	127	2
+2017-10-06	2	Rest of World	Tablet	Safari	114	0.42	157	1
+2017-10-06	2	Rest of World	Tablet	Other	93	0.54	120	0
+2017-10-06	2	Rest of World	Mobile	Chrome	321	0.56	100	3
+2017-10-06	2	Rest of World	Mobile	Safari	223	0.37	136	2
+2017-10-06	2	Rest of World	Mobile	Other	119	0.56	135	2
+2017-10-07	0	Australia	Desktop	Chrome	292	0.44	162	2
+2017-10-07	0	Australia	Desktop	Safari	233	0.41	152	1
+2017-10-07	0	Australia	Desktop	Other	229	0.4	184	1
+2017-10-07	0	Australia	Tablet	Chrome	190	0.33	165	1
+2017-10-07	0	Australia	Tablet	Safari	91	0.45	141	2
+2017-10-07	0	Australia	Tablet	Other	108	0.57	114	1
+2017-10-07	0	Australia	Mobile	Chrome	210	0.39	184	1
+2017-10-07	0	Australia	Mobile	Safari	117	0.45	181	1
+2017-10-07	0	Australia	Mobile	Other	228	0.36	189	1
+2017-10-07	0	Canada	Desktop	Chrome	194	0.45	131	0
+2017-10-07	0	Canada	Desktop	Safari	137	0.5	119	2
+2017-10-07	0	Canada	Desktop	Other	56	0.33	198	1
+2017-10-07	0	Canada	Tablet	Chrome	42	0.47	197	0
+2017-10-07	0	Canada	Tablet	Safari	56	0.43	162	1
+2017-10-07	0	Canada	Tablet	Other	29	0.41	184	0
+2017-10-07	0	Canada	Mobile	Chrome	173	0.54	185	2
+2017-10-07	0	Canada	Mobile	Safari	86	0.38	116	0
+2017-10-07	0	Canada	Mobile	Other	102	0.46	116	1
+2017-10-07	0	USA	Desktop	Chrome	344	0.54	160	4
+2017-10-07	0	USA	Desktop	Safari	202	0.56	122	1
+2017-10-07	0	USA	Desktop	Other	186	0.34	109	2
+2017-10-07	0	USA	Tablet	Chrome	158	0.38	139	0
+2017-10-07	0	USA	Tablet	Safari	97	0.36	121	1
+2017-10-07	0	USA	Tablet	Other	62	0.39	121	0
+2017-10-07	0	USA	Mobile	Chrome	422	0.4	153	3
+2017-10-07	0	USA	Mobile	Safari	233	0.34	179	3
+2017-10-07	0	USA	Mobile	Other	215	0.39	140	0
+2017-10-07	0	UK	Desktop	Chrome	366	0.42	100	1
+2017-10-07	0	UK	Desktop	Safari	222	0.32	135	3
+2017-10-07	0	UK	Desktop	Other	192	0.42	197	1
+2017-10-07	0	UK	Tablet	Chrome	126	0.32	186	1
+2017-10-07	0	UK	Tablet	Safari	71	0.48	156	0
+2017-10-07	0	UK	Tablet	Other	95	0.34	147	0
+2017-10-07	0	UK	Mobile	Chrome	211	0.43	125	3
+2017-10-07	0	UK	Mobile	Safari	218	0.38	183	1
+2017-10-07	0	UK	Mobile	Other	116	0.43	134	1
+2017-10-07	0	Rest of World	Desktop	Chrome	681	0.52	164	3
+2017-10-07	0	Rest of World	Desktop	Safari	667	0.32	182	2
+2017-10-07	0	Rest of World	Desktop	Other	220	0.52	116	1
+2017-10-07	0	Rest of World	Tablet	Chrome	403	0.43	122	3
+2017-10-07	0	Rest of World	Tablet	Safari	182	0.39	189	1
+2017-10-07	0	Rest of World	Tablet	Other	136	0.46	114	1
+2017-10-07	0	Rest of World	Mobile	Chrome	406	0.49	198	1
+2017-10-07	0	Rest of World	Mobile	Safari	375	0.46	200	4
+2017-10-07	0	Rest of World	Mobile	Other	141	0.51	130	4
+2017-10-07	1	Australia	Desktop	Chrome	169	0.39	172	2
+2017-10-07	1	Australia	Desktop	Safari	139	0.35	186	0
+2017-10-07	1	Australia	Desktop	Other	102	0.34	185	1
+2017-10-07	1	Australia	Tablet	Chrome	50	0.4	165	1
+2017-10-07	1	Australia	Tablet	Safari	78	0.42	108	1
+2017-10-07	1	Australia	Tablet	Other	25	0.53	116	0
+2017-10-07	1	Australia	Mobile	Chrome	79	0.39	146	1
+2017-10-07	1	Australia	Mobile	Safari	66	0.39	200	0
+2017-10-07	1	Australia	Mobile	Other	74	0.4	194	0
+2017-10-07	1	Canada	Desktop	Chrome	84	0.46	167	1
+2017-10-07	1	Canada	Desktop	Safari	163	0.4	106	1
+2017-10-07	1	Canada	Desktop	Other	92	0.34	177	1
+2017-10-07	1	Canada	Tablet	Chrome	33	0.4	182	0
+2017-10-07	1	Canada	Tablet	Safari	27	0.55	164	0
+2017-10-07	1	Canada	Tablet	Other	20	0.38	196	0
+2017-10-07	1	Canada	Mobile	Chrome	42	0.42	193	0
+2017-10-07	1	Canada	Mobile	Safari	78	0.34	110	0
+2017-10-07	1	Canada	Mobile	Other	79	0.56	124	1
+2017-10-07	1	USA	Desktop	Chrome	254	0.42	170	4
+2017-10-07	1	USA	Desktop	Safari	317	0.54	176	2
+2017-10-07	1	USA	Desktop	Other	68	0.32	151	1
+2017-10-07	1	USA	Tablet	Chrome	122	0.35	125	0
+2017-10-07	1	USA	Tablet	Safari	77	0.34	101	2
+2017-10-07	1	USA	Tablet	Other	33	0.53	131	0
+2017-10-07	1	USA	Mobile	Chrome	106	0.32	182	2
+2017-10-07	1	USA	Mobile	Safari	108	0.35	152	1
+2017-10-07	1	USA	Mobile	Other	124	0.33	171	2
+2017-10-07	1	UK	Desktop	Chrome	263	0.48	185	4
+2017-10-07	1	UK	Desktop	Safari	146	0.5	190	1
+2017-10-07	1	UK	Desktop	Other	71	0.45	101	1
+2017-10-07	1	UK	Tablet	Chrome	50	0.51	115	0
+2017-10-07	1	UK	Tablet	Safari	72	0.55	151	0
+2017-10-07	1	UK	Tablet	Other	29	0.5	108	1
+2017-10-07	1	UK	Mobile	Chrome	223	0.32	121	0
+2017-10-07	1	UK	Mobile	Safari	76	0.54	128	1
+2017-10-07	1	UK	Mobile	Other	65	0.33	159	0
+2017-10-07	1	Rest of World	Desktop	Chrome	211	0.55	133	7
+2017-10-07	1	Rest of World	Desktop	Safari	296	0.51	113	5
+2017-10-07	1	Rest of World	Desktop	Other	202	0.46	123	2
+2017-10-07	1	Rest of World	Tablet	Chrome	115	0.49	139	2
+2017-10-07	1	Rest of World	Tablet	Safari	48	0.57	150	1
+2017-10-07	1	Rest of World	Tablet	Other	52	0.44	109	1
+2017-10-07	1	Rest of World	Mobile	Chrome	312	0.46	156	1
+2017-10-07	1	Rest of World	Mobile	Safari	151	0.56	122	3
+2017-10-07	1	Rest of World	Mobile	Other	126	0.36	118	1
+2017-10-07	2	Australia	Desktop	Chrome	243	0.37	129	2
+2017-10-07	2	Australia	Desktop	Safari	135	0.51	170	1
+2017-10-07	2	Australia	Desktop	Other	76	0.49	178	0
+2017-10-07	2	Australia	Tablet	Chrome	65	0.54	115	1
+2017-10-07	2	Australia	Tablet	Safari	30	0.35	139	0
+2017-10-07	2	Australia	Tablet	Other	25	0.45	135	0
+2017-10-07	2	Australia	Mobile	Chrome	115	0.39	140	2
+2017-10-07	2	Australia	Mobile	Safari	90	0.32	174	1
+2017-10-07	2	Australia	Mobile	Other	51	0.43	164	0
+2017-10-07	2	Canada	Desktop	Chrome	129	0.5	142	2
+2017-10-07	2	Canada	Desktop	Safari	56	0.36	107	0
+2017-10-07	2	Canada	Desktop	Other	48	0.39	166	0
+2017-10-07	2	Canada	Tablet	Chrome	25	0.38	139	0
+2017-10-07	2	Canada	Tablet	Safari	42	0.52	124	0
+2017-10-07	2	Canada	Tablet	Other	45	0.42	144	0
+2017-10-07	2	Canada	Mobile	Chrome	87	0.32	171	1
+2017-10-07	2	Canada	Mobile	Safari	37	0.44	154	0
+2017-10-07	2	Canada	Mobile	Other	55	0.39	119	0
+2017-10-07	2	USA	Desktop	Chrome	334	0.43	188	0
+2017-10-07	2	USA	Desktop	Safari	132	0.37	166	2
+2017-10-07	2	USA	Desktop	Other	122	0.34	197	3
+2017-10-07	2	USA	Tablet	Chrome	80	0.51	168	0
+2017-10-07	2	USA	Tablet	Safari	60	0.39	142	1
+2017-10-07	2	USA	Tablet	Other	46	0.57	115	0
+2017-10-07	2	USA	Mobile	Chrome	100	0.46	195	1
+2017-10-07	2	USA	Mobile	Safari	166	0.38	198	2
+2017-10-07	2	USA	Mobile	Other	67	0.5	186	0
+2017-10-07	2	UK	Desktop	Chrome	232	0.46	148	0
+2017-10-07	2	UK	Desktop	Safari	94	0.44	136	2
+2017-10-07	2	UK	Desktop	Other	46	0.56	108	0
+2017-10-07	2	UK	Tablet	Chrome	57	0.47	193	1
+2017-10-07	2	UK	Tablet	Safari	45	0.45	153	1
+2017-10-07	2	UK	Tablet	Other	21	0.47	198	0
+2017-10-07	2	UK	Mobile	Chrome	115	0.52	175	1
+2017-10-07	2	UK	Mobile	Safari	81	0.36	153	1
+2017-10-07	2	UK	Mobile	Other	135	0.51	128	0
+2017-10-07	2	Rest of World	Desktop	Chrome	291	0.51	200	2
+2017-10-07	2	Rest of World	Desktop	Safari	192	0.32	176	0
+2017-10-07	2	Rest of World	Desktop	Other	109	0.32	101	0
+2017-10-07	2	Rest of World	Tablet	Chrome	134	0.55	173	0
+2017-10-07	2	Rest of World	Tablet	Safari	42	0.34	102	0
+2017-10-07	2	Rest of World	Tablet	Other	29	0.42	121	0
+2017-10-07	2	Rest of World	Mobile	Chrome	253	0.48	124	2
+2017-10-07	2	Rest of World	Mobile	Safari	203	0.42	143	1
+2017-10-07	2	Rest of World	Mobile	Other	164	0.36	106	2
+2017-10-08	0	Australia	Desktop	Chrome	567	0.32	180	2
+2017-10-08	0	Australia	Desktop	Safari	263	0.57	175	6
+2017-10-08	0	Australia	Desktop	Other	190	0.41	194	2
+2017-10-08	0	Australia	Tablet	Chrome	370	0.36	147	2
+2017-10-08	0	Australia	Tablet	Safari	207	0.37	188	0
+2017-10-08	0	Australia	Tablet	Other	90	0.36	200	1
+2017-10-08	0	Australia	Mobile	Chrome	281	0.35	129	6
+2017-10-08	0	Australia	Mobile	Safari	432	0.48	171	4
+2017-10-08	0	Australia	Mobile	Other	288	0.39	135	0
+2017-10-08	0	Canada	Desktop	Chrome	203	0.46	101	2
+2017-10-08	0	Canada	Desktop	Safari	441	0.48	161	7
+2017-10-08	0	Canada	Desktop	Other	245	0.49	158	0
+2017-10-08	0	Canada	Tablet	Chrome	56	0.52	110	0
+2017-10-08	0	Canada	Tablet	Safari	74	0.34	151	1
+2017-10-08	0	Canada	Tablet	Other	37	0.34	114	0
+2017-10-08	0	Canada	Mobile	Chrome	324	0.41	103	0
+2017-10-08	0	Canada	Mobile	Safari	151	0.34	135	0
+2017-10-08	0	Canada	Mobile	Other	79	0.34	142	1
+2017-10-08	0	USA	Desktop	Chrome	464	0.4	179	4
+2017-10-08	0	USA	Desktop	Safari	579	0.46	103	4
+2017-10-08	0	USA	Desktop	Other	431	0.44	195	2
+2017-10-08	0	USA	Tablet	Chrome	150	0.4	109	2
+2017-10-08	0	USA	Tablet	Safari	141	0.36	178	1
+2017-10-08	0	USA	Tablet	Other	83	0.39	128	1
+2017-10-08	0	USA	Mobile	Chrome	571	0.5	125	2
+2017-10-08	0	USA	Mobile	Safari	248	0.51	136	2
+2017-10-08	0	USA	Mobile	Other	326	0.38	199	1
+2017-10-08	0	UK	Desktop	Chrome	708	0.47	105	3
+2017-10-08	0	UK	Desktop	Safari	285	0.52	171	1
+2017-10-08	0	UK	Desktop	Other	318	0.32	200	3
+2017-10-08	0	UK	Tablet	Chrome	223	0.38	160	2
+2017-10-08	0	UK	Tablet	Safari	118	0.53	160	1
+2017-10-08	0	UK	Tablet	Other	57	0.56	195	0
+2017-10-08	0	UK	Mobile	Chrome	419	0.34	128	3
+2017-10-08	0	UK	Mobile	Safari	164	0.32	157	1
+2017-10-08	0	UK	Mobile	Other	245	0.46	161	3
+2017-10-08	0	Rest of World	Desktop	Chrome	1791	0.44	173	9
+2017-10-08	0	Rest of World	Desktop	Safari	1109	0.5	137	5
+2017-10-08	0	Rest of World	Desktop	Other	539	0.37	143	0
+2017-10-08	0	Rest of World	Tablet	Chrome	619	0.55	165	4
+2017-10-08	0	Rest of World	Tablet	Safari	209	0.38	120	2
+2017-10-08	0	Rest of World	Tablet	Other	125	0.4	123	1
+2017-10-08	0	Rest of World	Mobile	Chrome	1071	0.46	104	13
+2017-10-08	0	Rest of World	Mobile	Safari	549	0.45	178	1
+2017-10-08	0	Rest of World	Mobile	Other	496	0.44	112	4
+2017-10-08	1	Australia	Desktop	Chrome	505	0.44	108	1
+2017-10-08	1	Australia	Desktop	Safari	166	0.52	199	0
+2017-10-08	1	Australia	Desktop	Other	178	0.5	175	2
+2017-10-08	1	Australia	Tablet	Chrome	111	0.51	172	0
+2017-10-08	1	Australia	Tablet	Safari	76	0.57	112	1
+2017-10-08	1	Australia	Tablet	Other	41	0.55	101	1
+2017-10-08	1	Australia	Mobile	Chrome	337	0.45	158	1
+2017-10-08	1	Australia	Mobile	Safari	150	0.39	114	2
+2017-10-08	1	Australia	Mobile	Other	160	0.52	182	1
+2017-10-08	1	Canada	Desktop	Chrome	193	0.32	124	1
+2017-10-08	1	Canada	Desktop	Safari	248	0.48	166	4
+2017-10-08	1	Canada	Desktop	Other	123	0.33	181	3
+2017-10-08	1	Canada	Tablet	Chrome	80	0.44	157	1
+2017-10-08	1	Canada	Tablet	Safari	38	0.35	124	0
+2017-10-08	1	Canada	Tablet	Other	33	0.42	105	0
+2017-10-08	1	Canada	Mobile	Chrome	85	0.43	116	1
+2017-10-08	1	Canada	Mobile	Safari	117	0.55	165	0
+2017-10-08	1	Canada	Mobile	Other	107	0.36	143	1
+2017-10-08	1	USA	Desktop	Chrome	350	0.45	110	4
+2017-10-08	1	USA	Desktop	Safari	442	0.33	133	1
+2017-10-08	1	USA	Desktop	Other	186	0.4	105	3
+2017-10-08	1	USA	Tablet	Chrome	111	0.45	159	1
+2017-10-08	1	USA	Tablet	Safari	68	0.34	136	1
+2017-10-08	1	USA	Tablet	Other	20	0.52	176	1
+2017-10-08	1	USA	Mobile	Chrome	386	0.32	152	4
+2017-10-08	1	USA	Mobile	Safari	110	0.44	118	3
+2017-10-08	1	USA	Mobile	Other	148	0.55	154	1
+2017-10-08	1	UK	Desktop	Chrome	487	0.37	168	1
+2017-10-08	1	UK	Desktop	Safari	253	0.33	121	1
+2017-10-08	1	UK	Desktop	Other	130	0.55	112	3
+2017-10-08	1	UK	Tablet	Chrome	63	0.4	157	1
+2017-10-08	1	UK	Tablet	Safari	35	0.43	159	0
+2017-10-08	1	UK	Tablet	Other	36	0.55	104	1
+2017-10-08	1	UK	Mobile	Chrome	154	0.36	175	3
+2017-10-08	1	UK	Mobile	Safari	150	0.54	117	0
+2017-10-08	1	UK	Mobile	Other	110	0.33	139	1
+2017-10-08	1	Rest of World	Desktop	Chrome	417	0.5	183	1
+2017-10-08	1	Rest of World	Desktop	Safari	267	0.33	199	4
+2017-10-08	1	Rest of World	Desktop	Other	194	0.57	145	2
+2017-10-08	1	Rest of World	Tablet	Chrome	257	0.48	141	4
+2017-10-08	1	Rest of World	Tablet	Safari	49	0.33	141	1
+2017-10-08	1	Rest of World	Tablet	Other	86	0.54	200	1
+2017-10-08	1	Rest of World	Mobile	Chrome	442	0.55	168	2
+2017-10-08	1	Rest of World	Mobile	Safari	410	0.49	179	0
+2017-10-08	1	Rest of World	Mobile	Other	187	0.39	140	1
+2017-10-08	2	Australia	Desktop	Chrome	188	0.52	186	2
+2017-10-08	2	Australia	Desktop	Safari	297	0.35	151	2
+2017-10-08	2	Australia	Desktop	Other	179	0.33	101	3
+2017-10-08	2	Australia	Tablet	Chrome	141	0.56	151	1
+2017-10-08	2	Australia	Tablet	Safari	73	0.34	133	0
+2017-10-08	2	Australia	Tablet	Other	39	0.35	119	0
+2017-10-08	2	Australia	Mobile	Chrome	205	0.37	172	0
+2017-10-08	2	Australia	Mobile	Safari	160	0.4	153	0
+2017-10-08	2	Australia	Mobile	Other	178	0.35	103	1
+2017-10-08	2	Canada	Desktop	Chrome	308	0.56	130	1
+2017-10-08	2	Canada	Desktop	Safari	135	0.53	196	0
+2017-10-08	2	Canada	Desktop	Other	206	0.52	186	1
+2017-10-08	2	Canada	Tablet	Chrome	68	0.57	178	0
+2017-10-08	2	Canada	Tablet	Safari	21	0.44	132	0
+2017-10-08	2	Canada	Tablet	Other	55	0.43	104	0
+2017-10-08	2	Canada	Mobile	Chrome	195	0.41	192	3
+2017-10-08	2	Canada	Mobile	Safari	139	0.57	195	1
+2017-10-08	2	Canada	Mobile	Other	111	0.42	152	1
+2017-10-08	2	USA	Desktop	Chrome	584	0.51	188	7
+2017-10-08	2	USA	Desktop	Safari	445	0.32	131	0
+2017-10-08	2	USA	Desktop	Other	138	0.34	165	2
+2017-10-08	2	USA	Tablet	Chrome	63	0.48	153	0
+2017-10-08	2	USA	Tablet	Safari	108	0.41	103	0
+2017-10-08	2	USA	Tablet	Other	102	0.43	145	0
+2017-10-08	2	USA	Mobile	Chrome	295	0.34	193	3
+2017-10-08	2	USA	Mobile	Safari	264	0.52	100	1
+2017-10-08	2	USA	Mobile	Other	119	0.55	102	0
+2017-10-08	2	UK	Desktop	Chrome	224	0.5	185	0
+2017-10-08	2	UK	Desktop	Safari	258	0.47	200	1
+2017-10-08	2	UK	Desktop	Other	190	0.57	132	0
+2017-10-08	2	UK	Tablet	Chrome	56	0.52	182	0
+2017-10-08	2	UK	Tablet	Safari	65	0.49	104	1
+2017-10-08	2	UK	Tablet	Other	60	0.33	195	1
+2017-10-08	2	UK	Mobile	Chrome	217	0.37	154	1
+2017-10-08	2	UK	Mobile	Safari	213	0.55	191	1
+2017-10-08	2	UK	Mobile	Other	140	0.37	175	1
+2017-10-08	2	Rest of World	Desktop	Chrome	543	0.49	100	10
+2017-10-08	2	Rest of World	Desktop	Safari	274	0.45	189	1
+2017-10-08	2	Rest of World	Desktop	Other	288	0.52	181	2
+2017-10-08	2	Rest of World	Tablet	Chrome	136	0.54	105	1
+2017-10-08	2	Rest of World	Tablet	Safari	83	0.32	160	1
+2017-10-08	2	Rest of World	Tablet	Other	67	0.53	200	0
+2017-10-08	2	Rest of World	Mobile	Chrome	388	0.56	168	3
+2017-10-08	2	Rest of World	Mobile	Safari	311	0.52	109	0
+2017-10-08	2	Rest of World	Mobile	Other	190	0.4	108	1
+2017-10-09	0	Australia	Desktop	Chrome	1336	0.51	107	3
+2017-10-09	0	Australia	Desktop	Safari	607	0.57	159	10
+2017-10-09	0	Australia	Desktop	Other	898	0.47	131	6
+2017-10-09	0	Australia	Tablet	Chrome	652	0.53	171	0
+2017-10-09	0	Australia	Tablet	Safari	230	0.46	116	0
+2017-10-09	0	Australia	Tablet	Other	162	0.48	167	1
+2017-10-09	0	Australia	Mobile	Chrome	871	0.36	130	12
+2017-10-09	0	Australia	Mobile	Safari	572	0.4	171	1
+2017-10-09	0	Australia	Mobile	Other	304	0.43	133	7
+2017-10-09	0	Canada	Desktop	Chrome	1053	0.47	109	8
+2017-10-09	0	Canada	Desktop	Safari	472	0.46	179	5
+2017-10-09	0	Canada	Desktop	Other	595	0.51	158	5
+2017-10-09	0	Canada	Tablet	Chrome	326	0.49	182	0
+2017-10-09	0	Canada	Tablet	Safari	158	0.41	113	1
+2017-10-09	0	Canada	Tablet	Other	92	0.53	123	0
+2017-10-09	0	Canada	Mobile	Chrome	672	0.39	193	3
+2017-10-09	0	Canada	Mobile	Safari	286	0.41	190	1
+2017-10-09	0	Canada	Mobile	Other	158	0.53	112	4
+2017-10-09	0	USA	Desktop	Chrome	2148	0.38	142	11
+2017-10-09	0	USA	Desktop	Safari	1528	0.48	124	11
+2017-10-09	0	USA	Desktop	Other	1366	0.43	144	19
+2017-10-09	0	USA	Tablet	Chrome	368	0.44	107	3
+2017-10-09	0	USA	Tablet	Safari	265	0.5	156	2
+2017-10-09	0	USA	Tablet	Other	148	0.49	163	1
+2017-10-09	0	USA	Mobile	Chrome	965	0.47	153	28
+2017-10-09	0	USA	Mobile	Safari	1079	0.41	122	3
+2017-10-09	0	USA	Mobile	Other	629	0.34	195	0
+2017-10-09	0	UK	Desktop	Chrome	1336	0.34	111	1
+2017-10-09	0	UK	Desktop	Safari	635	0.53	111	4
+2017-10-09	0	UK	Desktop	Other	483	0.41	126	7
+2017-10-09	0	UK	Tablet	Chrome	306	0.32	161	2
+2017-10-09	0	UK	Tablet	Safari	398	0.53	108	6
+2017-10-09	0	UK	Tablet	Other	241	0.39	142	1
+2017-10-09	0	UK	Mobile	Chrome	1074	0.55	158	4
+2017-10-09	0	UK	Mobile	Safari	601	0.42	112	4
+2017-10-09	0	UK	Mobile	Other	233	0.52	183	2
+2017-10-09	0	Rest of World	Desktop	Chrome	1358	0.44	108	26
+2017-10-09	0	Rest of World	Desktop	Safari	869	0.53	144	3
+2017-10-09	0	Rest of World	Desktop	Other	725	0.48	102	13
+2017-10-09	0	Rest of World	Tablet	Chrome	736	0.4	145	3
+2017-10-09	0	Rest of World	Tablet	Safari	567	0.39	198	1
+2017-10-09	0	Rest of World	Tablet	Other	500	0.36	133	4
+2017-10-09	0	Rest of World	Mobile	Chrome	1123	0.34	106	17
+2017-10-09	0	Rest of World	Mobile	Safari	1347	0.51	175	8
+2017-10-09	0	Rest of World	Mobile	Other	782	0.36	112	4
+2017-10-09	1	Australia	Desktop	Chrome	869	0.36	157	3
+2017-10-09	1	Australia	Desktop	Safari	685	0.4	150	7
+2017-10-09	1	Australia	Desktop	Other	140	0.37	116	0
+2017-10-09	1	Australia	Tablet	Chrome	185	0.33	101	0
+2017-10-09	1	Australia	Tablet	Safari	237	0.37	108	2
+2017-10-09	1	Australia	Tablet	Other	50	0.4	155	1
+2017-10-09	1	Australia	Mobile	Chrome	673	0.48	144	1
+2017-10-09	1	Australia	Mobile	Safari	333	0.51	172	1
+2017-10-09	1	Australia	Mobile	Other	189	0.43	116	0
+2017-10-09	1	Canada	Desktop	Chrome	437	0.5	167	14
+2017-10-09	1	Canada	Desktop	Safari	355	0.53	130	4
+2017-10-09	1	Canada	Desktop	Other	129	0.5	137	2
+2017-10-09	1	Canada	Tablet	Chrome	118	0.43	186	0
+2017-10-09	1	Canada	Tablet	Safari	168	0.38	114	1
+2017-10-09	1	Canada	Tablet	Other	110	0.36	192	2
+2017-10-09	1	Canada	Mobile	Chrome	399	0.4	186	7
+2017-10-09	1	Canada	Mobile	Safari	216	0.47	138	3
+2017-10-09	1	Canada	Mobile	Other	136	0.42	191	1
+2017-10-09	1	USA	Desktop	Chrome	627	0.55	165	16
+2017-10-09	1	USA	Desktop	Safari	653	0.39	162	0
+2017-10-09	1	USA	Desktop	Other	317	0.44	146	8
+2017-10-09	1	USA	Tablet	Chrome	247	0.33	123	5
+2017-10-09	1	USA	Tablet	Safari	200	0.53	179	1
+2017-10-09	1	USA	Tablet	Other	113	0.47	180	2
+2017-10-09	1	USA	Mobile	Chrome	895	0.35	191	7
+2017-10-09	1	USA	Mobile	Safari	727	0.4	115	4
+2017-10-09	1	USA	Mobile	Other	308	0.49	167	1
+2017-10-09	1	UK	Desktop	Chrome	632	0.47	175	4
+2017-10-09	1	UK	Desktop	Safari	683	0.51	136	3
+2017-10-09	1	UK	Desktop	Other	468	0.34	137	1
+2017-10-09	1	UK	Tablet	Chrome	175	0.48	124	0
+2017-10-09	1	UK	Tablet	Safari	172	0.51	186	2
+2017-10-09	1	UK	Tablet	Other	35	0.34	109	1
+2017-10-09	1	UK	Mobile	Chrome	570	0.38	146	7
+2017-10-09	1	UK	Mobile	Safari	456	0.48	168	4
+2017-10-09	1	UK	Mobile	Other	198	0.48	124	2
+2017-10-09	1	Rest of World	Desktop	Chrome	657	0.33	124	2
+2017-10-09	1	Rest of World	Desktop	Safari	539	0.46	131	0
+2017-10-09	1	Rest of World	Desktop	Other	885	0.55	152	8
+2017-10-09	1	Rest of World	Tablet	Chrome	345	0.43	150	3
+2017-10-09	1	Rest of World	Tablet	Safari	124	0.55	142	1
+2017-10-09	1	Rest of World	Tablet	Other	199	0.57	147	2
+2017-10-09	1	Rest of World	Mobile	Chrome	368	0.56	102	7
+2017-10-09	1	Rest of World	Mobile	Safari	656	0.57	129	1
+2017-10-09	1	Rest of World	Mobile	Other	148	0.39	157	0
+2017-10-09	2	Australia	Desktop	Chrome	1081	0.57	131	4
+2017-10-09	2	Australia	Desktop	Safari	341	0.5	110	2
+2017-10-09	2	Australia	Desktop	Other	560	0.44	138	0
+2017-10-09	2	Australia	Tablet	Chrome	371	0.43	157	2
+2017-10-09	2	Australia	Tablet	Safari	126	0.46	185	2
+2017-10-09	2	Australia	Tablet	Other	110	0.43	171	1
+2017-10-09	2	Australia	Mobile	Chrome	451	0.55	176	0
+2017-10-09	2	Australia	Mobile	Safari	408	0.47	179	8
+2017-10-09	2	Australia	Mobile	Other	252	0.42	193	3
+2017-10-09	2	Canada	Desktop	Chrome	189	0.5	121	3
+2017-10-09	2	Canada	Desktop	Safari	472	0.32	137	0
+2017-10-09	2	Canada	Desktop	Other	167	0.55	113	1
+2017-10-09	2	Canada	Tablet	Chrome	179	0.48	176	0
+2017-10-09	2	Canada	Tablet	Safari	74	0.45	192	0
+2017-10-09	2	Canada	Tablet	Other	42	0.45	150	1
+2017-10-09	2	Canada	Mobile	Chrome	224	0.42	108	0
+2017-10-09	2	Canada	Mobile	Safari	171	0.42	106	2
+2017-10-09	2	Canada	Mobile	Other	76	0.46	195	0
+2017-10-09	2	USA	Desktop	Chrome	985	0.51	199	2
+2017-10-09	2	USA	Desktop	Safari	497	0.55	104	3
+2017-10-09	2	USA	Desktop	Other	320	0.37	105	0
+2017-10-09	2	USA	Tablet	Chrome	118	0.41	132	0
+2017-10-09	2	USA	Tablet	Safari	108	0.53	165	0
+2017-10-09	2	USA	Tablet	Other	64	0.35	200	0
+2017-10-09	2	USA	Mobile	Chrome	464	0.39	153	1
+2017-10-09	2	USA	Mobile	Safari	332	0.34	120	1
+2017-10-09	2	USA	Mobile	Other	153	0.42	140	2
+2017-10-09	2	UK	Desktop	Chrome	526	0.46	145	5
+2017-10-09	2	UK	Desktop	Safari	485	0.53	191	4
+2017-10-09	2	UK	Desktop	Other	459	0.37	174	6
+2017-10-09	2	UK	Tablet	Chrome	170	0.38	193	0
+2017-10-09	2	UK	Tablet	Safari	261	0.33	120	0
+2017-10-09	2	UK	Tablet	Other	108	0.56	126	0
+2017-10-09	2	UK	Mobile	Chrome	348	0.43	141	3
+2017-10-09	2	UK	Mobile	Safari	291	0.41	185	1
+2017-10-09	2	UK	Mobile	Other	216	0.41	105	1
+2017-10-09	2	Rest of World	Desktop	Chrome	962	0.47	127	7
+2017-10-09	2	Rest of World	Desktop	Safari	378	0.56	150	5
+2017-10-09	2	Rest of World	Desktop	Other	587	0.41	167	2
+2017-10-09	2	Rest of World	Tablet	Chrome	145	0.33	194	0
+2017-10-09	2	Rest of World	Tablet	Safari	471	0.52	101	1
+2017-10-09	2	Rest of World	Tablet	Other	80	0.47	171	1
+2017-10-09	2	Rest of World	Mobile	Chrome	551	0.35	104	8
+2017-10-09	2	Rest of World	Mobile	Safari	690	0.52	190	3
+2017-10-09	2	Rest of World	Mobile	Other	316	0.57	167	1
+2017-10-10	0	Australia	Desktop	Chrome	1421	0.46	124	14
+2017-10-10	0	Australia	Desktop	Safari	410	0.41	107	4
+2017-10-10	0	Australia	Desktop	Other	350	0.51	122	2
+2017-10-10	0	Australia	Tablet	Chrome	396	0.57	194	5
+2017-10-10	0	Australia	Tablet	Safari	139	0.42	167	2
+2017-10-10	0	Australia	Tablet	Other	133	0.44	157	0
+2017-10-10	0	Australia	Mobile	Chrome	557	0.37	109	2
+2017-10-10	0	Australia	Mobile	Safari	469	0.38	168	5
+2017-10-10	0	Australia	Mobile	Other	280	0.54	110	5
+2017-10-10	0	Canada	Desktop	Chrome	826	0.42	184	5
+2017-10-10	0	Canada	Desktop	Safari	522	0.57	187	6
+2017-10-10	0	Canada	Desktop	Other	366	0.56	188	4
+2017-10-10	0	Canada	Tablet	Chrome	366	0.49	174	2
+2017-10-10	0	Canada	Tablet	Safari	79	0.46	127	0
+2017-10-10	0	Canada	Tablet	Other	96	0.33	193	1
+2017-10-10	0	Canada	Mobile	Chrome	324	0.53	152	4
+2017-10-10	0	Canada	Mobile	Safari	331	0.57	132	2
+2017-10-10	0	Canada	Mobile	Other	194	0.52	188	2
+2017-10-10	0	USA	Desktop	Chrome	603	0.49	148	4
+2017-10-10	0	USA	Desktop	Safari	652	0.52	127	11
+2017-10-10	0	USA	Desktop	Other	1031	0.55	192	3
+2017-10-10	0	USA	Tablet	Chrome	211	0.41	150	3
+2017-10-10	0	USA	Tablet	Safari	447	0.32	114	4
+2017-10-10	0	USA	Tablet	Other	78	0.39	166	2
+2017-10-10	0	USA	Mobile	Chrome	778	0.52	123	10
+2017-10-10	0	USA	Mobile	Safari	264	0.47	136	2
+2017-10-10	0	USA	Mobile	Other	420	0.44	182	1
+2017-10-10	0	UK	Desktop	Chrome	804	0.54	119	6
+2017-10-10	0	UK	Desktop	Safari	414	0.4	190	4
+2017-10-10	0	UK	Desktop	Other	414	0.38	160	3
+2017-10-10	0	UK	Tablet	Chrome	264	0.4	114	2
+2017-10-10	0	UK	Tablet	Safari	319	0.52	163	0
+2017-10-10	0	UK	Tablet	Other	156	0.53	162	2
+2017-10-10	0	UK	Mobile	Chrome	364	0.54	120	1
+2017-10-10	0	UK	Mobile	Safari	610	0.5	136	3
+2017-10-10	0	UK	Mobile	Other	184	0.36	196	1
+2017-10-10	0	Rest of World	Desktop	Chrome	3235	0.54	126	10
+2017-10-10	0	Rest of World	Desktop	Safari	1340	0.42	116	2
+2017-10-10	0	Rest of World	Desktop	Other	636	0.41	186	5
+2017-10-10	0	Rest of World	Tablet	Chrome	313	0.53	165	4
+2017-10-10	0	Rest of World	Tablet	Safari	312	0.32	112	0
+2017-10-10	0	Rest of World	Tablet	Other	332	0.52	185	0
+2017-10-10	0	Rest of World	Mobile	Chrome	953	0.33	121	3
+2017-10-10	0	Rest of World	Mobile	Safari	614	0.37	171	6
+2017-10-10	0	Rest of World	Mobile	Other	484	0.49	148	1
+2017-10-10	1	Australia	Desktop	Chrome	420	0.39	143	1
+2017-10-10	1	Australia	Desktop	Safari	177	0.34	179	1
+2017-10-10	1	Australia	Desktop	Other	337	0.4	154	7
+2017-10-10	1	Australia	Tablet	Chrome	299	0.56	105	0
+2017-10-10	1	Australia	Tablet	Safari	157	0.47	112	0
+2017-10-10	1	Australia	Tablet	Other	53	0.48	164	0
+2017-10-10	1	Australia	Mobile	Chrome	378	0.33	184	4
+2017-10-10	1	Australia	Mobile	Safari	295	0.33	120	2
+2017-10-10	1	Australia	Mobile	Other	174	0.57	195	0
+2017-10-10	1	Canada	Desktop	Chrome	551	0.37	116	3
+2017-10-10	1	Canada	Desktop	Safari	135	0.38	190	1
+2017-10-10	1	Canada	Desktop	Other	89	0.51	183	0
+2017-10-10	1	Canada	Tablet	Chrome	57	0.55	111	1
+2017-10-10	1	Canada	Tablet	Safari	44	0.44	124	1
+2017-10-10	1	Canada	Tablet	Other	43	0.46	155	0
+2017-10-10	1	Canada	Mobile	Chrome	110	0.43	180	1
+2017-10-10	1	Canada	Mobile	Safari	67	0.38	162	1
+2017-10-10	1	Canada	Mobile	Other	99	0.45	167	2
+2017-10-10	1	USA	Desktop	Chrome	644	0.4	146	5
+2017-10-10	1	USA	Desktop	Safari	473	0.49	102	12
+2017-10-10	1	USA	Desktop	Other	430	0.41	124	4
+2017-10-10	1	USA	Tablet	Chrome	134	0.33	154	0
+2017-10-10	1	USA	Tablet	Safari	94	0.43	155	0
+2017-10-10	1	USA	Tablet	Other	114	0.53	171	0
+2017-10-10	1	USA	Mobile	Chrome	651	0.36	167	2
+2017-10-10	1	USA	Mobile	Safari	148	0.34	197	2
+2017-10-10	1	USA	Mobile	Other	308	0.34	161	1
+2017-10-10	1	UK	Desktop	Chrome	619	0.38	160	2
+2017-10-10	1	UK	Desktop	Safari	289	0.33	112	7
+2017-10-10	1	UK	Desktop	Other	363	0.57	154	3
+2017-10-10	1	UK	Tablet	Chrome	127	0.42	135	3
+2017-10-10	1	UK	Tablet	Safari	109	0.46	156	2
+2017-10-10	1	UK	Tablet	Other	59	0.51	182	1
+2017-10-10	1	UK	Mobile	Chrome	378	0.47	128	3
+2017-10-10	1	UK	Mobile	Safari	295	0.54	150	2
+2017-10-10	1	UK	Mobile	Other	58	0.39	135	1
+2017-10-10	1	Rest of World	Desktop	Chrome	712	0.38	168	2
+2017-10-10	1	Rest of World	Desktop	Safari	526	0.51	163	11
+2017-10-10	1	Rest of World	Desktop	Other	303	0.41	196	3
+2017-10-10	1	Rest of World	Tablet	Chrome	279	0.38	101	3
+2017-10-10	1	Rest of World	Tablet	Safari	119	0.37	181	2
+2017-10-10	1	Rest of World	Tablet	Other	82	0.49	173	1
+2017-10-10	1	Rest of World	Mobile	Chrome	579	0.52	150	7
+2017-10-10	1	Rest of World	Mobile	Safari	309	0.35	126	1
+2017-10-10	1	Rest of World	Mobile	Other	428	0.38	107	2
+2017-10-10	2	Australia	Desktop	Chrome	393	0.39	159	1
+2017-10-10	2	Australia	Desktop	Safari	646	0.52	169	3
+2017-10-10	2	Australia	Desktop	Other	315	0.41	135	5
+2017-10-10	2	Australia	Tablet	Chrome	157	0.55	200	0
+2017-10-10	2	Australia	Tablet	Safari	100	0.36	106	2
+2017-10-10	2	Australia	Tablet	Other	78	0.34	128	1
+2017-10-10	2	Australia	Mobile	Chrome	293	0.5	166	4
+2017-10-10	2	Australia	Mobile	Safari	244	0.4	185	0
+2017-10-10	2	Australia	Mobile	Other	161	0.32	111	1
+2017-10-10	2	Canada	Desktop	Chrome	240	0.38	129	5
+2017-10-10	2	Canada	Desktop	Safari	188	0.34	119	0
+2017-10-10	2	Canada	Desktop	Other	206	0.33	171	2
+2017-10-10	2	Canada	Tablet	Chrome	150	0.33	119	0
+2017-10-10	2	Canada	Tablet	Safari	66	0.34	120	0
+2017-10-10	2	Canada	Tablet	Other	41	0.57	142	0
+2017-10-10	2	Canada	Mobile	Chrome	213	0.45	163	0
+2017-10-10	2	Canada	Mobile	Safari	62	0.38	181	0
+2017-10-10	2	Canada	Mobile	Other	98	0.5	153	0
+2017-10-10	2	USA	Desktop	Chrome	530	0.35	111	4
+2017-10-10	2	USA	Desktop	Safari	443	0.42	194	1
+2017-10-10	2	USA	Desktop	Other	307	0.54	179	1
+2017-10-10	2	USA	Tablet	Chrome	108	0.51	110	3
+2017-10-10	2	USA	Tablet	Safari	80	0.44	134	2
+2017-10-10	2	USA	Tablet	Other	155	0.32	189	1
+2017-10-10	2	USA	Mobile	Chrome	276	0.33	148	5
+2017-10-10	2	USA	Mobile	Safari	341	0.38	121	0
+2017-10-10	2	USA	Mobile	Other	238	0.53	166	1
+2017-10-10	2	UK	Desktop	Chrome	253	0.4	114	2
+2017-10-10	2	UK	Desktop	Safari	570	0.43	180	7
+2017-10-10	2	UK	Desktop	Other	311	0.36	193	1
+2017-10-10	2	UK	Tablet	Chrome	112	0.34	138	2
+2017-10-10	2	UK	Tablet	Safari	73	0.44	151	1
+2017-10-10	2	UK	Tablet	Other	73	0.33	173	1
+2017-10-10	2	UK	Mobile	Chrome	279	0.5	152	0
+2017-10-10	2	UK	Mobile	Safari	107	0.48	175	1
+2017-10-10	2	UK	Mobile	Other	239	0.56	159	1
+2017-10-10	2	Rest of World	Desktop	Chrome	650	0.48	115	12
+2017-10-10	2	Rest of World	Desktop	Safari	518	0.53	183	8
+2017-10-10	2	Rest of World	Desktop	Other	242	0.35	109	0
+2017-10-10	2	Rest of World	Tablet	Chrome	488	0.53	144	0
+2017-10-10	2	Rest of World	Tablet	Safari	222	0.53	118	3
+2017-10-10	2	Rest of World	Tablet	Other	87	0.35	187	2
+2017-10-10	2	Rest of World	Mobile	Chrome	628	0.57	152	4
+2017-10-10	2	Rest of World	Mobile	Safari	707	0.55	117	3
+2017-10-10	2	Rest of World	Mobile	Other	208	0.57	152	1
+2017-10-11	0	Australia	Desktop	Chrome	503	0.32	151	1
+2017-10-11	0	Australia	Desktop	Safari	434	0.32	101	3
+2017-10-11	0	Australia	Desktop	Other	356	0.41	160	4
+2017-10-11	0	Australia	Tablet	Chrome	285	0.36	180	3
+2017-10-11	0	Australia	Tablet	Safari	124	0.37	110	1
+2017-10-11	0	Australia	Tablet	Other	88	0.55	163	1
+2017-10-11	0	Australia	Mobile	Chrome	567	0.4	179	3
+2017-10-11	0	Australia	Mobile	Safari	249	0.55	112	5
+2017-10-11	0	Australia	Mobile	Other	401	0.55	156	5
+2017-10-11	0	Canada	Desktop	Chrome	500	0.41	129	1
+2017-10-11	0	Canada	Desktop	Safari	310	0.49	151	1
+2017-10-11	0	Canada	Desktop	Other	243	0.38	183	1
+2017-10-11	0	Canada	Tablet	Chrome	146	0.38	171	1
+2017-10-11	0	Canada	Tablet	Safari	84	0.37	101	0
+2017-10-11	0	Canada	Tablet	Other	96	0.38	195	1
+2017-10-11	0	Canada	Mobile	Chrome	333	0.45	139	3
+2017-10-11	0	Canada	Mobile	Safari	191	0.53	118	1
+2017-10-11	0	Canada	Mobile	Other	146	0.57	183	2
+2017-10-11	0	USA	Desktop	Chrome	902	0.44	134	5
+2017-10-11	0	USA	Desktop	Safari	877	0.57	127	14
+2017-10-11	0	USA	Desktop	Other	722	0.53	123	1
+2017-10-11	0	USA	Tablet	Chrome	454	0.42	148	4
+2017-10-11	0	USA	Tablet	Safari	144	0.51	141	0
+2017-10-11	0	USA	Tablet	Other	145	0.42	157	1
+2017-10-11	0	USA	Mobile	Chrome	1335	0.36	116	5
+2017-10-11	0	USA	Mobile	Safari	472	0.37	103	2
+2017-10-11	0	USA	Mobile	Other	703	0.42	177	4
+2017-10-11	0	UK	Desktop	Chrome	709	0.44	186	3
+2017-10-11	0	UK	Desktop	Safari	1108	0.46	168	16
+2017-10-11	0	UK	Desktop	Other	399	0.5	123	3
+2017-10-11	0	UK	Tablet	Chrome	126	0.51	127	3
+2017-10-11	0	UK	Tablet	Safari	235	0.37	163	2
+2017-10-11	0	UK	Tablet	Other	110	0.38	196	0
+2017-10-11	0	UK	Mobile	Chrome	518	0.51	131	5
+2017-10-11	0	UK	Mobile	Safari	489	0.56	101	2
+2017-10-11	0	UK	Mobile	Other	203	0.56	152	4
+2017-10-11	0	Rest of World	Desktop	Chrome	920	0.52	145	4
+2017-10-11	0	Rest of World	Desktop	Safari	606	0.41	120	0
+2017-10-11	0	Rest of World	Desktop	Other	402	0.5	171	1
+2017-10-11	0	Rest of World	Tablet	Chrome	332	0.4	101	3
+2017-10-11	0	Rest of World	Tablet	Safari	591	0.41	108	5
+2017-10-11	0	Rest of World	Tablet	Other	203	0.43	132	1
+2017-10-11	0	Rest of World	Mobile	Chrome	656	0.46	170	3
+2017-10-11	0	Rest of World	Mobile	Safari	487	0.49	150	0
+2017-10-11	0	Rest of World	Mobile	Other	340	0.43	127	0
+2017-10-11	1	Australia	Desktop	Chrome	392	0.39	122	0
+2017-10-11	1	Australia	Desktop	Safari	208	0.37	163	3
+2017-10-11	1	Australia	Desktop	Other	110	0.52	183	0
+2017-10-11	1	Australia	Tablet	Chrome	96	0.32	141	0
+2017-10-11	1	Australia	Tablet	Safari	47	0.53	172	1
+2017-10-11	1	Australia	Tablet	Other	29	0.55	121	0
+2017-10-11	1	Australia	Mobile	Chrome	400	0.47	195	2
+2017-10-11	1	Australia	Mobile	Safari	159	0.55	133	1
+2017-10-11	1	Australia	Mobile	Other	64	0.36	172	0
+2017-10-11	1	Canada	Desktop	Chrome	317	0.36	197	4
+2017-10-11	1	Canada	Desktop	Safari	154	0.54	143	2
+2017-10-11	1	Canada	Desktop	Other	124	0.47	124	1
+2017-10-11	1	Canada	Tablet	Chrome	99	0.5	184	1
+2017-10-11	1	Canada	Tablet	Safari	59	0.43	191	1
+2017-10-11	1	Canada	Tablet	Other	47	0.37	136	0
+2017-10-11	1	Canada	Mobile	Chrome	123	0.45	104	3
+2017-10-11	1	Canada	Mobile	Safari	55	0.47	200	1
+2017-10-11	1	Canada	Mobile	Other	68	0.48	126	0
+2017-10-11	1	USA	Desktop	Chrome	558	0.37	162	2
+2017-10-11	1	USA	Desktop	Safari	510	0.34	181	11
+2017-10-11	1	USA	Desktop	Other	141	0.5	194	1
+2017-10-11	1	USA	Tablet	Chrome	193	0.41	121	4
+2017-10-11	1	USA	Tablet	Safari	127	0.54	193	2
+2017-10-11	1	USA	Tablet	Other	48	0.54	148	1
+2017-10-11	1	USA	Mobile	Chrome	307	0.34	144	4
+2017-10-11	1	USA	Mobile	Safari	136	0.43	142	0
+2017-10-11	1	USA	Mobile	Other	188	0.36	148	1
+2017-10-11	1	UK	Desktop	Chrome	226	0.53	114	2
+2017-10-11	1	UK	Desktop	Safari	118	0.4	197	2
+2017-10-11	1	UK	Desktop	Other	281	0.48	172	0
+2017-10-11	1	UK	Tablet	Chrome	107	0.39	102	2
+2017-10-11	1	UK	Tablet	Safari	96	0.46	121	3
+2017-10-11	1	UK	Tablet	Other	40	0.36	157	1
+2017-10-11	1	UK	Mobile	Chrome	236	0.4	129	4
+2017-10-11	1	UK	Mobile	Safari	80	0.34	143	1
+2017-10-11	1	UK	Mobile	Other	218	0.41	189	1
+2017-10-11	1	Rest of World	Desktop	Chrome	456	0.44	147	0
+2017-10-11	1	Rest of World	Desktop	Safari	564	0.44	133	8
+2017-10-11	1	Rest of World	Desktop	Other	540	0.48	190	3
+2017-10-11	1	Rest of World	Tablet	Chrome	100	0.4	130	1
+2017-10-11	1	Rest of World	Tablet	Safari	104	0.49	139	3
+2017-10-11	1	Rest of World	Tablet	Other	95	0.35	189	0
+2017-10-11	1	Rest of World	Mobile	Chrome	1020	0.46	166	9
+2017-10-11	1	Rest of World	Mobile	Safari	255	0.49	120	6
+2017-10-11	1	Rest of World	Mobile	Other	183	0.32	165	0
+2017-10-11	2	Australia	Desktop	Chrome	196	0.52	153	1
+2017-10-11	2	Australia	Desktop	Safari	296	0.51	176	1
+2017-10-11	2	Australia	Desktop	Other	205	0.49	109	2
+2017-10-11	2	Australia	Tablet	Chrome	171	0.33	127	0
+2017-10-11	2	Australia	Tablet	Safari	102	0.42	186	1
+2017-10-11	2	Australia	Tablet	Other	38	0.39	195	1
+2017-10-11	2	Australia	Mobile	Chrome	392	0.33	141	3
+2017-10-11	2	Australia	Mobile	Safari	164	0.57	156	1
+2017-10-11	2	Australia	Mobile	Other	83	0.41	176	1
+2017-10-11	2	Canada	Desktop	Chrome	333	0.32	102	5
+2017-10-11	2	Canada	Desktop	Safari	195	0.44	194	2
+2017-10-11	2	Canada	Desktop	Other	94	0.42	139	0
+2017-10-11	2	Canada	Tablet	Chrome	99	0.55	140	1
+2017-10-11	2	Canada	Tablet	Safari	34	0.57	190	0
+2017-10-11	2	Canada	Tablet	Other	58	0.46	106	0
+2017-10-11	2	Canada	Mobile	Chrome	163	0.45	103	0
+2017-10-11	2	Canada	Mobile	Safari	40	0.45	162	1
+2017-10-11	2	Canada	Mobile	Other	123	0.39	125	1
+2017-10-11	2	USA	Desktop	Chrome	446	0.46	130	0
+2017-10-11	2	USA	Desktop	Safari	226	0.42	140	3
+2017-10-11	2	USA	Desktop	Other	401	0.32	152	0
+2017-10-11	2	USA	Tablet	Chrome	182	0.49	148	0
+2017-10-11	2	USA	Tablet	Safari	89	0.44	175	1
+2017-10-11	2	USA	Tablet	Other	84	0.32	143	0
+2017-10-11	2	USA	Mobile	Chrome	603	0.33	136	2
+2017-10-11	2	USA	Mobile	Safari	377	0.48	109	5
+2017-10-11	2	USA	Mobile	Other	132	0.41	127	1
+2017-10-11	2	UK	Desktop	Chrome	439	0.51	200	4
+2017-10-11	2	UK	Desktop	Safari	241	0.36	149	4
+2017-10-11	2	UK	Desktop	Other	284	0.54	126	1
+2017-10-11	2	UK	Tablet	Chrome	80	0.54	190	0
+2017-10-11	2	UK	Tablet	Safari	72	0.56	195	1
+2017-10-11	2	UK	Tablet	Other	69	0.42	176	1
+2017-10-11	2	UK	Mobile	Chrome	274	0.44	177	0
+2017-10-11	2	UK	Mobile	Safari	274	0.44	155	3
+2017-10-11	2	UK	Mobile	Other	137	0.5	147	0
+2017-10-11	2	Rest of World	Desktop	Chrome	688	0.48	177	8
+2017-10-11	2	Rest of World	Desktop	Safari	723	0.52	189	8
+2017-10-11	2	Rest of World	Desktop	Other	316	0.51	164	6
+2017-10-11	2	Rest of World	Tablet	Chrome	100	0.48	104	3
+2017-10-11	2	Rest of World	Tablet	Safari	107	0.37	164	1
+2017-10-11	2	Rest of World	Tablet	Other	90	0.46	100	2
+2017-10-11	2	Rest of World	Mobile	Chrome	412	0.35	117	0
+2017-10-11	2	Rest of World	Mobile	Safari	304	0.33	120	0
+2017-10-11	2	Rest of World	Mobile	Other	235	0.54	186	3
+2017-10-12	0	Australia	Desktop	Chrome	1520	0.39	195	0
+2017-10-12	0	Australia	Desktop	Safari	354	0.54	141	1
+2017-10-12	0	Australia	Desktop	Other	212	0.39	192	6
+2017-10-12	0	Australia	Tablet	Chrome	213	0.55	115	2
+2017-10-12	0	Australia	Tablet	Safari	258	0.46	123	1
+2017-10-12	0	Australia	Tablet	Other	145	0.38	149	1
+2017-10-12	0	Australia	Mobile	Chrome	319	0.51	156	5
+2017-10-12	0	Australia	Mobile	Safari	427	0.36	151	4
+2017-10-12	0	Australia	Mobile	Other	307	0.43	200	2
+2017-10-12	0	Canada	Desktop	Chrome	487	0.5	128	1
+2017-10-12	0	Canada	Desktop	Safari	628	0.32	138	2
+2017-10-12	0	Canada	Desktop	Other	350	0.41	103	1
+2017-10-12	0	Canada	Tablet	Chrome	198	0.33	136	2
+2017-10-12	0	Canada	Tablet	Safari	75	0.32	110	0
+2017-10-12	0	Canada	Tablet	Other	55	0.37	123	0
+2017-10-12	0	Canada	Mobile	Chrome	407	0.42	174	5
+2017-10-12	0	Canada	Mobile	Safari	264	0.51	116	0
+2017-10-12	0	Canada	Mobile	Other	90	0.52	102	2
+2017-10-12	0	USA	Desktop	Chrome	629	0.46	140	12
+2017-10-12	0	USA	Desktop	Safari	503	0.46	101	2
+2017-10-12	0	USA	Desktop	Other	607	0.46	188	4
+2017-10-12	0	USA	Tablet	Chrome	258	0.49	190	1
+2017-10-12	0	USA	Tablet	Safari	132	0.56	144	1
+2017-10-12	0	USA	Tablet	Other	176	0.44	195	3
+2017-10-12	0	USA	Mobile	Chrome	701	0.51	140	9
+2017-10-12	0	USA	Mobile	Safari	625	0.4	115	1
+2017-10-12	0	USA	Mobile	Other	166	0.52	101	1
+2017-10-12	0	UK	Desktop	Chrome	369	0.51	188	3
+2017-10-12	0	UK	Desktop	Safari	443	0.34	197	1
+2017-10-12	0	UK	Desktop	Other	277	0.46	194	4
+2017-10-12	0	UK	Tablet	Chrome	156	0.41	179	2
+2017-10-12	0	UK	Tablet	Safari	93	0.46	105	1
+2017-10-12	0	UK	Tablet	Other	107	0.54	161	0
+2017-10-12	0	UK	Mobile	Chrome	262	0.46	174	1
+2017-10-12	0	UK	Mobile	Safari	187	0.37	122	0
+2017-10-12	0	UK	Mobile	Other	138	0.32	137	1
+2017-10-12	0	Rest of World	Desktop	Chrome	1487	0.48	141	0
+2017-10-12	0	Rest of World	Desktop	Safari	665	0.37	144	11
+2017-10-12	0	Rest of World	Desktop	Other	658	0.39	179	5
+2017-10-12	0	Rest of World	Tablet	Chrome	413	0.55	128	5
+2017-10-12	0	Rest of World	Tablet	Safari	310	0.53	136	0
+2017-10-12	0	Rest of World	Tablet	Other	326	0.54	194	2
+2017-10-12	0	Rest of World	Mobile	Chrome	637	0.4	186	5
+2017-10-12	0	Rest of World	Mobile	Safari	406	0.45	106	2
+2017-10-12	0	Rest of World	Mobile	Other	359	0.34	195	6
+2017-10-12	1	Australia	Desktop	Chrome	250	0.35	117	5
+2017-10-12	1	Australia	Desktop	Safari	386	0.42	197	1
+2017-10-12	1	Australia	Desktop	Other	144	0.57	193	2
+2017-10-12	1	Australia	Tablet	Chrome	71	0.49	113	0
+2017-10-12	1	Australia	Tablet	Safari	93	0.35	100	1
+2017-10-12	1	Australia	Tablet	Other	32	0.48	132	1
+2017-10-12	1	Australia	Mobile	Chrome	310	0.49	151	1
+2017-10-12	1	Australia	Mobile	Safari	163	0.46	118	1
+2017-10-12	1	Australia	Mobile	Other	109	0.54	174	1
+2017-10-12	1	Canada	Desktop	Chrome	297	0.5	142	5
+2017-10-12	1	Canada	Desktop	Safari	176	0.42	177	2
+2017-10-12	1	Canada	Desktop	Other	119	0.44	199	0
+2017-10-12	1	Canada	Tablet	Chrome	131	0.42	173	2
+2017-10-12	1	Canada	Tablet	Safari	49	0.46	173	1
+2017-10-12	1	Canada	Tablet	Other	80	0.33	110	1
+2017-10-12	1	Canada	Mobile	Chrome	129	0.39	130	0
+2017-10-12	1	Canada	Mobile	Safari	177	0.42	105	1
+2017-10-12	1	Canada	Mobile	Other	74	0.47	147	0
+2017-10-12	1	USA	Desktop	Chrome	559	0.55	175	4
+2017-10-12	1	USA	Desktop	Safari	160	0.47	190	0
+2017-10-12	1	USA	Desktop	Other	196	0.48	144	2
+2017-10-12	1	USA	Tablet	Chrome	114	0.49	113	3
+2017-10-12	1	USA	Tablet	Safari	161	0.34	160	0
+2017-10-12	1	USA	Tablet	Other	80	0.35	171	1
+2017-10-12	1	USA	Mobile	Chrome	127	0.33	112	3
+2017-10-12	1	USA	Mobile	Safari	169	0.38	131	3
+2017-10-12	1	USA	Mobile	Other	200	0.51	142	1
+2017-10-12	1	UK	Desktop	Chrome	255	0.44	127	4
+2017-10-12	1	UK	Desktop	Safari	506	0.41	127	3
+2017-10-12	1	UK	Desktop	Other	163	0.43	150	1
+2017-10-12	1	UK	Tablet	Chrome	138	0.38	135	1
+2017-10-12	1	UK	Tablet	Safari	44	0.45	193	0
+2017-10-12	1	UK	Tablet	Other	51	0.5	191	2
+2017-10-12	1	UK	Mobile	Chrome	167	0.37	106	0
+2017-10-12	1	UK	Mobile	Safari	117	0.49	145	1
+2017-10-12	1	UK	Mobile	Other	140	0.54	158	2
+2017-10-12	1	Rest of World	Desktop	Chrome	671	0.5	106	9
+2017-10-12	1	Rest of World	Desktop	Safari	312	0.43	162	5
+2017-10-12	1	Rest of World	Desktop	Other	352	0.39	111	1
+2017-10-12	1	Rest of World	Tablet	Chrome	431	0.51	119	7
+2017-10-12	1	Rest of World	Tablet	Safari	164	0.33	112	0
+2017-10-12	1	Rest of World	Tablet	Other	61	0.53	114	1
+2017-10-12	1	Rest of World	Mobile	Chrome	501	0.34	186	4
+2017-10-12	1	Rest of World	Mobile	Safari	420	0.37	180	4
+2017-10-12	1	Rest of World	Mobile	Other	241	0.47	118	2
+2017-10-12	2	Australia	Desktop	Chrome	630	0.54	117	4
+2017-10-12	2	Australia	Desktop	Safari	331	0.32	185	2
+2017-10-12	2	Australia	Desktop	Other	237	0.41	166	3
+2017-10-12	2	Australia	Tablet	Chrome	207	0.56	115	1
+2017-10-12	2	Australia	Tablet	Safari	79	0.41	156	1
+2017-10-12	2	Australia	Tablet	Other	55	0.4	100	0
+2017-10-12	2	Australia	Mobile	Chrome	206	0.32	155	0
+2017-10-12	2	Australia	Mobile	Safari	215	0.55	142	1
+2017-10-12	2	Australia	Mobile	Other	85	0.49	178	2
+2017-10-12	2	Canada	Desktop	Chrome	265	0.42	174	2
+2017-10-12	2	Canada	Desktop	Safari	88	0.43	192	1
+2017-10-12	2	Canada	Desktop	Other	117	0.56	188	1
+2017-10-12	2	Canada	Tablet	Chrome	101	0.56	100	1
+2017-10-12	2	Canada	Tablet	Safari	34	0.45	118	0
+2017-10-12	2	Canada	Tablet	Other	20	0.54	193	0
+2017-10-12	2	Canada	Mobile	Chrome	410	0.47	176	0
+2017-10-12	2	Canada	Mobile	Safari	79	0.4	143	2
+2017-10-12	2	Canada	Mobile	Other	40	0.48	142	0
+2017-10-12	2	USA	Desktop	Chrome	488	0.4	180	1
+2017-10-12	2	USA	Desktop	Safari	354	0.57	146	6
+2017-10-12	2	USA	Desktop	Other	357	0.56	197	0
+2017-10-12	2	USA	Tablet	Chrome	118	0.37	136	1
+2017-10-12	2	USA	Tablet	Safari	162	0.55	193	1
+2017-10-12	2	USA	Tablet	Other	120	0.56	139	1
+2017-10-12	2	USA	Mobile	Chrome	365	0.5	143	2
+2017-10-12	2	USA	Mobile	Safari	248	0.55	115	0
+2017-10-12	2	USA	Mobile	Other	130	0.39	199	0
+2017-10-12	2	UK	Desktop	Chrome	183	0.32	111	1
+2017-10-12	2	UK	Desktop	Safari	326	0.55	159	1
+2017-10-12	2	UK	Desktop	Other	127	0.46	166	1
+2017-10-12	2	UK	Tablet	Chrome	126	0.49	105	1
+2017-10-12	2	UK	Tablet	Safari	83	0.44	112	1
+2017-10-12	2	UK	Tablet	Other	54	0.4	159	0
+2017-10-12	2	UK	Mobile	Chrome	231	0.35	199	5
+2017-10-12	2	UK	Mobile	Safari	138	0.47	144	0
+2017-10-12	2	UK	Mobile	Other	108	0.41	182	1
+2017-10-12	2	Rest of World	Desktop	Chrome	716	0.38	190	2
+2017-10-12	2	Rest of World	Desktop	Safari	291	0.55	143	1
+2017-10-12	2	Rest of World	Desktop	Other	250	0.49	184	3
+2017-10-12	2	Rest of World	Tablet	Chrome	99	0.45	128	0
+2017-10-12	2	Rest of World	Tablet	Safari	169	0.36	188	0
+2017-10-12	2	Rest of World	Tablet	Other	70	0.33	134	0
+2017-10-12	2	Rest of World	Mobile	Chrome	474	0.47	134	7
+2017-10-12	2	Rest of World	Mobile	Safari	171	0.43	132	0
+2017-10-12	2	Rest of World	Mobile	Other	213	0.37	189	0
+2017-10-13	0	Australia	Desktop	Chrome	385	0.33	109	4
+2017-10-13	0	Australia	Desktop	Safari	731	0.35	139	1
+2017-10-13	0	Australia	Desktop	Other	441	0.4	128	8
+2017-10-13	0	Australia	Tablet	Chrome	227	0.53	121	1
+2017-10-13	0	Australia	Tablet	Safari	170	0.32	140	1
+2017-10-13	0	Australia	Tablet	Other	252	0.55	111	2
+2017-10-13	0	Australia	Mobile	Chrome	548	0.32	124	3
+2017-10-13	0	Australia	Mobile	Safari	524	0.56	101	2
+2017-10-13	0	Australia	Mobile	Other	273	0.49	155	2
+2017-10-13	0	Canada	Desktop	Chrome	503	0.52	123	2
+2017-10-13	0	Canada	Desktop	Safari	399	0.47	174	0
+2017-10-13	0	Canada	Desktop	Other	110	0.33	189	1
+2017-10-13	0	Canada	Tablet	Chrome	104	0.38	174	2
+2017-10-13	0	Canada	Tablet	Safari	65	0.52	160	0
+2017-10-13	0	Canada	Tablet	Other	43	0.51	112	1
+2017-10-13	0	Canada	Mobile	Chrome	312	0.46	198	2
+2017-10-13	0	Canada	Mobile	Safari	219	0.53	132	1
+2017-10-13	0	Canada	Mobile	Other	166	0.37	157	1
+2017-10-13	0	USA	Desktop	Chrome	383	0.4	125	2
+2017-10-13	0	USA	Desktop	Safari	787	0.35	125	5
+2017-10-13	0	USA	Desktop	Other	322	0.38	150	3
+2017-10-13	0	USA	Tablet	Chrome	276	0.56	187	0
+2017-10-13	0	USA	Tablet	Safari	224	0.51	116	0
+2017-10-13	0	USA	Tablet	Other	49	0.48	179	1
+2017-10-13	0	USA	Mobile	Chrome	555	0.51	164	3
+2017-10-13	0	USA	Mobile	Safari	575	0.48	181	4
+2017-10-13	0	USA	Mobile	Other	120	0.34	160	2
+2017-10-13	0	UK	Desktop	Chrome	873	0.45	187	6
+2017-10-13	0	UK	Desktop	Safari	509	0.48	141	2
+2017-10-13	0	UK	Desktop	Other	269	0.35	154	3
+2017-10-13	0	UK	Tablet	Chrome	202	0.45	130	2
+2017-10-13	0	UK	Tablet	Safari	169	0.52	145	1
+2017-10-13	0	UK	Tablet	Other	53	0.46	194	1
+2017-10-13	0	UK	Mobile	Chrome	419	0.34	159	5
+2017-10-13	0	UK	Mobile	Safari	477	0.53	181	0
+2017-10-13	0	UK	Mobile	Other	204	0.4	196	2
+2017-10-13	0	Rest of World	Desktop	Chrome	1323	0.56	114	9
+2017-10-13	0	Rest of World	Desktop	Safari	575	0.41	147	5
+2017-10-13	0	Rest of World	Desktop	Other	424	0.51	184	1
+2017-10-13	0	Rest of World	Tablet	Chrome	293	0.33	135	0
+2017-10-13	0	Rest of World	Tablet	Safari	377	0.57	119	0
+2017-10-13	0	Rest of World	Tablet	Other	281	0.48	199	0
+2017-10-13	0	Rest of World	Mobile	Chrome	619	0.56	109	9
+2017-10-13	0	Rest of World	Mobile	Safari	628	0.34	119	3
+2017-10-13	0	Rest of World	Mobile	Other	349	0.39	133	0
+2017-10-13	1	Australia	Desktop	Chrome	234	0.33	164	2
+2017-10-13	1	Australia	Desktop	Safari	226	0.52	189	2
+2017-10-13	1	Australia	Desktop	Other	120	0.47	120	2
+2017-10-13	1	Australia	Tablet	Chrome	148	0.54	108	1
+2017-10-13	1	Australia	Tablet	Safari	92	0.57	155	2
+2017-10-13	1	Australia	Tablet	Other	62	0.49	150	1
+2017-10-13	1	Australia	Mobile	Chrome	392	0.45	190	0
+2017-10-13	1	Australia	Mobile	Safari	292	0.32	156	2
+2017-10-13	1	Australia	Mobile	Other	78	0.51	179	0
+2017-10-13	1	Canada	Desktop	Chrome	289	0.45	185	4
+2017-10-13	1	Canada	Desktop	Safari	148	0.5	157	2
+2017-10-13	1	Canada	Desktop	Other	135	0.51	133	0
+2017-10-13	1	Canada	Tablet	Chrome	62	0.49	165	1
+2017-10-13	1	Canada	Tablet	Safari	27	0.5	186	1
+2017-10-13	1	Canada	Tablet	Other	19	0.47	116	0
+2017-10-13	1	Canada	Mobile	Chrome	113	0.5	200	0
+2017-10-13	1	Canada	Mobile	Safari	130	0.39	192	0
+2017-10-13	1	Canada	Mobile	Other	93	0.57	197	2
+2017-10-13	1	USA	Desktop	Chrome	637	0.41	147	2
+2017-10-13	1	USA	Desktop	Safari	350	0.38	116	0
+2017-10-13	1	USA	Desktop	Other	108	0.37	191	2
+2017-10-13	1	USA	Tablet	Chrome	138	0.34	122	2
+2017-10-13	1	USA	Tablet	Safari	61	0.39	166	0
+2017-10-13	1	USA	Tablet	Other	88	0.37	127	1
+2017-10-13	1	USA	Mobile	Chrome	251	0.4	128	3
+2017-10-13	1	USA	Mobile	Safari	96	0.46	121	1
+2017-10-13	1	USA	Mobile	Other	149	0.43	187	0
+2017-10-13	1	UK	Desktop	Chrome	157	0.52	190	1
+2017-10-13	1	UK	Desktop	Safari	151	0.57	173	0
+2017-10-13	1	UK	Desktop	Other	143	0.56	172	1
+2017-10-13	1	UK	Tablet	Chrome	119	0.47	131	1
+2017-10-13	1	UK	Tablet	Safari	47	0.36	171	0
+2017-10-13	1	UK	Tablet	Other	37	0.41	134	0
+2017-10-13	1	UK	Mobile	Chrome	117	0.56	196	2
+2017-10-13	1	UK	Mobile	Safari	258	0.36	115	1
+2017-10-13	1	UK	Mobile	Other	96	0.35	196	1
+2017-10-13	1	Rest of World	Desktop	Chrome	598	0.53	185	2
+2017-10-13	1	Rest of World	Desktop	Safari	360	0.45	143	0
+2017-10-13	1	Rest of World	Desktop	Other	137	0.35	199	2
+2017-10-13	1	Rest of World	Tablet	Chrome	162	0.57	186	0
+2017-10-13	1	Rest of World	Tablet	Safari	113	0.4	175	0
+2017-10-13	1	Rest of World	Tablet	Other	92	0.42	123	0
+2017-10-13	1	Rest of World	Mobile	Chrome	323	0.49	139	3
+2017-10-13	1	Rest of World	Mobile	Safari	237	0.36	180	1
+2017-10-13	1	Rest of World	Mobile	Other	287	0.42	118	3
+2017-10-13	2	Australia	Desktop	Chrome	209	0.53	160	2
+2017-10-13	2	Australia	Desktop	Safari	295	0.35	139	2
+2017-10-13	2	Australia	Desktop	Other	126	0.35	176	1
+2017-10-13	2	Australia	Tablet	Chrome	177	0.57	112	0
+2017-10-13	2	Australia	Tablet	Safari	74	0.38	179	0
+2017-10-13	2	Australia	Tablet	Other	55	0.37	123	0
+2017-10-13	2	Australia	Mobile	Chrome	198	0.36	171	5
+2017-10-13	2	Australia	Mobile	Safari	114	0.51	129	1
+2017-10-13	2	Australia	Mobile	Other	146	0.48	177	0
+2017-10-13	2	Canada	Desktop	Chrome	281	0.48	177	1
+2017-10-13	2	Canada	Desktop	Safari	136	0.5	143	0
+2017-10-13	2	Canada	Desktop	Other	97	0.49	139	0
+2017-10-13	2	Canada	Tablet	Chrome	76	0.54	170	0
+2017-10-13	2	Canada	Tablet	Safari	52	0.45	171	0
+2017-10-13	2	Canada	Tablet	Other	42	0.44	195	1
+2017-10-13	2	Canada	Mobile	Chrome	116	0.43	125	0
+2017-10-13	2	Canada	Mobile	Safari	279	0.46	144	3
+2017-10-13	2	Canada	Mobile	Other	41	0.54	139	0
+2017-10-13	2	USA	Desktop	Chrome	646	0.55	111	5
+2017-10-13	2	USA	Desktop	Safari	358	0.41	199	1
+2017-10-13	2	USA	Desktop	Other	155	0.41	115	1
+2017-10-13	2	USA	Tablet	Chrome	118	0.38	110	2
+2017-10-13	2	USA	Tablet	Safari	131	0.38	129	0
+2017-10-13	2	USA	Tablet	Other	47	0.53	116	0
+2017-10-13	2	USA	Mobile	Chrome	199	0.53	176	3
+2017-10-13	2	USA	Mobile	Safari	160	0.38	192	1
+2017-10-13	2	USA	Mobile	Other	149	0.37	183	0
+2017-10-13	2	UK	Desktop	Chrome	128	0.45	158	1
+2017-10-13	2	UK	Desktop	Safari	213	0.52	134	2
+2017-10-13	2	UK	Desktop	Other	157	0.33	104	1
+2017-10-13	2	UK	Tablet	Chrome	116	0.37	120	1
+2017-10-13	2	UK	Tablet	Safari	61	0.4	146	1
+2017-10-13	2	UK	Tablet	Other	79	0.34	148	0
+2017-10-13	2	UK	Mobile	Chrome	206	0.44	112	1
+2017-10-13	2	UK	Mobile	Safari	124	0.49	161	0
+2017-10-13	2	UK	Mobile	Other	93	0.49	155	2
+2017-10-13	2	Rest of World	Desktop	Chrome	509	0.46	121	14
+2017-10-13	2	Rest of World	Desktop	Safari	546	0.41	183	1
+2017-10-13	2	Rest of World	Desktop	Other	164	0.36	122	2
+2017-10-13	2	Rest of World	Tablet	Chrome	280	0.36	104	1
+2017-10-13	2	Rest of World	Tablet	Safari	132	0.55	169	1
+2017-10-13	2	Rest of World	Tablet	Other	64	0.46	107	0
+2017-10-13	2	Rest of World	Mobile	Chrome	242	0.48	154	0
+2017-10-13	2	Rest of World	Mobile	Safari	355	0.32	110	1
+2017-10-13	2	Rest of World	Mobile	Other	144	0.4	141	2
+2017-10-14	0	Australia	Desktop	Chrome	414	0.56	177	3
+2017-10-14	0	Australia	Desktop	Safari	441	0.33	111	3
+2017-10-14	0	Australia	Desktop	Other	326	0.41	102	1
+2017-10-14	0	Australia	Tablet	Chrome	246	0.42	166	2
+2017-10-14	0	Australia	Tablet	Safari	117	0.37	151	1
+2017-10-14	0	Australia	Tablet	Other	63	0.49	174	0
+2017-10-14	0	Australia	Mobile	Chrome	116	0.53	164	1
+2017-10-14	0	Australia	Mobile	Safari	141	0.47	140	2
+2017-10-14	0	Australia	Mobile	Other	228	0.36	198	2
+2017-10-14	0	Canada	Desktop	Chrome	247	0.52	196	3
+2017-10-14	0	Canada	Desktop	Safari	103	0.41	175	1
+2017-10-14	0	Canada	Desktop	Other	107	0.52	150	2
+2017-10-14	0	Canada	Tablet	Chrome	65	0.44	113	1
+2017-10-14	0	Canada	Tablet	Safari	70	0.54	187	0
+2017-10-14	0	Canada	Tablet	Other	29	0.57	185	0
+2017-10-14	0	Canada	Mobile	Chrome	208	0.36	147	1
+2017-10-14	0	Canada	Mobile	Safari	187	0.34	166	1
+2017-10-14	0	Canada	Mobile	Other	61	0.38	164	1
+2017-10-14	0	USA	Desktop	Chrome	754	0.45	144	8
+2017-10-14	0	USA	Desktop	Safari	433	0.53	112	4
+2017-10-14	0	USA	Desktop	Other	158	0.48	197	0
+2017-10-14	0	USA	Tablet	Chrome	92	0.53	180	0
+2017-10-14	0	USA	Tablet	Safari	96	0.47	178	1
+2017-10-14	0	USA	Tablet	Other	31	0.47	146	1
+2017-10-14	0	USA	Mobile	Chrome	211	0.45	114	0
+2017-10-14	0	USA	Mobile	Safari	123	0.43	176	1
+2017-10-14	0	USA	Mobile	Other	131	0.4	150	0
+2017-10-14	0	UK	Desktop	Chrome	235	0.45	123	4
+2017-10-14	0	UK	Desktop	Safari	190	0.39	162	3
+2017-10-14	0	UK	Desktop	Other	363	0.56	172	2
+2017-10-14	0	UK	Tablet	Chrome	137	0.41	197	1
+2017-10-14	0	UK	Tablet	Safari	68	0.57	104	0
+2017-10-14	0	UK	Tablet	Other	88	0.5	186	1
+2017-10-14	0	UK	Mobile	Chrome	266	0.36	108	1
+2017-10-14	0	UK	Mobile	Safari	236	0.49	171	0
+2017-10-14	0	UK	Mobile	Other	169	0.34	182	2
+2017-10-14	0	Rest of World	Desktop	Chrome	615	0.51	134	3
+2017-10-14	0	Rest of World	Desktop	Safari	687	0.52	150	5
+2017-10-14	0	Rest of World	Desktop	Other	309	0.45	115	1
+2017-10-14	0	Rest of World	Tablet	Chrome	327	0.45	168	3
+2017-10-14	0	Rest of World	Tablet	Safari	132	0.39	171	2
+2017-10-14	0	Rest of World	Tablet	Other	77	0.37	197	1
+2017-10-14	0	Rest of World	Mobile	Chrome	562	0.57	196	4
+2017-10-14	0	Rest of World	Mobile	Safari	274	0.32	106	2
+2017-10-14	0	Rest of World	Mobile	Other	320	0.35	180	0
+2017-10-14	1	Australia	Desktop	Chrome	181	0.49	116	0
+2017-10-14	1	Australia	Desktop	Safari	180	0.37	163	6
+2017-10-14	1	Australia	Desktop	Other	72	0.49	160	0
+2017-10-14	1	Australia	Tablet	Chrome	104	0.56	200	1
+2017-10-14	1	Australia	Tablet	Safari	38	0.43	104	0
+2017-10-14	1	Australia	Tablet	Other	21	0.45	152	1
+2017-10-14	1	Australia	Mobile	Chrome	131	0.32	116	0
+2017-10-14	1	Australia	Mobile	Safari	100	0.33	193	2
+2017-10-14	1	Australia	Mobile	Other	73	0.5	131	0
+2017-10-14	1	Canada	Desktop	Chrome	164	0.42	139	1
+2017-10-14	1	Canada	Desktop	Safari	154	0.38	193	3
+2017-10-14	1	Canada	Desktop	Other	73	0.37	130	1
+2017-10-14	1	Canada	Tablet	Chrome	29	0.41	120	0
+2017-10-14	1	Canada	Tablet	Safari	23	0.39	192	0
+2017-10-14	1	Canada	Tablet	Other	7	0.49	114	0
+2017-10-14	1	Canada	Mobile	Chrome	157	0.32	151	1
+2017-10-14	1	Canada	Mobile	Safari	65	0.54	129	1
+2017-10-14	1	Canada	Mobile	Other	30	0.34	112	0
+2017-10-14	1	USA	Desktop	Chrome	270	0.53	139	4
+2017-10-14	1	USA	Desktop	Safari	97	0.37	169	0
+2017-10-14	1	USA	Desktop	Other	75	0.32	108	2
+2017-10-14	1	USA	Tablet	Chrome	100	0.46	129	0
+2017-10-14	1	USA	Tablet	Safari	116	0.36	178	1
+2017-10-14	1	USA	Tablet	Other	67	0.39	139	1
+2017-10-14	1	USA	Mobile	Chrome	136	0.47	198	0
+2017-10-14	1	USA	Mobile	Safari	122	0.32	101	2
+2017-10-14	1	USA	Mobile	Other	126	0.39	109	3
+2017-10-14	1	UK	Desktop	Chrome	146	0.44	157	1
+2017-10-14	1	UK	Desktop	Safari	140	0.5	101	0
+2017-10-14	1	UK	Desktop	Other	126	0.49	121	1
+2017-10-14	1	UK	Tablet	Chrome	48	0.46	175	1
+2017-10-14	1	UK	Tablet	Safari	32	0.47	155	0
+2017-10-14	1	UK	Tablet	Other	27	0.52	113	0
+2017-10-14	1	UK	Mobile	Chrome	77	0.46	164	2
+2017-10-14	1	UK	Mobile	Safari	71	0.54	145	1
+2017-10-14	1	UK	Mobile	Other	65	0.54	154	0
+2017-10-14	1	Rest of World	Desktop	Chrome	744	0.54	114	0
+2017-10-14	1	Rest of World	Desktop	Safari	451	0.48	167	0
+2017-10-14	1	Rest of World	Desktop	Other	141	0.45	141	1
+2017-10-14	1	Rest of World	Tablet	Chrome	126	0.5	160	1
+2017-10-14	1	Rest of World	Tablet	Safari	59	0.41	136	0
+2017-10-14	1	Rest of World	Tablet	Other	51	0.34	191	0
+2017-10-14	1	Rest of World	Mobile	Chrome	253	0.36	179	1
+2017-10-14	1	Rest of World	Mobile	Safari	223	0.43	110	1
+2017-10-14	1	Rest of World	Mobile	Other	179	0.53	133	0
+2017-10-14	2	Australia	Desktop	Chrome	349	0.5	161	2
+2017-10-14	2	Australia	Desktop	Safari	97	0.34	188	1
+2017-10-14	2	Australia	Desktop	Other	97	0.46	128	0
+2017-10-14	2	Australia	Tablet	Chrome	130	0.46	110	0
+2017-10-14	2	Australia	Tablet	Safari	45	0.47	101	0
+2017-10-14	2	Australia	Tablet	Other	25	0.34	112	0
+2017-10-14	2	Australia	Mobile	Chrome	97	0.37	172	0
+2017-10-14	2	Australia	Mobile	Safari	46	0.47	147	0
+2017-10-14	2	Australia	Mobile	Other	71	0.47	161	1
+2017-10-14	2	Canada	Desktop	Chrome	117	0.52	123	1
+2017-10-14	2	Canada	Desktop	Safari	58	0.4	181	0
+2017-10-14	2	Canada	Desktop	Other	100	0.36	146	0
+2017-10-14	2	Canada	Tablet	Chrome	70	0.48	123	0
+2017-10-14	2	Canada	Tablet	Safari	35	0.48	196	0
+2017-10-14	2	Canada	Tablet	Other	21	0.33	185	0
+2017-10-14	2	Canada	Mobile	Chrome	113	0.35	176	0
+2017-10-14	2	Canada	Mobile	Safari	58	0.48	165	0
+2017-10-14	2	Canada	Mobile	Other	42	0.48	197	0
+2017-10-14	2	USA	Desktop	Chrome	260	0.43	185	2
+2017-10-14	2	USA	Desktop	Safari	185	0.43	103	0
+2017-10-14	2	USA	Desktop	Other	74	0.52	104	1
+2017-10-14	2	USA	Tablet	Chrome	146	0.47	107	2
+2017-10-14	2	USA	Tablet	Safari	56	0.37	138	1
+2017-10-14	2	USA	Tablet	Other	48	0.54	158	1
+2017-10-14	2	USA	Mobile	Chrome	215	0.41	102	1
+2017-10-14	2	USA	Mobile	Safari	190	0.43	111	3
+2017-10-14	2	USA	Mobile	Other	115	0.4	199	1
+2017-10-14	2	UK	Desktop	Chrome	228	0.34	123	0
+2017-10-14	2	UK	Desktop	Safari	249	0.32	109	3
+2017-10-14	2	UK	Desktop	Other	91	0.35	163	0
+2017-10-14	2	UK	Tablet	Chrome	41	0.54	172	0
+2017-10-14	2	UK	Tablet	Safari	57	0.39	155	0
+2017-10-14	2	UK	Tablet	Other	55	0.38	193	0
+2017-10-14	2	UK	Mobile	Chrome	162	0.56	155	1
+2017-10-14	2	UK	Mobile	Safari	150	0.47	137	0
+2017-10-14	2	UK	Mobile	Other	73	0.57	149	1
+2017-10-14	2	Rest of World	Desktop	Chrome	305	0.39	137	1
+2017-10-14	2	Rest of World	Desktop	Safari	197	0.37	143	4
+2017-10-14	2	Rest of World	Desktop	Other	267	0.37	123	1
+2017-10-14	2	Rest of World	Tablet	Chrome	165	0.32	193	2
+2017-10-14	2	Rest of World	Tablet	Safari	88	0.34	133	0
+2017-10-14	2	Rest of World	Tablet	Other	56	0.42	147	0
+2017-10-14	2	Rest of World	Mobile	Chrome	97	0.43	160	2
+2017-10-14	2	Rest of World	Mobile	Safari	248	0.46	173	0
+2017-10-14	2	Rest of World	Mobile	Other	111	0.33	163	2
+2017-10-15	0	Australia	Desktop	Chrome	326	0.35	125	2
+2017-10-15	0	Australia	Desktop	Safari	380	0.37	121	1
+2017-10-15	0	Australia	Desktop	Other	191	0.4	136	2
+2017-10-15	0	Australia	Tablet	Chrome	161	0.52	142	2
+2017-10-15	0	Australia	Tablet	Safari	132	0.55	125	2
+2017-10-15	0	Australia	Tablet	Other	133	0.38	135	2
+2017-10-15	0	Australia	Mobile	Chrome	549	0.44	166	6
+2017-10-15	0	Australia	Mobile	Safari	310	0.57	143	1
+2017-10-15	0	Australia	Mobile	Other	358	0.35	145	2
+2017-10-15	0	Canada	Desktop	Chrome	279	0.35	155	0
+2017-10-15	0	Canada	Desktop	Safari	289	0.44	134	4
+2017-10-15	0	Canada	Desktop	Other	237	0.5	152	1
+2017-10-15	0	Canada	Tablet	Chrome	129	0.47	110	2
+2017-10-15	0	Canada	Tablet	Safari	54	0.51	150	0
+2017-10-15	0	Canada	Tablet	Other	70	0.42	160	0
+2017-10-15	0	Canada	Mobile	Chrome	152	0.34	147	2
+2017-10-15	0	Canada	Mobile	Safari	176	0.34	169	0
+2017-10-15	0	Canada	Mobile	Other	109	0.48	143	2
+2017-10-15	0	USA	Desktop	Chrome	704	0.53	187	1
+2017-10-15	0	USA	Desktop	Safari	538	0.5	116	2
+2017-10-15	0	USA	Desktop	Other	304	0.34	196	1
+2017-10-15	0	USA	Tablet	Chrome	170	0.41	147	1
+2017-10-15	0	USA	Tablet	Safari	106	0.48	151	0
+2017-10-15	0	USA	Tablet	Other	132	0.45	191	0
+2017-10-15	0	USA	Mobile	Chrome	658	0.42	106	1
+2017-10-15	0	USA	Mobile	Safari	531	0.36	101	5
+2017-10-15	0	USA	Mobile	Other	413	0.39	193	3
+2017-10-15	0	UK	Desktop	Chrome	312	0.35	135	2
+2017-10-15	0	UK	Desktop	Safari	391	0.41	175	1
+2017-10-15	0	UK	Desktop	Other	399	0.5	120	2
+2017-10-15	0	UK	Tablet	Chrome	275	0.56	196	0
+2017-10-15	0	UK	Tablet	Safari	206	0.33	138	2
+2017-10-15	0	UK	Tablet	Other	95	0.53	161	1
+2017-10-15	0	UK	Mobile	Chrome	618	0.42	168	3
+2017-10-15	0	UK	Mobile	Safari	328	0.55	135	3
+2017-10-15	0	UK	Mobile	Other	253	0.39	194	0
+2017-10-15	0	Rest of World	Desktop	Chrome	823	0.46	161	17
+2017-10-15	0	Rest of World	Desktop	Safari	806	0.44	184	1
+2017-10-15	0	Rest of World	Desktop	Other	694	0.5	116	2
+2017-10-15	0	Rest of World	Tablet	Chrome	251	0.41	108	0
+2017-10-15	0	Rest of World	Tablet	Safari	205	0.42	189	2
+2017-10-15	0	Rest of World	Tablet	Other	143	0.45	195	0
+2017-10-15	0	Rest of World	Mobile	Chrome	650	0.33	195	7
+2017-10-15	0	Rest of World	Mobile	Safari	350	0.33	138	0
+2017-10-15	0	Rest of World	Mobile	Other	340	0.49	147	3
+2017-10-15	1	Australia	Desktop	Chrome	270	0.54	131	2
+2017-10-15	1	Australia	Desktop	Safari	342	0.35	139	4
+2017-10-15	1	Australia	Desktop	Other	76	0.46	165	2
+2017-10-15	1	Australia	Tablet	Chrome	46	0.32	153	0
+2017-10-15	1	Australia	Tablet	Safari	119	0.42	147	0
+2017-10-15	1	Australia	Tablet	Other	81	0.44	175	0
+2017-10-15	1	Australia	Mobile	Chrome	190	0.39	110	4
+2017-10-15	1	Australia	Mobile	Safari	215	0.36	163	2
+2017-10-15	1	Australia	Mobile	Other	129	0.5	147	1
+2017-10-15	1	Canada	Desktop	Chrome	235	0.46	107	1
+2017-10-15	1	Canada	Desktop	Safari	351	0.51	105	2
+2017-10-15	1	Canada	Desktop	Other	111	0.51	148	0
+2017-10-15	1	Canada	Tablet	Chrome	91	0.56	161	0
+2017-10-15	1	Canada	Tablet	Safari	26	0.43	101	0
+2017-10-15	1	Canada	Tablet	Other	24	0.49	124	1
+2017-10-15	1	Canada	Mobile	Chrome	244	0.49	163	4
+2017-10-15	1	Canada	Mobile	Safari	162	0.46	167	1
+2017-10-15	1	Canada	Mobile	Other	137	0.41	142	1
+2017-10-15	1	USA	Desktop	Chrome	237	0.33	152	4
+2017-10-15	1	USA	Desktop	Safari	308	0.43	116	1
+2017-10-15	1	USA	Desktop	Other	312	0.44	105	3
+2017-10-15	1	USA	Tablet	Chrome	124	0.34	182	2
+2017-10-15	1	USA	Tablet	Safari	73	0.41	145	1
+2017-10-15	1	USA	Tablet	Other	31	0.49	103	1
+2017-10-15	1	USA	Mobile	Chrome	292	0.42	152	2
+2017-10-15	1	USA	Mobile	Safari	106	0.51	187	3
+2017-10-15	1	USA	Mobile	Other	231	0.53	138	3
+2017-10-15	1	UK	Desktop	Chrome	218	0.49	140	5
+2017-10-15	1	UK	Desktop	Safari	189	0.41	180	1
+2017-10-15	1	UK	Desktop	Other	140	0.33	151	0
+2017-10-15	1	UK	Tablet	Chrome	87	0.55	106	3
+2017-10-15	1	UK	Tablet	Safari	93	0.57	159	1
+2017-10-15	1	UK	Tablet	Other	39	0.46	195	1
+2017-10-15	1	UK	Mobile	Chrome	214	0.33	104	2
+2017-10-15	1	UK	Mobile	Safari	138	0.54	142	2
+2017-10-15	1	UK	Mobile	Other	79	0.41	141	1
+2017-10-15	1	Rest of World	Desktop	Chrome	482	0.49	127	2
+2017-10-15	1	Rest of World	Desktop	Safari	287	0.54	125	9
+2017-10-15	1	Rest of World	Desktop	Other	264	0.32	179	5
+2017-10-15	1	Rest of World	Tablet	Chrome	175	0.45	195	1
+2017-10-15	1	Rest of World	Tablet	Safari	49	0.5	196	0
+2017-10-15	1	Rest of World	Tablet	Other	115	0.54	132	1
+2017-10-15	1	Rest of World	Mobile	Chrome	431	0.57	163	1
+2017-10-15	1	Rest of World	Mobile	Safari	249	0.51	134	3
+2017-10-15	1	Rest of World	Mobile	Other	212	0.32	166	1
+2017-10-15	2	Australia	Desktop	Chrome	195	0.54	102	1
+2017-10-15	2	Australia	Desktop	Safari	147	0.47	128	1
+2017-10-15	2	Australia	Desktop	Other	114	0.43	158	0
+2017-10-15	2	Australia	Tablet	Chrome	113	0.36	144	2
+2017-10-15	2	Australia	Tablet	Safari	65	0.37	132	0
+2017-10-15	2	Australia	Tablet	Other	31	0.41	104	1
+2017-10-15	2	Australia	Mobile	Chrome	258	0.55	162	2
+2017-10-15	2	Australia	Mobile	Safari	162	0.44	157	1
+2017-10-15	2	Australia	Mobile	Other	110	0.42	108	1
+2017-10-15	2	Canada	Desktop	Chrome	182	0.52	128	0
+2017-10-15	2	Canada	Desktop	Safari	153	0.55	177	2
+2017-10-15	2	Canada	Desktop	Other	132	0.44	170	0
+2017-10-15	2	Canada	Tablet	Chrome	85	0.51	164	0
+2017-10-15	2	Canada	Tablet	Safari	55	0.53	124	0
+2017-10-15	2	Canada	Tablet	Other	25	0.56	134	1
+2017-10-15	2	Canada	Mobile	Chrome	79	0.56	183	2
+2017-10-15	2	Canada	Mobile	Safari	84	0.45	119	1
+2017-10-15	2	Canada	Mobile	Other	43	0.45	139	1
+2017-10-15	2	USA	Desktop	Chrome	259	0.55	130	3
+2017-10-15	2	USA	Desktop	Safari	234	0.42	176	1
+2017-10-15	2	USA	Desktop	Other	335	0.35	180	0
+2017-10-15	2	USA	Tablet	Chrome	104	0.32	183	2
+2017-10-15	2	USA	Tablet	Safari	74	0.32	126	1
+2017-10-15	2	USA	Tablet	Other	56	0.42	171	0
+2017-10-15	2	USA	Mobile	Chrome	249	0.32	138	4
+2017-10-15	2	USA	Mobile	Safari	320	0.45	133	1
+2017-10-15	2	USA	Mobile	Other	122	0.52	115	0
+2017-10-15	2	UK	Desktop	Chrome	434	0.39	188	1
+2017-10-15	2	UK	Desktop	Safari	229	0.51	137	2
+2017-10-15	2	UK	Desktop	Other	71	0.57	115	0
+2017-10-15	2	UK	Tablet	Chrome	75	0.41	110	1
+2017-10-15	2	UK	Tablet	Safari	51	0.45	178	0
+2017-10-15	2	UK	Tablet	Other	65	0.36	137	0
+2017-10-15	2	UK	Mobile	Chrome	131	0.45	178	2
+2017-10-15	2	UK	Mobile	Safari	132	0.4	157	1
+2017-10-15	2	UK	Mobile	Other	58	0.37	157	1
+2017-10-15	2	Rest of World	Desktop	Chrome	460	0.57	109	4
+2017-10-15	2	Rest of World	Desktop	Safari	326	0.41	159	4
+2017-10-15	2	Rest of World	Desktop	Other	147	0.43	162	2
+2017-10-15	2	Rest of World	Tablet	Chrome	118	0.45	119	1
+2017-10-15	2	Rest of World	Tablet	Safari	113	0.43	130	1
+2017-10-15	2	Rest of World	Tablet	Other	37	0.49	187	0
+2017-10-15	2	Rest of World	Mobile	Chrome	700	0.53	185	1
+2017-10-15	2	Rest of World	Mobile	Safari	358	0.41	113	3
+2017-10-15	2	Rest of World	Mobile	Other	120	0.53	166	1
+2017-10-16	0	Australia	Desktop	Chrome	1153	0.46	136	1
+2017-10-16	0	Australia	Desktop	Safari	507	0.5	137	7
+2017-10-16	0	Australia	Desktop	Other	633	0.42	182	3
+2017-10-16	0	Australia	Tablet	Chrome	397	0.46	113	1
+2017-10-16	0	Australia	Tablet	Safari	155	0.56	110	2
+2017-10-16	0	Australia	Tablet	Other	148	0.49	144	0
+2017-10-16	0	Australia	Mobile	Chrome	942	0.42	157	2
+2017-10-16	0	Australia	Mobile	Safari	374	0.42	180	0
+2017-10-16	0	Australia	Mobile	Other	444	0.5	129	4
+2017-10-16	0	Canada	Desktop	Chrome	573	0.57	186	1
+2017-10-16	0	Canada	Desktop	Safari	1053	0.55	190	10
+2017-10-16	0	Canada	Desktop	Other	350	0.54	164	3
+2017-10-16	0	Canada	Tablet	Chrome	169	0.32	133	1
+2017-10-16	0	Canada	Tablet	Safari	99	0.42	128	1
+2017-10-16	0	Canada	Tablet	Other	238	0.49	141	2
+2017-10-16	0	Canada	Mobile	Chrome	469	0.57	185	6
+2017-10-16	0	Canada	Mobile	Safari	245	0.38	188	4
+2017-10-16	0	Canada	Mobile	Other	320	0.34	170	1
+2017-10-16	0	USA	Desktop	Chrome	2804	0.54	111	3
+2017-10-16	0	USA	Desktop	Safari	1657	0.36	133	15
+2017-10-16	0	USA	Desktop	Other	910	0.46	118	1
+2017-10-16	0	USA	Tablet	Chrome	731	0.4	111	2
+2017-10-16	0	USA	Tablet	Safari	349	0.41	170	1
+2017-10-16	0	USA	Tablet	Other	248	0.46	130	0
+2017-10-16	0	USA	Mobile	Chrome	1642	0.53	137	22
+2017-10-16	0	USA	Mobile	Safari	501	0.56	199	11
+2017-10-16	0	USA	Mobile	Other	305	0.39	150	1
+2017-10-16	0	UK	Desktop	Chrome	778	0.48	175	17
+2017-10-16	0	UK	Desktop	Safari	1477	0.54	180	12
+2017-10-16	0	UK	Desktop	Other	1051	0.55	154	7
+2017-10-16	0	UK	Tablet	Chrome	180	0.47	152	0
+2017-10-16	0	UK	Tablet	Safari	350	0.53	138	1
+2017-10-16	0	UK	Tablet	Other	149	0.4	200	1
+2017-10-16	0	UK	Mobile	Chrome	564	0.4	162	0
+2017-10-16	0	UK	Mobile	Safari	616	0.42	133	6
+2017-10-16	0	UK	Mobile	Other	437	0.57	103	1
+2017-10-16	0	Rest of World	Desktop	Chrome	2878	0.4	157	15
+2017-10-16	0	Rest of World	Desktop	Safari	1863	0.41	192	15
+2017-10-16	0	Rest of World	Desktop	Other	1012	0.42	178	16
+2017-10-16	0	Rest of World	Tablet	Chrome	759	0.54	113	2
+2017-10-16	0	Rest of World	Tablet	Safari	542	0.48	136	2
+2017-10-16	0	Rest of World	Tablet	Other	235	0.54	193	2
+2017-10-16	0	Rest of World	Mobile	Chrome	802	0.35	109	8
+2017-10-16	0	Rest of World	Mobile	Safari	1099	0.53	130	8
+2017-10-16	0	Rest of World	Mobile	Other	530	0.48	133	2
+2017-10-16	1	Australia	Desktop	Chrome	951	0.47	154	7
+2017-10-16	1	Australia	Desktop	Safari	551	0.46	140	0
+2017-10-16	1	Australia	Desktop	Other	151	0.33	117	0
+2017-10-16	1	Australia	Tablet	Chrome	189	0.39	162	0
+2017-10-16	1	Australia	Tablet	Safari	170	0.52	193	4
+2017-10-16	1	Australia	Tablet	Other	73	0.46	117	0
+2017-10-16	1	Australia	Mobile	Chrome	511	0.51	117	6
+2017-10-16	1	Australia	Mobile	Safari	409	0.56	159	1
+2017-10-16	1	Australia	Mobile	Other	302	0.32	163	0
+2017-10-16	1	Canada	Desktop	Chrome	392	0.42	173	3
+2017-10-16	1	Canada	Desktop	Safari	543	0.36	123	5
+2017-10-16	1	Canada	Desktop	Other	278	0.44	108	1
+2017-10-16	1	Canada	Tablet	Chrome	74	0.52	146	1
+2017-10-16	1	Canada	Tablet	Safari	148	0.44	174	1
+2017-10-16	1	Canada	Tablet	Other	48	0.36	125	0
+2017-10-16	1	Canada	Mobile	Chrome	123	0.36	176	2
+2017-10-16	1	Canada	Mobile	Safari	77	0.38	187	0
+2017-10-16	1	Canada	Mobile	Other	66	0.33	165	1
+2017-10-16	1	USA	Desktop	Chrome	549	0.32	171	5
+2017-10-16	1	USA	Desktop	Safari	286	0.39	181	7
+2017-10-16	1	USA	Desktop	Other	365	0.37	178	3
+2017-10-16	1	USA	Tablet	Chrome	156	0.54	106	2
+2017-10-16	1	USA	Tablet	Safari	163	0.41	109	0
+2017-10-16	1	USA	Tablet	Other	107	0.44	157	0
+2017-10-16	1	USA	Mobile	Chrome	507	0.4	170	3
+2017-10-16	1	USA	Mobile	Safari	248	0.5	156	1
+2017-10-16	1	USA	Mobile	Other	450	0.34	175	1
+2017-10-16	1	UK	Desktop	Chrome	370	0.55	137	6
+2017-10-16	1	UK	Desktop	Safari	598	0.56	112	4
+2017-10-16	1	UK	Desktop	Other	217	0.55	130	0
+2017-10-16	1	UK	Tablet	Chrome	404	0.34	183	3
+2017-10-16	1	UK	Tablet	Safari	57	0.51	122	1
+2017-10-16	1	UK	Tablet	Other	79	0.47	114	0
+2017-10-16	1	UK	Mobile	Chrome	172	0.53	143	3
+2017-10-16	1	UK	Mobile	Safari	234	0.32	100	1
+2017-10-16	1	UK	Mobile	Other	207	0.52	182	0
+2017-10-16	1	Rest of World	Desktop	Chrome	727	0.49	137	5
+2017-10-16	1	Rest of World	Desktop	Safari	542	0.4	153	1
+2017-10-16	1	Rest of World	Desktop	Other	449	0.51	162	4
+2017-10-16	1	Rest of World	Tablet	Chrome	379	0.46	185	0
+2017-10-16	1	Rest of World	Tablet	Safari	211	0.41	185	4
+2017-10-16	1	Rest of World	Tablet	Other	214	0.46	118	2
+2017-10-16	1	Rest of World	Mobile	Chrome	649	0.55	100	4
+2017-10-16	1	Rest of World	Mobile	Safari	234	0.56	101	3
+2017-10-16	1	Rest of World	Mobile	Other	307	0.34	171	2
+2017-10-16	2	Australia	Desktop	Chrome	678	0.57	137	1
+2017-10-16	2	Australia	Desktop	Safari	266	0.52	193	3
+2017-10-16	2	Australia	Desktop	Other	246	0.5	104	0
+2017-10-16	2	Australia	Tablet	Chrome	216	0.54	141	0
+2017-10-16	2	Australia	Tablet	Safari	90	0.43	176	0
+2017-10-16	2	Australia	Tablet	Other	118	0.41	114	3
+2017-10-16	2	Australia	Mobile	Chrome	304	0.49	146	3
+2017-10-16	2	Australia	Mobile	Safari	328	0.57	105	0
+2017-10-16	2	Australia	Mobile	Other	176	0.39	116	1
+2017-10-16	2	Canada	Desktop	Chrome	292	0.57	140	4
+2017-10-16	2	Canada	Desktop	Safari	187	0.52	134	0
+2017-10-16	2	Canada	Desktop	Other	252	0.52	197	3
+2017-10-16	2	Canada	Tablet	Chrome	68	0.37	177	0
+2017-10-16	2	Canada	Tablet	Safari	129	0.55	171	0
+2017-10-16	2	Canada	Tablet	Other	58	0.37	132	1
+2017-10-16	2	Canada	Mobile	Chrome	321	0.52	153	0
+2017-10-16	2	Canada	Mobile	Safari	249	0.32	185	2
+2017-10-16	2	Canada	Mobile	Other	199	0.47	109	3
+2017-10-16	2	USA	Desktop	Chrome	601	0.53	125	3
+2017-10-16	2	USA	Desktop	Safari	932	0.37	170	6
+2017-10-16	2	USA	Desktop	Other	264	0.32	108	1
+2017-10-16	2	USA	Tablet	Chrome	179	0.52	138	1
+2017-10-16	2	USA	Tablet	Safari	136	0.54	199	3
+2017-10-16	2	USA	Tablet	Other	94	0.56	148	1
+2017-10-16	2	USA	Mobile	Chrome	436	0.32	173	0
+2017-10-16	2	USA	Mobile	Safari	295	0.38	124	2
+2017-10-16	2	USA	Mobile	Other	350	0.41	181	1
+2017-10-16	2	UK	Desktop	Chrome	770	0.36	110	0
+2017-10-16	2	UK	Desktop	Safari	277	0.33	175	3
+2017-10-16	2	UK	Desktop	Other	235	0.38	192	1
+2017-10-16	2	UK	Tablet	Chrome	54	0.57	128	1
+2017-10-16	2	UK	Tablet	Safari	168	0.36	169	2
+2017-10-16	2	UK	Tablet	Other	59	0.55	136	0
+2017-10-16	2	UK	Mobile	Chrome	282	0.5	128	4
+2017-10-16	2	UK	Mobile	Safari	277	0.53	111	2
+2017-10-16	2	UK	Mobile	Other	227	0.54	101	1
+2017-10-16	2	Rest of World	Desktop	Chrome	1337	0.46	114	8
+2017-10-16	2	Rest of World	Desktop	Safari	586	0.35	148	2
+2017-10-16	2	Rest of World	Desktop	Other	498	0.32	170	5
+2017-10-16	2	Rest of World	Tablet	Chrome	329	0.53	188	2
+2017-10-16	2	Rest of World	Tablet	Safari	167	0.32	168	1
+2017-10-16	2	Rest of World	Tablet	Other	176	0.41	167	1
+2017-10-16	2	Rest of World	Mobile	Chrome	396	0.32	150	6
+2017-10-16	2	Rest of World	Mobile	Safari	397	0.57	128	3
+2017-10-16	2	Rest of World	Mobile	Other	501	0.33	191	4
+2017-10-17	0	Australia	Desktop	Chrome	1840	0.44	132	8
+2017-10-17	0	Australia	Desktop	Safari	346	0.55	128	2
+2017-10-17	0	Australia	Desktop	Other	267	0.53	195	7
+2017-10-17	0	Australia	Tablet	Chrome	140	0.42	105	1
+2017-10-17	0	Australia	Tablet	Safari	227	0.54	115	5
+2017-10-17	0	Australia	Tablet	Other	142	0.51	194	2
+2017-10-17	0	Australia	Mobile	Chrome	1241	0.47	192	3
+2017-10-17	0	Australia	Mobile	Safari	272	0.47	166	6
+2017-10-17	0	Australia	Mobile	Other	320	0.5	190	2
+2017-10-17	0	Canada	Desktop	Chrome	685	0.48	180	0
+2017-10-17	0	Canada	Desktop	Safari	382	0.42	129	6
+2017-10-17	0	Canada	Desktop	Other	261	0.32	156	3
+2017-10-17	0	Canada	Tablet	Chrome	167	0.56	166	1
+2017-10-17	0	Canada	Tablet	Safari	199	0.32	134	0
+2017-10-17	0	Canada	Tablet	Other	33	0.43	110	1
+2017-10-17	0	Canada	Mobile	Chrome	375	0.47	141	4
+2017-10-17	0	Canada	Mobile	Safari	188	0.43	138	1
+2017-10-17	0	Canada	Mobile	Other	260	0.57	175	5
+2017-10-17	0	USA	Desktop	Chrome	624	0.49	165	0
+2017-10-17	0	USA	Desktop	Safari	791	0.48	113	8
+2017-10-17	0	USA	Desktop	Other	538	0.55	104	9
+2017-10-17	0	USA	Tablet	Chrome	467	0.48	111	4
+2017-10-17	0	USA	Tablet	Safari	321	0.39	174	2
+2017-10-17	0	USA	Tablet	Other	219	0.44	156	3
+2017-10-17	0	USA	Mobile	Chrome	742	0.37	151	9
+2017-10-17	0	USA	Mobile	Safari	243	0.4	115	4
+2017-10-17	0	USA	Mobile	Other	296	0.55	101	0
+2017-10-17	0	UK	Desktop	Chrome	984	0.44	110	2
+2017-10-17	0	UK	Desktop	Safari	513	0.35	200	7
+2017-10-17	0	UK	Desktop	Other	324	0.42	102	1
+2017-10-17	0	UK	Tablet	Chrome	238	0.4	118	5
+2017-10-17	0	UK	Tablet	Safari	247	0.36	133	1
+2017-10-17	0	UK	Tablet	Other	84	0.52	121	1
+2017-10-17	0	UK	Mobile	Chrome	601	0.32	131	2
+2017-10-17	0	UK	Mobile	Safari	662	0.5	116	0
+2017-10-17	0	UK	Mobile	Other	352	0.37	128	3
+2017-10-17	0	Rest of World	Desktop	Chrome	1214	0.36	157	15
+2017-10-17	0	Rest of World	Desktop	Safari	1506	0.38	111	0
+2017-10-17	0	Rest of World	Desktop	Other	431	0.53	187	1
+2017-10-17	0	Rest of World	Tablet	Chrome	345	0.57	159	1
+2017-10-17	0	Rest of World	Tablet	Safari	139	0.4	171	1
+2017-10-17	0	Rest of World	Tablet	Other	280	0.4	193	2
+2017-10-17	0	Rest of World	Mobile	Chrome	769	0.56	169	8
+2017-10-17	0	Rest of World	Mobile	Safari	1012	0.52	177	4
+2017-10-17	0	Rest of World	Mobile	Other	292	0.54	113	1
+2017-10-17	1	Australia	Desktop	Chrome	359	0.48	193	5
+2017-10-17	1	Australia	Desktop	Safari	709	0.41	163	8
+2017-10-17	1	Australia	Desktop	Other	177	0.56	175	2
+2017-10-17	1	Australia	Tablet	Chrome	64	0.46	145	0
+2017-10-17	1	Australia	Tablet	Safari	95	0.57	136	1
+2017-10-17	1	Australia	Tablet	Other	64	0.42	186	0
+2017-10-17	1	Australia	Mobile	Chrome	445	0.51	176	8
+2017-10-17	1	Australia	Mobile	Safari	370	0.57	143	4
+2017-10-17	1	Australia	Mobile	Other	267	0.52	108	2
+2017-10-17	1	Canada	Desktop	Chrome	277	0.33	180	1
+2017-10-17	1	Canada	Desktop	Safari	147	0.56	113	1
+2017-10-17	1	Canada	Desktop	Other	160	0.37	160	1
+2017-10-17	1	Canada	Tablet	Chrome	103	0.37	193	1
+2017-10-17	1	Canada	Tablet	Safari	55	0.34	167	1
+2017-10-17	1	Canada	Tablet	Other	69	0.35	166	1
+2017-10-17	1	Canada	Mobile	Chrome	209	0.41	180	1
+2017-10-17	1	Canada	Mobile	Safari	172	0.53	106	2
+2017-10-17	1	Canada	Mobile	Other	91	0.41	135	1
+2017-10-17	1	USA	Desktop	Chrome	532	0.56	184	1
+2017-10-17	1	USA	Desktop	Safari	304	0.46	103	3
+2017-10-17	1	USA	Desktop	Other	299	0.33	193	4
+2017-10-17	1	USA	Tablet	Chrome	140	0.38	166	2
+2017-10-17	1	USA	Tablet	Safari	79	0.57	164	1
+2017-10-17	1	USA	Tablet	Other	187	0.36	175	1
+2017-10-17	1	USA	Mobile	Chrome	314	0.44	166	1
+2017-10-17	1	USA	Mobile	Safari	279	0.33	124	2
+2017-10-17	1	USA	Mobile	Other	166	0.41	131	0
+2017-10-17	1	UK	Desktop	Chrome	337	0.38	113	2
+2017-10-17	1	UK	Desktop	Safari	405	0.36	166	3
+2017-10-17	1	UK	Desktop	Other	109	0.51	186	3
+2017-10-17	1	UK	Tablet	Chrome	184	0.34	178	1
+2017-10-17	1	UK	Tablet	Safari	106	0.53	186	3
+2017-10-17	1	UK	Tablet	Other	83	0.51	127	0
+2017-10-17	1	UK	Mobile	Chrome	295	0.42	196	1
+2017-10-17	1	UK	Mobile	Safari	205	0.49	197	1
+2017-10-17	1	UK	Mobile	Other	152	0.44	180	0
+2017-10-17	1	Rest of World	Desktop	Chrome	1307	0.44	193	7
+2017-10-17	1	Rest of World	Desktop	Safari	257	0.39	153	3
+2017-10-17	1	Rest of World	Desktop	Other	311	0.55	119	1
+2017-10-17	1	Rest of World	Tablet	Chrome	317	0.49	155	7
+2017-10-17	1	Rest of World	Tablet	Safari	158	0.46	105	2
+2017-10-17	1	Rest of World	Tablet	Other	195	0.34	162	1
+2017-10-17	1	Rest of World	Mobile	Chrome	696	0.57	162	9
+2017-10-17	1	Rest of World	Mobile	Safari	631	0.44	199	3
+2017-10-17	1	Rest of World	Mobile	Other	189	0.33	178	2
+2017-10-17	2	Australia	Desktop	Chrome	780	0.5	192	0
+2017-10-17	2	Australia	Desktop	Safari	211	0.38	116	2
+2017-10-17	2	Australia	Desktop	Other	233	0.53	139	2
+2017-10-17	2	Australia	Tablet	Chrome	219	0.43	145	3
+2017-10-17	2	Australia	Tablet	Safari	104	0.52	108	0
+2017-10-17	2	Australia	Tablet	Other	105	0.34	194	2
+2017-10-17	2	Australia	Mobile	Chrome	666	0.53	146	2
+2017-10-17	2	Australia	Mobile	Safari	303	0.56	195	0
+2017-10-17	2	Australia	Mobile	Other	131	0.38	199	0
+2017-10-17	2	Canada	Desktop	Chrome	184	0.37	118	0
+2017-10-17	2	Canada	Desktop	Safari	384	0.33	191	3
+2017-10-17	2	Canada	Desktop	Other	212	0.33	108	2
+2017-10-17	2	Canada	Tablet	Chrome	98	0.55	122	1
+2017-10-17	2	Canada	Tablet	Safari	30	0.32	159	0
+2017-10-17	2	Canada	Tablet	Other	64	0.53	169	0
+2017-10-17	2	Canada	Mobile	Chrome	178	0.45	105	2
+2017-10-17	2	Canada	Mobile	Safari	121	0.41	153	2
+2017-10-17	2	Canada	Mobile	Other	45	0.34	139	0
+2017-10-17	2	USA	Desktop	Chrome	791	0.49	106	7
+2017-10-17	2	USA	Desktop	Safari	644	0.36	142	5
+2017-10-17	2	USA	Desktop	Other	228	0.45	199	2
+2017-10-17	2	USA	Tablet	Chrome	153	0.53	138	0
+2017-10-17	2	USA	Tablet	Safari	89	0.49	145	1
+2017-10-17	2	USA	Tablet	Other	124	0.52	186	0
+2017-10-17	2	USA	Mobile	Chrome	187	0.51	133	3
+2017-10-17	2	USA	Mobile	Safari	522	0.55	123	3
+2017-10-17	2	USA	Mobile	Other	184	0.37	176	1
+2017-10-17	2	UK	Desktop	Chrome	481	0.54	187	6
+2017-10-17	2	UK	Desktop	Safari	437	0.47	139	2
+2017-10-17	2	UK	Desktop	Other	194	0.55	108	5
+2017-10-17	2	UK	Tablet	Chrome	73	0.55	114	0
+2017-10-17	2	UK	Tablet	Safari	102	0.4	120	0
+2017-10-17	2	UK	Tablet	Other	61	0.32	150	1
+2017-10-17	2	UK	Mobile	Chrome	118	0.57	118	2
+2017-10-17	2	UK	Mobile	Safari	277	0.55	188	2
+2017-10-17	2	UK	Mobile	Other	190	0.47	105	3
+2017-10-17	2	Rest of World	Desktop	Chrome	776	0.55	177	10
+2017-10-17	2	Rest of World	Desktop	Safari	525	0.46	162	1
+2017-10-17	2	Rest of World	Desktop	Other	330	0.47	113	3
+2017-10-17	2	Rest of World	Tablet	Chrome	245	0.33	170	2
+2017-10-17	2	Rest of World	Tablet	Safari	149	0.55	136	0
+2017-10-17	2	Rest of World	Tablet	Other	98	0.49	185	0
+2017-10-17	2	Rest of World	Mobile	Chrome	476	0.48	171	0
+2017-10-17	2	Rest of World	Mobile	Safari	413	0.4	171	2
+2017-10-17	2	Rest of World	Mobile	Other	220	0.43	197	0
+2017-10-18	0	Australia	Desktop	Chrome	679	0.38	109	1
+2017-10-18	0	Australia	Desktop	Safari	509	0.48	193	2
+2017-10-18	0	Australia	Desktop	Other	250	0.34	189	3
+2017-10-18	0	Australia	Tablet	Chrome	267	0.56	192	6
+2017-10-18	0	Australia	Tablet	Safari	103	0.47	114	0
+2017-10-18	0	Australia	Tablet	Other	64	0.44	188	0
+2017-10-18	0	Australia	Mobile	Chrome	248	0.32	172	4
+2017-10-18	0	Australia	Mobile	Safari	322	0.45	137	2
+2017-10-18	0	Australia	Mobile	Other	571	0.42	140	6
+2017-10-18	0	Canada	Desktop	Chrome	436	0.36	185	5
+2017-10-18	0	Canada	Desktop	Safari	263	0.34	153	4
+2017-10-18	0	Canada	Desktop	Other	128	0.55	176	3
+2017-10-18	0	Canada	Tablet	Chrome	53	0.44	110	1
+2017-10-18	0	Canada	Tablet	Safari	111	0.38	142	1
+2017-10-18	0	Canada	Tablet	Other	66	0.48	139	0
+2017-10-18	0	Canada	Mobile	Chrome	243	0.35	136	6
+2017-10-18	0	Canada	Mobile	Safari	375	0.46	137	4
+2017-10-18	0	Canada	Mobile	Other	466	0.43	114	4
+2017-10-18	0	USA	Desktop	Chrome	959	0.52	107	9
+2017-10-18	0	USA	Desktop	Safari	1348	0.44	129	2
+2017-10-18	0	USA	Desktop	Other	386	0.37	182	1
+2017-10-18	0	USA	Tablet	Chrome	284	0.57	109	4
+2017-10-18	0	USA	Tablet	Safari	233	0.43	133	1
+2017-10-18	0	USA	Tablet	Other	104	0.44	109	1
+2017-10-18	0	USA	Mobile	Chrome	584	0.37	136	3
+2017-10-18	0	USA	Mobile	Safari	206	0.35	164	1
+2017-10-18	0	USA	Mobile	Other	563	0.51	156	2
+2017-10-18	0	UK	Desktop	Chrome	619	0.43	168	13
+2017-10-18	0	UK	Desktop	Safari	654	0.57	183	10
+2017-10-18	0	UK	Desktop	Other	344	0.38	169	0
+2017-10-18	0	UK	Tablet	Chrome	205	0.56	115	1
+2017-10-18	0	UK	Tablet	Safari	113	0.57	143	1
+2017-10-18	0	UK	Tablet	Other	144	0.32	184	1
+2017-10-18	0	UK	Mobile	Chrome	662	0.36	108	4
+2017-10-18	0	UK	Mobile	Safari	270	0.49	112	1
+2017-10-18	0	UK	Mobile	Other	164	0.48	137	0
+2017-10-18	0	Rest of World	Desktop	Chrome	1018	0.54	139	15
+2017-10-18	0	Rest of World	Desktop	Safari	901	0.57	169	2
+2017-10-18	0	Rest of World	Desktop	Other	921	0.57	173	8
+2017-10-18	0	Rest of World	Tablet	Chrome	345	0.57	190	2
+2017-10-18	0	Rest of World	Tablet	Safari	170	0.44	109	2
+2017-10-18	0	Rest of World	Tablet	Other	248	0.55	187	1
+2017-10-18	0	Rest of World	Mobile	Chrome	1113	0.34	109	17
+2017-10-18	0	Rest of World	Mobile	Safari	912	0.47	192	6
+2017-10-18	0	Rest of World	Mobile	Other	355	0.41	102	6
+2017-10-18	1	Australia	Desktop	Chrome	459	0.44	188	4
+2017-10-18	1	Australia	Desktop	Safari	383	0.43	114	4
+2017-10-18	1	Australia	Desktop	Other	237	0.56	139	3
+2017-10-18	1	Australia	Tablet	Chrome	135	0.55	145	0
+2017-10-18	1	Australia	Tablet	Safari	89	0.48	184	1
+2017-10-18	1	Australia	Tablet	Other	54	0.4	101	1
+2017-10-18	1	Australia	Mobile	Chrome	426	0.57	185	6
+2017-10-18	1	Australia	Mobile	Safari	271	0.47	191	0
+2017-10-18	1	Australia	Mobile	Other	186	0.34	146	1
+2017-10-18	1	Canada	Desktop	Chrome	181	0.38	116	3
+2017-10-18	1	Canada	Desktop	Safari	229	0.46	197	3
+2017-10-18	1	Canada	Desktop	Other	91	0.54	153	1
+2017-10-18	1	Canada	Tablet	Chrome	73	0.55	182	1
+2017-10-18	1	Canada	Tablet	Safari	81	0.49	195	1
+2017-10-18	1	Canada	Tablet	Other	74	0.51	121	0
+2017-10-18	1	Canada	Mobile	Chrome	295	0.48	152	1
+2017-10-18	1	Canada	Mobile	Safari	169	0.52	153	1
+2017-10-18	1	Canada	Mobile	Other	126	0.43	177	1
+2017-10-18	1	USA	Desktop	Chrome	1003	0.35	150	4
+2017-10-18	1	USA	Desktop	Safari	233	0.4	166	7
+2017-10-18	1	USA	Desktop	Other	242	0.5	149	1
+2017-10-18	1	USA	Tablet	Chrome	154	0.4	188	0
+2017-10-18	1	USA	Tablet	Safari	71	0.36	145	1
+2017-10-18	1	USA	Tablet	Other	62	0.44	106	0
+2017-10-18	1	USA	Mobile	Chrome	415	0.5	149	1
+2017-10-18	1	USA	Mobile	Safari	262	0.34	184	0
+2017-10-18	1	USA	Mobile	Other	148	0.45	170	4
+2017-10-18	1	UK	Desktop	Chrome	344	0.45	195	6
+2017-10-18	1	UK	Desktop	Safari	236	0.32	188	1
+2017-10-18	1	UK	Desktop	Other	288	0.5	164	5
+2017-10-18	1	UK	Tablet	Chrome	75	0.51	106	2
+2017-10-18	1	UK	Tablet	Safari	102	0.53	117	0
+2017-10-18	1	UK	Tablet	Other	23	0.54	190	0
+2017-10-18	1	UK	Mobile	Chrome	313	0.37	136	1
+2017-10-18	1	UK	Mobile	Safari	347	0.39	181	5
+2017-10-18	1	UK	Mobile	Other	126	0.39	174	1
+2017-10-18	1	Rest of World	Desktop	Chrome	505	0.49	166	7
+2017-10-18	1	Rest of World	Desktop	Safari	676	0.51	176	1
+2017-10-18	1	Rest of World	Desktop	Other	372	0.41	150	3
+2017-10-18	1	Rest of World	Tablet	Chrome	96	0.36	175	0
+2017-10-18	1	Rest of World	Tablet	Safari	170	0.34	120	2
+2017-10-18	1	Rest of World	Tablet	Other	104	0.56	199	0
+2017-10-18	1	Rest of World	Mobile	Chrome	473	0.56	102	7
+2017-10-18	1	Rest of World	Mobile	Safari	271	0.35	160	0
+2017-10-18	1	Rest of World	Mobile	Other	137	0.46	174	2
+2017-10-18	2	Australia	Desktop	Chrome	203	0.46	188	2
+2017-10-18	2	Australia	Desktop	Safari	245	0.45	186	2
+2017-10-18	2	Australia	Desktop	Other	236	0.41	184	1
+2017-10-18	2	Australia	Tablet	Chrome	131	0.38	103	1
+2017-10-18	2	Australia	Tablet	Safari	64	0.33	196	0
+2017-10-18	2	Australia	Tablet	Other	63	0.57	172	1
+2017-10-18	2	Australia	Mobile	Chrome	237	0.35	175	3
+2017-10-18	2	Australia	Mobile	Safari	342	0.38	185	1
+2017-10-18	2	Australia	Mobile	Other	167	0.42	198	1
+2017-10-18	2	Canada	Desktop	Chrome	336	0.5	170	0
+2017-10-18	2	Canada	Desktop	Safari	133	0.5	156	1
+2017-10-18	2	Canada	Desktop	Other	199	0.44	154	1
+2017-10-18	2	Canada	Tablet	Chrome	102	0.53	183	1
+2017-10-18	2	Canada	Tablet	Safari	68	0.44	112	1
+2017-10-18	2	Canada	Tablet	Other	45	0.54	112	0
+2017-10-18	2	Canada	Mobile	Chrome	192	0.42	107	2
+2017-10-18	2	Canada	Mobile	Safari	154	0.57	149	2
+2017-10-18	2	Canada	Mobile	Other	46	0.5	200	0
+2017-10-18	2	USA	Desktop	Chrome	865	0.45	132	6
+2017-10-18	2	USA	Desktop	Safari	367	0.41	146	0
+2017-10-18	2	USA	Desktop	Other	233	0.42	139	4
+2017-10-18	2	USA	Tablet	Chrome	222	0.35	115	0
+2017-10-18	2	USA	Tablet	Safari	104	0.39	135	1
+2017-10-18	2	USA	Tablet	Other	53	0.32	170	0
+2017-10-18	2	USA	Mobile	Chrome	354	0.33	157	0
+2017-10-18	2	USA	Mobile	Safari	236	0.53	122	2
+2017-10-18	2	USA	Mobile	Other	124	0.41	182	1
+2017-10-18	2	UK	Desktop	Chrome	422	0.43	131	2
+2017-10-18	2	UK	Desktop	Safari	183	0.43	153	2
+2017-10-18	2	UK	Desktop	Other	214	0.51	181	3
+2017-10-18	2	UK	Tablet	Chrome	113	0.48	144	1
+2017-10-18	2	UK	Tablet	Safari	36	0.33	154	0
+2017-10-18	2	UK	Tablet	Other	72	0.36	131	1
+2017-10-18	2	UK	Mobile	Chrome	181	0.5	136	4
+2017-10-18	2	UK	Mobile	Safari	259	0.41	167	0
+2017-10-18	2	UK	Mobile	Other	145	0.33	120	2
+2017-10-18	2	Rest of World	Desktop	Chrome	254	0.4	117	7
+2017-10-18	2	Rest of World	Desktop	Safari	579	0.4	118	1
+2017-10-18	2	Rest of World	Desktop	Other	485	0.55	176	2
+2017-10-18	2	Rest of World	Tablet	Chrome	180	0.4	130	1
+2017-10-18	2	Rest of World	Tablet	Safari	140	0.39	191	1
+2017-10-18	2	Rest of World	Tablet	Other	90	0.48	150	1
+2017-10-18	2	Rest of World	Mobile	Chrome	567	0.54	137	2
+2017-10-18	2	Rest of World	Mobile	Safari	235	0.51	136	2
+2017-10-18	2	Rest of World	Mobile	Other	121	0.45	114	1
