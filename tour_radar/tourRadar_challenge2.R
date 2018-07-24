@@ -10,19 +10,21 @@ for (package in c('ggplot2', 'corrplot','tidyverse','lubridate','data.table')) {
 }
 
 #load data
+df <- read.csv(file.choose())
 
 #backup data
+df.backup <- df
 
 #descriptive statistics
-
-#outliers
+basic_stats <- summary(df)
+print(basic_stats)
 
 #missing data
 
-# descriptive stats for everything
-# outliers for everything
-# require package
-# 
+#outliers
+
+#exploratory analysis
+
 # each variable
 # 
 # most popular path
@@ -67,5 +69,7 @@ for (package in c('ggplot2', 'corrplot','tidyverse','lubridate','data.table')) {
 # date vs bounce rate
 # date vs time on page
 
+#analytics
+#rfm model
 
 #basic forecasting using prophet with other infor
