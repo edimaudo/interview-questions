@@ -1,0 +1,14 @@
+Data set 1 analysis
+1. How many unique merchants received orders on 9/2/2015?
+2. What was the highest number of successful orders on a single day in Zone C?
+3. What was the most amount of money one user spent over the course of the week?
+4. What percentage of all orders on 8/31/2015 had a response time of under one minute?
+5. What percentage of orders were unsuccessful during lunch (12pm-2pm) over the course of the week?
+
+Data set 2 analysis
+6. What was the average rating for all merchants from 11/16/2015 to 11/20/2015?
+7. Based on this feedback (considering the entire date range provided), how would you prioritize the following areas for improvement at Ritual: App Experience, Pickup Experience, Timing Accuracy, Order Quality?
+8. In order to graduate from "Beta" standing, a merchant needs to meet or exceed the following criteria: average user rating of 4.5 or higher, minimum 90% of responses are "Great" in all categories (App Experience, Pickup Experience, Timing Accuracy, Order Quality), and a minimum sample size of 10 reviews. Based on this data, how many merchants are ready to graduate from "Beta" standing?
+
+Partner modelling
+Yummy Quick Food is a popular restaurant on Ritual. They started getting orders on August 7, 2015. They are open Monday to Friday, 10 am-5 pm, and weekends from 10:30 am to 6 pm. They receive an average of 5 orders per hour, except during lunch (between 11:30AM-1:30PM), when their order volume increases by 40%. The average order size of each order is $10.75. On August 23, they decided to add drinks to their Ritual menu as well, boosting their average order size by 12.5%. How much revenue did Yummy Quick Food earn on Ritual from August 7 - September 20?
