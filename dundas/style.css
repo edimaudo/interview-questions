@@ -1,0 +1,59 @@
+div { /*For all Divs */
+	padding-left: 25px;
+}
+
+div.divadd{
+	width: 475px;
+	padding-left: 25px;
+}
+
+div.divlist{
+	width: 300px;
+    float:left;
+    padding-right: 25px;
+    padding-bottom: 25px; 
+}
+
+div.divbuttons{
+	width: 125px;
+	height: 375px;
+    overflow: hidden; /* This prevents the divs from overlapping */
+}
+
+button{
+	margin: 10px;
+}
+
+@media screen and (max-width: 768px){
+     /* CSS for Mobile devices */
+div {
+	padding-left: 25px;
+}
+
+div.divadd{
+	width: 90%;
+	padding-left: 25px;
+}
+
+div.divlist{
+	width: 45%;
+    float:left;
+    padding-right: 25px;
+    padding-bottom: 25px; 
+}
+
+div.divbuttons{
+	width: 45%;
+	height: 375px;
+    overflow: hidden; /* This prevents the divs from overlapping */
+}
+
+button{
+	margin: 10px;
+}
+
+ 
+ 
+}
+ 
+
