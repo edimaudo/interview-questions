@@ -3,7 +3,9 @@ rm(list=ls())
 
 #packages
 packages <- c('ggplot2', 'corrplot','tidyverse','caret','mlbench','mice', 'caTools', 
-              'MASS','Metrics','randomForest','lars','xgboost','Matrix','methods','readxl')
+              'MASS','Metrics','randomForest','lars','xgboost','Matrix','methods','readxl',
+              'factorextra','nFactors','scales','NbClust','psy','lattice')
+
 #load packages
 for (package in packages) {
   if (!require(package, character.only=T, quietly=T)) {
@@ -26,7 +28,11 @@ glimpse(df)
 #backup data
 df.backup <- df
 
-#remove unnecessary columns status, ip address, progress, duration, finished, recipient, latitude, longitude, 
+#get summary
+summary(df)
+
+#remove unnecessary columns status, ip address, progress, duration, finished, 
+#recipient, latitude, longitude, 
 #distrubution channle, user language
 df <- df[,-c(3,4,5,6,7,8,10,11,12,13,14,15,16,17)]
 
@@ -39,7 +45,6 @@ df <- df %>%
 summary(df)
 
 #visualize data by q17_1,q19_1, q21_1,q5, q36,q38, q55,q57,q39,q39_1
-ggplot(df, aes) + geom_bar()
 
 ggplot(df, aes(x = Q17_1)) +
   geom_bar() +
@@ -89,12 +94,14 @@ ggplot(df, aes(x = Q21_1)) +
 #questions
 #Which approach (or combination) had the most positive impact on a 
 #customer’s perception of Dhushan’s Dazzling Sock Company?
-#thoughts - which questions show this + demographic + visualization and 
+#thoughts - which questions show this + demographic + visualization
+glimpse(df)
+
 
 #Which approach (or combination) had the most positive impact on a customer’s 
 #comprehension of Dhushan’s Dazzling Sock Company’s products and services?
 
 #thoughts - which questions showcase this + which demographic
 
-#Which method (or combination) had the highest likelihood of customers recommending DDS to their friends?
-#find ehich questions correspond to this
+#Which method (or combination) had the highest likelihood of customers recommending DDS 
+#to their friends? find ehich questions correspond to this
