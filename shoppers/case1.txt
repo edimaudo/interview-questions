@@ -1,0 +1,36 @@
+Question
+
+Approach 
+
+solution
+
+The data provided shows the performance of agents from 2019 Period 3 to 2020 Period 3.
+
+Task:
+Highlight any TotalScore on the Scores tab with values below 95% in Orange
+
+Sort the Scores by AgentId alphabetical and TotalScore high to low
+
+On the Agents tab please calculate how many days active agents have been employed by Shoppers in column L
+
+On the Scores tab, add the name of the Team Leads from the Agents table to each row of data
+
+Create a pivot table on a new page based on the Scores data
+
+Show avg totalScore for all agents by FiscalYear and Fiscal Period
+
+Complete whatever is necessary to add a filter to show only active agents for the above task
+
+Please add in avg qualityScore and avg productivityScore to pivot
+
+Find which Lead has the best avg totalScore for all agents this year to date.
+ 
+At times you would be asked to look at data and provide analysis to your Manager.  From the data provided on this workbook, please provide analysis on what you believe is important information that Anthony should know about this data and explain why you think it is important.
+
+
+Based on the information provided here are some key insights
+
+Have 4 users that are below average in total score in 2019. 
+Productivity followed had an upward trend in 2019 from period 3 to 9.  It then went down towards period 12 and 13.
+
+
