@@ -17,32 +17,24 @@ for (package in packages) {
 #load data
 df <- read.csv(file.choose())
 
-#columninfo
-colinfo <- df[1,]
-
-#remove row 1 and 2
-df<- df[-c(1, 2), ]
-
-glimpse(df)
-
 #backup data
 df.backup <- df
 
-#get summary
-summary(df)
+glimpse(df)
 
-#remove unnecessary columns status, ip address, progress, duration, finished, 
-#recipient, latitude, longitude, 
-#distrubution channle, user language
-df <- df[,-c(3,4,5,6,7,8,10,11,12,13,14,15,16,17)]
-
-#filter out data in q11 for 4 digit values
-df$charlength <- nchar(df$Q11)
-df <- df %>%
-  filter(charlength == 4)
+#get column headers
+colinfo <-   c(df[1,])
 
 #summary statistics
-summary(df)
+
+
+
+
+
+
+
+
+
 
 #visualize data by q17_1,q19_1, q21_1,q5, q36,q38, q55,q57,q39,q39_1
 
@@ -90,6 +82,23 @@ ggplot(df, aes(x = Q21_1)) +
     x = "Favourable opinion", 
     y = "Count") +
   theme_classic()
+
+
+#data cleaning
+#remove row 1 and 2
+df<- df[-c(1, 2), ]
+
+
+#remove unnecessary columns status, ip address, progress, duration, finished, 
+#recipient, latitude, longitude, 
+#distrubution channle, user language
+df <- df[,-c(3,4,5,6,7,8,10,11,12,13,14,15,16,17)]
+
+#filter out data in q11 for 4 digit values
+df$charlength <- nchar(df$Q11)
+df <- df %>%
+  filter(charlength == 4)
+
 
 #questions
 #Which approach (or combination) had the most positive impact on a 
