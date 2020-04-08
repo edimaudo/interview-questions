@@ -2,8 +2,7 @@
 rm(list=ls())
 
 #packages
-packages <- c('ggplot2', 'corrplot','tidyverse','caret','mlbench','mice', 'caTools', 
-              'MASS','Metrics','randomForest','lars','xgboost','Matrix','methods','readxl',
+packages <- c('ggplot2', 'corrplot','tidyverse','readxl',
               'factorextra','nFactors','scales','NbClust','psy','lattice')
 
 #load packages
@@ -23,20 +22,22 @@ df.backup <- df
 glimpse(df)
 
 #get column headers
-colinfo <-   c(df[1,])
+colinfo <-   as.data.frame (df[1,])
 
 #summary statistics
+summary(df)
+
+#notes
+#columns that may be important Finished,distribution channel,q35,q17_1,q19_1,Q21_1,Q12
+#Q10,Q5
+#Q36 to end could be used for correlation
 
 
+#clean up rows
+#remove row 1 and 2
+df<- df[-c(1, 2), ]
 
-
-
-
-
-
-
-
-#visualize data by q17_1,q19_1, q21_1,q5, q36,q38, q55,q57,q39,q39_1
+#visualize data by q17_1,q19_1, q21_1,q5, q36,q38, q55,q57,q39,q39_1 for better understanding
 
 ggplot(df, aes(x = Q17_1)) +
   geom_bar() +
@@ -52,12 +53,18 @@ ggplot(df, aes(x = Q19_1)) +
     y = "Count") +
   theme_classic()
 
+# ggplot(data=genderinfo, aes(x=reorder(Q2,-freq), y=freq)) +
+#   geom_bar(stat="identity",fill="steelblue") + theme_classic() + labs(x = "Gender", y = "Count") +
+#   theme(axis.text.x = element_text(angle = 0, hjust = 1),
+#         legend.position="none",axis.title = element_text(size = 25),
+#         axis.text = element_text(size = 15)) + coord_flip()
+# }
+
 ggplot(df, aes(x = Q5)) +
-  geom_bar() +
-  labs(
-    x = "Only Company that sells patented socks", 
-    y = "Count") +
-  theme_classic()
+  geom_bar() + theme_classic()
+  labs(x = "Only Company that sells patented socks", 
+    y = "Count") + theme(axis.text.x = element_text(angle = 0, hjust = 1))+ coord_flip()
+  
 
 ggplot(df, aes(x = Q36)) +
   geom_bar() +
@@ -84,10 +91,8 @@ ggplot(df, aes(x = Q21_1)) +
   theme_classic()
 
 
-#data cleaning
-#remove row 1 and 2
-df<- df[-c(1, 2), ]
 
+#data cleaning
 
 #remove unnecessary columns status, ip address, progress, duration, finished, 
 #recipient, latitude, longitude, 
@@ -103,14 +108,14 @@ df <- df %>%
 #questions
 #Which approach (or combination) had the most positive impact on a 
 #customer’s perception of Dhushan’s Dazzling Sock Company?
-#thoughts - which questions show this + demographic + visualization
+
 glimpse(df)
 
 
 #Which approach (or combination) had the most positive impact on a customer’s 
 #comprehension of Dhushan’s Dazzling Sock Company’s products and services?
 
-#thoughts - which questions showcase this + which demographic
+
 
 #Which method (or combination) had the highest likelihood of customers recommending DDS 
 #to their friends? find ehich questions correspond to this
