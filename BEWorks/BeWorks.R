@@ -2,7 +2,7 @@
 rm(list=ls())
 
 #packages
-packages <- c('ggplot2', 'corrplot','tidyverse','readxl',
+packages <- c('ggplot2', 'corrplot','tidyverse','readxl','gridExtra',
               'factorextra','nFactors','scales','NbClust','psy','lattice')
 
 #load packages
@@ -97,7 +97,7 @@ ggplot(df, aes(x = Q21_1)) +
 #remove unnecessary columns status, ip address, progress, duration, finished, 
 #recipient, latitude, longitude, 
 #distrubution channle, user language
-df <- df[,-c(3,4,5,6,7,8,10,11,12,13,14,15,16,17)]
+#df <- df[,-c(3,4,5,6,7,8,10,11,12,13,14,15,16,17)]
 
 #filter out data in q11 for 4 digit values
 df$charlength <- nchar(df$Q11)
