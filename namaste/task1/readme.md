@@ -9,5 +9,3 @@ Your task is to implement a Python script that loads the orders, loads the excha
 - understand the orderjson file
 - understand the currency exchange rate api
 - write code in jupyter notebook
-- write tests
-- convert to python script
