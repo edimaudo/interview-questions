@@ -14,7 +14,8 @@ The outcome of this task will be a link to your dashboard.
 ## Approach
 - Design which metrics are needed
 - Design different tabs in Tableau for financial metrics
+- Use csv from Task 1
 - Design dashboard
 
 ## Outcome
-Link to dashboard
+Link to dashboard - https://public.tableau.com/views/namaste_finance_workbook/namaste_finance_dashboard?:display_count=y&publish=yes&:origin=viz_share_link
