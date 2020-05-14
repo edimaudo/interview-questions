@@ -1,0 +1,34 @@
+. Technical skills(SQL, C#, JavaScript, and etc)
+- Draw Venn diagrams
+- Recursive function
+- OOP Concepts (Inheritance, Interface, ...)
+- Finding the lowest value in the string variable.
+- Advantages of using AJAX on the Web.?
+
+2. Writing Communication Skill
+- Write a customer response email.
+- What is business intelligence?
+
+3. Dashboard Design
+- give three tables and drawing a dashboard related… 
+
+
+sql joins and sql questions where they gave me a table and few questions asked me to write sql query for that  
+
+write 5! (recursion) program in c#  
+
+many questions on c# and html and css (where i dont know them )  
+
+What is BI? and BI best practises 
+
+SQL, JS, JSON, .NET coding questions  
+
+How much do you know about Business Intelligence? 
+
+draw Venn diagrams to illustrate different types of SQL joins  
+
+Describe OOP  
+
+What is disparate data?  
+
+What is the different between == and === in JavaScript?  
