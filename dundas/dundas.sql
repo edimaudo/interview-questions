@@ -54,7 +54,8 @@ values
 ("5","33555","101","1","2","");
 
 # query that shows the total sales amount by each sales person for each product.
-Select O.PersonID,S.Name 'Salesperson Name', O.ProductID,P.Name 'Product Name',SUM(O.Quantity)'# of Units', (P.UnitPrice*SUM(O.Quantity)) 'Sales Amount',
+Select O.PersonID,S.Name 'Salesperson Name', O.ProductID,P.Name 'Product Name',
+SUM(O.Quantity)'# of Units', (P.UnitPrice*SUM(O.Quantity)) 'Sales Amount',
 (P.UnitPrice - (P.UnitPrice * O.Discount/100))*Sum(O.Quantity)'Real sales amount with discount'
 From Orders O 
 inner join Products P on O.ProductID = P.ProductID
@@ -62,7 +63,8 @@ inner join SalesPerson S on O.PersonID = S.PersonID
 Group by O.PersonID,S.Name, O.ProductID, P.Name,P.UnitPrice, O.Discount;
 
 #query that shows all the products ordered by IBM, including number of units and total sales amount.
-Select O.CustomerID, C.Company, O.ProductID, P.Name 'Product Name', SUM(O.Quantity)'# of units', (P.UnitPrice*SUM(O.Quantity))'Sales Amount',
+Select O.CustomerID, C.Company, O.ProductID, P.Name 'Product Name', 
+SUM(O.Quantity)'# of units', (P.UnitPrice*SUM(O.Quantity))'Sales Amount',
 (P.UnitPrice - (P.UnitPrice * O.Discount/100))*Sum(O.Quantity)'Real sales amount with discount'
 From Orders O 
 inner join Products P on O.ProductID = P.ProductID
