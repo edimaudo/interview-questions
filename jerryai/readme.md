@@ -7,7 +7,8 @@ Assess your analytical and coding skills. You can use any language and method of
 
 ## Data analyst question
 ***
-In order to push existing users to refer their friends, we're running a special reward program, in which the user is given an instant $10 discount for posting a referral message as their Facebook status. The message looks something like this:
+In order to push existing users to refer their friends, we're running a special reward program, in which the user is given an instant $10 discount for posting a referral message as their Facebook status. 
+The message looks something like this:
 "Check out this company Jerry.ai --they automatically checks if you’re paying the lowest price for insurance and they will also find the best quote for you. As a friend of mine, you can get $20 off your insurance purchase. Click here to get the $20 gift credit: ​jerry.ai​"
 The user is given the option to post this message on his/her Facebook account during the purchase. Once they post this message, they instantly get the $10 discount on their purchase. In other words, we don't wait for any of their referred friends to actually signup with us before giving them the discount. We feel that doing this would make the users more likely to post the referral message.
 Assume that this reward program has been running for a couple of months, and we have some data collected in our database. We want to know if running this program has been a good idea or not, i.e., are we acquiring new customers with it, or are we just losing money by giving out $10 discounts.
