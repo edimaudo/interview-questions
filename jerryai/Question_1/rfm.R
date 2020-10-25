@@ -24,16 +24,15 @@ users_purchases <- users %>%
 
 users_purchases$final_amount = users_purchases$total - users_purchases$discount
 
-df_org <- df %>%
-
-  select(Constituent_ID,Gift_Date,Gift_Amount)
+df <- users_purchases %>%
+  select(user_id,date,final_amount)
 
 #update date
-df_org$Gift_Date <- as.Date(df_org$Gift_Date)
+df$date <- as.Date(df$date)
 
 #rfm model
-analysis_date <- lubridate::as_date("2020-07-07", tz = "UTC")
-report <- rfm_table_order(df_org, Constituent_ID,Gift_Date,Gift_Amount, analysis_date)
+analysis_date <- lubridate::as_date("2020-04-01", tz = "UTC")
+report <- rfm_table_order(df, user_id,date,final_amount, analysis_date)
 #segment
 segment_titles <- c("First Grade", "Loyal", "Likely to be Loyal",
                     "New Ones", "Could be Promising", "Require Assistance", "Getting Less Frequent",
@@ -49,3 +48,5 @@ m_high  <- c(5, 5, 3, 1, 1, 3, 2, 5, 5, 2)
 divisions<-rfm_segment(report, segment_titles, r_low, r_high, f_low, f_high, m_low, m_high)
 
 division_count <- divisions %>% count(segment) %>% arrange(desc(n)) %>% rename(Segment = segment, Count = n)
+
+write.csv(divisions,"divisions.csv")
