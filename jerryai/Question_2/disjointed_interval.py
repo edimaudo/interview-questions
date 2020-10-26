@@ -10,6 +10,17 @@
 # Call: disjointed_interval = remove(4, 7,disjointed_interval) => [[1, 2], [3, 4], [7, 8]] 
 # Call: disjointed_interval = add(2, 7,disjointed_interval) => [[1, 8]] etc.
 
+def check_position(value, interval):
+	min_value = ""
+
+def position_values(interval,value):
+	position_data = []
+	for values in interval:
+		if value == "min_value":
+			position_data.append(values[0])
+		else:
+			position_data.append(values[1])
+	return position_data
 
 def add(value1, value2,interval):
 	if (type(value1) != int) or (type(value2) != int): 
@@ -24,6 +35,7 @@ def add(value1, value2,interval):
 			interval.append([value1,value2])
 		elif (value1 < min_value) and (value1 < max_value):
 			interval.insert(0,[value1,value2])
+		#eli
 
 
 		return interval
@@ -38,7 +50,9 @@ def main():
 	disjointed_interval = add(1,5,disjointed_interval)
 	disjointed_interval = add(10,20,disjointed_interval)
 	disjointed_interval = add(-10, -2,disjointed_interval)
-	print(disjointed_interval)
+	print(position_values(disjointed_interval,"max_value"))
+	#print(disjointed_interval)
+
 
 	
 	# disjointed_interval = add(20,100,disjointed_interval)
