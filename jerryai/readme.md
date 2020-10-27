@@ -36,11 +36,3 @@ Start: []
 Call: add(1, 5) => [[1, 5]]
 Call: remove(2, 3) => [[1, 2], [3, 5]]
 Call: add(6, 8) => [[1, 2], [3, 5], [6, 8]] Call: remove(4, 7) => [[1, 2], [3, 4], [7, 8]] Call: add(2, 7) => [[1, 8]] etc.
-
-
-## Approach
-
-- Understand problem from business and data perspective
-- Outline assumptions
-- Will use a combination of programming languages: R and python
-- Will create toy data and have visualizations to explore data analysis aspect
