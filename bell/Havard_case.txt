@@ -1,0 +1,79 @@
+Problem identification stage
+
+Porters 5 forces
+PESTEL Analysis
+SWOT
+Marketing mix
+
+
+Overall
+In the first step, a growth path of the company can be formulated that lays down its vision, mission and strategic aims. These can usually be developed using the company history is provided in the case. 
+The next step is of understanding the company; its people, their priorities and the overall culture. This can be done by using company history. It can also be done by looking at anecdotal instances of managers or employees that are usually included in an HBR case study description to give the reader a real feel of the situation.
+Lastly, a timeline of the issues and events in the case needs to be made. Arranging events in a timeline allows one to predict the next few events that are likely to take place. It also helps one in developing the case study solutions. The timeline also helps in understanding the continuous challenges that are being faced by the organisation.
+
+=========
+PESTEL
+=========
+Political
+
+In the United States of America, internet or website companies play an important role in the efficiency and growth of the entire economy. It is now one of the important part of the American society or a system that is a representative of U.S in the world, the reason for the sustained growth of the music industry and related companies consistently nurturing in America’s economy and U.S government do not restrict the people and the companies for listening music online. It is a known fact that the U.S government favors local companies to the extent that foreign companies find it difficult to compete in U.S market. Nevertheless, foreign companies are dying to enter U.S due to its large population and higher demand of music and related stuff, as per capita income has increased and is rapidly growing. The U.S has 50 different states with a federal system. The government is run by the President, followed by the senate and House of Representatives (Buchanan, 1977).
+
+Economical
+
+Music companies have outperformed the sector in terms of the overall turnover growth. This was evident as aggregated demand increased in U.S and abroad for music companies or websites in America are noted for good quality and low on price. The demand for Music in America and even globally has been derived from the increase in the trend of internet users. The entire American music industry produced a massive figure of around 15 billion U.S. dollars in the year 2011.  U.S economy represents around 22.4% of nominal global GDP and around 16.6% of global GDP.
+
+Socio-cultural
+
+The American culture is an important aspect of the market. It is important to understand the culture in order to provide relevant products for the target market segments. American society is normally illustrated as a music lover and entertainment loving people. The local U.S people are now in favor of listening the online music, which is relatively less costly.
+
+Technological
+
+The technological infrastructure in U.S is exceptional. The music industry needs to be more highly developed specifically when it comes to technological infrastructure. American have an excellent technology infrastructure to support the aggressive global music industry. At this time the United States of America are leading in this regard by having a share of around 30%.
+
+Industry and Business Model Analysis
+
+Pandora at present has more than 80 million online users in the United States of America and adds approximately 600,000 new users every week. Most importantly, they also control the internet radio market division by having a gigantic market share of around 50% of all the internet radio being heeded. Pandora’s exclusive music heeding system permits users to choose a preferred musician, type or category of music and using particular computer procedures or algorithms to produce a custom-made radio station, which do not simply play the desired music the customer selects
+
+Environmental
+There does not seem to be much enviromental impact that Pandora has.  
+
+Legal
+Pandora was mirred by legal challenges from different groups (Copyright Royalty Board).  Even though it has been settled it could be a potential hurdle in the future.
+
+========
+SWOT
+========
+
+========
+Porters
+========
+
+ompetitive rivalry (High– Force against):
+o Direct competition: there are multiple digital cable radio broadcasters such as AOL, Yahoo, Live 365 which have well established brand and community. Also, there are other music models included interactive services (Rhapsody and Imeem) along with small niche webcasters (even though they do not represent a major threat).
+o Indirect competition and threat of substitute product: traditional Radio (terrestrial and satellite), illegal download platform, TV (MTV), video sharing website (youtube)…put high pressure.
+• Potential threat of new entrants (Medium – Force against)
+o Low entrance barrier to enter the market :
+? Pandora has no exclusivity on the musical content it provides. Every new entrants could partner with soundExchange, ASCAP, BMI and SESAC.
+? Even though it takes time to create, everybody can build an internet platform.
+? Other companies could offer a bigger music database (Pandora has 900 000 songs in its music catalogue (source : techcrunch).
+o Still, there are several challenges to cope with:
+? Running cost are high since the payment of royalties are expensive.
+? It takes time to build an efficient music analysis platform and a community.
+o Also, traditional industries (terrestrial and satellite radios and music TV channel) might be interested in entering the internet radio channel (e.g lastfm).
+o International competitors could arise rapidly and offer a broader music catalogue.
+o Interestingly, after the case was written several competitors entered the market such as iheartradio, Last.fm, Pandora, Spotify, and Slacker, Senzari ,Rdio or MOG, Songza…
+• Bargaining power of buyers (Medium to high – Forces against)
+o Buyers could switch to any platform instantly…but they would lose their playlists and preferences, which could affect (substantially) their experience.
+Pandora managed to higher the switching cost for the customer by focusing on the user experience. Pandora is very similar to Netflix in the sense that any buyers could leave the service but they are locked in because of the uniqueness of the experience offered in Pandora platform.
+o Customers are price sensitive and Pandora needs high volumes to sustain its business model mainly based on advertising. If they fail to extend the membership, then their whole business model falls apart.
+o Customers are used to experience extensive audio listening. Pandora had to adjust its miminum number of listening hours (for free users) from 40 hours to 320 hours .
+
+• Bargaining power of suppliers (Low to medium- Not a force against) :
+o Pandora faces high royalties for artists (publishers, songwriters, composers), which directly affect the revenue of Pandora…
+o Event though major labels have some power (huge investment in lobbying) they need to popularize their music on internet platform to encourage people to buy the music.
+o Independent labels and artists have less power and are even more interested in getting access to Pandora platform to directly reach their fans
+o Revenue Stream : Itunes and Amazon directly contribute to the revenue of the company but their bargaining power are quite low. Pandora benefits from a large and growing community (« Pandora’s registered user base had grown from 1.1 million to 5.7 million, »).
+Overall, By analyzing the five competitive forces of Pandora we believe the music platform have some competitive advantages:
+– Pandora’s value proposition is quite unique: offering a personalized experience through the music genome project and user input via the feedback system.
+– Pandora’s users community is growing at a very fast pace allowing the company to benefit from a first mover advantage.
+– Pandora is collecting an impressive amount of data on its users’ habits and preferences. The company has massive, personalized and geolocalized data that allow direct and efficient advertising campaign (data might be the core competence of the company).
