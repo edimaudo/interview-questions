@@ -38,6 +38,14 @@ GROUP by S.cust_id
 order by S.cust_id, S.update_at
 
 ### Question 4 Answer
+Select S.seg_name , P.category,  CAST(SUM(T.item_price* T.item_qty) as INTEGER) as revenue
+From segments as S inner join transactions as T on S.cust_id = T.cust_id
+ inner join products P on P.prod_id = T.prod_id
+where S.active_flag = 'Y'
+group by S.seg_name , P.category
+Order by 3 DESC
+
+
 
 
 ### Question 5 Answer
