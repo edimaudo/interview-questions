@@ -1,4 +1,6 @@
 ## Matrix Transpose
+## Using python 2.7
+
 def matrix_transpose(m):
 	if len(m) < 1:
 		return []
