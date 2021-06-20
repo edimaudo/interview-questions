@@ -47,7 +47,21 @@ Order by 3 DESC
 
 
 ### Question 5 Answer
+UPDATE segments
+SET seg_name = 'NEW2'
+where cust_id in (Select S1.cust_id  From segments as S1 group by S1.cust_id having min(S1.update_at) >= '2016-03-01 00:00:00')
 
+UPDATE segments
+SET seg_name = 'NEW2'
+where active_flag = 'Y' and cust_id in (Select S1.cust_id
+From segments S1
+where S1.active_flag = 'Y'
+group by S1.cust_id
+having max(S1.update_at) < '2016-03-01 00:00:00')
+
+Select S1.seg_name, count(S1.cust_id) as count_cust
+From segments as S1
+group by S1.seg_name
 
 ### Question 6 Answer
 - See data_insight.pptx
