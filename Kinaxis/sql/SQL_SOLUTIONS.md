@@ -46,6 +46,8 @@ group by S.seg_name , P.category
 Order by 3 DESC
 
 
-
-
 ### Question 5 Answer
+
+
+### Question 6 Answer
+- See data_insight.pptx
