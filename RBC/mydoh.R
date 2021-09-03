@@ -16,8 +16,8 @@ for (package in packages) {
 }
 
 
-parent <- ""
-child
+parent <- read_excel("Home Assignment.xlsx","Parent Data")
+child <- read_excel("Home Assignment.xlsx","Child Data")
 
 
 # Summary of parent
