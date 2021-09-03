@@ -1,8 +1,10 @@
 ---
 title: "7Shifts Data Analysis"
 output:
+  word_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 ## Objective
@@ -109,6 +111,7 @@ ggplot(trial_utm_avg_display_price, aes(x=(trial_year), y=avg_display_price, gro
   xlab("Trial Year") + 
   ylab("Avg. Display Price")
 ```
+
 - Organic average display price has been the highest price across all years.
 - Google's average display price took a drop from 2018 and 2019 and has remained steady since.
 - Linkedin's average display price also took a drop from 2018 to 2019 and has been steadily rising since.
