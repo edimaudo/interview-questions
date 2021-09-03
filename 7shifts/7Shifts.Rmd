@@ -1,6 +1,8 @@
 ---
 title: "7Shifts Data Analysis"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 ## Objective
@@ -147,6 +149,7 @@ plot2 <- ggplot(trial_utm_avg_display_price_other1, aes(x=(trial_year), y=avg_di
 grid.arrange(plot1, plot2, ncol=2)
 
 ```
+
 - For customers that are still active 
    - Linkedin data seems to have stopped after 2020.  Might be a data issue.  Needs more investigation
    - Google average display prices have been increasing with a dip between 2018 and 2020.  Had a sharp rise after 2020
