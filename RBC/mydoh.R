@@ -107,7 +107,7 @@ print(correlationMatrix)
 #RFM Model
 #=================
 
-#Parent
-#- Monthly trends using 6 different measures with group by year
-#RFM Model
-# Parents
+# Parent
+
+
+# Child
