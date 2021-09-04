@@ -36,22 +36,18 @@ summary(child)
 # Parents
 # Number of parents/users
 parent_count <- length(unique(parent$member_id))
-
-#registration status
+# registration status
 parent_registration <- length(unique(parent$registration_status))
-
-#amount 
-
+# numerical information
 parent_df <- parent %>%
   select(member_id, cnt_user_login, trxn_amt, deposit_cnt, transfer_cnt, deposit_amt, transfer_amt)
-
-#convert NA to 0s
+# convert NA to 0s
 parent_df[is.na(parent_df)] <- 0
-
-
-# - toal transaction amount
+# login count
+parent_login_count <- sum(parent_df$cnt_user_login)
+# - transaction amount
 parent_transaction_total <- sum(parent_df$trxn_amt)
-# - total depoist count
+# - deposit count
 parent_deposit_count_total <- sum(parent_df$deposit_cnt)
 # - total transfer count
 parent_transfer_count_total <- sum(parent_df$transfer_cnt)
@@ -60,22 +56,40 @@ parent_deposit_amount_total <- sum(parent_df$deposit_amt)
 # - transfer amount
 parent_transfer_amountt_total <- sum(parent_df$transfer_amt)
 
-#correlations
+# correlation of parent information
+correlationMatrix <- cor(parent_df[,c(-1)])
+corrplot(correlationMatrix,method='number', bg='#676767')
+# # summarize the correlation matrix
+print(correlationMatrix)
 
 #Child
-# Number of child/ussers
-# - total login amount count
-# - transaction amount
-# - total purchase count
-# - total receive count
-# - total purchase amount
-# - total receive amount
+# Number of child/users
+child_count <- length(unique(child$member_id))
+# numerical information
+child_df <- child %>%
+  select(member_id, cnt_user_login, trxn_amt, purchase_cnt, receive_cnt, purchase_amt, receive_amt)
+# convert NA to 0s
+child_df[is.na(child_df)] <- 0
+# total login
+child_login_count <- sum(child_df$cnt_user_login)
+# transaction amount
+child_transaction_total <- sum(child_df$trxn_amt)
+# purchase count
+child_purchase_count_total <- sum(child_df$purchase_cnt)
+# receive count
+child_receive_count_total <- sum(child_df$receive_cnt)
+# purchase amount
+child_purchase_amount_total <- sum(child_df$purchase_amt)
+# receive amount
+child_receive_amount_total <- sum(child_df$receive_amt)
+
+# child correlation 
+correlationMatrix <- cor(child_df[,c(-1)])
+corrplot(correlationMatrix,method='number',bg='#676767')
+# # summarize the correlation matrix
+print(correlationMatrix)
 
 # Avg parent to child ratio if needed
-
-
-#Assumption
-#- Data provided is a snapshot so state like analysis like conversion will not be looked at
 
 
 # trends
