@@ -6,7 +6,7 @@ rm(list = ls()) #clear environment
 # libraries
 packages <- c('ggplot2', 'corrplot','tidyverse',"caret","dummies","fastDummies"
               ,'FactoMineR','factoextra','scales','dplyr','mlbench','caTools',
-              'grid','gridExtra','doParallel','readxl')
+              'grid','gridExtra','doParallel','readxl','lubridate')
 # load packages
 for (package in packages) {
   if (!require(package, character.only=T, quietly=T)) {
@@ -31,7 +31,9 @@ glimpse(child)
 # Summary of child
 summary(child)
 
-# overall information
+#=================
+# Overall
+#=================
 
 # Parents
 # Number of parents/users
@@ -89,16 +91,21 @@ corrplot(correlationMatrix,method='number',bg='#676767')
 # # summarize the correlation matrix
 print(correlationMatrix)
 
-# Avg parent to child ratio if needed
+#=================
+# Trends
+#=================
+# Parent 
 
 
-# trends
-
-#Child 
+# Child 
 # - Monthly trends using 6 different measures with group by year
+
+
 #g#rid.arrange(plot1, plot2, ncol=2)
 
+#=================
 #RFM Model
+#=================
 
 #Parent
 #- Monthly trends using 6 different measures with group by year
