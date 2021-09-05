@@ -95,6 +95,9 @@ print(correlationMatrix)
 # Trends
 #=================
 # Parent 
+parent$onboarded_mth_year <- lubridate::year(parent$onboarded_mth)
+parent$onboarded_mth_month <- lubridate::month(parent$onboarded_mth)
+parent$onboarded_mth_month_year <- format(as.Date(parent$onboarded_mth), "%Y-%m")
 
 
 # Child 
