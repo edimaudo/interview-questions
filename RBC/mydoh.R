@@ -99,6 +99,12 @@ parent$onboarded_mth_year <- lubridate::year(parent$onboarded_mth)
 parent$onboarded_mth_month <- lubridate::month(parent$onboarded_mth)
 parent$onboarded_mth_month_year <- format(as.Date(parent$onboarded_mth), "%Y-%m")
 
+parent_df <- parent %>%
+  filter(!is.na(onboarded_mth_year)) %>%
+  select(member_id, cnt_user_login, trxn_amt, deposit_cnt, transfer_cnt, deposit_amt, transfer_amt,
+         onboarded_mth_year,onboarded_mth_month, onboarded_mth_month_year)
+# convert NA to 0s
+parent_df[is.na(parent_df)] <- 0
 
 # Child 
 # - Monthly trends using 6 different measures with group by year
