@@ -108,34 +108,81 @@ parent_df[is.na(parent_df)] <- 0
 parent_df$onboarded_mth_year <- as.factor(parent_df$onboarded_mth_year)
 parent_df$onboarded_mth_month <- as.factor(parent_df$onboarded_mth_month)
 
+# Visualization
 # parent login count visualization
 parent_df_login_count <- parent_df %>%
   group_by(onboarded_mth_year,onboarded_mth_month) %>%
   summarise(total_login_count = sum(cnt_user_login)) %>%
   select(onboarded_mth_year,onboarded_mth_month,total_login_count)
+
 parent_df_login_count <- ggplot(parent_df_login_count, aes(x=as.factor(onboarded_mth_month), 
                                                            y=total_login_count, 
                                                            group = as.factor(onboarded_mth_year))) +
   geom_line(aes(color=onboarded_mth_year)) +
   geom_point(aes(color=onboarded_mth_year)) +
   theme_minimal() +
-  ggtitle("Parent Login Count")+
+  ggtitle("Parent Total Login Count")+
   xlab("Month #") + 
-  ylab("Total login")
+  ylab("Login Count") + scale_colour_discrete(name="Year")
 parent_df_login_count 
 
 # Parent transaction amount
+parent_df_trxn_amt  <- parent_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_trxn_amt = sum(trxn_amt)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_trxn_amt)
+
+parent_df_trxn_amt  <- ggplot(parent_df_trxn_amt, aes(x=as.factor(onboarded_mth_month), 
+                                                           y=total_trxn_amt, 
+                                                           group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Parent Total Transaction Amount")+
+  xlab("Month #") + 
+  ylab("Ttansaction Amount") + scale_colour_discrete(name="Year")
+parent_df_trxn_amt 
 
 # Parent deposit count
+parent_df_deposit_count  <- parent_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_deposit_count = sum(deposit_cnt)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_deposit_count )
 
+parent_df_deposit_count   <- ggplot(parent_df_deposit_count , aes(x=as.factor(onboarded_mth_month), 
+                                                      y=total_deposit_count , 
+                                                      group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Parent Total Deposit Count")+
+  xlab("Month #") + 
+  ylab("Deposit Count") + scale_colour_discrete(name="Year")
+parent_df_deposit_count 
 
 # Parent transfer count
+parent_df_transfer_count  <- parent_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_transfer_count = sum(transfer_cnt)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_transfer_count)
+
+parent_df_transfer_count  <- ggplot(parent_df_transfer_count, aes(x=as.factor(onboarded_mth_month), 
+                                                                  y=total_transfer_count , 
+                                                                  group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Parent Total Transfer Count")+
+  xlab("Month #") + 
+  ylab("Transfer Count") + scale_colour_discrete(name="Year")
+parent_df_deposit_count 
 
 # Parent deposit amount
 
 # Parent transfer amount
 
-
+grid.arrange(parent_df_login_count ,parent_df_trxn_amt, parent_df_deposit_count,
+             parent_df_transfer_count , ncol=3, nrow=3)
 
 
 
@@ -148,6 +195,32 @@ parent_df_login_count
 #=================
 #RFM Model
 #=================
+df_ind <- df %>%
+  filter(Org_Flag != "Organization") %>%
+  select(Constituent_ID,Gift_Date,Gift_Amount)
+
+#update date
+df_ind$Gift_Date <- as.Date(df_ind$Gift_Date)
+
+#rfm model
+#rfm model
+analysis_date <- lubridate::as_date("2020-07-07", tz = "UTC")
+report <- rfm_table_order(df_ind, Constituent_ID,Gift_Date,Gift_Amount, analysis_date)
+#segment
+segment_titles <- c("First Grade", "Loyal", "Likely to be Loyal",
+                    "New Ones", "Could be Promising", "Require Assistance", "Getting Less Frequent",
+                    "Almost Out", "Can't Lose Them", "Don’t Show Up at All")
+#numerical thresholds
+r_low <- c(4, 2, 3, 4, 3, 2, 2, 1, 1, 1)
+r_high <- c(5, 5, 5, 5, 4, 3, 3, 2, 1, 2)
+f_low <- c(4, 3, 1, 1, 1, 2, 1, 2, 4, 1)
+f_high <- c(5, 5, 3, 1, 1, 3, 2, 5, 5, 2)
+m_low <- c(4, 3, 1, 1, 1, 2, 1, 2, 4, 1)
+m_high  <- c(5, 5, 3, 1, 1, 3, 2, 5, 5, 2)
+
+divisions<-rfm_segment(report, segment_titles, r_low, r_high, f_low, f_high, m_low, m_high)
+
+division_count <- divisions %>% count(segment) %>% arrange(desc(n)) %>% rename(Segment = segment, Count = n
 
 # Parent
 
