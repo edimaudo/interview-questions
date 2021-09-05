@@ -108,7 +108,7 @@ parent_df[is.na(parent_df)] <- 0
 parent_df$onboarded_mth_year <- as.factor(parent_df$onboarded_mth_year)
 parent_df$onboarded_mth_month <- as.factor(parent_df$onboarded_mth_month)
 
-# Visualization
+# Parent Visualization
 # parent login count visualization
 parent_df_login_count <- parent_df %>%
   group_by(onboarded_mth_year,onboarded_mth_month) %>%
@@ -124,7 +124,7 @@ parent_df_login_count <- ggplot(parent_df_login_count, aes(x=as.factor(onboarded
   ggtitle("Parent Total Login Count")+
   xlab("Month #") + 
   ylab("Login Count") + scale_colour_discrete(name="Year")
-parent_df_login_count 
+#parent_df_login_count 
 
 # Parent transaction amount
 parent_df_trxn_amt  <- parent_df %>%
@@ -141,7 +141,7 @@ parent_df_trxn_amt  <- ggplot(parent_df_trxn_amt, aes(x=as.factor(onboarded_mth_
   ggtitle("Parent Total Transaction Amount")+
   xlab("Month #") + 
   ylab("Ttansaction Amount") + scale_colour_discrete(name="Year")
-parent_df_trxn_amt 
+#parent_df_trxn_amt 
 
 # Parent deposit count
 parent_df_deposit_count  <- parent_df %>%
@@ -158,7 +158,7 @@ parent_df_deposit_count   <- ggplot(parent_df_deposit_count , aes(x=as.factor(on
   ggtitle("Parent Total Deposit Count")+
   xlab("Month #") + 
   ylab("Deposit Count") + scale_colour_discrete(name="Year")
-parent_df_deposit_count 
+#parent_df_deposit_count 
 
 # Parent transfer count
 parent_df_transfer_count  <- parent_df %>%
@@ -175,14 +175,47 @@ parent_df_transfer_count  <- ggplot(parent_df_transfer_count, aes(x=as.factor(on
   ggtitle("Parent Total Transfer Count")+
   xlab("Month #") + 
   ylab("Transfer Count") + scale_colour_discrete(name="Year")
-parent_df_deposit_count 
+#parent_df_transfer_count
 
 # Parent deposit amount
+parent_df_deposit_amount <- parent_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_deposit_amount = sum(deposit_amt)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_deposit_amount)
+
+parent_df_deposit_amount  <- ggplot(parent_df_deposit_amount , aes(x=as.factor(onboarded_mth_month), 
+                                                                  y=total_deposit_amount, 
+                                                                  group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Parent Total Deposit Amount")+
+  xlab("Month #") + 
+  ylab("Deposit Amount") + scale_colour_discrete(name="Year")
+#parent_df_deposit_amount 
 
 # Parent transfer amount
 
-grid.arrange(parent_df_login_count ,parent_df_trxn_amt, parent_df_deposit_count,
-             parent_df_transfer_count , ncol=3, nrow=3)
+parent_df_transfer_amount <- parent_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_transfer_amount = sum(transfer_amt)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_transfer_amount)
+
+parent_df_transfer_amount  <- ggplot(parent_df_transfer_amount , aes(x=as.factor(onboarded_mth_month), 
+                                                                   y=total_transfer_amount, 
+                                                                   group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Parent Total Transfer Amount")+
+  xlab("Month #") + 
+  ylab("Trasnfer Amount") + scale_colour_discrete(name="Year")
+#parent_df_transfer_amount 
+
+# combine parent visualization
+grid.arrange(parent_df_trxn_amt, parent_df_transfer_count,parent_df_transfer_amount,
+             parent_df_deposit_count,parent_df_deposit_count, parent_df_deposit_amount,
+             parent_df_login_count, ncol=3, nrow=4)
 
 
 
