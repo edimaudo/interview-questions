@@ -105,6 +105,39 @@ parent_df <- parent %>%
          onboarded_mth_year,onboarded_mth_month, onboarded_mth_month_year)
 # convert NA to 0s
 parent_df[is.na(parent_df)] <- 0
+parent_df$onboarded_mth_year <- as.factor(parent_df$onboarded_mth_year)
+parent_df$onboarded_mth_month <- as.factor(parent_df$onboarded_mth_month)
+
+# parent login count visualization
+parent_df_login_count <- parent_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_login_count = sum(cnt_user_login)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_login_count)
+parent_df_login_count <- ggplot(parent_df_login_count, aes(x=as.factor(onboarded_mth_month), 
+                                                           y=total_login_count, 
+                                                           group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Parent Login Count")+
+  xlab("Month #") + 
+  ylab("Total login")
+parent_df_login_count 
+
+# Parent transaction amount
+
+# Parent deposit count
+
+
+# Parent transfer count
+
+# Parent deposit amount
+
+# Parent transfer amount
+
+
+
+
 
 # Child 
 # - Monthly trends using 6 different measures with group by year
