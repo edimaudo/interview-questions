@@ -92,14 +92,14 @@ corrplot(correlationMatrix,method='number',bg='#676767')
 # # summarize the correlation matrix
 print(correlationMatrix)
 
-#=================
-# Trends
-#=================
 # Parent 
 parent$onboarded_mth_year <- lubridate::year(parent$onboarded_mth)
 parent$onboarded_mth_month <- lubridate::month(parent$onboarded_mth)
 parent$onboarded_mth_month_year <- format(as.Date(parent$onboarded_mth), "%Y-%m")
 
+#=================
+# Trends
+#=================
 parent_df <- parent %>%
   filter(!is.na(onboarded_mth_year)) %>%
   select(member_id, cnt_user_login, trxn_amt, deposit_cnt, transfer_cnt, deposit_amt, transfer_amt,
@@ -244,12 +244,12 @@ parent_df2$onboarded_mth <- as.Date(parent_df2$onboarded_mth)
 
 #rfm model
 analysis_date <- lubridate::as_date("2021-09-01")
-report <- rfm_table_order(parent_df2, member_id,onboarded_mth,trxn_amt, analysis_date)
+report <- rfm::rfm_table_order(parent_df2, member_id,onboarded_mth,trxn_amt, analysis_date)
+
 #segment
-segment_titles <- c("First Grade", "Loyal", "Likely to be Loyal",
-                    "New Ones", "Could be Promising", "Require Assistance", 
-                    "Getting Less Frequent",
-                    "Almost Out", "Can't Lose Them", "Don’t Show Up at All")
+segment_names <- c("Champions", "Loyal Customers", "Potential Loyalist",
+                   "New Customers", "Promising", "Need Attention", "About To Sleep",
+                   "At Risk", "Can't Lose Them", "Lost")
 #numerical thresholds
 r_low <- c(4, 2, 3, 4, 3, 2, 2, 1, 1, 1)
 r_high <- c(5, 5, 5, 5, 4, 3, 3, 2, 1, 2)
@@ -258,7 +258,7 @@ f_high <- c(5, 5, 3, 1, 1, 3, 2, 5, 5, 2)
 m_low <- c(4, 3, 1, 1, 1, 2, 1, 2, 4, 1)
 m_high  <- c(5, 5, 3, 1, 1, 3, 2, 5, 5, 2)
 
-divisions<-rfm_segment(report, segment_titles, r_low, r_high, f_low, f_high, m_low, m_high)
+divisions<-rfm_segment(report, segment_names, r_low, r_high, f_low, f_high, m_low, m_high)
 
 
 divisions_df <- divisions %>%
