@@ -97,8 +97,12 @@ parent$onboarded_mth_year <- lubridate::year(parent$onboarded_mth)
 parent$onboarded_mth_month <- lubridate::month(parent$onboarded_mth)
 parent$onboarded_mth_month_year <- format(as.Date(parent$onboarded_mth), "%Y-%m")
 
+child$onboarded_mth_year <- lubridate::year(child$onboarded_mth)
+child$onboarded_mth_month <- lubridate::month(child$onboarded_mth)
+child$onboarded_mth_month_year <- format(as.Date(child$onboarded_mth), "%Y-%m")
+
 #=================
-# Trends
+# Parent Trends
 #=================
 parent_df <- parent %>%
   filter(!is.na(onboarded_mth_year)) %>%
@@ -220,14 +224,128 @@ grid.arrange(parent_df_trxn_amt, parent_df_transfer_count,parent_df_transfer_amo
              parent_df_login_count, ncol=3, nrow=4)
 
 
+#=================
+# Child Trends
+#=================
+child_df <- child  %>%
+  filter(!is.na(onboarded_mth_year)) %>%
+  select(member_id, cnt_user_login, trxn_amt, purchase_cnt, receive_cnt, purchase_amt, receive_amt,
+         onboarded_mth_year,onboarded_mth_month, onboarded_mth_month_year)
+# convert NA to 0s
+child_df[is.na(child_df)] <- 0
+child_df$onboarded_mth_year <- as.factor(child_df$onboarded_mth_year)
+child_df$onboarded_mth_month <- as.factor(child_df$onboarded_mth_month)
+
+# Child user logn count
+child_df_login <- child_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_login_amount = sum(cnt_user_login)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_login_amount)
+
+child_df_login<- ggplot(child_df_login  , 
+                                     aes(x=as.factor(onboarded_mth_month), 
+                                         y=total_login_amount, 
+                                         group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Child Total Login Count")+
+  xlab("Month #") + 
+  ylab("Login Amount") + scale_colour_discrete(name="Year")
+
+# Child Transaction amount
+child_df_transaction_amount <- child_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_transaction_amount = sum(trxn_amt)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_transaction_amount)
+
+child_df_transaction_amount <- ggplot(child_df_transaction_amount  , 
+                        aes(x=as.factor(onboarded_mth_month), 
+                            y=total_transaction_amount, 
+                            group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Child Total Transaction Amount")+
+  xlab("Month #") + 
+  ylab("Transaction Amount") + scale_colour_discrete(name="Year")
+
+
+# Child Purchase Count
+child_df_Purchase_count <- child_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_purchase_count = sum(purchase_cnt)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_purchase_count)
+
+child_df_Purchase_count<- ggplot(child_df_Purchase_count  , 
+                                aes(x=as.factor(onboarded_mth_month), 
+                                    y=total_purchase_count, 
+                                    group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Child Total Purchase Count")+
+  xlab("Month #") + 
+  ylab("Purchase Count") + scale_colour_discrete(name="Year")
+
+# Child Purchase Amount
+child_df_Purchase_amount <- child_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_purchase_amount = sum(purchase_amt)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_purchase_amount)
+
+child_df_Purchase_amount<- ggplot(child_df_Purchase_amount  , 
+                                  aes(x=as.factor(onboarded_mth_month), 
+                                      y=total_purchase_amount, 
+                                      group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Child Total Purchase Amount")+
+  xlab("Month #") + 
+  ylab("Purchase Amount") + scale_colour_discrete(name="Year")
+
+# Child Receive Count
+child_df_Receive_count <- child_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_receive_count = sum(receive_cnt)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_receive_count)
+
+child_df_Receive_count<- ggplot(child_df_Receive_count  , 
+                                 aes(x=as.factor(onboarded_mth_month), 
+                                     y=total_receive_count, 
+                                     group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Child Total Receive Count")+
+  xlab("Month #") + 
+  ylab("Receive Count") + scale_colour_discrete(name="Year")
+
+# Child Receive Amount
+child_df_Receive_amount <- child_df %>%
+  group_by(onboarded_mth_year,onboarded_mth_month) %>%
+  summarise(total_receive_amount = sum(receive_amt)) %>%
+  select(onboarded_mth_year,onboarded_mth_month,total_receive_amount)
+
+child_df_Receive_amount<- ggplot(child_df_Receive_amount  , 
+                                      aes(x=as.factor(onboarded_mth_month), 
+                                          y=total_receive_amount, 
+                                          group = as.factor(onboarded_mth_year))) +
+  geom_line(aes(color=onboarded_mth_year)) +
+  geom_point(aes(color=onboarded_mth_year)) +
+  theme_minimal() +
+  ggtitle("Child Total Receive Amount")+
+  xlab("Month #") + 
+  ylab("Receive Amount") + scale_colour_discrete(name="Year")
+
 
 # Child 
-# - Monthly trends using 6 different measures with group by year
-
-
-grid.arrange(parent_df_trxn_amt, parent_df_transfer_count,parent_df_transfer_amount,
-             parent_df_deposit_count,parent_df_deposit_count, parent_df_deposit_amount,
-             parent_df_login_count, ncol=3, nrow=4)
+grid.arrange(child_df_login,
+             child_df_transaction_amount, 
+             child_df_Purchase_count,child_df_Purchase_amount,
+             child_df_Receive_count,child_df_Receive_amount,
+             ncol=3, nrow=3)
 
 #=================
 #RFM Model
@@ -242,7 +360,6 @@ parent_df2[is.na(parent_df2)] <- 0
 #update date
 parent_df2$onboarded_mth <- as.Date(parent_df2$onboarded_mth)
 
-#rfm model
 analysis_date <- lubridate::as_date("2021-09-01")
 report <- rfm::rfm_table_order(parent_df2, member_id,onboarded_mth,trxn_amt, analysis_date)
 
