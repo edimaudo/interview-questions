@@ -1,5 +1,5 @@
 ## RBC Home Assignment
-***
+
 
 ![RBC Assignment](https://github.com/edimaudo/interview-questions/blob/master/RBC/main.png)
 
