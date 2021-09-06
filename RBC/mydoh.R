@@ -220,8 +220,8 @@ parent_df_transfer_amount  <- ggplot(parent_df_transfer_amount ,
 
 # combine parent visualization
 grid.arrange(parent_df_trxn_amt, parent_df_transfer_count,parent_df_transfer_amount,
-             parent_df_deposit_count,parent_df_deposit_count, parent_df_deposit_amount,
-             parent_df_login_count, ncol=3, nrow=4)
+            parent_df_deposit_count, parent_df_deposit_amount,
+             parent_df_login_count, ncol=3, nrow=2)
 
 
 #=================
@@ -345,7 +345,7 @@ grid.arrange(child_df_login,
              child_df_transaction_amount, 
              child_df_Purchase_count,child_df_Purchase_amount,
              child_df_Receive_count,child_df_Receive_amount,
-             ncol=3, nrow=3)
+             ncol=3, nrow=2)
 
 #=================
 #RFM Model
@@ -385,20 +385,24 @@ divisions_df <- divisions %>%
   dplyr::select(segment, transaction_total, amount_total)
 
 
-ggplot(data = divisions_df,aes(x = reorder(segment, transaction_total), y = transaction_total)) + 
+transactionplot <- ggplot(data = divisions_df,aes(x = reorder(segment, transaction_total), y = transaction_total)) + 
 geom_bar(stat = "identity") + 
-coord_flip() + theme_minimal()
+coord_flip() + theme_minimal() + 
 ggtitle("Segment and Total Transaction") + 
 xlab("Segment") + 
 ylab("Transactions")
 
-ggplot(data = divisions_df,aes(x = reorder(segment, amount_total), y = amount_total)) + 
+amountplot <- ggplot(data = divisions_df,aes(x = reorder(segment, amount_total), y = amount_total)) + 
   geom_bar(stat = "identity") + 
   coord_flip() + theme_minimal() +
   ggtitle("Segment and Total Amount") + 
   xlab("Segment") + 
   ylab("Amount")
 
+
+grid.arrange(transactionplot,
+             amountplot,
+             ncol=2, nrow=1)
 
 
 
