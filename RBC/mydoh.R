@@ -6,7 +6,8 @@ rm(list = ls()) #clear environment
 # libraries
 packages <- c('ggplot2', 'corrplot','tidyverse',"caret","dummies","fastDummies"
               ,'FactoMineR','factoextra','scales','dplyr','mlbench','caTools',
-              'grid','gridExtra','doParallel','readxl','lubridate')
+              'grid','gridExtra','doParallel','readxl','lubridate',
+              'scales','rfm')
 # load packages
 for (package in packages) {
   if (!require(package, character.only=T, quietly=T)) {
@@ -201,9 +202,10 @@ parent_df_transfer_amount <- parent_df %>%
   summarise(total_transfer_amount = sum(transfer_amt)) %>%
   select(onboarded_mth_year,onboarded_mth_month,total_transfer_amount)
 
-parent_df_transfer_amount  <- ggplot(parent_df_transfer_amount , aes(x=as.factor(onboarded_mth_month), 
-                                                                   y=total_transfer_amount, 
-                                                                   group = as.factor(onboarded_mth_year))) +
+parent_df_transfer_amount  <- ggplot(parent_df_transfer_amount , 
+                                     aes(x=as.factor(onboarded_mth_month), 
+                                      y=total_transfer_amount, 
+                                      group = as.factor(onboarded_mth_year))) +
   geom_line(aes(color=onboarded_mth_year)) +
   geom_point(aes(color=onboarded_mth_year)) +
   theme_minimal() +
@@ -223,22 +225,26 @@ grid.arrange(parent_df_trxn_amt, parent_df_transfer_count,parent_df_transfer_amo
 # - Monthly trends using 6 different measures with group by year
 
 
-#g#rid.arrange(plot1, plot2, ncol=2)
+grid.arrange(parent_df_trxn_amt, parent_df_transfer_count,parent_df_transfer_amount,
+             parent_df_deposit_count,parent_df_deposit_count, parent_df_deposit_amount,
+             parent_df_login_count, ncol=3, nrow=4)
 
 #=================
 #RFM Model
 #=================
-df_ind <- df %>%
-  filter(Org_Flag != "Organization") %>%
-  select(Constituent_ID,Gift_Date,Gift_Amount)
+# Parent
+parent_df2 <- parent %>%
+  filter(!is.na(onboarded_mth_year)) %>%
+  select(member_id, trxn_amt, onboarded_mth)
+# convert NA to 0s
+parent_df2[is.na(parent_df2)] <- 0
 
 #update date
-df_ind$Gift_Date <- as.Date(df_ind$Gift_Date)
+parent_df2$onboarded_mth <- as.Date(parent_df2$onboarded_mth)
 
 #rfm model
-#rfm model
-analysis_date <- lubridate::as_date("2020-07-07", tz = "UTC")
-report <- rfm_table_order(df_ind, Constituent_ID,Gift_Date,Gift_Amount, analysis_date)
+analysis_date <- lubridate::as_date("2021-09-01")
+report <- rfm_table_order(parent_df2, member_id,onboarded_mth,trxn_amt, analysis_date)
 #segment
 segment_titles <- c("First Grade", "Loyal", "Likely to be Loyal",
                     "New Ones", "Could be Promising", "Require Assistance", "Getting Less Frequent",
@@ -253,9 +259,7 @@ m_high  <- c(5, 5, 3, 1, 1, 3, 2, 5, 5, 2)
 
 divisions<-rfm_segment(report, segment_titles, r_low, r_high, f_low, f_high, m_low, m_high)
 
-division_count <- divisions %>% count(segment) %>% arrange(desc(n)) %>% rename(Segment = segment, Count = n
 
-# Parent
 
 
 # Child
