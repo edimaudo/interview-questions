@@ -184,9 +184,10 @@ parent_df_deposit_amount <- parent_df %>%
   summarise(total_deposit_amount = sum(deposit_amt)) %>%
   select(onboarded_mth_year,onboarded_mth_month,total_deposit_amount)
 
-parent_df_deposit_amount  <- ggplot(parent_df_deposit_amount , aes(x=as.factor(onboarded_mth_month), 
-                                                                  y=total_deposit_amount, 
-                                                                  group = as.factor(onboarded_mth_year))) +
+parent_df_deposit_amount  <- ggplot(parent_df_deposit_amount , 
+                                    aes(x=as.factor(onboarded_mth_month), 
+                                                y=total_deposit_amount, 
+                                                group = as.factor(onboarded_mth_year))) +
   geom_line(aes(color=onboarded_mth_year)) +
   geom_point(aes(color=onboarded_mth_year)) +
   theme_minimal() +
@@ -196,7 +197,6 @@ parent_df_deposit_amount  <- ggplot(parent_df_deposit_amount , aes(x=as.factor(o
 #parent_df_deposit_amount 
 
 # Parent transfer amount
-
 parent_df_transfer_amount <- parent_df %>%
   group_by(onboarded_mth_year,onboarded_mth_month) %>%
   summarise(total_transfer_amount = sum(transfer_amt)) %>%
@@ -247,7 +247,8 @@ analysis_date <- lubridate::as_date("2021-09-01")
 report <- rfm_table_order(parent_df2, member_id,onboarded_mth,trxn_amt, analysis_date)
 #segment
 segment_titles <- c("First Grade", "Loyal", "Likely to be Loyal",
-                    "New Ones", "Could be Promising", "Require Assistance", "Getting Less Frequent",
+                    "New Ones", "Could be Promising", "Require Assistance", 
+                    "Getting Less Frequent",
                     "Almost Out", "Can't Lose Them", "Don’t Show Up at All")
 #numerical thresholds
 r_low <- c(4, 2, 3, 4, 3, 2, 2, 1, 1, 1)
@@ -260,6 +261,27 @@ m_high  <- c(5, 5, 3, 1, 1, 3, 2, 5, 5, 2)
 divisions<-rfm_segment(report, segment_titles, r_low, r_high, f_low, f_high, m_low, m_high)
 
 
+divisions_df <- divisions %>%
+  dplyr::group_by(segment) %>%
+  dplyr::summarize( transaction_total = sum(transaction_count), 
+             amount_total = sum(amount)) %>%
+  dplyr::select(segment, transaction_total, amount_total)
 
 
-# Child
+ggplot(data = divisions_df,aes(x = reorder(segment, transaction_total), y = transaction_total)) + 
+geom_bar(stat = "identity") + 
+coord_flip() + theme_minimal()
+ggtitle("Segment and Total Transaction") + 
+xlab("Segment") + 
+ylab("Transactions")
+
+ggplot(data = divisions_df,aes(x = reorder(segment, amount_total), y = amount_total)) + 
+  geom_bar(stat = "identity") + 
+  coord_flip() + theme_minimal() +
+  ggtitle("Segment and Total Amount") + 
+  xlab("Segment") + 
+  ylab("Amount")
+
+
+
+
