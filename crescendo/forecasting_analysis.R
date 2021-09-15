@@ -20,14 +20,36 @@ for (package in packages) {
 
 forecast_df <- read_excel("Forecast Test Data - Senior BI Analyst.xlsx",sheet="Data")
 
-# Convert Year-XX to Numerical data
-#  Generate Year-month and pick first day to convert to date
-# Generate view 
-
 # Visualize the time series (aggregate the info) 
-#- overall
-#- sports
-#- website
+
+# Overall
+forecast_overall_df <- forecast_df %>%
+  group_by(Year, WeekNo) %>%
+  summarise(Turnover_total = sum(Turnover), 
+            Profit_total = sum(Profit), 
+            CustomerCount_total = sum(CustomerCount)) %>%
+  select(Year, WeekNo, Turnover, Profit_Total, CustomerCount_total)
+  
+
+
+# By website
+
+# Option 1 - no change in Data
+#- overall forecast for next 12 months
+
+# Forecast by website for next 12 months
+
+
+
+# Option 2 convert to time series data 
+# overall forecast for next 12 months
+
+# Forecast by website for next 12 months
+
+
+
+
+
 
 #Forecasting using different techniques
 #Overall forecast
