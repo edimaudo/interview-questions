@@ -8,9 +8,9 @@ rm(list = ls()) #clear environment
 ## Load Packages
 #===================
 packages <- c('ggplot2', 'corrplot','tidyverse',"caret","dummies","fastDummies",'dplyr',
-              'plyr','mlbench','caTools','doParallel',
+              'plyr','mlbench','caTools','doParallel','stringr',
               'scales','dplyr','mlbench','caTools','lubridate',
-              'grid','gridExtra','readxl')
+              'grid','gridExtra','readxl','NbClust','psy','nFactors')
 for (package in packages) {
   if (!require(package, character.only=T, quietly=T)) {
     install.packages(package)
@@ -30,7 +30,7 @@ summary(player_signup)
 summary(player_transaction)
 
 #===================
-# Country segmentation
+# Country
 #===================
 # Country cumulative Age
 Country_age <- player_signup %>%
@@ -139,32 +139,8 @@ Country_days_played <- player_signup %>%
   ylab("Days Played")
 Country_days_played
   
-
-# # Country transaction type <-- issue
-# Country_transaction_type <- player_signup %>%
-#   inner_join(player_transaction,"CustomerID") %>%
-#   group_by(Country, TranType) %>%
-#   dplyr::summarise(amount_total = sum(AmountUSD)) %>%
-#   arrange(desc(amount_total), Country, TranType) %>%
-#   select(Country, TranType, amount_total) %>%
-#   top_n( n = 5, Country) %>%
-#   ggplot(aes(x = reorder(Country,amount_total), y = amount_total,fill = TranType)) + 
-#   geom_bar(stat = "identity") + 
-#   coord_flip() + theme_minimal() +
-#   guides(scale = "none") + scale_y_continuous(labels = comma) + 
-#   ggtitle("Top 20 Countries vs. Total USD Amount") + 
-#   xlab("Country") + 
-#   ylab("USD Amount")
-# Country_transaction_type
-  
-  
-  
-
-
-
-
 #===================
-# Sport segmentation
+# Sport
 #===================
 # Sport user count
 Sport_user_count <- player_wager %>%
@@ -252,9 +228,18 @@ Sport_days_played
 
 
 #===================
-# Customer segmentation
+# Customer
 #===================
-# Customer visualizaton
+player_wager1 <- player_wager
+# remove "sport" from name
+player_wager1$Sport <- stringr::str_sub(player_wager1$Sport,start = -2, -1)
+player_wager1$Sport <- as.integer(player_wager1$Sport)
+
+corMat = cor(player_wager1)
+print(correlationMatrix)
+corrplot(corMat, method = 'number', order = "hclust", bg='#676767', tl.col='black', tl.cex=.75) 
+#corrplot(correlationMatrix,method='number',bg='#676767')
+# # summarize the correlation matrix
 
 
 
