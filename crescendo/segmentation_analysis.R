@@ -29,3 +29,93 @@ summary(player_wager)
 summary(player_signup)
 summary(player_transaction)
 
+#===================
+# Country segmentation
+#===================
+
+# Country cumulative Age
+Country_age <- player_signup %>%
+  filter(!is.na(YearOfBirth)) %>%
+  mutate(Age = lubridate::year(now()) - YearOfBirth)
+
+Country_age <- Country_age %>%
+  group_by(Country) %>%
+  dplyr::summarise(age_total = sum(Age)) %>%
+  select(Country, age_total) %>%
+  arrange(desc(age_total)) %>%
+  top_n(20) %>%
+  ggplot(aes(x = Country, y = age_total)) + 
+  geom_bar(stat = "identity") + 
+  coord_flip() + 
+  guides(fill = FALSE) + 
+  ggtitle("Country vs. Age") + 
+  xlab("Country") + 
+  ylab("Age")
+
+
+
+
+
+
+user_count = n()
+  
+
+
+
+
+
+
+
+
+
+
+user_count = dplyr::tally(CustomerID)
+
+(Country	Cumulative age)
+(Country	turnover	
+  Profit	
+  WagerCount	
+  DaysPlayed)
+Country vs transaction type
+
+
+#===================
+# Country segmentation
+#===================
+
+
+
+#===================
+# Sport segmentation
+#===================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
