@@ -137,30 +137,25 @@ corrplot(corMat, method = 'number', order = "hclust", tl.col='black', tl.cex=.75
 
 # Clustering
 set.seed(1)
-fviz_nbclust(sport_wager,kmeans,method = "silhouette")
-
-clusterK <- kmeans(sport_wager,2,iter.max = 100,nstart = 50,algorithm = "Lloyd")
-clusterK
-pclust <- prcomp(sport_wager[-1],scale. = FALSE)
-summary(pclust)
+fviz_nbclust(sport_wager[-1],kmeans,method = "silhouette")
 
 # Use optimal no. of clusters in k-means #
 k1=2 # compare with multiple k values
 
 # Generate K-mean clustering
-kfit <- kmeans(sport_wager, k1, nstart=25, iter.max=1000, 
+kfit <- kmeans(sport_wager[-1], k1, nstart=25, iter.max=1000, 
                algorithm = c("Hartigan-Wong", "Lloyd", "Forgy","MacQueen"), 
                trace=FALSE)
 
 #Visualize clusters
-fviz_cluster(kfit, data = sport_wager, ellipse.type = "convex")+theme_minimal()
-fviz_cluster(kfit, data = sport_wager, geom = "point",stand = FALSE, 
-             ellipse.type = "norm")
+fviz_cluster(kfit, data = sport_wager[-1], ellipse.type = "convex")+theme_minimal()
 
-# No discernable insights from sports clustering
+
+# Sports are quite lucrative from a turnover and profitablility standpoint.
+# Seems that cluster one drives more wager count and days played compared to 2
 
 #===================
-# Customer clustering
+# Customer correlation & clustering
 #===================
 customer_wager <- player_wager %>%
   group_by(CustomerID) %>%
@@ -170,13 +165,33 @@ customer_wager <- player_wager %>%
                    DaysPlayed_total = sum(DaysPlayed)) %>%
   select(CustomerID, Turnover_total, Profit_total, WagerCount_total, DaysPlayed_total)
 
+# Correlation
 corMat = cor(customer_wager)
 corrplot(corMat, method = 'number', order = "hclust", bg='#676767', tl.col='black', tl.cex=.75) 
 ## no strong correlations
 
-
+# Clustering
 set.seed(1)
 
+# reduced size since it constantly timed out
+customer_wager1 <- customer_wager[1:10000,c(2:5)]
+
+fviz_nbclust(customer_wager1,kmeans,method = "silhouette")
+
+# Use optimal no. of clusters in k-means #
+k1=2 # compare with multiple k values
+
+# Generate K-mean clustering
+kfit <- kmeans(customer_wager1, k1, nstart=25, iter.max=1000, 
+               algorithm = c("Hartigan-Wong", "Lloyd", "Forgy","MacQueen"), 
+               trace=FALSE)
+
+#Visualize clusters
+fviz_cluster(kfit, data = customer_wager1, ellipse.type = "convex")+theme_minimal()
+fviz_cluster(kfit, data = customer_wager1, geom = "point",stand = FALSE, 
+             ellipse.type = "norm")
+
+# split into customers into winners and losers.  Customers that won had very little profit.
 
 #===================
 # Country Visualization
@@ -211,7 +226,7 @@ Country_user_count <- player_signup %>%
   geom_bar(stat = "identity") + 
   coord_flip() + theme_minimal() +
   guides(fill = FALSE) + scale_y_continuous(labels = comma)
-  ggtitle("Top 20 Countries vs. User Count") + 
+ggtitle("Top 20 Countries vs. User Count") + 
   xlab("Country") + 
   ylab("User Count")
 Country_user_count
@@ -253,7 +268,7 @@ Country_profit <- player_signup %>%
   ylab("Profit")
 Country_profit
 # Country 13, 1, 52, 15, 23 are the top 5 most profitable
-  
+
 # Country WagerCount
 Country_wager <- player_signup %>%
   inner_join(player_wager,"CustomerID") %>%
@@ -288,13 +303,6 @@ Country_days_played <- player_signup %>%
   ylab("Days Played")
 Country_days_played
 
-
-  
-
-
-
-
-#print(NbClust(player_wager1, min.nc=2, max.nc=15, method="kmeans"))
 
 
 
