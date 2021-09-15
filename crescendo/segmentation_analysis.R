@@ -254,11 +254,11 @@ Sport_days_played
 #===================
 # Customer segmentation
 #===================
+# Customer visualizaton
 
 
 
-
-
+# Player wager using K means clustering
 
 
 
