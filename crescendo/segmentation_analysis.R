@@ -71,7 +71,20 @@ Country_user_count
 
 # Country turnover
 Country_turnover <- player_signup %>%
-  
+  inner_join(player_wager,"CustomerID") %>%
+  group_by(Country) %>%
+  dplyr::summarise(turnover_total = sum(Turnover)) %>%
+  arrange(desc(turnover_total), Country) %>%
+  select(Country, turnover_total) %>%
+  top_n(20) %>%
+  ggplot(aes(x = reorder(Country,turnover_total), y = turnover_total)) + 
+  geom_bar(stat = "identity") + 
+  coord_flip() + theme_minimal() +
+  guides(scale = "none") + scale_y_continuous(labels = comma) +
+  ggtitle("Top 20 Countries vs. Total Turnover") + 
+  xlab("Country") + 
+  ylab("Turnover")
+Country_turnover
 
 
 # Country Profit
@@ -90,6 +103,7 @@ Country_profit <- player_signup %>%
   xlab("Country") + 
   ylab("Profit")
 Country_profit
+# Country 13, 1, 52, 15, 23 are the top 5 most profitable
   
 # Country WagerCount
 Country_wager <- player_signup %>%
@@ -126,26 +140,22 @@ Country_days_played <- player_signup %>%
 Country_days_played
   
 
-# Country transaction type <-- issue
-Country_transaction_type <- player_signup %>%
-  inner_join(player_transaction,"CustomerID") %>%
-  group_by(Country, TranType) %>%
-  dplyr::summarise(amount_total = sum(AmountUSD)) %>%
-  arrange(desc(amount_total), Country) %>%
-  select(Country, TranType, amount_total) %>%
-  
-Country_transaction_type %>% 
-  top_frac(.1)
-  
-  slice_max(order_by = Country, n = 5) %>%
-  ggplot(aes(x = reorder(Country,amount_total), y = amount_total,fill = TranType)) + 
-  geom_bar(stat = "identity") + 
-  coord_flip() + theme_minimal() +
-  #guides(fill = FALSE) + 
-  ggtitle("Top 20 Countries vs. Total USD Amount") + 
-  xlab("Country") + 
-  ylab("USD Amount")
-Country_transaction_type
+# # Country transaction type <-- issue
+# Country_transaction_type <- player_signup %>%
+#   inner_join(player_transaction,"CustomerID") %>%
+#   group_by(Country, TranType) %>%
+#   dplyr::summarise(amount_total = sum(AmountUSD)) %>%
+#   arrange(desc(amount_total), Country, TranType) %>%
+#   select(Country, TranType, amount_total) %>%
+#   top_n( n = 5, Country) %>%
+#   ggplot(aes(x = reorder(Country,amount_total), y = amount_total,fill = TranType)) + 
+#   geom_bar(stat = "identity") + 
+#   coord_flip() + theme_minimal() +
+#   guides(scale = "none") + scale_y_continuous(labels = comma) + 
+#   ggtitle("Top 20 Countries vs. Total USD Amount") + 
+#   xlab("Country") + 
+#   ylab("USD Amount")
+# Country_transaction_type
   
   
   
@@ -156,6 +166,88 @@ Country_transaction_type
 #===================
 # Sport segmentation
 #===================
+# Sport user count
+Sport_user_count <- player_wager %>%
+  group_by(Sport) %>%
+  dplyr::summarise(user_total = n()) %>%
+  select(Sport, user_total) %>%
+  arrange(desc(user_total)) %>%
+  top_n(20) %>%
+  ggplot(aes(x = reorder(Sport,user_total), y = user_total)) + 
+  geom_bar(stat = "identity") + 
+  coord_flip() + theme_minimal() +
+  guides(fill = FALSE) + scale_y_continuous(labels = comma)
+ggtitle("Top 20 Countries vs. User Count") + 
+  xlab("Sport") + 
+  ylab("User Count")
+Sport_user_count
+
+
+# Sport turnover
+Sport_turnover <- player_wager %>%
+  group_by(Sport) %>%
+  dplyr::summarise(turnover_total = sum(Turnover)) %>%
+  arrange(desc(turnover_total), Sport) %>%
+  select(Sport, turnover_total) %>%
+  top_n(20) %>%
+  ggplot(aes(x = reorder(Sport,turnover_total), y = turnover_total)) + 
+  geom_bar(stat = "identity") + 
+  coord_flip() + theme_minimal() +
+  guides(scale = "none") + scale_y_continuous(labels = comma) +
+  ggtitle("Top 20 Sports vs. Total Turnover") + 
+  xlab("Sport") + 
+  ylab("Turnover")
+Sport_turnover
+
+
+# Sport Profit
+Sport_profit <- player_wager %>%
+  group_by(Sport) %>%
+  dplyr::summarise(profit_total = sum(Profit)) %>%
+  arrange(desc(profit_total), Sport) %>%
+  select(Sport, profit_total) %>%
+  top_n(20) %>%
+  ggplot(aes(x = reorder(Sport,profit_total), y = profit_total)) + 
+  geom_bar(stat = "identity") + 
+  coord_flip() + theme_minimal() +
+  guides(scale = "none") + scale_y_continuous(labels = comma) +
+  ggtitle("Top 20 Sports vs. Total Profit") + 
+  xlab("Sport") + 
+  ylab("Profit")
+Sport_profit
+#
+
+# Sport WagerCount
+Sport_wager <- player_wager %>%
+  group_by(Sport) %>%
+  dplyr::summarise(wager_total = sum(WagerCount)) %>%
+  arrange(desc(wager_total), Sport) %>%
+  select(Sport, wager_total) %>%
+  top_n(20) %>%
+  ggplot(aes(x = reorder(Sport,wager_total), y = wager_total)) + 
+  geom_bar(stat = "identity") + 
+  coord_flip() + theme_minimal() +
+  guides(fill = FALSE) + scale_y_continuous(labels = comma) +
+  ggtitle("Top 20 Sports vs. Wager Total") + 
+  xlab("Sport") + 
+  ylab("Wager")
+Sport_wager
+
+# Sport DaysPlayed
+Sport_days_played <- player_wager %>%
+  group_by(Sport) %>%
+  dplyr::summarise(days_played_total = sum(DaysPlayed)) %>%
+  arrange(desc(days_played_total), Sport) %>%
+  select(Sport, days_played_total) %>%
+  top_n(20) %>%
+  ggplot(aes(x = reorder(Sport,days_played_total), y = days_played_total)) + 
+  geom_bar(stat = "identity") + 
+  coord_flip() + theme_minimal() +
+  guides(fill = FALSE) + scale_y_continuous(labels = comma) + 
+  ggtitle("Top 20 Sports vs. Days Played Total") + 
+  xlab("Sport") + 
+  ylab("Days Played")
+Sport_days_played
 
 
 
