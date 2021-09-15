@@ -20,6 +20,9 @@ for (package in packages) {
 
 forecast_df <- read_excel("Forecast Test Data - Senior BI Analyst.xlsx",sheet="Data")
 
+#===================
+# Aggregated forecast data visualization
+#===================
 forecast_overall_df <- forecast_df %>%
   group_by(Year, WeekNo) %>%
   dplyr::summarise(Turnover_total = sum(Turnover), 
@@ -63,36 +66,60 @@ forecast_CustomerCount <- ggplot(forecast_overall_df, aes(x=as.factor(WeekNo),
 
 forecast_CustomerCount
 
+#==============
+# Forecast modeling
+#==============
+forecast_aggregate <- forecast_df %>%
+  group_by(Year, WeekNo, Website) %>%
+  dplyr::summarise(Turnover_total = sum(Turnover), 
+                   Profit_total = sum(Profit), 
+                   CustomerCount_total = sum(CustomerCount)) %>%
+  select(Year, WeekNo, Website, Turnover_total, Profit_total, CustomerCount_total)
 
+# week num to month
+
+#convert year + month + add first day
+
+# convert to time series
 
 # Visualize the time series (aggregate the info) 
 
+#==============
 # Overall
+#==============
+patient.xts <- xts(x = df$Patients, order.by = df$Arrival_date) 
 
+# Turnover
+
+# Profit
+
+# Customer Count
+
+#==============
 # By website
+#==============
 
-# Option 1 - no change in Data
-#- overall forecast for next 12 months
+# website 0
 
-# Forecast by website for next 12 months
+# Turnover
 
+# Profit
 
-
-# Option 2 convert to time series data 
-# overall forecast for next 12 months
-
-# Forecast by website for next 12 months
+# Customer Count
 
 
+# website 1
+
+# Turnover
+
+# Profit
+
+# Customer Count
 
 
 
 
-#Forecasting using different techniques
-#Overall forecast
-#- Forecast by year
-#- Forecast by month
 
-#Forecast by website
-#- Forecast by year
-#- Forecast by month
+
+
+
