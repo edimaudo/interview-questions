@@ -68,7 +68,7 @@ forecast_CustomerCount <- ggplot(forecast_overall_df, aes(x=as.factor(WeekNo),
 forecast_CustomerCount
 
 #==============
-# Forecast data
+# Forecast data #USING MAPE
 #==============
 forecast_aggregate <- forecast_df %>%
   inner_join(week_info,by = "WeekNo") %>%
@@ -99,6 +99,7 @@ data<- c("Training set", 'Test set',
 frequencyInput <- 12
 # set forecast horizon
 forecast.horizon <- 10
+
 #==============
 # Overall Forecast modelling
 #==============
@@ -379,7 +380,9 @@ customercount_prediction <- auto_arima_forecast
 # By website
 #==============
 
+#================
 # website 0
+#================
 forecast_aggregate_website0 <- forecast_aggregate %>%
   filter(Website == 0) %>%
   group_by(dateInfo2) %>%
@@ -388,14 +391,176 @@ forecast_aggregate_website0 <- forecast_aggregate %>%
                    CustomerCount_total = sum(CustomerCount_total)) %>%
   select(dateInfo2, Turnover_total, Profit_total, CustomerCount_total)
 
-# Turnover forecasting
+turnover.xts <- xts(x = forecast_aggregate_website0$Turnover_total, 
+                    order.by = forecast_aggregate_website0$dateInfo2) 
+# Forecast
+turnover.data <- apply.weekly(turnover.xts, mean) 
+turnover.end <- floor(0.8*length(turnover.data)) 
+turnover.train <- turnover.data[1:turnover.end,] 
+turnover.test <- turnover.data[(turnover.end+1):length(turnover.data),]
+turnover.start <- c(year (start(turnover.train)), month(start(turnover.train)))
+turnover.end <- c(year(end(turnover.train)), month(end(turnover.train)))
+turnover.train <- ts(as.numeric(turnover.train), start = turnover.start, 
+                     end = turnover.end, frequency = frequencyInput)
+turnover.start <- c(year (start(turnover.test)), month(start(turnover.test)))
+turnover.end <- c(year(end(turnover.test)), month(end(turnover.test)))
+turnover.test <- ts(as.numeric(turnover.test), start = turnover.start, 
+                    end = turnover.end, frequency = frequencyInput)
 
-# Profit forecasting
+# models
+auto_exp_model <- turnover.train %>% ets %>% forecast(h=forecast.horizon)
+auto_arima_model <- turnover.train %>% auto.arima() %>% forecast(h=forecast.horizon)
+simple_exp_model <- turnover.train %>% HoltWinters(beta=FALSE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+double_exp_model <- turnover.train %>% HoltWinters(beta = TRUE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+triple_exp_model <- turnover.train %>% HoltWinters(beta = TRUE, gamma = TRUE) %>% 
+  forecast(h=forecast.horizon)
+tbat_model <- turnover.train %>% tbats %>% forecast(h=forecast.horizon)
 
-# Customer Count forecasting
+# forecast output
+auto_exp_forecast <- as.data.frame(auto_exp_model$mean)
+auto_arima_forecast <- as.data.frame(auto_arima_model$mean)
+simple_exp_forecast <- as.data.frame(simple_exp_model$mean)
+double_exp_forecast <- as.data.frame(double_exp_model$mean)
+triple_exp_forecast <- as.data.frame(triple_exp_model$mean)
+tbat_forecast <- as.data.frame(tbat_model$mean)
 
+#model accuracy
+auto_exp_accuracy <- as.data.frame(accuracy(auto_exp_model,turnover.test))
+auto_arima_accuracy <- as.data.frame(accuracy(auto_arima_model ,turnover.test))
+simple_exp_accuracy <- as.data.frame(accuracy(simple_exp_model ,turnover.test))
+double_exp_accuracy <- as.data.frame(accuracy(double_exp_model ,turnover.test))
+triple_exp_accuracy <- as.data.frame(accuracy(triple_exp_model ,turnover.test))
+tbat_accuracy <- as.data.frame(accuracy(tbat_model ,turnover.test))
 
+outputInfo <- rbind(auto_exp_accuracy,auto_arima_accuracy,
+                    simple_exp_accuracy,double_exp_accuracy,
+                    triple_exp_accuracy,tbat_accuracy) 
+
+outputInfo <- cbind(models, data, outputInfo)
+
+#next 12 month prediction
+auto_exp_model %>% autoplot()
+turnover_website0_prediction <- auto_exp_forecast
+
+#==============
+# Profit
+#==============
+profit.xts <- xts(x = forecast_aggregate_website0$Profit_total, 
+                  order.by = forecast_aggregate_website0$dateInfo2) 
+
+# Forecast
+profit.data <- apply.weekly(profit.xts, mean) 
+profit.end <- floor(0.8*length(profit.data)) 
+profit.train <- profit.data[1:profit.end,] 
+profit.test <- profit.data[(profit.end+1):length(profit.data),]
+profit.start <- c(year (start(profit.train)), month(start(profit.train)))
+profit.end <- c(year(end(profit.train)), month(end(profit.train)))
+profit.train <- ts(as.numeric(profit.train), start = profit.start, 
+                   end = profit.end, frequency = frequencyInput)
+profit.start <- c(year (start(profit.test)), month(start(profit.test)))
+profit.end <- c(year(end(profit.test)), month(end(profit.test)))
+profit.test <- ts(as.numeric(profit.test), start = profit.start, 
+                  end = profit.end, frequency = frequencyInput)
+
+# models
+auto_exp_model <- profit.train %>% ets %>% forecast(h=forecast.horizon)
+auto_arima_model <- profit.train %>% auto.arima() %>% forecast(h=forecast.horizon)
+simple_exp_model <- profit.train %>% HoltWinters(beta=FALSE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+double_exp_model <- profit.train %>% HoltWinters(beta = TRUE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+triple_exp_model <- profit.train %>% HoltWinters(beta = TRUE, gamma = TRUE) %>% 
+  forecast(h=forecast.horizon)
+tbat_model <- profit.train %>% tbats %>% forecast(h=forecast.horizon)
+
+# forecast output
+auto_exp_forecast <- as.data.frame(auto_exp_model$mean)
+auto_arima_forecast <- as.data.frame(auto_arima_model$mean)
+simple_exp_forecast <- as.data.frame(simple_exp_model$mean)
+double_exp_forecast <- as.data.frame(double_exp_model$mean)
+triple_exp_forecast <- as.data.frame(triple_exp_model$mean)
+tbat_forecast <- as.data.frame(tbat_model$mean)
+
+#model accuracy
+auto_exp_accuracy <- as.data.frame(accuracy(auto_exp_model,profit.test))
+auto_arima_accuracy <- as.data.frame(accuracy(auto_arima_model ,profit.test))
+simple_exp_accuracy <- as.data.frame(accuracy(simple_exp_model ,profit.test))
+double_exp_accuracy <- as.data.frame(accuracy(double_exp_model ,profit.test))
+triple_exp_accuracy <- as.data.frame(accuracy(triple_exp_model ,profit.test))
+tbat_accuracy <- as.data.frame(accuracy(tbat_model ,profit.test))
+
+outputInfo <- rbind(auto_exp_accuracy,auto_arima_accuracy,
+                    simple_exp_accuracy,double_exp_accuracy,
+                    triple_exp_accuracy,tbat_accuracy) 
+
+outputInfo <- cbind(models, data, outputInfo)
+
+#next 12 month prediction
+simple_exp_model %>% autoplot()
+profit_website0_prediction <- simple_exp_forecast
+
+#==============
+# Customer Count
+#==============
+customercount.xts <- xts(x = forecast_aggregate_website0$CustomerCount_total, 
+                         order.by = forecast_aggregate_website0$dateInfo2) 
+
+# Forecast
+customercount.data <- apply.weekly(customercount.xts, mean) 
+customercount.end <- floor(0.8*length(customercount.data)) 
+customercount.train <- customercount.data[1:customercount.end,] 
+customercount.test <- customercount.data[(customercount.end+1):length(customercount.data),]
+customercount.start <- c(year (start(customercount.train)), month(start(customercount.train)))
+customercount.end <- c(year(end(customercount.train)), month(end(customercount.train)))
+customercount.train <- ts(as.numeric(customercount.train), start = customercount.start, 
+                          end = customercount.end, frequency = frequencyInput)
+customercount.start <- c(year (start(customercount.test)), month(start(customercount.test)))
+customercount.end <- c(year(end(customercount.test)), month(end(customercount.test)))
+customercount.test <- ts(as.numeric(customercount.test), start = customercount.start, 
+                         end = customercount.end, frequency = frequencyInput)
+
+# models
+auto_exp_model <- customercount.train %>% ets %>% forecast(h=forecast.horizon)
+auto_arima_model <- customercount.train %>% auto.arima() %>% forecast(h=forecast.horizon)
+simple_exp_model <- customercount.train %>% HoltWinters(beta=FALSE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+double_exp_model <- customercount.train %>% HoltWinters(beta = TRUE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+triple_exp_model <- customercount.train %>% HoltWinters(beta = TRUE, gamma = TRUE) %>% 
+  forecast(h=forecast.horizon)
+tbat_model <- customercount.train %>% tbats %>% forecast(h=forecast.horizon)
+
+# forecast output
+auto_exp_forecast <- as.data.frame(auto_exp_model$mean)
+auto_arima_forecast <- as.data.frame(auto_arima_model$mean)
+simple_exp_forecast <- as.data.frame(simple_exp_model$mean)
+double_exp_forecast <- as.data.frame(double_exp_model$mean)
+triple_exp_forecast <- as.data.frame(triple_exp_model$mean)
+tbat_forecast <- as.data.frame(tbat_model$mean)
+
+#model accuracy
+auto_exp_accuracy <- as.data.frame(accuracy(auto_exp_model,customercount.test))
+auto_arima_accuracy <- as.data.frame(accuracy(auto_arima_model ,customercount.test))
+simple_exp_accuracy <- as.data.frame(accuracy(simple_exp_model ,customercount.test))
+double_exp_accuracy <- as.data.frame(accuracy(double_exp_model ,customercount.test))
+triple_exp_accuracy <- as.data.frame(accuracy(triple_exp_model ,customercount.test))
+tbat_accuracy <- as.data.frame(accuracy(tbat_model ,customercount.test))
+
+outputInfo <- rbind(auto_exp_accuracy,auto_arima_accuracy,
+                    simple_exp_accuracy,double_exp_accuracy,
+                    triple_exp_accuracy,tbat_accuracy) 
+
+outputInfo <- cbind(models, data, outputInfo)
+
+#next 12 month prediction
+simple_exp_model %>% autoplot()
+customercount_website0_prediction <- simple_exp_forecast
+
+#================
 # website 1
+#================
 forecast_aggregate_website1 <- forecast_aggregate %>%
   filter(Website == 1) %>%
   group_by(dateInfo2) %>%
@@ -404,11 +569,181 @@ forecast_aggregate_website1 <- forecast_aggregate %>%
                    CustomerCount_total = sum(CustomerCount_total)) %>%
   select(dateInfo2, Turnover_total, Profit_total, CustomerCount_total)
 
-# Turnover forecasting
+#============
+#Turnover
+#============
+turnover.xts <- xts(x = forecast_aggregate_website1$Turnover_total, 
+                    order.by = forecast_aggregate_website1$dateInfo2) 
 
-# Profit forecasting
+# Forecast
+turnover.data <- apply.weekly(turnover.xts, mean) 
+turnover.end <- floor(0.8*length(turnover.data)) 
+turnover.train <- turnover.data[1:turnover.end,] 
+turnover.test <- turnover.data[(turnover.end+1):length(turnover.data),]
+turnover.start <- c(year (start(turnover.train)), month(start(turnover.train)))
+turnover.end <- c(year(end(turnover.train)), month(end(turnover.train)))
+turnover.train <- ts(as.numeric(turnover.train), start = turnover.start, 
+                     end = turnover.end, frequency = frequencyInput)
+turnover.start <- c(year (start(turnover.test)), month(start(turnover.test)))
+turnover.end <- c(year(end(turnover.test)), month(end(turnover.test)))
+turnover.test <- ts(as.numeric(turnover.test), start = turnover.start, 
+                    end = turnover.end, frequency = frequencyInput)
 
-# Customer Count forecasting
+# models
+auto_exp_model <- turnover.train %>% ets %>% forecast(h=forecast.horizon)
+auto_arima_model <- turnover.train %>% auto.arima() %>% forecast(h=forecast.horizon)
+simple_exp_model <- turnover.train %>% HoltWinters(beta=FALSE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+double_exp_model <- turnover.train %>% HoltWinters(beta = TRUE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+triple_exp_model <- turnover.train %>% HoltWinters(beta = TRUE, gamma = TRUE) %>% 
+  forecast(h=forecast.horizon)
+tbat_model <- turnover.train %>% tbats %>% forecast(h=forecast.horizon)
+
+# forecast output
+auto_exp_forecast <- as.data.frame(auto_exp_model$mean)
+auto_arima_forecast <- as.data.frame(auto_arima_model$mean)
+simple_exp_forecast <- as.data.frame(simple_exp_model$mean)
+double_exp_forecast <- as.data.frame(double_exp_model$mean)
+triple_exp_forecast <- as.data.frame(triple_exp_model$mean)
+tbat_forecast <- as.data.frame(tbat_model$mean)
+
+#model accuracy
+auto_exp_accuracy <- as.data.frame(accuracy(auto_exp_model,turnover.test))
+auto_arima_accuracy <- as.data.frame(accuracy(auto_arima_model ,turnover.test))
+simple_exp_accuracy <- as.data.frame(accuracy(simple_exp_model ,turnover.test))
+double_exp_accuracy <- as.data.frame(accuracy(double_exp_model ,turnover.test))
+triple_exp_accuracy <- as.data.frame(accuracy(triple_exp_model ,turnover.test))
+tbat_accuracy <- as.data.frame(accuracy(tbat_model ,turnover.test))
+
+outputInfo <- rbind(auto_exp_accuracy,auto_arima_accuracy,
+                    simple_exp_accuracy,double_exp_accuracy,
+                    triple_exp_accuracy,tbat_accuracy) 
+
+outputInfo <- cbind(models, data, outputInfo)
+
+#next 12 month prediction
+double_exp_model %>% autoplot()
+turnover_website1_prediction <-double_exp_forecast
+
+#==============
+# Profit
+#==============
+profit.xts <- xts(x = forecast_aggregate_website1$Profit_total, 
+                  order.by = forecast_aggregate_website1$dateInfo2) 
+
+# Forecast
+profit.data <- apply.weekly(profit.xts, mean) 
+profit.end <- floor(0.8*length(profit.data)) 
+profit.train <- profit.data[1:profit.end,] 
+profit.test <- profit.data[(profit.end+1):length(profit.data),]
+profit.start <- c(year (start(profit.train)), month(start(profit.train)))
+profit.end <- c(year(end(profit.train)), month(end(profit.train)))
+profit.train <- ts(as.numeric(profit.train), start = profit.start, 
+                   end = profit.end, frequency = frequencyInput)
+profit.start <- c(year (start(profit.test)), month(start(profit.test)))
+profit.end <- c(year(end(profit.test)), month(end(profit.test)))
+profit.test <- ts(as.numeric(profit.test), start = profit.start, 
+                  end = profit.end, frequency = frequencyInput)
+
+# models
+auto_exp_model <- profit.train %>% ets %>% forecast(h=forecast.horizon)
+auto_arima_model <- profit.train %>% auto.arima() %>% forecast(h=forecast.horizon)
+simple_exp_model <- profit.train %>% HoltWinters(beta=FALSE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+double_exp_model <- profit.train %>% HoltWinters(beta = TRUE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+triple_exp_model <- profit.train %>% HoltWinters(beta = TRUE, gamma = TRUE) %>% 
+  forecast(h=forecast.horizon)
+tbat_model <- profit.train %>% tbats %>% forecast(h=forecast.horizon)
+
+# forecast output
+auto_exp_forecast <- as.data.frame(auto_exp_model$mean)
+auto_arima_forecast <- as.data.frame(auto_arima_model$mean)
+simple_exp_forecast <- as.data.frame(simple_exp_model$mean)
+double_exp_forecast <- as.data.frame(double_exp_model$mean)
+triple_exp_forecast <- as.data.frame(triple_exp_model$mean)
+tbat_forecast <- as.data.frame(tbat_model$mean)
+
+#model accuracy
+auto_exp_accuracy <- as.data.frame(accuracy(auto_exp_model,profit.test))
+auto_arima_accuracy <- as.data.frame(accuracy(auto_arima_model ,profit.test))
+simple_exp_accuracy <- as.data.frame(accuracy(simple_exp_model ,profit.test))
+double_exp_accuracy <- as.data.frame(accuracy(double_exp_model ,profit.test))
+triple_exp_accuracy <- as.data.frame(accuracy(triple_exp_model ,profit.test))
+tbat_accuracy <- as.data.frame(accuracy(tbat_model ,profit.test))
+
+outputInfo <- rbind(auto_exp_accuracy,auto_arima_accuracy,
+                    simple_exp_accuracy,double_exp_accuracy,
+                    triple_exp_accuracy,tbat_accuracy) 
+
+outputInfo <- cbind(models, data, outputInfo)
+
+#next 12 month prediction
+triple_exp_model %>% autoplot()
+profit_website1_prediction <- triple_exp_forecast
+
+#==============
+# Customer Count
+#==============
+customercount.xts <- xts(x = forecast_aggregate_website1$CustomerCount_total, 
+                         order.by = forecast_aggregate_website1$dateInfo2) 
+
+# Forecast
+customercount.data <- apply.weekly(customercount.xts, mean) 
+customercount.end <- floor(0.8*length(customercount.data)) 
+customercount.train <- customercount.data[1:customercount.end,] 
+customercount.test <- customercount.data[(customercount.end+1):length(customercount.data),]
+customercount.start <- c(year (start(customercount.train)), month(start(customercount.train)))
+customercount.end <- c(year(end(customercount.train)), month(end(customercount.train)))
+customercount.train <- ts(as.numeric(customercount.train), start = customercount.start, 
+                          end = customercount.end, frequency = frequencyInput)
+customercount.start <- c(year (start(customercount.test)), month(start(customercount.test)))
+customercount.end <- c(year(end(customercount.test)), month(end(customercount.test)))
+customercount.test <- ts(as.numeric(customercount.test), start = customercount.start, 
+                         end = customercount.end, frequency = frequencyInput)
+
+# models
+auto_exp_model <- customercount.train %>% ets %>% forecast(h=forecast.horizon)
+auto_arima_model <- customercount.train %>% auto.arima() %>% forecast(h=forecast.horizon)
+simple_exp_model <- customercount.train %>% HoltWinters(beta=FALSE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+double_exp_model <- customercount.train %>% HoltWinters(beta = TRUE, gamma=FALSE) %>% 
+  forecast(h=forecast.horizon)
+triple_exp_model <- customercount.train %>% HoltWinters(beta = TRUE, gamma = TRUE) %>% 
+  forecast(h=forecast.horizon)
+tbat_model <- customercount.train %>% tbats %>% forecast(h=forecast.horizon)
+
+# forecast output
+auto_exp_forecast <- as.data.frame(auto_exp_model$mean)
+auto_arima_forecast <- as.data.frame(auto_arima_model$mean)
+simple_exp_forecast <- as.data.frame(simple_exp_model$mean)
+double_exp_forecast <- as.data.frame(double_exp_model$mean)
+triple_exp_forecast <- as.data.frame(triple_exp_model$mean)
+tbat_forecast <- as.data.frame(tbat_model$mean)
+
+#model accuracy
+auto_exp_accuracy <- as.data.frame(accuracy(auto_exp_model,customercount.test))
+auto_arima_accuracy <- as.data.frame(accuracy(auto_arima_model ,customercount.test))
+simple_exp_accuracy <- as.data.frame(accuracy(simple_exp_model ,customercount.test))
+double_exp_accuracy <- as.data.frame(accuracy(double_exp_model ,customercount.test))
+triple_exp_accuracy <- as.data.frame(accuracy(triple_exp_model ,customercount.test))
+tbat_accuracy <- as.data.frame(accuracy(tbat_model ,customercount.test))
+
+outputInfo <- rbind(auto_exp_accuracy,auto_arima_accuracy,
+                    simple_exp_accuracy,double_exp_accuracy,
+                    triple_exp_accuracy,tbat_accuracy) 
+
+outputInfo <- cbind(models, data, outputInfo)
+
+#next 12 month prediction
+triple_exp_model %>% autoplot()
+customercount_website1_prediction <- triple_exp_forecast
+
+
+
+
+
 
 
 
