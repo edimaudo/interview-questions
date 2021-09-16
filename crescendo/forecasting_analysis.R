@@ -17,7 +17,6 @@ for (package in packages) {
 #===================
 # Load Data
 #===================
-
 forecast_df <- read_excel("Forecast Test Data - Senior BI Analyst.xlsx",sheet="Data")
 year_info <- read_excel("Forecast Test Data - Senior BI Analyst.xlsx",sheet="YearInfo")
 week_info <- read_excel("Forecast Test Data - Senior BI Analyst.xlsx",sheet="WeekInfo")
@@ -382,6 +381,7 @@ customercount_prediction <- auto_arima_forecast
 
 # website 0
 forecast_aggregate_website0 <- forecast_aggregate %>%
+  filter(Website == 0) %>%
   group_by(dateInfo2) %>%
   dplyr::summarise(Turnover_total = sum(Turnover_total), 
                    Profit_total = sum(Profit_total), 
@@ -396,7 +396,8 @@ forecast_aggregate_website0 <- forecast_aggregate %>%
 
 
 # website 1
-forecast_aggregate_website0 <- forecast_aggregate %>%
+forecast_aggregate_website1 <- forecast_aggregate %>%
+  filter(Website == 1) %>%
   group_by(dateInfo2) %>%
   dplyr::summarise(Turnover_total = sum(Turnover_total), 
                    Profit_total = sum(Profit_total), 
