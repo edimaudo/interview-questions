@@ -1,6 +1,4 @@
 ## Scotiabank Work Assignment
-***
-
 ![Scotia Assignment](https://github.com/edimaudo/interview-questions/blob/master/Scotiabank/Scotiabank-Logo-1974-1998.png)
 
 The assignment goal is to check for data quality and perform portfolio analysis.  The folder contains:
