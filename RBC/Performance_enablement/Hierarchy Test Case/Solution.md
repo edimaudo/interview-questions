@@ -12,14 +12,14 @@ See Hierarchy Test Case word document
 ### Potential Approaches
 
 #### Idea 1 - Recursive query
-Use a recursive query traverse through the data that looks something like this.
+Use a recursive query to traverse through the data that looks something like this.
 
 WITH cte_employee AS (
    cte_query_definition
  
    UNION ALL
  
-   cte_query_definition filter on employee postion and manager position
+   cte_query_definition filter on employee position and manager position
    )
   
 SELECT *
