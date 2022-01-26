@@ -9,30 +9,32 @@ Provide a proposal on how to identify and solve for these data gaps and non-stan
 ### Assumptions
 See Hierarchy Test Case word document
 
-### Solution
+### Potential Approaches
 
-#### Idea 1
-Use a recursive query traverse through the data
-WITH cte_employees AS (
-    SELECT       
-       e.EMP_NM, e.EMP_POSN_ID, e.ROLE, e.MGR_POSN_ID, e.CAPTR_DT
-        
-    FROM       
-        ALL_EMPLOYEES as e
-    WHERE e.ROLE IN ('AM','SAM','AMCSR')
-    UNION ALL
-    SELECT 
-       e.EMP_NM, e.EMP_POSN_ID, e.ROLE, e.MGR_POSN_ID, e.CAPTR_DT
-    FROM 
-        ALL_EMPLOYEES as e
-        INNER JOIN cte_employees o 
-            ON o.EMP_POSN_ID = e.MGR_POSN_ID
-)
-SELECT * FROM cte_employees;
+#### Idea 1 - Recursive query
+Use a recursive query traverse through the data that looks something like this.
+
+WITH cte_employee AS (
+   cte_query_definition
+ 
+   UNION ALL
+ 
+   cte_query_definition filter on employee postion and manager position
+   )
+  
+SELECT *
+FROM cte_employee ;
 
 
-#### Idea 2
-Break down the query into different sections using by using different levels
-first level would be ('AM','SAM','AMCSR'), 
-second level would be ('ABM','BM')
-and the third level would be ('RVP','RP')
+#### Idea 2 - Multiple Queries
+Design multiple queries to get the design for the hierarchy table using the With Clause
+Query 1 should filter on ('ABM','BM') since they are the main connection between the different employee levels
+Query 2 should filter on ('AM','SAM','AMCSR')
+Query 3 should filter on ('RVP','RP',"VP")
+Query 4 should connect Query 2 with Query 3
+Query 5 should connect Query 2 with Query 1
+Query 6 should connect Query 4 and 5 and then organize then pick the correct headers based on the hierarchy screen shot provided
+
+
+
+
