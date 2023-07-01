@@ -2,29 +2,210 @@
 title: "Metrolinx"
 author: "Ed"
 date: '2023-06-24'
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r}
+# Clear Environment
+rm(list = ls()) 
+#===================
+## Load Libraries
+#===================
+packages <- c('ggplot2','corrplot','tidyr','validate','glmnet',
+              'tidyverse','dplyr','scales','caret',
+              'dummies','mlbench','caTools')
+for (package in packages) {
+  if (!require(package, character.only=T, quietly=T)) {
+    install.packages(package)
+    library(package, character.only=T)
+  }
+}
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r}
+# --------------------------------------------------------
+# Load Data
+# --------------------------------------------------------
+df <- read_csv("food_health_politics.csv")
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+summary(df)
+```
+
+Check for Missing Data
+```{r}
+# --------------------------------------------------------
+# Check for missing data
+# --------------------------------------------------------
+missing_data <- apply(df, 2, function(x) any(is.na(x))) 
+print(missing_data)
+```
+Missing Data in all but FIPS, state, country, fastfood, fastfood_per_1000,grocery_stores grocery_stores_per_1000
+
+Correlation of mortality_rate, low_access_pop, fastfood, snap_stores_per_1000,per_dem_2016
+```{r echo=False}
+# --------------------------------------------------------
+# Correlation of mortality_rate, low_access_pop, fastfood, snap_stores_per_1000,per_dem_2016
+# --------------------------------------------------------
+##{plot.new(); dev.off()}
+cor_df <- df %>%
+  select(mortality_rate, low_access_pop, fastfood, snap_stores_per_1000,per_dem_2016) %>%
+  na.omit()
+corrplot(cor(cor_df), method="number")
+#
+```
+No strong correlation among any of the variables selected.
+
+```{r, echo=FALSE}
+
+ggplot(data = cor_df,aes(x =mortality_rate ,y = low_access_pop)) +
+  geom_point() + theme_classic() +
+  labs(x = "Mortality Rate",
+       y = "Access to Food") +
+  scale_y_continuous(labels = comma) +
+  theme(
+    legend.text = element_text(size = 10),
+    legend.title = element_text(size = 10),
+    axis.title = element_text(size = 15),
+    axis.text = element_text(size = 10))
+```
+i.	How related are mortality rate and access to food?
+Seems to be a huge cluster around 800.  No major pattern showing.
+
+```{r, echo=FALSE}
+
+ggplot(data = cor_df,aes(x =mortality_rate ,y = fastfood)) +
+  geom_point() + theme_classic() +
+  labs(x = "Mortality Rate",
+       y = "Prevelance of Fast Food") +
+  scale_y_continuous(labels = comma) +
+  theme(
+    legend.text = element_text(size = 10),
+    legend.title = element_text(size = 10),
+    axis.title = element_text(size = 10),
+    axis.text = element_text(size = 10))
+```
+#  ii.	How related are mortality rate and the prevalence of fast food restaurants?
+Based on the graph there is a similar cluster around 800 but no specific pattern.
+
+```{r, echo=FALSE}
+ggplot(data = cor_df,aes(x =mortality_rate ,y = snap_stores_per_1000)) +
+  geom_point() + theme_classic() +
+  labs(x = "Mortality Rate",
+       y = "Snap stores per 1000 residents") +
+  scale_y_continuous(labels = comma) +
+  theme(
+    legend.text = element_text(size = 10),
+    legend.title = element_text(size = 10),
+    axis.title = element_text(size = 15),
+    axis.text = element_text(size = 10))
+```
+#  iii.	How related are mortality rate and the prevalence of SNAP stores per 1,000 residents?
+There seems to be a postive correlation between these two variables.
+
+```{r, echo=FALSE}
+ggplot(data = cor_df,aes(x =mortality_rate ,y = per_dem_2016)) +
+  geom_point() + theme_classic() +
+  labs(x = "Mortality Rate",
+       y = "Percent of county that voted democrate in 2016") +
+  scale_y_continuous(labels = comma) +
+  theme(
+    legend.text = element_text(size = 10),
+    legend.title = element_text(size = 10),
+    axis.title = element_text(size = 15),
+    axis.text = element_text(size = 10))
+```
+#  iv.	How related are mortality rate and the percent of the county that voted for Democrats in 2016?
+There seems to be a negative correlation between these two variables.
+
+```{r, echo=FALSE}
+top_df <- df %>%
+  na.omit()
+
+top_df2 <- top_df %>%
+  filter(pct_low_access_pop != 0) %>%
+  group_by(state,county) %>%
+  mutate(Variance = var(pct_low_access_pop)) %>%
+  arrange(desc(Variance)) %>%
+  select(state,county,Variance)
+```
+#  v.	Top 5 states that have the widest variance in "Percent of the county's 
+# population with low access to food" for county's that fall within that state?
+--> States -- VO,MO,MD
+
+```{r, echo=FALSE}
+top_red_df <- df %>%
+  na.omit() %>%
+  group_by(state) %>%
+  summarize(Total_pop=sum(low_access_pop),Total_change= sum(low_access_change)) %>%
+  arrange(desc(Total_change)) %>%
+  top_n(3) %>%
+  select(state,Total_pop, Total_change)
+top_red_df
+```
+#vi.	Top 3 states that have in absolute terms, reduced most the population with
+#     low access to food across the election years 2012 and 2016? 
+#     Columns  "low_access_pop" and "low_access_change" have relevant data.
+States --> IL, NC, MI
+
+
+#b.	Any other interesting insights that you can discover from the data?
+```{r, echo=FALSE}
+#top 10 states with highest death
+top_df %>% 
+  group_by(state) %>%
+  summarize(Deaths = sum(deaths)) %>%
+  arrange(desc(Deaths)) %>%
+  top_n(10) %>%
+  ggplot(aes(x = reorder(state, Deaths) , y = Deaths)) + 
+  geom_bar(stat = "identity", position = "dodge") + 
+  coord_flip() + 
+  guides(fill = FALSE) + 
+  ggtitle("Top 10 states with highest death") + 
+  xlab("States") + 
+  ylab("Death")
+```
+
+```{r, echo=FALSE}
+top_df %>% 
+  group_by(state) %>%
+  summarize(Population = sum(population)) %>%
+  arrange(desc(Population)) %>%
+  top_n(10) %>%
+  ggplot(aes(x = reorder(state, Population) , y = Population)) + 
+  geom_bar(stat = "identity", position = "dodge") + 
+  coord_flip() + 
+  guides(fill = FALSE) + 
+  ggtitle("Top 10 States with the highest population") + 
+  xlab("States") + 
+  ylab("Population")
+```
+
+```{r, echo=FALSE}
+model <- lm(reg_df$mortality_rate~reg_df$low_access_pop)
+summary(model)
+```
+#  a.	Does access to food predict mortality?
+Very low R squared value, so not a good predictor
+
+```{r, echo=FALSE}
+scatter.smooth(reg_df$snap_stores_per_1000,reg_df$mortality_rate, main='Snap stores vs. Mortality Rate')
+model <- lm(reg_df$mortality_rate~reg_df$snap_stores_per_1000)
+summary(model)
+```
+#  b.	Do more SNAP stores per person predict mortality?
+R-square value is better than a
+
+```{r, echo=FALSE}
+model <- lm(reg_df$mortality_rate~.,data=reg_df)
+summary(model)
+```
+#  c.	Do election results and access to food and SNAP stores predict mortality?
+R-square value is better than a & b but still quite low.
