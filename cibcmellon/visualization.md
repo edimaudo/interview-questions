@@ -1,4 +1,22 @@
+Given this table structure
+index,tag_number_masked,date_of_infraction,infraction_code,infraction_description,set_fine_amount,time_of_infraction,location1,location2,location3,location4,province
+0,***39755,20170101,29.0,PARK PROHIBITED TIME NO PERMIT,30,0.0,NR,45 LEWIS ST,NaN,NaN,ON
+1,***10593,20170101,9.0,STOP-SIGNED HWY-PROHIBIT TM/DY,60,1.0,OPP,5 MERCER ST,NaN,NaN,ON
+2,***39756,20170101,29.0,PARK PROHIBITED TIME NO PERMIT,30,1.0,NR,55 LEWIS ST,NaN,NaN,ON
+3,***92318,20170101,5.0,PARK-SIGNED HWY-PROHIBIT DY/TM,50,1.0,N/S,MAPLEWOOD AVE,W/O,VAUGHAN RD,ON
+4,***39757,20170101,29.0,PARK PROHIBITED TIME NO PERMIT,30,2.0,NR,61 LEWIS ST,NaN,NaN,ON
+
+I would like to get the
+
+- new dataframe
+
+
 Visualization
+- 
+
+
+
+
 #,Visualization Name,Plotly Type,Analysis Insight
 - Annual Ticket Volume (2017-2020),Bar,date_of_infraction count by year.
 - Revenue Contribution by Code,Treemap,Sum of set_fine_amount grouped by infraction_code.
@@ -10,7 +28,7 @@ Visualization
 - Revenue vs. Volume,px.scatter,Compares number of tickets to total fine amount per infraction.
 Top 20 Infraction Descriptions,Bar,infraction_description value counts.
 - "Top 10 ""Ticket-Trap"" Locations",px.bar,"Ranking location2 (e.g., 2075 Bayview Ave)." + Top 10 High-Revenue Streets,Bar,location2 sum of set_fine_amount.
-- Out-of-Province Leakage,px.pie,Percentage of non-Ontario plates (revenue recovery risk).
+- Out-of-Province Leakage,px.pie,Perce	ntage of non-Ontario plates (revenue recovery risk).
 - Fine Distribution,px.histogram,"Frequency of $30, $60, and $150 tickets." + 13,Fine Amount Frequency,Box Plot,"Distribution of fine values to see ""typical"" penalties."
 - Rush Hour Compliance,px.bar,Volume of tickets issued between 7-9 AM and 4-6 PM.
 - Location 3/4 Corner Analysis,px.histogram,"How often ""Near Corners"" is used vs. mid-block."
