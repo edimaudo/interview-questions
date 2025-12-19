@@ -1,27 +1,36 @@
-Given this table structure
-index,tag_number_masked,date_of_infraction,infraction_code,infraction_description,set_fine_amount,time_of_infraction,location1,location2,location3,location4,province
-0,***39755,20170101,29.0,PARK PROHIBITED TIME NO PERMIT,30,0.0,NR,45 LEWIS ST,NaN,NaN,ON
-1,***10593,20170101,9.0,STOP-SIGNED HWY-PROHIBIT TM/DY,60,1.0,OPP,5 MERCER ST,NaN,NaN,ON
-2,***39756,20170101,29.0,PARK PROHIBITED TIME NO PERMIT,30,1.0,NR,55 LEWIS ST,NaN,NaN,ON
-3,***92318,20170101,5.0,PARK-SIGNED HWY-PROHIBIT DY/TM,50,1.0,N/S,MAPLEWOOD AVE,W/O,VAUGHAN RD,ON
-4,***39757,20170101,29.0,PARK PROHIBITED TIME NO PERMIT,30,2.0,NR,61 LEWIS ST,NaN,NaN,ON
-
-I would like to get the
-
-- new dataframe
-
-
-Visualization
-- 
+Given this table structure (df)
+index,tag_number_masked,date_of_infraction,infraction_code,infraction_description,set_fine_amount,time_of_infraction,location1,location2,location3,location4,province,infraction_date,infraction_month_name,infraction_year,infraction_month,infraction_day,infraction_day_of_week,infraction_weekday_weekend,infraction_hour,infraction_hour_str
+0,***39755,20170101,29.0,PARK PROHIBITED TIME NO PERMIT,30,0.0,NR,45 LEWIS ST,NaN,NaN,ON,2017-01-01,January,2017,1,1,Sunday,Weekend,0.0,00
+1,***10593,20170101,9.0,STOP-SIGNED HWY-PROHIBIT TM/DY,60,1.0,OPP,5 MERCER ST,NaN,NaN,ON,2017-01-01,January,2017,1,1,Sunday,Weekend,0.0,00
+2,***39756,20170101,29.0,PARK PROHIBITED TIME NO PERMIT,30,1.0,NR,55 LEWIS ST,NaN,NaN,ON,2017-01-01,January,2017,1,1,Sunday,Weekend,0.0,00
+3,***92318,20170101,5.0,PARK-SIGNED HWY-PROHIBIT DY/TM,50,1.0,N/S,MAPLEWOOD AVE,W/O,VAUGHAN RD,ON,2017-01-01,January,2017,1,1,Sunday,Weekend,0.0,00
+4,***39757,20170101,29.0,PARK PROHIBITED TIME NO PERMIT,30,2.0,NR,61 LEWIS ST,NaN,NaN,ON,2017-01-01,January,2017,1,1,Sunday,Weekend,0.0,00
 
 
 
+I would like to create these visualizations using plotly
 
-#,Visualization Name,Plotly Type,Analysis Insight
-- Annual Ticket Volume (2017-2020),Bar,date_of_infraction count by year.
-- Revenue Contribution by Code,Treemap,Sum of set_fine_amount grouped by infraction_code.
-- "The COVID ""Cliff""",px.area,Time series showing the 2020 drop vs. 2017-2019 baseline. + 16,2020 Lockdown Recovery,px.line,Tracking the speed of enforcement return post-May 2020.
-- Hourly Heatmap,px.density_heatmap,"Identifies 10 AM and 2 PM as ""Prime Enforcement Hours.""" + Rush Hour Enforcement Trend,Line,Filter 7-9 AM / 4-6 PM over the years.
+- Ticket count by year from 2017 to 2020 as a vertical bar chart and ticket amount by year as a dual axis chart
+- ticket fine amount by infaction code treemap
+- Revenue vs. Volume Matrix,px.scatter --> Ticket count vs. sum of set_fine_amount by infraction
+- "The COVID ""Cliff""",px.area,Time series showing the 2020 drop vs. 2017-2019 baseline.
+- Day of week in the correct order & infraction hour ticket count Heatmap
+- Day of week in the correct order & infraction hour ticket amount Heatmap
+- Month of the year in the correct calender order showing ticket count (bar chart) and ticket fine (line chart) amount as dual axis charts
+- weekday vs weekend ticket count bar chart + ticket amount (line chart) as dual axis chart
+- top 10 infraction description by ticket count as a horizontal chart in descending order
+- top 10 infraction description by ticket amount as a horizontal chart in descending order
+- province bar chart showing ticket count (bar chart) and ticket amount (line chart)
+- histogram of ticket amount
+- Top 10 High-Revenue Streets (location2) by ticket amount
+- Top 10  Streets (location2) by ticket count
+- location1 dual axis chart by ticket count (bar chart) and ticket amount (line chart)
+
+
+ 
+
+Viz ideas
+- Hourly Heatmap,px.density_heatmap,#"Identifies 10 AM and 2 PM as ""Prime Enforcement Hours.""" + Rush Hour Enforcement Trend,Line,Filter 7-9 AM / 4-6 PM over the years.
 - Heatmap: Day vs. Hour,Heatmap,date (Day of Week) vs time.
 - Monthly Seasonality,px.line,Seasonal trends showing summer peaks and winter dips.
 - Day of Week Density,px.box,Comparison of weekend vs. weekday enforcement volume.
