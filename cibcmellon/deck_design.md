@@ -1,116 +1,43 @@
-Part 3: 9-Page Slide Deck Structure (Helvetica)
 
-Slide 1: Executive Overview
+time & seasonality
 
-Headline: Data-Driven Enforcement Strategy (2017-2020).
+infractions
 
-Key Stat: Analysis of 8M+ records to optimize $100M+ annual revenue.
+location
 
-Slide 2: Temporal Trends (Time Series)
-
-Visual: Plotly Line Chart (#1).
-
-Analysis: Shows 2017-2019 stability and the 2020 COVID anomaly. Time series reveals that enforcement follows a predictable 7-day cycle.
-
-Slide 3: Geographic Hotspots
-
-Visual: Bar Chart of Top 10 Locations (#5).
-
-Insight: 5% of locations generate 25% of revenue. Targeted patrols here maximize ROI.
-
-Slide 4: The Dispute/Court Analysis
-
-Visual: Bar Chart of Dispute Rates (#4).
-
-Analysis: Using APS data, we see "Rush Hour" and "Fire Route" tickets are contested most.
-
-Dev Note: Fines >$100 have a 3x higher dispute rate than <$40 fines.
-
-Slide 5: Infraction Breakdown
-
-Visual: Treemap of Infraction Codes (#17).
-
-Insight: "Parking on Private Property" is the highest volume, but "No Stopping" is the highest revenue per ticket.
-
-Slide 6: Machine Learning: Predicting Disputes
-
-Content: A "Feature Importance" chart.
-
-Proposal: An ML model can predict with 82% accuracy if a ticket will be disputed based on its metadata. This allows the City to "Auto-Settle" low-value disputes to save court costs.
-
-Slide 7: 2020 Impact & Economic Recovery
-
-Visual: Recovery Line Chart (#16).
-
-Insight: How 2020 changed driver behavior (more residential tickets, fewer downtown core tickets).
-
-Slide 8: Recommendations for Revenue & Compliance
-
-Deploy ML Dispute Filters: Use the predictive model to offer "Instant Settlements" (e.g., 25% discount) for tickets likely to be disputed, reducing APS backlog.
-
-Dynamic Fine Scaling: Increase fines at "Recidivist Locations" identified in Slide 3.
-
-Out-of-Province Recovery: Partner with neighboring jurisdictions to collect on the $X million owed by non-Ontario plates (Slide 6).
-
-Slide 9: Technical Appendix & Next Steps
-
-Stack: Python (Pandas/Plotly/Scikit-learn).
-
-Next Step: Integrating real-time "Green P" parking data to identify "Ghost Parkers" (compliance gap).
+ticket forecast
 
 
-Part 4: 9-Page Slide Deck Structure
+Insights
+## Insights
+Geographic Hotspots and Peak Times: Enforcement should strategically target identified geographical hotspots, such as location2 and location1, and peak infraction times (weekdays, particularly business hours and early evenings) to maximize revenue and address persistent non-compliance.
+High-Volume Infractions: "PARK PROHIBITED TIME" and "PARK-SIGNED HWY-PROHIBIT PKG" are consistently high-volume infractions that warrant specific compliance campaigns and a review of fine structures.
+COVID-19 Impact on Revenue: A significant "COVID Cliff" was observed in 2020, highlighting the need for robust financial forecasting and continuous monitoring of revenue trends against pre-COVID projections.
+Monthly Seasonality: There is a clear monthly seasonality in ticket volumes and revenue, with higher activity observed from May to October, which can inform resource planning.
+Out-of-Province Compliance: Tickets issued to vehicles from other provinces/states are present, indicating a need to evaluate the effectiveness of current collection mechanisms for these infractions.
+Key Insights from the Forecasting Model:
+The COVID 'Cliff': The time series forecast clearly showed a significant deviation between the predicted 'normal' revenue (based on pre-2020 trends) and the actual revenue collected in 2020. This stark difference, dubbed the 'COVID Cliff', highlighted the profound and sudden impact of the pandemic and associated lockdowns on parking ticket volumes and revenue.
+Baseline for Impact Assessment: By generating a forecast that excluded the disruptive period (2020), the model provided a valuable baseline. This baseline allows the City to quantify the financial impact of unforeseen events and understand how actual performance compares to a 'business-as-usual' scenario.
+Necessity of Continuous Monitoring: The forecasting model underscored the importance of continuous monitoring of actual revenue against projected revenue to identify and react to such disruptions swiftly. This proactive approach is vital for financial planning and policy adaptation.
 
-Font: Helvetica | Theme: Professional/Data-Driven (Navy & Silver)
+## Recommendations for the City of Toronto
 
-Slide 1: Title Page
+Strategic Enforcement Targeting Hotspots and Peak Times: Focus enforcement resources on identified geographical hotspots (specific streets and locations like location2 and location1 with consistently high ticket counts and revenue) during peak infraction times (weekdays, particularly during business hours and early evenings, as indicated by heatmaps). This data-driven deployment can maximize revenue generation and address areas of persistent non-compliance.
 
-Title: Toronto Parking Data Insights (2017-2020)
+Infraction-Specific Compliance Campaigns: Develop targeted public awareness campaigns for high-volume infractions like "PARK PROHIBITED TIME" and "PARK-SIGNED HWY-PROHIBIT PKG". By educating drivers about specific rules in high-infraction areas, the city can potentially improve compliance, reduce the need for enforcement, and foster better community relations. For consistently high-revenue infractions, evaluate if current signage and regulations are clear or if fines are appropriately deterrent.
 
-Subtitle: Improving Compliance & Revenue through Data Engineering
 
-Slide 2: Executive Summary
 
-Key stat: 2.2M average annual tickets (pre-2020).
+Review and Optimize Fine Structures for High-Volume/High-Revenue Infractions: Analyze the distribution of fine amounts in conjunction with high-volume and high-revenue infraction types (e.g., "PARK PROHIBITED TIME", "PARK-SIGNED HWY-PROHIBIT PKG", "STOP-SIGNED HWY-PROHIBIT STOP"). For infractions that are highly frequent but have relatively low fines, consider if an adjustment could serve as a stronger deterrent or increase revenue without disproportionately burdening citizens. Conversely, ensure higher fines for more severe infractions are clearly communicated.
 
-Revenue impact: ~$100M+ annually.
+Leverage Monthly Seasonality for Resource Planning: Utilize the observed monthly seasonality in ticket volumes and revenue (e.g., higher activity from May-October) to strategically plan enforcement staff deployment, allocate resources for public awareness campaigns, and anticipate monthly revenue fluctuations more accurately. This ensures that resources are available when demand for enforcement is highest.
 
-Slide 3: The COVID-19 Anomaly (2020)
 
-Visualization: Area chart showing the March 2020 cliff.
 
-Analysis: How policy-driven "discretion" cost the city ~$34M in revenue.
+Address Out-of-Province Compliance: Given the presence of tickets issued to vehicles from other provinces/states, evaluate the effectiveness of current collection mechanisms for out-of-province infractions. Explore inter-jurisdictional agreements or enhanced enforcement tools to improve compliance and revenue collection from non-local vehicles.
 
-Slide 4: Peak Enforcement Hours
+Enhance Transparency and Accessibility of Parking Rules: Given that a significant portion of infractions are related to 'prohibited parking' or 'signed highways', review the clarity, visibility, and accessibility of parking signage and regulations, particularly in identified hotspots. Clearer communication can improve compliance and reduce disputes, potentially freeing up enforcement resources for other areas.
 
-Visualization: Hourly Heatmap.
-
-Insight: Enforcement peaks at 10 AM and 2 PM. Rush hour (4-6 PM) represents the highest revenue-per-ticket potential.
-
-Slide 5: Geography of Non-Compliance
-
-Visualization: Top 10 Streets/Addresses Bar Chart.
-
-Analysis: Yonge St and Queen St W as permanent hotspots.
-
-Slide 6: Violation Breakdown
-
-Visualization: Treemap of Infraction Codes.
-
-Insight: "Private Property" and "Signed Highway-Prohibited" account for over 50% of volume.
-
-Slide 7: Out-of-Province Analysis
-
-Visualization: Map or Pie chart of province.
-
-Insight: Strategies for recovering revenue from non-Ontario plates.
-
-Slide 8: Strategic Recommendations
-
-Bullet points of the 4 recommendations provided in Part 3.
-
-Slide 9: Conclusion & Implementation
-
-Next steps for the City's Open Data team.
-
-Q&A.
+## Next Steps
+By focusing enforcement efforts on known geographical and temporal hotspots, the City can optimize resource allocation to address persistent non-compliance and potentially increase revenue.
+Developing targeted public awareness campaigns for high-volume infractions could improve driver compliance and reduce enforcement needs, while a review of fine structures for these infractions might further enhance deterrence or revenue.
