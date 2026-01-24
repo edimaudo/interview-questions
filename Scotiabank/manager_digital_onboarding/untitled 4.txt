@@ -1,0 +1,251 @@
+
+
+in the bookings_df dataset fix the start and end dated where the year is 1916.  it should change to 2016
+
+for bookings_df create a new column called prefix which take the prefix of the room column.  If there is no data let it be blank
+for food_order_df create a new column called prefix which would be the prefix of the bill room column
+
+
+for integrated_food_orders_df 
+- create a new column called bill_room_prefix which take the prefix of the bill room column.  create another column which would map bill_room_prefix to a room type using rooms_df. The new column should be called bill_room_type. It should take the rooms_df type
+- create a new column called dest_room_preffix which take the prefix of the dest room column.  The exception to this would be when the row is called restaurant.  In this case the prefix should be called restaurant.  create another column which would map dest_room_prefix to a room type using rooms_df. The new column should be called bill_room_type. It should take the rooms_df type.  The only exception would be when there is a row called restaurant, in that case the room type should be called restaurant
+
+
+
+
+convert these code to plotly, make the chart horizontal bartcharts in descending order
+
+# plt.subplot(1, 3, 1)
+sns.barplot(x=menu_item_value.index, y=menu_item_value.values, palette='viridis')
+plt.title('Top 5 Most Popular Menu Items by Order Value')
+plt.xlabel('Menu Item')
+plt.ylabel('Total Order Value')
+plt.xticks(rotation=45, ha='right')
+plt.grid(axis='y')
+
+# Plot Top 5 Most Popular Food Categories by Order Value
+plt.subplot(1, 3, 2)
+sns.barplot(x=food_category_value.index, y=food_category_value.values, palette='plasma')
+plt.title('Top 5 Most Popular Food Categories by Order Value')
+plt.xlabel('Food Category')
+plt.ylabel('Total Order Value')
+plt.xticks(rotation=45, ha='right')
+plt.grid(axis='y')
+
+# Plot Distribution of Food Order Destinations (Top 10)
+plt.subplot(1, 3, 3)
+sns.barplot(x=food_dest_room_distribution.head(10).index, y=food_dest_room_distribution.head(10).values, palette='magma')
+plt.title('Top 10 Food Order Destinations')
+plt.xlabel('Destination Room')
+plt.ylabel('Number of Orders')
+plt.xticks(rotation=45, ha='right')
+
+
+
+positive_texts = df[df['sentiment_class'] == 'Positive']
+pos_words = [word for description in positive_texts for word in tokens]#[word for tokens in positive_texts for word in tokens]
+pos_freq = Counter(pos_words).most_common(sentiment_input_slider)
+pos_df = pd.DataFrame(pos_freq, columns=['Word', 'Frequency'])
+
+negative_texts = df[df['sentiment_class'] == 'Negative']['Description']
+neg_words = [word for tokens in negative_texts for word in tokens]
+neg_freq = Counter(neg_words).most_common(sentiment_input_slider)
+neg_df = pd.DataFrame(neg_freq, columns=['Word', 'Frequency'])
+
+# positive sentiment Create Plot
+fig_bar = px.bar(
+    pos_df, 
+    x='Frequency', 
+    y='Word', 
+    orientation='h',
+    title=f"Top {sentiment_input_slider} Positive Words in SlangZ",
+    text='Frequency',
+    color_discrete_sequence=['#10B981']
+)
+
+fig_bar.update_layout(
+    title={
+        'font': {'size': 20},
+        'x': 0.5,
+        'xanchor': 'center'
+    },
+    yaxis={'categoryorder':'total ascending'}, # Puts highest frequency at the top
+    template='plotly_white',
+    margin=dict(l=10, r=10, t=40, b=10), # Adds space for longer words
+    height=800,
+    showlegend=False
+)
+
+fig_bar.show()
+
+
+import pandas as pd
+import plotly.express as px
+
+# 1. Create a combined label column for the Y-axis
+# This joins the Slang term with its Description (e.g., "W: Shorthand for win")
+df['Label'] = df['Slang'] + ": " + df['Description']
+
+# 2. Filter for Positive and Negative sentiments
+pos_df = df[df['sentiment_class'] == 'Positive'].sort_values(by='popularity', ascending=False).head(sentiment_input_slider)
+neg_df = df[df['sentiment_class'] == 'Negative'].sort_values(by='popularity', ascending=False).head(sentiment_input_slider)
+
+# 3. Create the Positive Sentiment Plot
+fig_pos = px.bar(
+    pos_df, 
+    x='popularity',  # Using popularity as the frequency/metric
+    y='Label', 
+    orientation='h',
+    title=f"Top {sentiment_input_slider} Positive Slang Terms",
+    text='popularity',
+    color_discrete_sequence=['#10B981']
+)
+
+# 4. Standard Styling
+for fig in [fig_pos]: # You can repeat this for a fig_neg if you create one
+    fig.update_layout(
+        title={'font': {'size': 20}, 'x': 0.5, 'xanchor': 'center'},
+        yaxis={'categoryorder':'total ascending', 'title': ''}, 
+        xaxis_title="Popularity Score",
+        template='plotly_white',
+        margin=dict(l=200, r=10, t=40, b=10), # Increased left margin for long descriptions
+        height=600
+    )
+
+fig_pos.show()
+
+#EF4444
+
+ticket_dist
+passenger_categories
+
+  color_continuous_scale='Viridis'
+  
+  fig.update_layout(
+    title_font_size=20
+    title_x=0.5,
+    #xaxis_title='Month',
+    #yaxis_title='Number of Journeys',
+    #hovermode='x unified',
+    height=400,
+    showlegend=False
+	#title=f'Ridership Trend ({selected_period})',
+	
+	legend_title_text='Frequency',
+	    yaxis={'categoryorder':'total ascending'}, 
+	    template='plotly_white',
+	    title_x=0.5,
+	    height=800,              # Increased height so 30 words aren't squished
+	    showlegend=False
+		margin=dict(l=100),
+		margin=dict(l=10, r=10, t=40, b=10)
+		legend=dict(orientation="v", yanchor="middle", y=0.5, xanchor="left", x=1.0)
+		color_discrete_sequence=['#10B981']
+		coloraxis_colorbar_title='Trend Score'
+    )
+	
+	COLORS = {
+	    'primary': '#3B82F6',
+	    'success': '#10B981',
+	    'warning': '#F59E0B',
+	    'danger': '#EF4444',
+	    'purple': '#8B5CF6',
+	    'teal': '#14B8A6',
+	    'indigo': '#6366F1'
+	}
+	marker_color=COLORS['danger'],
+	
+	
+    ['aggrnyl', 'agsunset', 'algae', 'amp', 'armyrose', 'balance',
+                'blackbody', 'bluered', 'blues', 'blugrn', 'bluyl', 'brbg',
+                'brwnyl', 'bugn', 'bupu', 'burg', 'burgyl', 'cividis', 'curl',
+                'darkmint', 'deep', 'delta', 'dense', 'earth', 'edge', 'electric',
+                'emrld', 'fall', 'geyser', 'gnbu', 'gray', 'greens', 'greys',
+                'haline', 'hot', 'hsv', 'ice', 'icefire', 'inferno', 'jet',
+                'magenta', 'magma', 'matter', 'mint', 'mrybm', 'mygbm', 'oranges',
+                'orrd', 'oryel', 'oxy', 'peach', 'phase', 'picnic', 'pinkyl',
+                'piyg', 'plasma', 'plotly3', 'portland', 'prgn', 'pubu', 'pubugn',
+                'puor', 'purd', 'purp', 'purples', 'purpor', 'rainbow', 'rdbu',
+                'rdgy', 'rdpu', 'rdylbu', 'rdylgn', 'redor', 'reds', 'solar',
+                'spectral', 'speed', 'sunset', 'sunsetdark', 'teal', 'tealgrn',
+                'tealrose', 'tempo', 'temps', 'thermal', 'tropic', 'turbid',
+                'turbo', 'twilight', 'viridis', 'ylgn', 'ylgnbu', 'ylorbr',
+                'ylorrd']
+				
+discrete color				
+	aliceblue, antiquewhite, aqua, aquamarine, azure,
+	            beige, bisque, black, blanchedalmond, blue,
+	            blueviolet, brown, burlywood, cadetblue,
+	            chartreuse, chocolate, coral, cornflowerblue,
+	            cornsilk, crimson, cyan, darkblue, darkcyan,
+	            darkgoldenrod, darkgray, darkgrey, darkgreen,
+	            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+	            darkorchid, darkred, darksalmon, darkseagreen,
+	            darkslateblue, darkslategray, darkslategrey,
+	            darkturquoise, darkviolet, deeppink, deepskyblue,
+	            dimgray, dimgrey, dodgerblue, firebrick,
+	            floralwhite, forestgreen, fuchsia, gainsboro,
+	            ghostwhite, gold, goldenrod, gray, grey, green,
+	            greenyellow, honeydew, hotpink, indianred, indigo,
+	            ivory, khaki, lavender, lavenderblush, lawngreen,
+	            lemonchiffon, lightblue, lightcoral, lightcyan,
+	            lightgoldenrodyellow, lightgray, lightgrey,
+	            lightgreen, lightpink, lightsalmon, lightseagreen,
+	            lightskyblue, lightslategray, lightslategrey,
+	            lightsteelblue, lightyellow, lime, limegreen,
+	            linen, magenta, maroon, mediumaquamarine,
+	            mediumblue, mediumorchid, mediumpurple,
+	            mediumseagreen, mediumslateblue, mediumspringgreen,
+	            mediumturquoise, mediumvioletred, midnightblue,
+	            mintcream, mistyrose, moccasin, navajowhite, navy,
+	            oldlace, olive, olivedrab, orange, orangered,
+	            orchid, palegoldenrod, palegreen, paleturquoise,
+	            palevioletred, papayawhip, peachpuff, peru, pink,
+	            plum, powderblue, purple, red, rosybrown,
+	            royalblue, rebeccapurple, saddlebrown, salmon,
+	            sandybrown, seagreen, seashell, sienna, silver,
+	            skyblue, slateblue, slategray, slategrey, snow,
+	            springgreen, steelblue, tan, teal, thistle, tomato,
+	            turquoise, violet, wheat, white, whitesmoke,
+	            yellow, yellowgreen
+
+   header=dict(
+        values=list(rfm_segments_strategy.columns),
+        fill_color='dodgerblue',
+        align='center',
+        font=dict(color='white', size=14),
+        height=35
+    ),
+    
+    # Cell Styling
+    cells=dict(
+        values=[rfm_segments_strategy[col] for col in rfm_segments_strategy.columns],
+        fill_color='whitesmoke',
+        align='left',
+        font=dict(color='black', size=12),
+        height=40
+    )
+				
+rfm_df
+CONSTITUENT_ID	recency_days	transaction_count	amount	r_score	f_score	m_score	segment	rfm_score
+	100005807	2189	1	50.0	2	1	2	Can't Lose them	212
+
+gift_update_df
+	CONSTITUENT_ID	GIFT_DATE	AMOUNT	Year	Month	DOW
+	241384274	2024-09-18	250.0	2024	September	Wednesday
+	
+i would like to build a new dataset called gift_segment_df which combines rfm_df and gift_update_df
+
+video_update_df
+CONSTITUENT_ID	CONTACT_ID	SENT_DATE	OPENED_DATE	STARTED_VIDEO_DATE	BOUNCED	UNSUBSCRIBED	CLICKS	VIDEO_VIEWS	STARTED_VIDEO	WATCHED_VIDEO_25_PERCENT	WATCHED_VIDEO_50_PERCENT	WATCHED_VIDEO_75_PERCENT	FINISHED_VIDEO	VIDEO_SHARES_TO_FACEBOOK	Year	Month
+804281879	11199576	2017-04-20	NaN	NaN	0	0	0	0	0	0	0	0	0	0	2017	April
+
+
+
+crm
+CONSTITUENT_ID	CRM_INTERACTION_DATE	CRM_INTERACTION_TYPE
+	253623044	2023-12-06	Phone
+
+
+
+
