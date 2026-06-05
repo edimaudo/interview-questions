@@ -25,7 +25,7 @@ pandas==2.3.3
 pillow==12.1.1
 plotly==6.4.0
 protobuf==6.33.5
-pyarrow==21.0.0
+pyarrow==23.0.1
 pydeck==0.9.1
 pyparsing==3.2.5
 python-dateutil==2.9.0.post0
