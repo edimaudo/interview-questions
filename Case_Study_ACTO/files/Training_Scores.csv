@@ -1,0 +1,1745 @@
+UserID,Year,TrainingCategory,TrainingScore
+U001,2023,Product Knowledge,17.9
+U001,2023,Sales Methodology,41.5
+U001,2023,Compliance,43.3
+U001,2023,Soft Skills,29.5
+U001,2024,Product Knowledge,59.6
+U001,2024,Sales Methodology,60.2
+U001,2024,Compliance,55.0
+U001,2024,Soft Skills,61.5
+U001,2025,Product Knowledge,75.8
+U001,2025,Sales Methodology,69.9
+U001,2025,Compliance,70.3
+U001,2025,Soft Skills,64.8
+U002,2023,Product Knowledge,44.9
+U002,2023,Sales Methodology,36.5
+U002,2023,Compliance,32.8
+U002,2023,Soft Skills,51.5
+U002,2024,Product Knowledge,84.9
+U002,2024,Sales Methodology,69.7
+U002,2024,Compliance,75.7
+U002,2024,Soft Skills,94.1
+U002,2025,Product Knowledge,77.3
+U002,2025,Sales Methodology,60.7
+U002,2025,Compliance,77.4
+U002,2025,Soft Skills,68.7
+U003,2023,Product Knowledge,36.2
+U003,2023,Sales Methodology,31.9
+U003,2023,Compliance,47.4
+U003,2023,Soft Skills,59.5
+U003,2024,Product Knowledge,68.3
+U003,2024,Sales Methodology,60.0
+U003,2024,Compliance,33.9
+U003,2024,Soft Skills,72.4
+U004,2023,Product Knowledge,19.5
+U004,2023,Sales Methodology,30.0
+U004,2023,Compliance,37.6
+U004,2023,Soft Skills,23.7
+U004,2024,Product Knowledge,77.4
+U004,2024,Sales Methodology,73.5
+U004,2024,Compliance,84.9
+U004,2024,Soft Skills,83.5
+U004,2025,Product Knowledge,67.7
+U004,2025,Sales Methodology,67.6
+U004,2025,Compliance,97.8
+U004,2025,Soft Skills,85.8
+U005,2023,Product Knowledge,66.2
+U005,2023,Sales Methodology,85.2
+U005,2023,Compliance,73.1
+U005,2023,Soft Skills,71.2
+U005,2024,Product Knowledge,53.3
+U005,2024,Sales Methodology,63.3
+U005,2024,Compliance,62.7
+U005,2024,Soft Skills,76.9
+U005,2025,Product Knowledge,78.7
+U005,2025,Sales Methodology,67.2
+U005,2025,Compliance,61.0
+U005,2025,Soft Skills,61.2
+U006,2023,Product Knowledge,31.8
+U006,2023,Sales Methodology,49.8
+U006,2023,Compliance,39.5
+U006,2023,Soft Skills,28.1
+U006,2024,Product Knowledge,76.1
+U006,2024,Sales Methodology,100
+U006,2024,Compliance,99.4
+U006,2024,Soft Skills,87.5
+U006,2025,Product Knowledge,86.1
+U006,2025,Sales Methodology,90.8
+U006,2025,Compliance,78.2
+U006,2025,Soft Skills,86.4
+U007,2023,Product Knowledge,16.1
+U007,2023,Sales Methodology,17.8
+U007,2023,Compliance,16.5
+U007,2023,Soft Skills,15.6
+U007,2024,Product Knowledge,45.2
+U007,2024,Sales Methodology,26.6
+U007,2024,Compliance,39.0
+U007,2024,Soft Skills,42.4
+U007,2025,Product Knowledge,100
+U007,2025,Sales Methodology,98.6
+U007,2025,Compliance,98.1
+U007,2025,Soft Skills,100
+U008,2023,Product Knowledge,65.1
+U008,2023,Sales Methodology,74.5
+U008,2023,Compliance,70.3
+U008,2023,Soft Skills,71.1
+U008,2024,Product Knowledge,64.2
+U008,2024,Sales Methodology,66.3
+U008,2024,Compliance,60.4
+U008,2024,Soft Skills,57.8
+U008,2025,Product Knowledge,100
+U008,2025,Sales Methodology,96.1
+U008,2025,Compliance,100
+U008,2025,Soft Skills,98.5
+U009,2023,Product Knowledge,28.4
+U009,2023,Sales Methodology,30.0
+U009,2023,Compliance,31.4
+U009,2023,Soft Skills,0.4
+U009,2024,Product Knowledge,17.4
+U009,2024,Sales Methodology,3.8
+U009,2024,Compliance,29.0
+U009,2024,Soft Skills,28.6
+U009,2025,Product Knowledge,38.0
+U009,2025,Sales Methodology,31.9
+U009,2025,Compliance,51.4
+U009,2025,Soft Skills,32.7
+U010,2023,Product Knowledge,74.5
+U010,2023,Sales Methodology,78.7
+U010,2023,Compliance,70.4
+U010,2023,Soft Skills,80.4
+U010,2024,Product Knowledge,85.2
+U010,2024,Sales Methodology,86.1
+U010,2024,Compliance,100
+U010,2024,Soft Skills,79.0
+U010,2025,Product Knowledge,48.2
+U010,2025,Sales Methodology,75.6
+U010,2025,Compliance,78.4
+U010,2025,Soft Skills,68.8
+U011,2023,Product Knowledge,17.1
+U011,2023,Sales Methodology,28.2
+U011,2023,Compliance,29.7
+U011,2023,Soft Skills,18.5
+U011,2024,Product Knowledge,9.1
+U011,2024,Sales Methodology,29.1
+U011,2024,Compliance,32.2
+U011,2024,Soft Skills,19.2
+U011,2025,Product Knowledge,29.0
+U011,2025,Sales Methodology,46.6
+U011,2025,Compliance,41.6
+U011,2025,Soft Skills,50.5
+U012,2023,Product Knowledge,60.0
+U012,2023,Sales Methodology,47.8
+U012,2023,Compliance,62.1
+U012,2023,Soft Skills,78.6
+U012,2024,Product Knowledge,68.3
+U012,2024,Sales Methodology,67.8
+U012,2024,Compliance,77.3
+U012,2024,Soft Skills,74.6
+U012,2025,Product Knowledge,81.8
+U012,2025,Sales Methodology,66.4
+U012,2025,Compliance,84.0
+U012,2025,Soft Skills,81.0
+U013,2023,Product Knowledge,25.3
+U013,2023,Sales Methodology,26.0
+U013,2023,Compliance,40.7
+U013,2023,Soft Skills,51.3
+U013,2024,Product Knowledge,90.5
+U013,2024,Sales Methodology,80.2
+U013,2024,Compliance,85.3
+U013,2024,Soft Skills,80.5
+U013,2025,Product Knowledge,57.1
+U013,2025,Sales Methodology,33.1
+U013,2025,Compliance,63.3
+U013,2025,Soft Skills,25.6
+U014,2023,Product Knowledge,82.6
+U014,2023,Sales Methodology,89.3
+U014,2023,Compliance,78.3
+U014,2023,Soft Skills,99.7
+U014,2024,Product Knowledge,69.3
+U014,2024,Sales Methodology,76.5
+U014,2024,Compliance,81.0
+U014,2024,Soft Skills,79.9
+U014,2025,Product Knowledge,81.2
+U014,2025,Sales Methodology,66.9
+U014,2025,Compliance,92.4
+U014,2025,Soft Skills,70.4
+U015,2023,Product Knowledge,47.1
+U015,2023,Sales Methodology,44.4
+U015,2023,Compliance,50.7
+U015,2023,Soft Skills,57.9
+U015,2024,Product Knowledge,49.8
+U015,2024,Sales Methodology,40.0
+U015,2024,Compliance,37.7
+U015,2024,Soft Skills,38.9
+U015,2025,Product Knowledge,58.2
+U015,2025,Sales Methodology,78.3
+U015,2025,Compliance,66.0
+U015,2025,Soft Skills,87.4
+U016,2023,Product Knowledge,100
+U016,2023,Sales Methodology,79.4
+U016,2023,Compliance,82.6
+U016,2023,Soft Skills,94.4
+U016,2024,Product Knowledge,79.0
+U016,2024,Sales Methodology,72.8
+U016,2024,Compliance,67.1
+U016,2024,Soft Skills,56.0
+U016,2025,Product Knowledge,63.8
+U016,2025,Sales Methodology,77.0
+U016,2025,Compliance,70.7
+U016,2025,Soft Skills,69.8
+U017,2023,Product Knowledge,42.2
+U017,2023,Sales Methodology,48.6
+U017,2023,Compliance,33.1
+U017,2023,Soft Skills,32.0
+U017,2024,Product Knowledge,39.1
+U017,2024,Sales Methodology,34.9
+U017,2024,Compliance,23.8
+U017,2024,Soft Skills,19.7
+U018,2023,Product Knowledge,24.5
+U018,2023,Sales Methodology,23.0
+U018,2023,Compliance,26.1
+U018,2023,Soft Skills,27.8
+U018,2024,Product Knowledge,62.0
+U018,2024,Sales Methodology,62.6
+U018,2024,Compliance,60.1
+U018,2024,Soft Skills,58.1
+U018,2025,Product Knowledge,87.7
+U018,2025,Sales Methodology,91.5
+U018,2025,Compliance,88.9
+U018,2025,Soft Skills,96.4
+U019,2023,Product Knowledge,85.1
+U019,2023,Sales Methodology,73.5
+U019,2023,Compliance,56.6
+U019,2023,Soft Skills,83.2
+U019,2024,Product Knowledge,58.4
+U019,2024,Sales Methodology,75.4
+U019,2024,Compliance,75.5
+U019,2024,Soft Skills,70.5
+U019,2025,Product Knowledge,49.1
+U019,2025,Sales Methodology,47.8
+U019,2025,Compliance,49.6
+U019,2025,Soft Skills,39.0
+U020,2023,Product Knowledge,71.5
+U020,2023,Sales Methodology,84.6
+U020,2023,Compliance,80.5
+U020,2023,Soft Skills,73.8
+U020,2024,Product Knowledge,69.4
+U020,2024,Sales Methodology,71.8
+U020,2024,Compliance,68.5
+U020,2024,Soft Skills,86.7
+U020,2025,Product Knowledge,69.9
+U020,2025,Sales Methodology,92.9
+U020,2025,Compliance,89.0
+U020,2025,Soft Skills,74.9
+U021,2023,Product Knowledge,50.2
+U021,2023,Sales Methodology,45.2
+U021,2023,Compliance,51.0
+U021,2023,Soft Skills,46.3
+U021,2024,Product Knowledge,45.2
+U021,2024,Sales Methodology,20.6
+U021,2024,Compliance,43.9
+U021,2024,Soft Skills,14.4
+U021,2025,Product Knowledge,100
+U021,2025,Sales Methodology,100
+U021,2025,Compliance,93.7
+U021,2025,Soft Skills,100
+U022,2023,Product Knowledge,44.5
+U022,2023,Sales Methodology,23.1
+U022,2023,Compliance,23.8
+U022,2023,Soft Skills,22.6
+U022,2024,Product Knowledge,95.6
+U022,2024,Sales Methodology,90.9
+U022,2024,Compliance,82.9
+U022,2024,Soft Skills,100
+U022,2025,Product Knowledge,62.8
+U022,2025,Sales Methodology,69.4
+U022,2025,Compliance,54.3
+U022,2025,Soft Skills,60.2
+U023,2023,Product Knowledge,42.8
+U023,2023,Sales Methodology,56.4
+U023,2023,Compliance,30.7
+U023,2023,Soft Skills,37.5
+U023,2024,Product Knowledge,56.0
+U023,2024,Sales Methodology,44.0
+U023,2024,Compliance,25.2
+U023,2024,Soft Skills,37.4
+U023,2025,Product Knowledge,89.3
+U023,2025,Sales Methodology,73.2
+U023,2025,Compliance,77.7
+U023,2025,Soft Skills,75.0
+U024,2023,Product Knowledge,58.0
+U024,2023,Sales Methodology,54.7
+U024,2023,Compliance,38.4
+U024,2023,Soft Skills,49.1
+U024,2024,Product Knowledge,62.6
+U024,2024,Sales Methodology,51.8
+U024,2024,Compliance,68.2
+U024,2024,Soft Skills,80.8
+U024,2025,Product Knowledge,96.4
+U024,2025,Sales Methodology,88.4
+U024,2025,Compliance,69.1
+U024,2025,Soft Skills,91.6
+U025,2023,Product Knowledge,90.0
+U025,2023,Sales Methodology,87.2
+U025,2023,Compliance,83.6
+U025,2023,Soft Skills,100
+U025,2024,Product Knowledge,31.4
+U025,2024,Sales Methodology,37.2
+U025,2024,Compliance,46.5
+U025,2024,Soft Skills,39.6
+U025,2025,Product Knowledge,65.6
+U025,2025,Sales Methodology,73.0
+U025,2025,Compliance,67.8
+U025,2025,Soft Skills,86.0
+U026,2023,Product Knowledge,37.5
+U026,2023,Sales Methodology,36.5
+U026,2023,Compliance,30.8
+U026,2023,Soft Skills,50.9
+U026,2024,Product Knowledge,88.2
+U026,2024,Sales Methodology,71.4
+U026,2024,Compliance,63.3
+U026,2024,Soft Skills,73.1
+U026,2025,Product Knowledge,64.1
+U026,2025,Sales Methodology,82.1
+U026,2025,Compliance,63.2
+U026,2025,Soft Skills,80.5
+U027,2023,Product Knowledge,43.6
+U027,2023,Sales Methodology,40.4
+U027,2023,Compliance,45.1
+U027,2023,Soft Skills,52.4
+U027,2024,Product Knowledge,46.9
+U027,2024,Sales Methodology,40.0
+U027,2024,Compliance,51.4
+U027,2024,Soft Skills,34.2
+U027,2025,Product Knowledge,56.6
+U027,2025,Sales Methodology,60.9
+U027,2025,Compliance,63.8
+U027,2025,Soft Skills,59.6
+U028,2023,Product Knowledge,85.7
+U028,2023,Sales Methodology,71.4
+U028,2023,Compliance,80.1
+U028,2023,Soft Skills,82.4
+U028,2024,Product Knowledge,81.7
+U028,2024,Sales Methodology,49.5
+U028,2024,Compliance,64.7
+U028,2024,Soft Skills,69.6
+U028,2025,Product Knowledge,93.3
+U028,2025,Sales Methodology,93.7
+U028,2025,Compliance,91.0
+U028,2025,Soft Skills,94.0
+U029,2023,Product Knowledge,80.4
+U029,2023,Sales Methodology,88.8
+U029,2023,Compliance,91.3
+U029,2023,Soft Skills,89.1
+U029,2024,Product Knowledge,90.5
+U029,2024,Sales Methodology,93.9
+U029,2024,Compliance,86.0
+U029,2024,Soft Skills,85.2
+U029,2025,Product Knowledge,77.8
+U029,2025,Sales Methodology,96.0
+U029,2025,Compliance,76.0
+U029,2025,Soft Skills,93.0
+U030,2023,Product Knowledge,74.4
+U030,2023,Sales Methodology,87.8
+U030,2023,Compliance,100
+U030,2023,Soft Skills,93.9
+U030,2024,Product Knowledge,93.5
+U030,2024,Sales Methodology,77.0
+U030,2024,Compliance,98.2
+U030,2024,Soft Skills,78.5
+U030,2025,Product Knowledge,78.4
+U030,2025,Sales Methodology,84.4
+U030,2025,Compliance,100
+U030,2025,Soft Skills,86.0
+U031,2023,Product Knowledge,47.0
+U031,2023,Sales Methodology,40.1
+U031,2023,Compliance,58.5
+U031,2023,Soft Skills,75.4
+U031,2024,Product Knowledge,54.9
+U031,2024,Sales Methodology,71.9
+U031,2024,Compliance,45.7
+U031,2024,Soft Skills,63.2
+U031,2025,Product Knowledge,36.4
+U031,2025,Sales Methodology,39.1
+U031,2025,Compliance,30.0
+U031,2025,Soft Skills,33.1
+U032,2023,Product Knowledge,12.5
+U032,2023,Sales Methodology,27.6
+U032,2023,Compliance,22.5
+U032,2023,Soft Skills,23.5
+U032,2024,Product Knowledge,17.8
+U032,2024,Sales Methodology,39.7
+U032,2024,Compliance,43.2
+U032,2024,Soft Skills,46.2
+U032,2025,Product Knowledge,84.1
+U032,2025,Sales Methodology,63.9
+U032,2025,Compliance,77.9
+U032,2025,Soft Skills,91.0
+U033,2023,Product Knowledge,53.6
+U033,2023,Sales Methodology,27.8
+U033,2023,Compliance,47.3
+U033,2023,Soft Skills,44.7
+U033,2024,Product Knowledge,82.0
+U033,2024,Sales Methodology,98.6
+U033,2024,Compliance,100
+U033,2024,Soft Skills,64.7
+U033,2025,Product Knowledge,79.5
+U033,2025,Sales Methodology,72.1
+U033,2025,Compliance,95.7
+U033,2025,Soft Skills,90.5
+U034,2023,Product Knowledge,33.0
+U034,2023,Sales Methodology,52.5
+U034,2023,Compliance,68.7
+U034,2023,Soft Skills,62.3
+U034,2024,Product Knowledge,0
+U034,2024,Sales Methodology,10.8
+U034,2024,Compliance,36.1
+U034,2024,Soft Skills,38.7
+U034,2025,Product Knowledge,54.2
+U034,2025,Sales Methodology,51.5
+U034,2025,Compliance,16.3
+U034,2025,Soft Skills,22.6
+U035,2023,Product Knowledge,89.2
+U035,2023,Sales Methodology,96.9
+U035,2023,Compliance,90.5
+U035,2023,Soft Skills,86.2
+U035,2024,Product Knowledge,67.3
+U035,2024,Sales Methodology,72.7
+U035,2024,Compliance,79.8
+U035,2024,Soft Skills,80.0
+U035,2025,Product Knowledge,85.3
+U035,2025,Sales Methodology,88.6
+U035,2025,Compliance,70.5
+U035,2025,Soft Skills,86.5
+U036,2023,Product Knowledge,63.5
+U036,2023,Sales Methodology,74.6
+U036,2023,Compliance,67.4
+U036,2023,Soft Skills,59.6
+U036,2024,Product Knowledge,92.8
+U036,2024,Sales Methodology,76.6
+U036,2024,Compliance,76.1
+U036,2024,Soft Skills,71.9
+U036,2025,Product Knowledge,85.7
+U036,2025,Sales Methodology,95.4
+U036,2025,Compliance,84.1
+U036,2025,Soft Skills,96.2
+U037,2023,Product Knowledge,36.0
+U037,2023,Sales Methodology,31.9
+U037,2023,Compliance,35.2
+U037,2023,Soft Skills,27.2
+U037,2024,Product Knowledge,34.3
+U037,2024,Sales Methodology,43.9
+U037,2024,Compliance,45.0
+U037,2024,Soft Skills,56.8
+U038,2023,Product Knowledge,55.3
+U038,2023,Sales Methodology,17.1
+U038,2023,Compliance,35.0
+U038,2023,Soft Skills,41.7
+U038,2024,Product Knowledge,29.0
+U038,2024,Sales Methodology,42.6
+U038,2024,Compliance,34.1
+U038,2024,Soft Skills,24.8
+U038,2025,Product Knowledge,74.8
+U038,2025,Sales Methodology,66.2
+U038,2025,Compliance,68.6
+U038,2025,Soft Skills,53.4
+U039,2023,Product Knowledge,89.3
+U039,2023,Sales Methodology,87.6
+U039,2023,Compliance,96.1
+U039,2023,Soft Skills,100
+U039,2024,Product Knowledge,94.0
+U039,2024,Sales Methodology,77.5
+U039,2024,Compliance,90.7
+U039,2024,Soft Skills,93.3
+U039,2025,Product Knowledge,95.1
+U039,2025,Sales Methodology,100
+U039,2025,Compliance,100
+U039,2025,Soft Skills,100
+U040,2023,Product Knowledge,80.8
+U040,2023,Sales Methodology,65.6
+U040,2023,Compliance,74.6
+U040,2023,Soft Skills,67.3
+U040,2024,Product Knowledge,71.9
+U040,2024,Sales Methodology,71.9
+U040,2024,Compliance,81.0
+U040,2024,Soft Skills,68.4
+U040,2025,Product Knowledge,76.4
+U040,2025,Sales Methodology,78.7
+U040,2025,Compliance,50.1
+U040,2025,Soft Skills,85.3
+U041,2023,Product Knowledge,23.3
+U041,2023,Sales Methodology,62.4
+U041,2023,Compliance,60.5
+U041,2023,Soft Skills,44.1
+U041,2024,Product Knowledge,78.0
+U041,2024,Sales Methodology,66.6
+U041,2024,Compliance,47.6
+U041,2024,Soft Skills,47.7
+U041,2025,Product Knowledge,44.1
+U041,2025,Sales Methodology,57.1
+U041,2025,Compliance,76.2
+U041,2025,Soft Skills,53.8
+U042,2023,Product Knowledge,89.4
+U042,2023,Sales Methodology,73.4
+U042,2023,Compliance,82.0
+U042,2023,Soft Skills,80.6
+U042,2024,Product Knowledge,73.5
+U042,2024,Sales Methodology,68.7
+U042,2024,Compliance,77.9
+U042,2024,Soft Skills,71.7
+U042,2025,Product Knowledge,66.1
+U042,2025,Sales Methodology,63.4
+U042,2025,Compliance,73.9
+U042,2025,Soft Skills,74.9
+U043,2023,Product Knowledge,26.8
+U043,2023,Sales Methodology,35.2
+U043,2023,Compliance,25.6
+U043,2023,Soft Skills,26.2
+U043,2024,Product Knowledge,30.6
+U043,2024,Sales Methodology,59.0
+U043,2024,Compliance,44.9
+U043,2024,Soft Skills,43.8
+U043,2025,Product Knowledge,63.3
+U043,2025,Sales Methodology,49.3
+U043,2025,Compliance,76.8
+U043,2025,Soft Skills,50.3
+U044,2023,Product Knowledge,36.7
+U044,2023,Sales Methodology,50.7
+U044,2023,Compliance,20.6
+U044,2023,Soft Skills,47.4
+U044,2024,Product Knowledge,56.3
+U044,2024,Sales Methodology,53.2
+U044,2024,Compliance,55.9
+U044,2024,Soft Skills,75.6
+U044,2025,Product Knowledge,95.4
+U044,2025,Sales Methodology,90.7
+U044,2025,Compliance,77.3
+U044,2025,Soft Skills,96.5
+U045,2023,Product Knowledge,23.9
+U045,2023,Sales Methodology,36.3
+U045,2023,Compliance,36.3
+U045,2023,Soft Skills,27.0
+U045,2024,Product Knowledge,95.3
+U045,2024,Sales Methodology,80.4
+U045,2024,Compliance,92.6
+U045,2024,Soft Skills,95.7
+U045,2025,Product Knowledge,78.6
+U045,2025,Sales Methodology,79.5
+U045,2025,Compliance,82.8
+U045,2025,Soft Skills,88.4
+U046,2023,Product Knowledge,13.3
+U046,2023,Sales Methodology,32.7
+U046,2023,Compliance,25.1
+U046,2023,Soft Skills,55.1
+U046,2024,Product Knowledge,100
+U046,2024,Sales Methodology,100
+U046,2024,Compliance,89.3
+U046,2024,Soft Skills,89.6
+U046,2025,Product Knowledge,67.0
+U046,2025,Sales Methodology,58.8
+U046,2025,Compliance,45.9
+U046,2025,Soft Skills,58.6
+U047,2023,Product Knowledge,50.9
+U047,2023,Sales Methodology,55.9
+U047,2023,Compliance,35.0
+U047,2023,Soft Skills,61.7
+U047,2024,Product Knowledge,59.7
+U047,2024,Sales Methodology,52.0
+U047,2024,Compliance,56.5
+U047,2024,Soft Skills,51.7
+U047,2025,Product Knowledge,72.0
+U047,2025,Sales Methodology,67.3
+U047,2025,Compliance,62.7
+U047,2025,Soft Skills,80.1
+U048,2023,Product Knowledge,48.7
+U048,2023,Sales Methodology,28.7
+U048,2023,Compliance,36.2
+U048,2023,Soft Skills,38.3
+U048,2024,Product Knowledge,52.3
+U048,2024,Sales Methodology,33.4
+U048,2024,Compliance,27.0
+U048,2024,Soft Skills,25.9
+U048,2025,Product Knowledge,38.7
+U048,2025,Sales Methodology,27.4
+U048,2025,Compliance,26.2
+U048,2025,Soft Skills,37.8
+U049,2023,Product Knowledge,36.4
+U049,2023,Sales Methodology,33.9
+U049,2023,Compliance,49.6
+U049,2023,Soft Skills,41.3
+U049,2024,Product Knowledge,37.9
+U049,2024,Sales Methodology,29.8
+U049,2024,Compliance,30.2
+U049,2024,Soft Skills,55.2
+U049,2025,Product Knowledge,73.3
+U049,2025,Sales Methodology,75.0
+U049,2025,Compliance,84.3
+U049,2025,Soft Skills,93.0
+U050,2023,Product Knowledge,50.6
+U050,2023,Sales Methodology,50.3
+U050,2023,Compliance,62.8
+U050,2023,Soft Skills,49.3
+U050,2024,Product Knowledge,60.1
+U050,2024,Sales Methodology,69.0
+U050,2024,Compliance,78.9
+U050,2024,Soft Skills,54.6
+U050,2025,Product Knowledge,100
+U050,2025,Sales Methodology,99.0
+U050,2025,Compliance,99.5
+U050,2025,Soft Skills,90.9
+U051,2023,Product Knowledge,2.4
+U051,2023,Sales Methodology,34.2
+U051,2023,Compliance,41.8
+U051,2023,Soft Skills,31.1
+U051,2024,Product Knowledge,53.7
+U051,2024,Sales Methodology,37.4
+U051,2024,Compliance,63.4
+U051,2024,Soft Skills,54.8
+U051,2025,Product Knowledge,61.3
+U051,2025,Sales Methodology,42.8
+U051,2025,Compliance,49.8
+U051,2025,Soft Skills,39.9
+U052,2023,Product Knowledge,35.4
+U052,2023,Sales Methodology,33.6
+U052,2023,Compliance,29.2
+U052,2023,Soft Skills,20.6
+U052,2024,Product Knowledge,39.7
+U052,2024,Sales Methodology,62.8
+U052,2024,Compliance,57.8
+U052,2024,Soft Skills,48.9
+U052,2025,Product Knowledge,94.6
+U052,2025,Sales Methodology,91.3
+U052,2025,Compliance,89.1
+U052,2025,Soft Skills,97.4
+U053,2023,Product Knowledge,86.4
+U053,2023,Sales Methodology,89.7
+U053,2023,Compliance,96.6
+U053,2023,Soft Skills,73.0
+U053,2024,Product Knowledge,79.4
+U053,2024,Sales Methodology,66.9
+U053,2024,Compliance,72.1
+U053,2024,Soft Skills,55.0
+U053,2025,Product Knowledge,100
+U053,2025,Sales Methodology,100
+U053,2025,Compliance,99.5
+U053,2025,Soft Skills,90.5
+U054,2023,Product Knowledge,39.1
+U054,2023,Sales Methodology,43.4
+U054,2023,Compliance,41.5
+U054,2023,Soft Skills,64.2
+U054,2024,Product Knowledge,65.2
+U054,2024,Sales Methodology,86.0
+U054,2024,Compliance,74.9
+U054,2024,Soft Skills,76.3
+U054,2025,Product Knowledge,76.4
+U054,2025,Sales Methodology,96.9
+U054,2025,Compliance,79.5
+U054,2025,Soft Skills,80.1
+U055,2023,Product Knowledge,81.9
+U055,2023,Sales Methodology,96.6
+U055,2023,Compliance,73.3
+U055,2023,Soft Skills,95.1
+U055,2024,Product Knowledge,100
+U055,2024,Sales Methodology,100
+U055,2024,Compliance,81.9
+U055,2024,Soft Skills,89.9
+U055,2025,Product Knowledge,68.8
+U055,2025,Sales Methodology,100
+U055,2025,Compliance,69.3
+U055,2025,Soft Skills,78.2
+U056,2023,Product Knowledge,76.7
+U056,2023,Sales Methodology,73.8
+U056,2023,Compliance,71.4
+U056,2023,Soft Skills,64.1
+U056,2024,Product Knowledge,86.7
+U056,2024,Sales Methodology,84.8
+U056,2024,Compliance,100
+U056,2024,Soft Skills,79.8
+U056,2025,Product Knowledge,87.7
+U056,2025,Sales Methodology,92.7
+U056,2025,Compliance,91.0
+U056,2025,Soft Skills,93.8
+U057,2023,Product Knowledge,78.1
+U057,2023,Sales Methodology,57.3
+U057,2023,Compliance,82.7
+U057,2023,Soft Skills,66.5
+U057,2024,Product Knowledge,100
+U057,2024,Sales Methodology,80.7
+U057,2024,Compliance,75.3
+U057,2024,Soft Skills,95.6
+U057,2025,Product Knowledge,61.8
+U057,2025,Sales Methodology,65.2
+U057,2025,Compliance,66.8
+U057,2025,Soft Skills,80.2
+U058,2023,Product Knowledge,73.3
+U058,2023,Sales Methodology,78.3
+U058,2023,Compliance,96.7
+U058,2023,Soft Skills,89.3
+U058,2024,Product Knowledge,87.9
+U058,2024,Sales Methodology,67.9
+U058,2024,Compliance,50.5
+U058,2024,Soft Skills,88.0
+U058,2025,Product Knowledge,100
+U058,2025,Sales Methodology,100
+U058,2025,Compliance,100
+U058,2025,Soft Skills,89.2
+U059,2023,Product Knowledge,41.2
+U059,2023,Sales Methodology,57.2
+U059,2023,Compliance,54.9
+U059,2023,Soft Skills,56.2
+U059,2024,Product Knowledge,53.2
+U059,2024,Sales Methodology,61.9
+U059,2024,Compliance,67.4
+U059,2024,Soft Skills,59.1
+U060,2023,Product Knowledge,34.4
+U060,2023,Sales Methodology,29.6
+U060,2023,Compliance,21.4
+U060,2023,Soft Skills,18.7
+U060,2024,Product Knowledge,11.1
+U060,2024,Sales Methodology,24.1
+U060,2024,Compliance,27.8
+U060,2024,Soft Skills,17.0
+U061,2023,Product Knowledge,93.0
+U061,2023,Sales Methodology,88.1
+U061,2023,Compliance,91.2
+U061,2023,Soft Skills,75.4
+U061,2024,Product Knowledge,83.5
+U061,2024,Sales Methodology,86.5
+U061,2024,Compliance,100
+U061,2024,Soft Skills,94.6
+U061,2025,Product Knowledge,99.1
+U061,2025,Sales Methodology,100
+U061,2025,Compliance,100
+U061,2025,Soft Skills,100
+U062,2023,Product Knowledge,32.3
+U062,2023,Sales Methodology,30.2
+U062,2023,Compliance,48.3
+U062,2023,Soft Skills,41.9
+U062,2024,Product Knowledge,39.1
+U062,2024,Sales Methodology,44.8
+U062,2024,Compliance,27.0
+U062,2024,Soft Skills,52.5
+U062,2025,Product Knowledge,87.2
+U062,2025,Sales Methodology,70.4
+U062,2025,Compliance,75.1
+U062,2025,Soft Skills,59.3
+U063,2023,Product Knowledge,40.7
+U063,2023,Sales Methodology,49.4
+U063,2023,Compliance,31.2
+U063,2023,Soft Skills,42.6
+U063,2024,Product Knowledge,58.6
+U063,2024,Sales Methodology,79.0
+U063,2024,Compliance,70.6
+U063,2024,Soft Skills,100.0
+U063,2025,Product Knowledge,91.8
+U063,2025,Sales Methodology,90.5
+U063,2025,Compliance,100
+U063,2025,Soft Skills,80.3
+U064,2023,Product Knowledge,43.5
+U064,2023,Sales Methodology,51.0
+U064,2023,Compliance,30.2
+U064,2023,Soft Skills,58.3
+U064,2024,Product Knowledge,58.7
+U064,2024,Sales Methodology,60.4
+U064,2024,Compliance,65.3
+U064,2024,Soft Skills,70.3
+U064,2025,Product Knowledge,79.0
+U064,2025,Sales Methodology,81.1
+U064,2025,Compliance,54.5
+U064,2025,Soft Skills,77.9
+U065,2023,Product Knowledge,21.9
+U065,2023,Sales Methodology,20.6
+U065,2023,Compliance,13.9
+U065,2023,Soft Skills,20.3
+U065,2024,Product Knowledge,26.2
+U065,2024,Sales Methodology,30.6
+U065,2024,Compliance,33.9
+U065,2024,Soft Skills,33.9
+U065,2025,Product Knowledge,23.3
+U065,2025,Sales Methodology,21.6
+U065,2025,Compliance,41.3
+U065,2025,Soft Skills,14.7
+U066,2023,Product Knowledge,63.6
+U066,2023,Sales Methodology,46.5
+U066,2023,Compliance,26.0
+U066,2023,Soft Skills,60.2
+U066,2024,Product Knowledge,50.5
+U066,2024,Sales Methodology,46.6
+U066,2024,Compliance,45.3
+U066,2024,Soft Skills,45.0
+U066,2025,Product Knowledge,57.1
+U066,2025,Sales Methodology,82.2
+U066,2025,Compliance,67.3
+U066,2025,Soft Skills,84.2
+U067,2023,Product Knowledge,84.6
+U067,2023,Sales Methodology,86.1
+U067,2023,Compliance,100
+U067,2023,Soft Skills,94.5
+U067,2024,Product Knowledge,79.3
+U067,2024,Sales Methodology,79.0
+U067,2024,Compliance,73.7
+U067,2024,Soft Skills,92.1
+U067,2025,Product Knowledge,71.6
+U067,2025,Sales Methodology,76.9
+U067,2025,Compliance,86.1
+U067,2025,Soft Skills,90.5
+U068,2023,Product Knowledge,15.4
+U068,2023,Sales Methodology,12.9
+U068,2023,Compliance,19.1
+U068,2023,Soft Skills,23.3
+U068,2024,Product Knowledge,56.9
+U068,2024,Sales Methodology,43.8
+U068,2024,Compliance,58.1
+U068,2024,Soft Skills,66.5
+U068,2025,Product Knowledge,63.2
+U068,2025,Sales Methodology,91.8
+U068,2025,Compliance,77.2
+U068,2025,Soft Skills,70.4
+U069,2023,Product Knowledge,91.4
+U069,2023,Sales Methodology,65.8
+U069,2023,Compliance,79.9
+U069,2023,Soft Skills,70.1
+U069,2024,Product Knowledge,78.5
+U069,2024,Sales Methodology,69.9
+U069,2024,Compliance,67.0
+U069,2024,Soft Skills,81.5
+U069,2025,Product Knowledge,93.2
+U069,2025,Sales Methodology,87.5
+U069,2025,Compliance,84.3
+U069,2025,Soft Skills,93.9
+U070,2023,Product Knowledge,100
+U070,2023,Sales Methodology,100
+U070,2023,Compliance,100
+U070,2023,Soft Skills,100
+U070,2024,Product Knowledge,77.8
+U070,2024,Sales Methodology,75.5
+U070,2024,Compliance,80.5
+U070,2024,Soft Skills,71.2
+U070,2025,Product Knowledge,100
+U070,2025,Sales Methodology,98.9
+U070,2025,Compliance,94.7
+U070,2025,Soft Skills,100
+U071,2023,Product Knowledge,34.8
+U071,2023,Sales Methodology,42.7
+U071,2023,Compliance,24.9
+U071,2023,Soft Skills,37.2
+U071,2024,Product Knowledge,56.0
+U071,2024,Sales Methodology,54.5
+U071,2024,Compliance,42.7
+U071,2024,Soft Skills,63.8
+U071,2025,Product Knowledge,51.3
+U071,2025,Sales Methodology,55.5
+U071,2025,Compliance,48.1
+U071,2025,Soft Skills,68.1
+U072,2023,Product Knowledge,8.8
+U072,2023,Sales Methodology,28.8
+U072,2023,Compliance,49.4
+U072,2023,Soft Skills,20.7
+U072,2024,Product Knowledge,55.8
+U072,2024,Sales Methodology,41.8
+U072,2024,Compliance,57.4
+U072,2024,Soft Skills,61.1
+U072,2025,Product Knowledge,42.9
+U072,2025,Sales Methodology,56.8
+U072,2025,Compliance,52.5
+U072,2025,Soft Skills,37.5
+U073,2023,Product Knowledge,41.3
+U073,2023,Sales Methodology,54.1
+U073,2023,Compliance,42.1
+U073,2023,Soft Skills,54.7
+U073,2024,Product Knowledge,62.7
+U073,2024,Sales Methodology,45.9
+U073,2024,Compliance,62.4
+U073,2024,Soft Skills,64.8
+U073,2025,Product Knowledge,55.3
+U073,2025,Sales Methodology,77.3
+U073,2025,Compliance,68.6
+U073,2025,Soft Skills,63.6
+U074,2023,Product Knowledge,32.6
+U074,2023,Sales Methodology,49.2
+U074,2023,Compliance,35.2
+U074,2023,Soft Skills,33.8
+U074,2024,Product Knowledge,36.9
+U074,2024,Sales Methodology,50.3
+U074,2024,Compliance,23.6
+U074,2024,Soft Skills,70.9
+U074,2025,Product Knowledge,77.1
+U074,2025,Sales Methodology,91.9
+U074,2025,Compliance,86.0
+U074,2025,Soft Skills,79.2
+U075,2023,Product Knowledge,31.7
+U075,2023,Sales Methodology,38.5
+U075,2023,Compliance,42.0
+U075,2023,Soft Skills,16.4
+U075,2024,Product Knowledge,19.4
+U075,2024,Sales Methodology,40.5
+U075,2024,Compliance,42.5
+U075,2024,Soft Skills,52.6
+U075,2025,Product Knowledge,32.1
+U075,2025,Sales Methodology,22.4
+U075,2025,Compliance,30.7
+U075,2025,Soft Skills,26.0
+U076,2023,Product Knowledge,100
+U076,2023,Sales Methodology,100
+U076,2023,Compliance,100
+U076,2023,Soft Skills,94.7
+U076,2024,Product Knowledge,96.0
+U076,2024,Sales Methodology,93.9
+U076,2024,Compliance,89.7
+U076,2024,Soft Skills,89.1
+U076,2025,Product Knowledge,47.0
+U076,2025,Sales Methodology,47.5
+U076,2025,Compliance,48.3
+U076,2025,Soft Skills,47.2
+U077,2023,Product Knowledge,84.4
+U077,2023,Sales Methodology,88.1
+U077,2023,Compliance,99.0
+U077,2023,Soft Skills,100
+U077,2024,Product Knowledge,60.8
+U077,2024,Sales Methodology,63.2
+U077,2024,Compliance,55.5
+U077,2024,Soft Skills,75.4
+U077,2025,Product Knowledge,81.4
+U077,2025,Sales Methodology,59.8
+U077,2025,Compliance,77.9
+U077,2025,Soft Skills,75.8
+U078,2023,Product Knowledge,50.9
+U078,2023,Sales Methodology,66.0
+U078,2023,Compliance,71.7
+U078,2023,Soft Skills,65.8
+U078,2024,Product Knowledge,58.7
+U078,2024,Sales Methodology,52.3
+U078,2024,Compliance,48.2
+U078,2024,Soft Skills,50.5
+U078,2025,Product Knowledge,82.6
+U078,2025,Sales Methodology,87.6
+U078,2025,Compliance,78.3
+U078,2025,Soft Skills,78.2
+U079,2023,Product Knowledge,53.0
+U079,2023,Sales Methodology,49.2
+U079,2023,Compliance,56.1
+U079,2023,Soft Skills,43.5
+U079,2024,Product Knowledge,26.0
+U079,2024,Sales Methodology,25.1
+U079,2024,Compliance,60.1
+U079,2024,Soft Skills,40.9
+U079,2025,Product Knowledge,28.0
+U079,2025,Sales Methodology,11.7
+U079,2025,Compliance,55.4
+U079,2025,Soft Skills,15.1
+U080,2023,Product Knowledge,61.0
+U080,2023,Sales Methodology,58.5
+U080,2023,Compliance,54.7
+U080,2023,Soft Skills,51.9
+U080,2024,Product Knowledge,49.9
+U080,2024,Sales Methodology,40.7
+U080,2024,Compliance,42.3
+U080,2024,Soft Skills,26.9
+U080,2025,Product Knowledge,100
+U080,2025,Sales Methodology,100
+U080,2025,Compliance,90.7
+U080,2025,Soft Skills,94.8
+U081,2023,Product Knowledge,81.1
+U081,2023,Sales Methodology,91.4
+U081,2023,Compliance,93.2
+U081,2023,Soft Skills,93.8
+U081,2024,Product Knowledge,100
+U081,2024,Sales Methodology,100
+U081,2024,Compliance,88.8
+U081,2024,Soft Skills,100
+U081,2025,Product Knowledge,96.3
+U081,2025,Sales Methodology,77.6
+U081,2025,Compliance,100
+U081,2025,Soft Skills,92.2
+U082,2023,Product Knowledge,37.4
+U082,2023,Sales Methodology,27.8
+U082,2023,Compliance,12.5
+U082,2023,Soft Skills,11.1
+U082,2024,Product Knowledge,71.4
+U082,2024,Sales Methodology,65.7
+U082,2024,Compliance,70.8
+U082,2024,Soft Skills,75.4
+U082,2025,Product Knowledge,100
+U082,2025,Sales Methodology,95.0
+U082,2025,Compliance,81.4
+U082,2025,Soft Skills,100
+U083,2023,Product Knowledge,60.8
+U083,2023,Sales Methodology,34.0
+U083,2023,Compliance,49.5
+U083,2023,Soft Skills,47.2
+U083,2024,Product Knowledge,34.7
+U083,2024,Sales Methodology,34.3
+U083,2024,Compliance,32.4
+U083,2024,Soft Skills,36.5
+U083,2025,Product Knowledge,81.5
+U083,2025,Sales Methodology,70.1
+U083,2025,Compliance,78.7
+U083,2025,Soft Skills,65.8
+U084,2023,Product Knowledge,49.1
+U084,2023,Sales Methodology,62.7
+U084,2023,Compliance,51.4
+U084,2023,Soft Skills,76.3
+U084,2024,Product Knowledge,43.7
+U084,2024,Sales Methodology,71.2
+U084,2024,Compliance,66.2
+U084,2024,Soft Skills,64.8
+U084,2025,Product Knowledge,54.7
+U084,2025,Sales Methodology,74.5
+U084,2025,Compliance,75.0
+U084,2025,Soft Skills,42.7
+U085,2023,Product Knowledge,99.3
+U085,2023,Sales Methodology,95.4
+U085,2023,Compliance,85.0
+U085,2023,Soft Skills,84.0
+U085,2024,Product Knowledge,63.8
+U085,2024,Sales Methodology,82.1
+U085,2024,Compliance,88.0
+U085,2024,Soft Skills,63.2
+U085,2025,Product Knowledge,68.0
+U085,2025,Sales Methodology,76.9
+U085,2025,Compliance,75.3
+U085,2025,Soft Skills,70.9
+U086,2023,Product Knowledge,92.7
+U086,2023,Sales Methodology,75.2
+U086,2023,Compliance,87.1
+U086,2023,Soft Skills,90.8
+U086,2024,Product Knowledge,85.5
+U086,2024,Sales Methodology,85.5
+U086,2024,Compliance,100
+U086,2024,Soft Skills,100
+U086,2025,Product Knowledge,69.2
+U086,2025,Sales Methodology,73.1
+U086,2025,Compliance,89.1
+U086,2025,Soft Skills,76.9
+U087,2023,Product Knowledge,53.5
+U087,2023,Sales Methodology,29.7
+U087,2023,Compliance,38.8
+U087,2023,Soft Skills,49.9
+U087,2024,Product Knowledge,16.1
+U087,2024,Sales Methodology,46.2
+U087,2024,Compliance,24.8
+U087,2024,Soft Skills,30.5
+U087,2025,Product Knowledge,94.8
+U087,2025,Sales Methodology,100
+U087,2025,Compliance,100
+U087,2025,Soft Skills,100
+U088,2023,Product Knowledge,42.4
+U088,2023,Sales Methodology,57.0
+U088,2023,Compliance,73.8
+U088,2023,Soft Skills,42.4
+U088,2024,Product Knowledge,31.8
+U088,2024,Sales Methodology,29.5
+U088,2024,Compliance,33.1
+U088,2024,Soft Skills,29.8
+U089,2023,Product Knowledge,83.5
+U089,2023,Sales Methodology,100
+U089,2023,Compliance,88.7
+U089,2023,Soft Skills,81.1
+U089,2024,Product Knowledge,97.1
+U089,2024,Sales Methodology,100
+U089,2024,Compliance,100
+U089,2024,Soft Skills,100
+U089,2025,Product Knowledge,53.3
+U089,2025,Sales Methodology,57.9
+U089,2025,Compliance,85.2
+U089,2025,Soft Skills,83.1
+U090,2023,Product Knowledge,72.1
+U090,2023,Sales Methodology,65.3
+U090,2023,Compliance,82.8
+U090,2023,Soft Skills,68.5
+U090,2024,Product Knowledge,100
+U090,2024,Sales Methodology,83.7
+U090,2024,Compliance,85.7
+U090,2024,Soft Skills,82.5
+U090,2025,Product Knowledge,95.1
+U090,2025,Sales Methodology,87.3
+U090,2025,Compliance,94.5
+U090,2025,Soft Skills,100
+U091,2023,Product Knowledge,87.4
+U091,2023,Sales Methodology,84.4
+U091,2023,Compliance,81.5
+U091,2023,Soft Skills,92.2
+U091,2024,Product Knowledge,62.5
+U091,2024,Sales Methodology,69.7
+U091,2024,Compliance,70.9
+U091,2024,Soft Skills,86.9
+U091,2025,Product Knowledge,72.4
+U091,2025,Sales Methodology,71.4
+U091,2025,Compliance,67.6
+U091,2025,Soft Skills,70.3
+U092,2023,Product Knowledge,52.2
+U092,2023,Sales Methodology,33.3
+U092,2023,Compliance,32.8
+U092,2023,Soft Skills,38.7
+U092,2024,Product Knowledge,36.0
+U092,2024,Sales Methodology,20.3
+U092,2024,Compliance,30.0
+U092,2024,Soft Skills,27.3
+U092,2025,Product Knowledge,53.7
+U092,2025,Sales Methodology,73.7
+U092,2025,Compliance,96.3
+U092,2025,Soft Skills,81.4
+U093,2023,Product Knowledge,20.5
+U093,2023,Sales Methodology,25.5
+U093,2023,Compliance,21.5
+U093,2023,Soft Skills,30.1
+U093,2024,Product Knowledge,51.8
+U093,2024,Sales Methodology,44.2
+U093,2024,Compliance,69.5
+U093,2024,Soft Skills,43.0
+U093,2025,Product Knowledge,48.6
+U093,2025,Sales Methodology,43.3
+U093,2025,Compliance,63.7
+U093,2025,Soft Skills,30.9
+U094,2023,Product Knowledge,89.6
+U094,2023,Sales Methodology,72.7
+U094,2023,Compliance,58.3
+U094,2023,Soft Skills,83.2
+U094,2024,Product Knowledge,96.5
+U094,2024,Sales Methodology,86.0
+U094,2024,Compliance,86.2
+U094,2024,Soft Skills,87.2
+U094,2025,Product Knowledge,66.9
+U094,2025,Sales Methodology,67.6
+U094,2025,Compliance,68.1
+U094,2025,Soft Skills,92.4
+U095,2023,Product Knowledge,32.1
+U095,2023,Sales Methodology,40.8
+U095,2023,Compliance,53.9
+U095,2023,Soft Skills,42.4
+U095,2024,Product Knowledge,19.9
+U095,2024,Sales Methodology,52.1
+U095,2024,Compliance,20.5
+U095,2024,Soft Skills,36.7
+U095,2025,Product Knowledge,60.8
+U095,2025,Sales Methodology,68.4
+U095,2025,Compliance,65.6
+U095,2025,Soft Skills,85.8
+U096,2023,Product Knowledge,68.1
+U096,2023,Sales Methodology,46.0
+U096,2023,Compliance,62.7
+U096,2023,Soft Skills,52.2
+U096,2024,Product Knowledge,57.1
+U096,2024,Sales Methodology,47.6
+U096,2024,Compliance,24.6
+U096,2024,Soft Skills,33.2
+U096,2025,Product Knowledge,67.8
+U096,2025,Sales Methodology,52.3
+U096,2025,Compliance,58.5
+U096,2025,Soft Skills,65.0
+U097,2023,Product Knowledge,74.6
+U097,2023,Sales Methodology,69.3
+U097,2023,Compliance,82.2
+U097,2023,Soft Skills,86.6
+U097,2024,Product Knowledge,87.9
+U097,2024,Sales Methodology,94.7
+U097,2024,Compliance,88.5
+U097,2024,Soft Skills,86.6
+U097,2025,Product Knowledge,83.2
+U097,2025,Sales Methodology,82.6
+U097,2025,Compliance,73.3
+U097,2025,Soft Skills,62.8
+U098,2023,Product Knowledge,78.7
+U098,2023,Sales Methodology,83.9
+U098,2023,Compliance,81.5
+U098,2023,Soft Skills,83.3
+U099,2023,Product Knowledge,27.7
+U099,2023,Sales Methodology,30.9
+U099,2023,Compliance,31.7
+U099,2023,Soft Skills,21.6
+U099,2024,Product Knowledge,66.4
+U099,2024,Sales Methodology,46.7
+U099,2024,Compliance,65.1
+U099,2024,Soft Skills,60.4
+U099,2025,Product Knowledge,67.1
+U099,2025,Sales Methodology,81.0
+U099,2025,Compliance,60.2
+U099,2025,Soft Skills,66.6
+U100,2023,Product Knowledge,71.5
+U100,2023,Sales Methodology,90.7
+U100,2023,Compliance,77.3
+U100,2023,Soft Skills,96.6
+U100,2024,Product Knowledge,62.0
+U100,2024,Sales Methodology,68.1
+U100,2024,Compliance,69.0
+U100,2024,Soft Skills,45.7
+U100,2025,Product Knowledge,61.5
+U100,2025,Sales Methodology,58.3
+U100,2025,Compliance,81.5
+U100,2025,Soft Skills,66.7
+U101,2023,Product Knowledge,43.2
+U101,2023,Sales Methodology,33.4
+U101,2023,Compliance,13.5
+U101,2023,Soft Skills,7.9
+U101,2024,Product Knowledge,30.5
+U101,2024,Sales Methodology,38.1
+U101,2024,Compliance,30.9
+U101,2024,Soft Skills,46.1
+U101,2025,Product Knowledge,26.1
+U101,2025,Sales Methodology,53.7
+U101,2025,Compliance,34.7
+U101,2025,Soft Skills,40.2
+U102,2023,Product Knowledge,41.6
+U102,2023,Sales Methodology,58.2
+U102,2023,Compliance,41.0
+U102,2023,Soft Skills,53.9
+U102,2024,Product Knowledge,53.5
+U102,2024,Sales Methodology,43.2
+U102,2024,Compliance,50.6
+U102,2024,Soft Skills,45.6
+U103,2023,Product Knowledge,99.7
+U103,2023,Sales Methodology,86.0
+U103,2023,Compliance,87.8
+U103,2023,Soft Skills,97.3
+U103,2024,Product Knowledge,79.3
+U103,2024,Sales Methodology,92.7
+U103,2024,Compliance,87.6
+U103,2024,Soft Skills,90.5
+U103,2025,Product Knowledge,52.0
+U103,2025,Sales Methodology,40.3
+U103,2025,Compliance,35.9
+U103,2025,Soft Skills,54.6
+U104,2023,Product Knowledge,25.2
+U104,2023,Sales Methodology,21.1
+U104,2023,Compliance,24.7
+U104,2023,Soft Skills,8.7
+U104,2024,Product Knowledge,72.3
+U104,2024,Sales Methodology,63.1
+U104,2024,Compliance,65.1
+U104,2024,Soft Skills,65.2
+U104,2025,Product Knowledge,100
+U104,2025,Sales Methodology,87.8
+U104,2025,Compliance,90.1
+U104,2025,Soft Skills,95.5
+U105,2023,Product Knowledge,73.4
+U105,2023,Sales Methodology,61.0
+U105,2023,Compliance,60.5
+U105,2023,Soft Skills,58.2
+U105,2024,Product Knowledge,32.7
+U105,2024,Sales Methodology,35.0
+U105,2024,Compliance,16.7
+U105,2024,Soft Skills,14.7
+U105,2025,Product Knowledge,57.0
+U105,2025,Sales Methodology,30.8
+U105,2025,Compliance,49.1
+U105,2025,Soft Skills,53.7
+U106,2023,Product Knowledge,61.9
+U106,2023,Sales Methodology,38.1
+U106,2023,Compliance,56.1
+U106,2023,Soft Skills,47.0
+U106,2024,Product Knowledge,100
+U106,2024,Sales Methodology,100
+U106,2024,Compliance,91.5
+U106,2024,Soft Skills,79.5
+U106,2025,Product Knowledge,65.3
+U106,2025,Sales Methodology,60.0
+U106,2025,Compliance,64.8
+U106,2025,Soft Skills,64.1
+U107,2023,Product Knowledge,41.1
+U107,2023,Sales Methodology,47.0
+U107,2023,Compliance,45.2
+U107,2023,Soft Skills,31.4
+U107,2024,Product Knowledge,24.4
+U107,2024,Sales Methodology,29.8
+U107,2024,Compliance,53.2
+U107,2024,Soft Skills,31.9
+U107,2025,Product Knowledge,61.1
+U107,2025,Sales Methodology,75.4
+U107,2025,Compliance,51.7
+U107,2025,Soft Skills,69.6
+U108,2023,Product Knowledge,63.3
+U108,2023,Sales Methodology,69.6
+U108,2023,Compliance,48.9
+U108,2023,Soft Skills,65.3
+U108,2024,Product Knowledge,62.0
+U108,2024,Sales Methodology,71.5
+U108,2024,Compliance,60.5
+U108,2024,Soft Skills,58.2
+U108,2025,Product Knowledge,87.9
+U108,2025,Sales Methodology,82.2
+U108,2025,Compliance,73.7
+U108,2025,Soft Skills,97.8
+U109,2023,Product Knowledge,49.8
+U109,2023,Sales Methodology,33.0
+U109,2023,Compliance,31.8
+U109,2023,Soft Skills,39.9
+U109,2024,Product Knowledge,46.7
+U109,2024,Sales Methodology,68.3
+U109,2024,Compliance,78.9
+U109,2024,Soft Skills,62.2
+U109,2025,Product Knowledge,63.4
+U109,2025,Sales Methodology,79.4
+U109,2025,Compliance,72.6
+U109,2025,Soft Skills,55.8
+U110,2023,Product Knowledge,26.9
+U110,2023,Sales Methodology,43.7
+U110,2023,Compliance,45.5
+U110,2023,Soft Skills,26.0
+U110,2024,Product Knowledge,57.8
+U110,2024,Sales Methodology,57.9
+U110,2024,Compliance,59.3
+U110,2024,Soft Skills,32.3
+U110,2025,Product Knowledge,77.7
+U110,2025,Sales Methodology,94.2
+U110,2025,Compliance,90.9
+U110,2025,Soft Skills,77.3
+U111,2023,Product Knowledge,76.6
+U111,2023,Sales Methodology,69.7
+U111,2023,Compliance,89.7
+U111,2023,Soft Skills,70.4
+U111,2024,Product Knowledge,79.4
+U111,2024,Sales Methodology,44.9
+U111,2024,Compliance,54.0
+U111,2024,Soft Skills,56.7
+U111,2025,Product Knowledge,50.8
+U111,2025,Sales Methodology,52.7
+U111,2025,Compliance,54.3
+U111,2025,Soft Skills,44.2
+U112,2023,Product Knowledge,82.1
+U112,2023,Sales Methodology,61.2
+U112,2023,Compliance,73.5
+U112,2023,Soft Skills,82.3
+U112,2024,Product Knowledge,74.6
+U112,2024,Sales Methodology,74.4
+U112,2024,Compliance,76.4
+U112,2024,Soft Skills,69.0
+U112,2025,Product Knowledge,89.3
+U112,2025,Sales Methodology,73.8
+U112,2025,Compliance,71.1
+U112,2025,Soft Skills,61.0
+U113,2023,Product Knowledge,75.3
+U113,2023,Sales Methodology,100
+U113,2023,Compliance,95.8
+U113,2023,Soft Skills,100
+U113,2024,Product Knowledge,58.6
+U113,2024,Sales Methodology,75.3
+U113,2024,Compliance,69.4
+U113,2024,Soft Skills,69.2
+U113,2025,Product Knowledge,69.0
+U113,2025,Sales Methodology,57.1
+U113,2025,Compliance,74.7
+U113,2025,Soft Skills,62.7
+U114,2023,Product Knowledge,47.2
+U114,2023,Sales Methodology,50.3
+U114,2023,Compliance,62.6
+U114,2023,Soft Skills,37.7
+U114,2024,Product Knowledge,77.6
+U114,2024,Sales Methodology,71.1
+U114,2024,Compliance,84.6
+U114,2024,Soft Skills,87.2
+U114,2025,Product Knowledge,74.7
+U114,2025,Sales Methodology,59.0
+U114,2025,Compliance,85.7
+U114,2025,Soft Skills,88.1
+U115,2023,Product Knowledge,17.9
+U115,2023,Sales Methodology,34.0
+U115,2023,Compliance,33.7
+U115,2023,Soft Skills,47.5
+U115,2024,Product Knowledge,34.0
+U115,2024,Sales Methodology,28.7
+U115,2024,Compliance,30.9
+U115,2024,Soft Skills,30.0
+U115,2025,Product Knowledge,100
+U115,2025,Sales Methodology,97.4
+U115,2025,Compliance,92.3
+U115,2025,Soft Skills,84.7
+U116,2023,Product Knowledge,42.5
+U116,2023,Sales Methodology,53.2
+U116,2023,Compliance,38.6
+U116,2023,Soft Skills,37.0
+U116,2024,Product Knowledge,43.7
+U116,2024,Sales Methodology,56.6
+U116,2024,Compliance,41.4
+U116,2024,Soft Skills,46.7
+U116,2025,Product Knowledge,77.5
+U116,2025,Sales Methodology,50.8
+U116,2025,Compliance,64.6
+U116,2025,Soft Skills,65.3
+U117,2023,Product Knowledge,95.1
+U117,2023,Sales Methodology,100
+U117,2023,Compliance,66.3
+U117,2023,Soft Skills,100
+U117,2024,Product Knowledge,97.6
+U117,2024,Sales Methodology,78.1
+U117,2024,Compliance,76.9
+U117,2024,Soft Skills,84.0
+U117,2025,Product Knowledge,100
+U117,2025,Sales Methodology,89.5
+U117,2025,Compliance,89.9
+U117,2025,Soft Skills,100
+U118,2023,Product Knowledge,75.6
+U118,2023,Sales Methodology,62.0
+U118,2023,Compliance,67.0
+U118,2023,Soft Skills,63.3
+U118,2024,Product Knowledge,81.7
+U118,2024,Sales Methodology,74.0
+U118,2024,Compliance,74.6
+U118,2024,Soft Skills,90.8
+U118,2025,Product Knowledge,54.8
+U118,2025,Sales Methodology,56.2
+U118,2025,Compliance,52.0
+U118,2025,Soft Skills,51.5
+U119,2023,Product Knowledge,34.0
+U119,2023,Sales Methodology,32.5
+U119,2023,Compliance,23.8
+U119,2023,Soft Skills,34.6
+U120,2023,Product Knowledge,28.8
+U120,2023,Sales Methodology,30.7
+U120,2023,Compliance,39.8
+U120,2023,Soft Skills,42.3
+U120,2024,Product Knowledge,77.5
+U120,2024,Sales Methodology,65.5
+U120,2024,Compliance,89.0
+U120,2024,Soft Skills,51.9
+U120,2025,Product Knowledge,54.1
+U120,2025,Sales Methodology,46.1
+U120,2025,Compliance,52.8
+U120,2025,Soft Skills,43.8
+U121,2023,Product Knowledge,33.8
+U121,2023,Sales Methodology,15.4
+U121,2023,Compliance,35.7
+U121,2023,Soft Skills,32.4
+U121,2024,Product Knowledge,91.6
+U121,2024,Sales Methodology,94.5
+U121,2024,Compliance,100
+U121,2024,Soft Skills,75.1
+U121,2025,Product Knowledge,61.7
+U121,2025,Sales Methodology,72.5
+U121,2025,Compliance,60.6
+U121,2025,Soft Skills,61.8
+U122,2023,Product Knowledge,50.0
+U122,2023,Sales Methodology,46.0
+U122,2023,Compliance,50.9
+U122,2023,Soft Skills,52.1
+U122,2024,Product Knowledge,73.6
+U122,2024,Sales Methodology,65.0
+U122,2024,Compliance,71.5
+U122,2024,Soft Skills,73.0
+U122,2025,Product Knowledge,99.7
+U122,2025,Sales Methodology,69.5
+U122,2025,Compliance,85.8
+U122,2025,Soft Skills,81.9
+U123,2023,Product Knowledge,21.1
+U123,2023,Sales Methodology,15.5
+U123,2023,Compliance,15.6
+U123,2023,Soft Skills,29.4
+U123,2024,Product Knowledge,5.8
+U123,2024,Sales Methodology,41.8
+U123,2024,Compliance,17.9
+U123,2024,Soft Skills,15.1
+U123,2025,Product Knowledge,100
+U123,2025,Sales Methodology,100
+U123,2025,Compliance,88.9
+U123,2025,Soft Skills,82.2
+U124,2023,Product Knowledge,90.7
+U124,2023,Sales Methodology,77.7
+U124,2023,Compliance,77.4
+U124,2023,Soft Skills,88.7
+U124,2024,Product Knowledge,97.2
+U124,2024,Sales Methodology,75.3
+U124,2024,Compliance,72.6
+U124,2024,Soft Skills,85.9
+U124,2025,Product Knowledge,84.2
+U124,2025,Sales Methodology,60.1
+U124,2025,Compliance,55.5
+U124,2025,Soft Skills,65.0
+U125,2023,Product Knowledge,33.8
+U125,2023,Sales Methodology,35.3
+U125,2023,Compliance,28.3
+U125,2023,Soft Skills,36.9
+U125,2024,Product Knowledge,27.9
+U125,2024,Sales Methodology,43.4
+U125,2024,Compliance,47.6
+U125,2024,Soft Skills,61.8
+U125,2025,Product Knowledge,90.0
+U125,2025,Sales Methodology,100
+U125,2025,Compliance,72.8
+U125,2025,Soft Skills,80.4
+U126,2023,Product Knowledge,68.5
+U126,2023,Sales Methodology,63.7
+U126,2023,Compliance,57.8
+U126,2023,Soft Skills,77.8
+U126,2024,Product Knowledge,61.6
+U126,2024,Sales Methodology,80.9
+U126,2024,Compliance,67.2
+U126,2024,Soft Skills,60.7
+U126,2025,Product Knowledge,85.5
+U126,2025,Sales Methodology,94.2
+U126,2025,Compliance,84.8
+U126,2025,Soft Skills,81.9
+U127,2023,Product Knowledge,44.0
+U127,2023,Sales Methodology,17.6
+U127,2023,Compliance,58.8
+U127,2023,Soft Skills,44.9
+U127,2024,Product Knowledge,13.7
+U127,2024,Sales Methodology,21.8
+U127,2024,Compliance,21.4
+U127,2024,Soft Skills,26.2
+U127,2025,Product Knowledge,84.2
+U127,2025,Sales Methodology,84.5
+U127,2025,Compliance,98.3
+U127,2025,Soft Skills,85.0
+U128,2023,Product Knowledge,38.0
+U128,2023,Sales Methodology,65.9
+U128,2023,Compliance,48.2
+U128,2023,Soft Skills,54.1
+U128,2024,Product Knowledge,73.6
+U128,2024,Sales Methodology,71.9
+U128,2024,Compliance,72.7
+U128,2024,Soft Skills,96.7
+U128,2025,Product Knowledge,98.9
+U128,2025,Sales Methodology,81.3
+U128,2025,Compliance,76.7
+U128,2025,Soft Skills,99.2
+U129,2023,Product Knowledge,35.0
+U129,2023,Sales Methodology,9.4
+U129,2023,Compliance,43.1
+U129,2023,Soft Skills,30.5
+U129,2024,Product Knowledge,45.0
+U129,2024,Sales Methodology,45.6
+U129,2024,Compliance,42.3
+U129,2024,Soft Skills,39.0
+U129,2025,Product Knowledge,24.1
+U129,2025,Sales Methodology,35.9
+U129,2025,Compliance,29.2
+U129,2025,Soft Skills,21.7
+U130,2023,Product Knowledge,93.7
+U130,2023,Sales Methodology,96.7
+U130,2023,Compliance,87.3
+U130,2023,Soft Skills,86.5
+U130,2024,Product Knowledge,80.0
+U130,2024,Sales Methodology,85.8
+U130,2024,Compliance,90.9
+U130,2024,Soft Skills,99.9
+U130,2025,Product Knowledge,66.8
+U130,2025,Sales Methodology,98.6
+U130,2025,Compliance,65.2
+U130,2025,Soft Skills,100
+U131,2023,Product Knowledge,80.9
+U131,2023,Sales Methodology,65.9
+U131,2023,Compliance,59.4
+U131,2023,Soft Skills,61.6
+U131,2024,Product Knowledge,52.3
+U131,2024,Sales Methodology,80.4
+U131,2024,Compliance,69.9
+U131,2024,Soft Skills,66.9
+U131,2025,Product Knowledge,74.8
+U131,2025,Sales Methodology,81.8
+U131,2025,Compliance,87.3
+U131,2025,Soft Skills,78.0
+U132,2023,Product Knowledge,60.4
+U132,2023,Sales Methodology,58.1
+U132,2023,Compliance,73.7
+U132,2023,Soft Skills,67.7
+U132,2024,Product Knowledge,93.6
+U132,2024,Sales Methodology,57.7
+U132,2024,Compliance,87.0
+U132,2024,Soft Skills,94.0
+U132,2025,Product Knowledge,76.5
+U132,2025,Sales Methodology,56.8
+U132,2025,Compliance,67.0
+U132,2025,Soft Skills,75.7
+U133,2023,Product Knowledge,74.6
+U133,2023,Sales Methodology,58.5
+U133,2023,Compliance,59.8
+U133,2023,Soft Skills,65.0
+U133,2024,Product Knowledge,36.1
+U133,2024,Sales Methodology,39.8
+U133,2024,Compliance,39.4
+U133,2024,Soft Skills,25.0
+U133,2025,Product Knowledge,64.6
+U133,2025,Sales Methodology,61.5
+U133,2025,Compliance,60.1
+U133,2025,Soft Skills,53.2
+U134,2023,Product Knowledge,76.1
+U134,2023,Sales Methodology,63.4
+U134,2023,Compliance,69.7
+U134,2023,Soft Skills,58.9
+U134,2024,Product Knowledge,87.1
+U134,2024,Sales Methodology,90.6
+U134,2024,Compliance,76.1
+U134,2024,Soft Skills,100
+U134,2025,Product Knowledge,67.6
+U134,2025,Sales Methodology,63.3
+U134,2025,Compliance,53.9
+U134,2025,Soft Skills,70.3
+U135,2023,Product Knowledge,100
+U135,2023,Sales Methodology,86.0
+U135,2023,Compliance,100
+U135,2023,Soft Skills,97.1
+U135,2024,Product Knowledge,74.7
+U135,2024,Sales Methodology,56.3
+U135,2024,Compliance,53.2
+U135,2024,Soft Skills,57.6
+U135,2025,Product Knowledge,94.3
+U135,2025,Sales Methodology,68.3
+U135,2025,Compliance,67.7
+U135,2025,Soft Skills,95.9
+U136,2023,Product Knowledge,91.3
+U136,2023,Sales Methodology,83.5
+U136,2023,Compliance,98.5
+U136,2023,Soft Skills,96.7
+U136,2024,Product Knowledge,67.7
+U136,2024,Sales Methodology,84.9
+U136,2024,Compliance,86.0
+U136,2024,Soft Skills,86.4
+U136,2025,Product Knowledge,63.1
+U136,2025,Sales Methodology,75.6
+U136,2025,Compliance,66.0
+U136,2025,Soft Skills,60.2
+U137,2023,Product Knowledge,31.5
+U137,2023,Sales Methodology,8.7
+U137,2023,Compliance,13.9
+U137,2023,Soft Skills,25.2
+U137,2024,Product Knowledge,52.8
+U137,2024,Sales Methodology,37.1
+U137,2024,Compliance,48.4
+U137,2024,Soft Skills,42.7
+U137,2025,Product Knowledge,48.7
+U137,2025,Sales Methodology,38.3
+U137,2025,Compliance,57.6
+U137,2025,Soft Skills,65.2
+U138,2023,Product Knowledge,31.8
+U138,2023,Sales Methodology,51.4
+U138,2023,Compliance,46.0
+U138,2023,Soft Skills,41.0
+U138,2024,Product Knowledge,47.1
+U138,2024,Sales Methodology,52.0
+U138,2024,Compliance,67.6
+U138,2024,Soft Skills,46.8
+U138,2025,Product Knowledge,100
+U138,2025,Sales Methodology,79.0
+U138,2025,Compliance,87.5
+U138,2025,Soft Skills,84.0
+U139,2023,Product Knowledge,51.1
+U139,2023,Sales Methodology,69.4
+U139,2023,Compliance,52.0
+U139,2023,Soft Skills,28.3
+U139,2024,Product Knowledge,40.7
+U139,2024,Sales Methodology,53.2
+U139,2024,Compliance,58.7
+U139,2024,Soft Skills,54.8
+U140,2023,Product Knowledge,60.8
+U140,2023,Sales Methodology,70.8
+U140,2023,Compliance,76.6
+U140,2023,Soft Skills,43.6
+U140,2024,Product Knowledge,67.6
+U140,2024,Sales Methodology,86.3
+U140,2024,Compliance,67.9
+U140,2024,Soft Skills,56.1
+U140,2025,Product Knowledge,100
+U140,2025,Sales Methodology,95.7
+U140,2025,Compliance,100
+U140,2025,Soft Skills,100
+U141,2023,Product Knowledge,37.2
+U141,2023,Sales Methodology,41.7
+U141,2023,Compliance,47.1
+U141,2023,Soft Skills,36.5
+U141,2024,Product Knowledge,38.6
+U141,2024,Sales Methodology,31.7
+U141,2024,Compliance,30.4
+U141,2024,Soft Skills,20.2
+U141,2025,Product Knowledge,71.1
+U141,2025,Sales Methodology,80.2
+U141,2025,Compliance,85.2
+U141,2025,Soft Skills,76.4
+U142,2023,Product Knowledge,100
+U142,2023,Sales Methodology,86.9
+U142,2023,Compliance,95.6
+U142,2023,Soft Skills,85.3
+U142,2024,Product Knowledge,96.8
+U142,2024,Sales Methodology,99.8
+U142,2024,Compliance,84.6
+U142,2024,Soft Skills,100
+U142,2025,Product Knowledge,76.1
+U142,2025,Sales Methodology,98.1
+U142,2025,Compliance,76.1
+U142,2025,Soft Skills,91.6
+U143,2023,Product Knowledge,59.8
+U143,2023,Sales Methodology,66.9
+U143,2023,Compliance,69.7
+U143,2023,Soft Skills,65.0
+U143,2024,Product Knowledge,100
+U143,2024,Sales Methodology,73.4
+U143,2024,Compliance,96.7
+U143,2024,Soft Skills,99.9
+U143,2025,Product Knowledge,85.2
+U143,2025,Sales Methodology,72.5
+U143,2025,Compliance,78.2
+U143,2025,Soft Skills,73.5
+U144,2023,Product Knowledge,30.6
+U144,2023,Sales Methodology,29.6
+U144,2023,Compliance,31.1
+U144,2023,Soft Skills,13.5
+U144,2024,Product Knowledge,5.1
+U144,2024,Sales Methodology,21.8
+U144,2024,Compliance,19.8
+U144,2024,Soft Skills,31.7
+U145,2023,Product Knowledge,58.4
+U145,2023,Sales Methodology,41.7
+U145,2023,Compliance,47.2
+U145,2023,Soft Skills,33.4
+U145,2024,Product Knowledge,19.0
+U145,2024,Sales Methodology,38.1
+U145,2024,Compliance,44.4
+U145,2024,Soft Skills,36.9
+U145,2025,Product Knowledge,33.5
+U145,2025,Sales Methodology,49.9
+U145,2025,Compliance,36.7
+U145,2025,Soft Skills,51.8
+U146,2023,Product Knowledge,53.8
+U146,2023,Sales Methodology,46.4
+U146,2023,Compliance,47.8
+U146,2023,Soft Skills,44.8
+U146,2024,Product Knowledge,37.0
+U146,2024,Sales Methodology,33.4
+U146,2024,Compliance,27.9
+U146,2024,Soft Skills,36.5
+U146,2025,Product Knowledge,73.8
+U146,2025,Sales Methodology,88.5
+U146,2025,Compliance,83.5
+U146,2025,Soft Skills,88.3
+U147,2023,Product Knowledge,6.7
+U147,2023,Sales Methodology,28.3
+U147,2023,Compliance,33.9
+U147,2023,Soft Skills,41.1
+U147,2024,Product Knowledge,76.1
+U147,2024,Sales Methodology,72.8
+U147,2024,Compliance,74.1
+U147,2024,Soft Skills,79.4
+U147,2025,Product Knowledge,51.7
+U147,2025,Sales Methodology,57.9
+U147,2025,Compliance,66.2
+U147,2025,Soft Skills,66.9
+U148,2023,Product Knowledge,46.0
+U148,2023,Sales Methodology,45.5
+U148,2023,Compliance,36.9
+U148,2023,Soft Skills,39.2
+U148,2024,Product Knowledge,34.3
+U148,2024,Sales Methodology,29.7
+U148,2024,Compliance,42.2
+U148,2024,Soft Skills,28.1
+U149,2023,Product Knowledge,53.8
+U149,2023,Sales Methodology,42.0
+U149,2023,Compliance,68.4
+U149,2023,Soft Skills,45.9
+U149,2024,Product Knowledge,79.1
+U149,2024,Sales Methodology,76.3
+U149,2024,Compliance,88.7
+U149,2024,Soft Skills,69.3
+U149,2025,Product Knowledge,81.8
+U149,2025,Sales Methodology,55.1
+U149,2025,Compliance,59.3
+U149,2025,Soft Skills,79.3
+U150,2023,Product Knowledge,89.2
+U150,2023,Sales Methodology,84.9
+U150,2023,Compliance,96.3
+U150,2023,Soft Skills,80.3
+U150,2024,Product Knowledge,85.7
+U150,2024,Sales Methodology,86.0
+U150,2024,Compliance,63.2
+U150,2024,Soft Skills,81.2
+U150,2025,Product Knowledge,92.7
+U150,2025,Sales Methodology,97.7
+U150,2025,Compliance,88.0
+U150,2025,Soft Skills,71.5
