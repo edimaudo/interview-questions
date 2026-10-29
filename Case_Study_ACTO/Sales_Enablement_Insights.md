@@ -15,7 +15,6 @@ The strongest leadership opportunity is to test a structured, behavior-focused c
 - SalesQuotaAttainment is treated as a percentage/percentage-point measure based on the field name and observed scale; validate that business definition with the data owner before publishing.
 
 ## Core question 1 — Is training and coaching driving sales performance?
-
 1) Training score and quota attainment have a positive raw correlation of **r = 0.18**. 
 Coaching sessions have a stronger raw correlation with quota attainment (**r = 0.29**). 
 Both correlations are statistically detectable in this large dataset, but correlation is not causation.
@@ -25,11 +24,7 @@ Both correlations are statistically detectable in this large dataset, but correl
 - In short: performance improved over the period, but the current data do **not** prove that training or coaching caused the improvement.
 
 ## Core question 2 — Patterns leadership should act on
-
-
-
 ### Territory, team, product, experience
-
 - Territory: **Northeast** has the highest mean attainment (**57.5%**), while **West** is lowest (**50.8%**), a 6.8-point spread.
 - Team: **Beta** leads (**54.7%**), while **Gamma** trails (**49.6%**). Team results should be read with manager and territory filters because mix may explain part of the gap.
 - Product: **Folders** averages **56.6%** attainment versus **Staplers** at **50.7%**. Check product/territory mix before changing enablement by product.
@@ -41,13 +36,20 @@ Both correlations are statistically detectable in this large dataset, but correl
 - The three highest-attainment manager cohorts (Elena Rodriguez, Sarah O'Brien, Thomas Park) average **62.1%** quota attainment, **4.7** coaching sessions per rep-quarter, and a mean coach rating per rated session of **4.40**.
 - The two lowest-attainment manager cohorts (Michael Nguyen, David Kim) average **42.8%** attainment, **1.2** coaching sessions, and **3.17** average coach rating. The gap is large, but manager, territory, and rep composition are entangled, so treat this as a diagnostic lead rather than a coach ranking.
 
-
 ## Core question 3 — One investment change
-
 **Shift the next increment of enablement investment from more standardized course volume to a structured, manager-led coaching pilot, prioritizing low-coaching teams and new reps.** Use a working target of 4–5 short, behavior-specific coaching sessions per rep per quarter for the pilot (a testable hypothesis, not an established optimum), focused on call review, objection handling, product positioning, and one tracked commitment per session. Keep the core training curriculum in place, but tie it to coaching practice and observed field behavior.
 
 Evaluate the pilot using a phased or randomized rollout with a comparable holdout. Pre-specify quota-attainment lift, percentage of reps above the selected threshold, manager fidelity, and cost per incremental attainment point; compare like-for-like reps across territory, product, experience, and seasonality. The file contains no enablement cost data, so ROI or a dollar-reallocation amount cannot yet be estimated.
 
+## recommendations summary
+1) Standardize coaching for under-supported sales teams
+Recommendation: Introduce a structured coaching pilot for representatives in manager groups with low coaching frequency and weak sales attainment.
+
+2) Build a dedicated ramp-up program for inexperienced representatives
+Recommendation: Invest in practical sales readiness for representatives entering the organization with little or no prior experience.
+
+3) Target product-specific enablement where performance gaps persist
+Recommendation: Run a focused product-selling pilot for Staplers in the Midwest and Northeast, rather than investing equally across every product and territory.
 
 ## recommendations
 1. Standardize coaching for under-supported sales teams
@@ -84,6 +86,7 @@ The pattern suggests a development need, but it does not prove that training sco
 What leadership should do: Develop a first-year sales ramp that combines product knowledge with practical application: call shadowing, objection-handling exercises, manager-observed practice and structured feedback.
 
 Use 30-, 60- and 90-day reviews to evaluate whether new representatives are improving their sales behaviors and attainment. Do not simply add more courses; the dataset records four courses completed per rep-quarter throughout, so course count alone does not distinguish performance.
+
 3. Target product-specific enablement where performance gaps persist
 Recommendation: Run a focused product-selling pilot for Staplers in the Midwest and Northeast, rather than investing equally across every product and territory.
 
